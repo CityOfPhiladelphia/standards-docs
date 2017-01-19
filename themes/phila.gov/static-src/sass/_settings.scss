@@ -54,13 +54,13 @@ $foundation-palette: (
   secondary: #767676,
   success: #3adb76,
   warning: $bell-yellow,
-  alert: #cc4b37,
+  alert: $light-red,
 );
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$light-gray: $ghost-gray;
+$medium-gray: $sidewalk;
+$dark-gray: $dark-gray;
+$black: $black;
+$white: $white;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
