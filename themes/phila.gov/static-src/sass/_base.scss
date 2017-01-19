@@ -1,9 +1,13 @@
 @import 'foundation';
-@import 'utils/fonts';
 @import 'utils/variables';
+
+@import 'utils/accessibility';
+@import 'utils/fonts';
+@import 'utils/placeholders';
 @import 'settings';
 
 @import 'partials/global-nav';
+@import 'partials/hero-header';
 
 @include foundation-global-styles;
 @include foundation-grid;
