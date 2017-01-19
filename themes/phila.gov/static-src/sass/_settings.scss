@@ -104,7 +104,7 @@ $block-grid-max: 4;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: 'Montserrat', sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -145,8 +145,10 @@ $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
+
 $hr-width: $global-width;
-$hr-border: 1px solid $medium-gray;
+$hr-border: 1px solid $dark-gray;
+
 $hr-margin: rem-calc(20) auto;
 $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
@@ -195,7 +197,7 @@ $input-error-font-weight: $global-weight-bold;
 
 // 7. Accordion
 // ------------
-
+/*
 $accordion-background: $white;
 $accordion-plusminus: true;
 $accordion-title-font-size: rem-calc(12);
@@ -206,6 +208,7 @@ $accordion-content-background: $white;
 $accordion-content-border: 1px solid $light-gray;
 $accordion-content-color: $body-font-color;
 $accordion-content-padding: 1rem;
+
 
 // 8. Accordion Menu
 // -----------------
@@ -224,6 +227,7 @@ $badge-palette: $foundation-palette;
 $badge-padding: 0.3em;
 $badge-minwidth: 2.1em;
 $badge-font-size: 0.6rem;
+*/
 
 // 10. Breadcrumbs
 // ---------------
