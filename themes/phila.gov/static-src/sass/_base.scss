@@ -3,6 +3,8 @@
 @import 'utils/variables';
 @import 'settings';
 
+@import 'partials/global-nav';
+
 @include foundation-global-styles;
 @include foundation-grid;
 @include foundation-flex-grid;
