@@ -46,7 +46,7 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+$global-font-size: 14px;
 $global-width: rem-calc(1050);
 $global-lineheight: 1.5;
 $foundation-palette: (
@@ -249,7 +249,7 @@ $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: $dark-gray;
-$button-color: $eletric-blue;
+$button-color: $electric-blue;
 $button-color-alt: $black;
 $button-radius: $global-radius;
 $button-sizes: (
@@ -627,9 +627,9 @@ $tooltip-radius: $global-radius;
 // 37. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $white;
+$topbar-padding: 0;
+$topbar-background: transparent;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
-$topbar-input-width: 200px;
+$topbar-input-width: auto;
 $topbar-unstack-breakpoint: medium;
