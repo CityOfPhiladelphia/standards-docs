@@ -1,18 +1,20 @@
 @import 'foundation';
+@import 'font-awesome';
 @import 'utils/variables';
 
 @import 'utils/accessibility';
+@import 'utils/classes';
+@import 'utils/colors';
 @import 'utils/fonts';
+@import 'utils/mixins';
 @import 'utils/placeholders';
-@import 'settings';
 
-@import 'partials/global-nav';
-@import 'partials/hero-header';
+@import 'settings';
 
 @include foundation-global-styles;
 @include foundation-grid;
-@include foundation-flex-grid;
-@include foundation-flex-classes;
+//@include foundation-flex-grid;
+//@include foundation-flex-classes;
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
@@ -48,3 +50,15 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+
+@import 'globals/typography';
+
+@import 'partials/header/secondary-nav';
+@import 'partials/header/global-nav';
+@import 'partials/header/google-translate';
+@import 'partials/header/hero-header';
+@import 'partials/footer/global-footer';
+
+@import 'partials/alerts';
+
+@import 'utils/tachyon-spacing';
