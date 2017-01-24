@@ -1,4 +1,5 @@
 +++
-title = "Logos"
-description = ""
+title = "Logo"
+[menu.secondary]
+    parent: "design-development"
 +++
