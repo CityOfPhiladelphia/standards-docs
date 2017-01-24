@@ -24,7 +24,7 @@
     "hugo:b": "cd ../../ && hugo",
     "hugo:w": "cd ../../ && hugo server",
     "css:build": "node-sass --include-path node_modules/foundation-sites/scss --include-path node_modules/font-awesome/scss --output-style compressed --source-map true static-src/sass/_base.scss static/css/styles.css",
-    "postcss:build": "postcss --use autoprefixer -b 'last 2 versions' static/css/*.css",
+    "postcss:build": "postcss --use autoprefixer -b 'last 2 versions' -o static/css/*.css static/css/*.css",
     "css:watch": "onchange './static-src/sass/' -- yarn run css:build",
     "js:build": "browserify static-src/js/phila-gov.js -o static/js/bundle.js",
     "js:watch": "watchify static-src/js/*.js -o static/js/bundle.js",
@@ -32,7 +32,7 @@
     "fonts": "cp -R node_modules/font-awesome/fonts static/fonts",
     "build": "yarn run css:build && yarn run js:build && yarn run fonts",
     "prewatch": "yarn run build",
-    "watch": "parallelshell 'yarn run css:watch' 'yarn run hugo:w' 'yarn run js:watch' 'yarn run fonts'",
+    "watch": "parallelshell 'yarn run css:watch' 'yarn run js:watch'",
     "start": "yarn run watch"
   }
 }
