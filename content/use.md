@@ -1,6 +1,5 @@
 +++
 title = "Use the standards"
 [menu.main]
-  weight = -100
+    weight = 20
 +++
-content!

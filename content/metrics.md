@@ -1,6 +1,5 @@
 +++
 title = "Metrics"
 [menu.main]
-    weight = -70
+  weight = 50
 +++
-content!

@@ -1,6 +1,5 @@
 +++
 title = "Glossary of terms"
 [menu.main]
-  weight = -10
+  weight = 100
 +++
-content!

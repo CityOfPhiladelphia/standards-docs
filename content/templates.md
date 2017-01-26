@@ -1,6 +1,5 @@
 +++
 title = "Templates"
 [menu.main]
-    weight = -80
+  weight = 40
 +++
-content!
