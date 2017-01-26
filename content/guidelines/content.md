@@ -11,5 +11,3 @@ title = "Content"
   identifier = "content"
   title = "Overview"
 +++
-
-content!
