@@ -1,0 +1,21 @@
+{{ partial "head.html" . }}
+<div class="row">
+  <div class="columns">
+    <h1 class="contrast">{{ .Title }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-7 columns">
+    {{ partial "side-menu.html" . }}
+  </div>
+  <div class="medium-16 columns">
+    <section>
+      <div>
+        <article>
+           {{ .Content }}
+        </article>
+      </div>
+    </section>
+  </div>
+</div>
+{{ partialCached "footer.html" . }}
