@@ -1,9 +1,11 @@
 {{ partial "head.html" . }}
-
-<section>
-  <div>
-    <p>Hello, world!</p>
+<div class="row">
+  <div class="columns">
+    <section>
+      <div>
+        <p>{{.Content}}</p>
+      </div>
+    </section>
   </div>
-</section>
-
+</div>
 {{ partial "footer.html" . }}
