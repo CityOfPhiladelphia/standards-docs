@@ -1,6 +1,5 @@
 +++
-title = "Logo"
-type = "guidelines"
+title = "Colors"
 
 [menu]
 [menu.main]
