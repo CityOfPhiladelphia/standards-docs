@@ -1,6 +1,6 @@
 +++
 title = "Home"
 [menu.main]
-  weight = -1000
+  weight = 10
 +++
-content!
+Hello, world.
