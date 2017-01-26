@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "City of Philadelphia Digital Standards"
-baseurl = "/"
+baseurl = "https://cityofphiladelphia.github.io/standards/"
 theme = "phila.gov"
 
 [[menu.main]]
