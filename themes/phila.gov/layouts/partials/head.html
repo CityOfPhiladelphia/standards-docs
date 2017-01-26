@@ -4,7 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>City of Philadelphia Digital Standards</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <title>{{ .Title }} | Digital Standards | City of Philadelphia</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .Site.BaseURL }}/css/styles.css" rel="stylesheet">
   </head>
-  <body>
+  <body lang="en">
+  <header class="global-nav pbm pbn-mu mbn-mu">
+    {{ partial "global-header.html" . }}
+  </header>
+    {{ partial "site-header.html" . }}
+    {{ partial "breadcrumbs.html" . }}
