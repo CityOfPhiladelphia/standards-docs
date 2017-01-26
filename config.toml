@@ -2,3 +2,9 @@ languageCode = "en-us"
 title = "City of Philadelphia Digital Standards"
 baseurl = "/"
 theme = "phila.gov"
+
+[[menu.main]]
+  name = "Guidelines"
+  weight = 30
+  identifier = "guidelines"
+  url  = "/guidelines/"
