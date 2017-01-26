@@ -51,8 +51,8 @@ $global-width: rem-calc(1050);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: $ben-franklin-blue,
-  secondary: #767676,
-  success: #3adb76,
+  secondary: $dark-gray,
+  success: $kelly-drive-green,
   warning: $bell-yellow,
   alert: $light-red,
 );
