@@ -1,16 +1,19 @@
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ $.Scratch.Add "path" .Site.BaseURL }}
-<div class="row mts mbm">
+<div class="row mtm mbs">
   <div class="columns">
     <ol class="breadcrumbs">
       <li><a href="http://beta.phila.gov">
         <i class="fa fa-home" aria-hidden="true"></i><span class="accessible">Home</span></a>
       </li>
-      <li><a href="/">{{ $.Site.Title }}</a></li>
+      <li><a href="{{ $.Site.BaseURL }}">{{ $.Site.Title }}</a></li>
+
       {{ range $index, $element := split $url "/" }}
+
         {{ $.Scratch.Add "path" $element }}
           {{ if ne $element "" }}
-            <li><a href='{{ $.Scratch.Get "path" }}'>{{ . }}</a></li>
+
+            <li><a href='{{ $.Scratch.Get "path" }}'><span data-attribute="breadcrumb-replace">{{ replace . "-" " " }}</span></a></li>
           {{ $.Scratch.Add "path" "/" }}
         {{ end }}
       {{ end }}
