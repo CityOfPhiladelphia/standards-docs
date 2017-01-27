@@ -1,6 +1,6 @@
 //TODO: refacor this file
 .global-nav {
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  @include secondary-font(400);
   position: relative;
   z-index: 1000;
 
@@ -86,7 +86,7 @@
       box-shadow: 0 3px 10px rgba($medium-gray, .5);
     }
 
-    @include breakpoint(medium down) {
+    @include breakpoint(small only) {
       position: relative;
       z-index: auto;
     }
@@ -137,7 +137,6 @@
 
 
   .is-drilldown {
-    //TODO: add to patterns
     overflow: visible;
 
     ul {
@@ -192,7 +191,7 @@
       }
     }
 
-  @include breakpoint(medium down) {
+  @include breakpoint(small only) {
     .mega-menu-dropdown.dropdown-pane{
       display: none;
     }
@@ -218,7 +217,6 @@
       position: static;
     }
 
-    //TODO: put in patterns
     .menu.medium-horizontal>li{
       height:inherit;
     }
@@ -448,7 +446,7 @@
     padding: 1rem 0;
     cursor: pointer;
 
-    @include breakpoint(medium down) {
+    @include breakpoint(small only) {
       font-size: .7rem;
       //matches padding on menu-icon
       padding-top: .75rem;
