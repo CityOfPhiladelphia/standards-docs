@@ -1,5 +1,6 @@
 ---
 title: Design & Development
+date: 2017-1-27
 url: /guidelines/design-development
 menu:
   main:

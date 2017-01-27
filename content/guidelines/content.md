@@ -1,5 +1,6 @@
 ---
 title: Content
+date: 2017-1-27
 menu:
   main:
     name: Content
@@ -9,6 +10,7 @@ menu:
   side:
     identifier: content
     title: Overview
+    weight: -100
 ---
 
 Government writing tends to be dry, complicated, and obscure. It doesn't take into account who is reading it or why, and often talks at readers rather than to them.
