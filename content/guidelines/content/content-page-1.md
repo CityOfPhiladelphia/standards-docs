@@ -1,10 +1,7 @@
-+++
-title = "Content 1"
-
-[menu]
-[menu.main]
-  parent = "content"
-
-[menu.side]
-
-+++
+---
+title: Content 1
+menu:
+  main:
+    parent: content
+  side:
+---

@@ -1,10 +1,8 @@
-+++
-title = "Logo"
-type = "guidelines"
-
-[menu]
-[menu.main]
-  parent = "design-development"
-
-[menu.side]
-+++
+---
+title: Logo
+type: guidelines
+menu:
+  main:
+    parent: design-development
+  side:
+---

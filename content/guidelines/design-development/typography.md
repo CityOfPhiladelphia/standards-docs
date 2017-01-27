@@ -1,9 +1,7 @@
-+++
-title = "Typography"
-
-[menu]
-[menu.main]
-  parent = "design-development"
-
-[menu.side]
-+++
+---
+title: Typography
+menu:
+  main:
+    parent: design-development
+  side:
+---

@@ -1,16 +1,15 @@
-+++
-title = "Content"
-[menu]
-[menu.main]
-  name = "Content"
-  parent = "guidelines"
-  identifier = "content"
-  weight = 2
-
-[menu.side]
-  identifier = "content"
-  title = "Overview"
-+++
+---
+title: Content
+menu:
+  main:
+    name: Content
+    parent: guidelines
+    identifier: content
+    weight: 2
+  side:
+    identifier: content
+    title: Overview
+---
 
 Government writing tends to be dry, complicated, and obscure. It doesn't take into account who is reading it or why, and often talks at readers rather than to them.
 
