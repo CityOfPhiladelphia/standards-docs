@@ -37,7 +37,7 @@
     @media screen and (max-width: 39.9375em) {
       height:10px;
     }
-    
+
     ul {
 
       li {
@@ -60,14 +60,14 @@
           &:hover,
           &:active{
             background: $light-blue;
-            color:$ben-franklin-blue;
+            color:$dark-ben-franklin;
           }
           &.js-is-current{
             background:$dark-gray;
             color:$white;
             &:hover,
             &:active{
-              color:$ben-franklin-blue;
+              color:$dark-ben-franklin;
               background: $light-blue;
             }
           }
@@ -236,7 +236,7 @@
           padding: $spacing-large 1.5rem;
         }
         a:active, a:hover {
-          color: $ben-franklin-blue;
+          color: $dark-ben-franklin;
           background: $light-blue;
         }
       }
@@ -276,7 +276,7 @@
           color: $white;
           &:hover::after,
           &:active::after{
-            border-color: transparent transparent $ben-franklin-blue;
+            border-color: transparent transparent $dark-ben-franklin;
           }
           &.js-is-current{
             &::after{
@@ -285,7 +285,7 @@
             //panel is open, and there is hover
             &:hover::after,
             &:active::after{
-              border-color: transparent transparent $ben-franklin-blue;
+              border-color: transparent transparent $dark-ben-franklin;
             }
           }
           //little arrow
@@ -330,7 +330,7 @@
         width: 0;
         height: 0;
         border: inset 5px;
-        border-color: $ben-franklin-blue transparent transparent;
+        border-color: $dark-ben-franklin transparent transparent;
         border-top-style: solid;
         border-bottom-width: 0;
         left: 74%;
@@ -350,7 +350,7 @@
           }
           &:hover::after,
           &:active::after{
-            border-color: $ben-franklin-blue transparent transparent  transparent;
+            border-color: $dark-ben-franklin transparent transparent  transparent;
           }
         }
       }
@@ -446,6 +446,7 @@
     font-size:.5rem;
     position: relative;
     padding: 1rem 0;
+    cursor: pointer;
 
     @include breakpoint(medium down) {
       font-size: .7rem;
@@ -459,7 +460,7 @@
         display: block;
       }
     }
-    color:$ben-franklin-blue;
+    color:$dark-ben-franklin;
     text-transform: uppercase;
 
   }
@@ -501,14 +502,14 @@ header {
       font-family: 'FontAwesome';
       content: '\f002';
       text-align: center;
-      background: $bell-yellow;
+      background: $dark-ben-franklin;
       color: $white;
       font-weight: normal;
       padding: .57143rem;
     }
 
     .search-field{
-      border:2px solid $bell-yellow;
+      border:2px solid $dark-ben-franklin;
       background: $white;
     }
 
