@@ -3,4 +3,4 @@ title = "Home"
 [menu.main]
   weight = 10
 +++
-Hello, world.
+{{< panel "The homepage of standards.phila.gov is a work-in-progress." >}}
