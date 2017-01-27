@@ -6,7 +6,7 @@
     padding:0;
 
       li{
-      border-bottom:1px solid $sidewalk;
+        border-bottom:1px solid $sidewalk;
 
       &:last-child{
           border-bottom: none;
@@ -14,41 +14,26 @@
       }
     }
 
-    li{
+  li{
+    &.is-active > a {
+      background: $ben-franklin-blue;
+      color:$white;
+    }
 
-      &.is-active > a {
-        background: $ben-franklin-blue;
-        color:$white;
-      }
-
-      a:hover {
-        background: $ben-franklin-blue;
-        color:$white;
-      }
-      a{
-        color:$dark-gray;
-        font-weight:700;
-      }
-      ul li{
+    a:hover {
+      background: $ben-franklin-blue;
+      color:$white;
+    }
+    a{
+      color:$dark-gray;
+      font-weight:700;
+    }
+    ul li{
+      text-align: left;
+      li{
         text-align: left;
-        li{
-          text-align: left;
-        }
-      }
-      &.is-drilldown-submenu-parent>a:hover::after{
-        border-color: transparent transparent transparent $white;
-        border-left-style: solid;
-        border-right-width: 0;
-      }
-      &.js-drilldown-back>a:hover::before{
-        border-color: transparent $white transparent transparent;
-        border-right-style: solid;
-        border-left-width: 0;
       }
     }
+
   }
-
-
-.title-bar-title{
-  margin: 0 0 0 30px;
 }
