@@ -72,6 +72,15 @@ article{
   }
 
 }
+
+blockquote + h1,
+blockquote + h2,
+blockquote + h3,
+blockquote + h4,
+blockquote + h5,
+blockquote + h6{
+  margin-top:$spacing-extra;
+}
 // Links
 a:link, a:visited{
   @extend %link-styles;
