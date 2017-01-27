@@ -19,10 +19,11 @@
                       {{ range  $.Site.Menus.main }}
 
                         {{ if .HasChildren  }}
-                        <li class="menu-item is-right-arrow{{if $currentNode.HasMenuCurrent "main" . }} current-menu-item{{end}}">
+                        <li class="menu-item is-right-arrow{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} current-menu-item{{end}}">
                         <a href="javascript:;" class="">{{ .Name }}</a>
                           <ul class="menu">
                             {{ range .Children }}
+
                               <li{{if $currentNode.IsMenuCurrent "main" . }} class="current-menu-item"{{end}}>
                                 <a href="{{.URL}}"> {{ .Name }} </a>
                               </li>
