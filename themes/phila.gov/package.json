@@ -29,7 +29,7 @@
     "js:build": "browserify --debug static-src/js/phila-gov.js -o static/js/bundle.js",
     "js:watch": "watchify static-src/js/main.js -o static/js/bundle.js -v",
     "//" : "TODO use a cross-platform command",
-    "fonts": "cp -R node_modules/font-awesome/fonts static/fonts",
+    "fonts": "cp -R node_modules/font-awesome/fonts static/",
     "build": "yarn run css:build && yarn run js:build && yarn run fonts",
     "prewatch": "yarn run build",
     "watch": "parallelshell 'yarn run css:watch' 'yarn run js:watch'",
