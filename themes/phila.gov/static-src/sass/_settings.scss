@@ -197,15 +197,15 @@ $input-error-font-weight: $global-weight-bold;
 
 // 7. Accordion
 // ------------
-/*
-$accordion-background: $white;
+
+$accordion-background: $ghost-gray;
 $accordion-plusminus: true;
-$accordion-title-font-size: rem-calc(12);
-$accordion-item-color: $primary-color;
-$accordion-item-background-hover: $light-gray;
+$accordion-title-font-size: $spacing-medium;
+$accordion-item-color: $dark-ben-franklin;
+$accordion-item-background-hover: $ghost-gray;
 $accordion-item-padding: 1.25rem 1rem;
 $accordion-content-background: $white;
-$accordion-content-border: 1px solid $light-gray;
+$accordion-content-border: none;
 $accordion-content-color: $body-font-color;
 $accordion-content-padding: 1rem;
 
@@ -219,7 +219,7 @@ $accordionmenu-arrow-size: 6px;
 
 // 9. Badge
 // --------
-
+/*
 $badge-background: $primary-color;
 $badge-color: $white;
 $badge-color-alt: $black;

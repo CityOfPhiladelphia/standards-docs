@@ -18,7 +18,7 @@
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
-//@include foundation-accordion;
+@include foundation-accordion;
 //@include foundation-accordion-menu;
 //@include foundation-badge;
 @include foundation-breadcrumbs;
@@ -61,6 +61,7 @@
 @import 'layout/global-footer';
 @import 'layout/side-nav';
 
+@import 'modules/accordion';
 @import 'modules/alerts';
 @import 'modules/back-to-top';
 @import 'modules/google-translate';
