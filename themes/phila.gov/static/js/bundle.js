@@ -265,7 +265,7 @@ jQuery(document).ready(function($) {
 
     sh = sh + navHeight;
 
-    if ( $('.sticky').hasClass('.is-stuck') ){
+    if ( $('.sticky').hasClass('is-stuck') ){
       navHeight = $('.sticky-container').height();
     }
 
@@ -308,6 +308,7 @@ jQuery(document).ready(function($) {
   /* Site search dropdown */
   $('.site-search-dropdown').on('show.zf.dropdown', function(){
     if ( $('.is-drilldown').is(':visible') ) {
+
       $('.title-bar').foundation('toggleMenu');
       togglePageBody(true);
 
@@ -318,6 +319,10 @@ jQuery(document).ready(function($) {
     $('.site-search span').text( ( $('.site-search span' ).text() == 'Search' ) ? 'Close' : 'Search' );
 
     $('body').addClass('no-scroll');
+
+    if ( $('.sticky').hasClass('is-stuck') ){
+      navHeight = $('.sticky-container').height();
+    }
 
     $(this).css('top', navHeight);
 
