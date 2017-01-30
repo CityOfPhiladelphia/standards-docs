@@ -14,7 +14,7 @@ The first time you refer to an organization or project that uses an acronym, wr
 
 Some names are more recognizable when they are abbreviated, as with *NASA*, *NAACP*, *IBM*, and *FBI*. In such instances, the acronym is always acceptable.
 
-## Use "nicknames" in your second reference
+**Use "nicknames" in your second reference**
 
 It's often clearer to use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between repetitive acronyms.
 
