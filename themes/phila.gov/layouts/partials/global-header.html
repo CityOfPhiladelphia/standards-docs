@@ -37,8 +37,8 @@
 </div>
 {{ partial "mobile-nav.html" }}
 <!--sticky/desktop nav -->
-<div class="row expanded background-white primary-menu sticky-container">
-  <div class="columns sticky phn" data-margin-top="0">
+<div class="row expanded background-white primary-menu" data-sticky-container>
+  <div class="columns sticky phn" data-margin-top="0" data-sticky>
     <div class="row equal-height">
       <div class="small-16 medium-6 columns equal valign small-push-4 medium-push-0">
         <div class="valign-cell">
@@ -68,7 +68,7 @@
           </nav>
         </div>
       </div>
-      <div class="small-5 medium-1 columns equal valign">
+      <div class="small-5 medium-1 columns equal valign phn-m">
         <div class="valign-cell">
           <button class="site-search" type="button" data-toggle="search-dropdown">
             <i class="fa fa-search fa-2x" aria-hidden="true"></i>
