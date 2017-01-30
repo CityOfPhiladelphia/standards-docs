@@ -538,7 +538,7 @@ header {
       border-bottom: 1rem solid $ghost-gray;
       top:-1rem;
       position: absolute;
-      right:3.5rem;
+      right:.6rem;
 
       @include breakpoint(medium) {
         right: 1rem;

@@ -13,7 +13,6 @@ h6, .h6 {
 
 }
 
-
 //add header classes
 @each $size, $headers in $header-styles {
   @include breakpoint($size) {
@@ -72,6 +71,9 @@ article{
   }
 
 }
+blockquote{
+  margin: 0 $spacing-medium $spacing-medium $spacing-small;
+}
 
 blockquote + h1,
 blockquote + h2,
@@ -120,8 +122,17 @@ a:hover, a:active {
     color:$medium-gray;
   }
 }
+article {
+  ol, ul {
+    overflow: hidden;
+    padding-left: 1.5rem;
+    + p {
+      margin-top:$spacing-medium;;
+
+    }
+  }
+}
 
 ol + p,
 ul + p{
-  margin-top:1rem;
 }
