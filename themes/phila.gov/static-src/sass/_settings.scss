@@ -604,11 +604,11 @@ $thumbnail-radius: $global-radius;
 // -------------
 
 $titlebar-background: $white;
-$titlebar-color: $white;
-$titlebar-padding: 0.5rem;
-$titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
+$titlebar-color: $dark-ben-franklin;
+$titlebar-padding: 0;
+$titlebar-text-font-weight: normal;
+$titlebar-icon-color: $dark-ben-franklin;
+$titlebar-icon-color-hover: $dark-gray;
 $titlebar-icon-spacing: 0.25rem;
 
 // 36. Tooltip

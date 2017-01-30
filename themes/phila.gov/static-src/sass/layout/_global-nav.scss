@@ -94,8 +94,7 @@
   }
 
   .title-bar {
-    color:$ben-franklin-blue;
-    padding: 0;
+    color:$dark-ben-franklin;
     position: absolute;
     z-index: 10;
 
@@ -108,6 +107,7 @@
       height: auto;
       padding: .75rem;
       margin-left:0;
+      color: $dark-ben-franklin;
 
       .fa {
         display: block;
@@ -120,14 +120,13 @@
       }
       &.active {
         background-color: $ghost-gray;
+        color: $dark-ben-franklin;
       }
     }
     .title-bar-title {
       margin: 0;
       font-size: .8rem;
       text-transform: uppercase;
-      //TODO: Change in patterns
-      font-weight: normal;
     }
   }
 
@@ -448,6 +447,7 @@
 
     @include breakpoint(small only) {
       font-size: .7rem;
+      float:right;
       //matches padding on menu-icon
       padding-top: .75rem;
       padding-bottom: .75rem;
