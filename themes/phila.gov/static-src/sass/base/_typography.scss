@@ -87,7 +87,7 @@ blockquote + h6{
 a:link, a:visited{
   @extend %link-styles;
 }
-a:hover, a:active {
+a:hover, a:active, a:focus {
   color:$dark-gray;
 }
 
@@ -131,8 +131,4 @@ article {
 
     }
   }
-}
-
-ol + p,
-ul + p{
 }
