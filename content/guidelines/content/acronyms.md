@@ -1,6 +1,6 @@
 ---
 title: Acronyms
-date: 2017-1-27
+date: 2017-01-27
 menu:
   main:
     parent: content
