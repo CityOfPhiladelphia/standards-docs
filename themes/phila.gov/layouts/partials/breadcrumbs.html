@@ -5,10 +5,9 @@
         <i class="fa fa-home" aria-hidden="true"></i><span class="accessible">Home</span></a>
       </li>
       <li><a href="{{ $.Site.BaseURL }}">{{ $.Site.Title }}</a></li>
-        {{ $.Scratch.Get "Breadcrumbs" | safeHTML }}
-      <li>
-        {{ .Title }}
-      </li>
+        {{ $bc := $.Scratch.Get "Breadcrumbs"  }}
+        {{ print $bc | safeHTML }}
+      <li>{{.Title}}</li>
     </ol>
   </div>
 </div>

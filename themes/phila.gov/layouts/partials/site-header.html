@@ -17,18 +17,16 @@
                       {{ $currentNode := . }}
 
                       {{ range  $.Site.Menus.main }}
-
-                        {{ if .HasChildren  }}
                         {{if $currentNode.HasMenuCurrent "main" . }}
-                          {{ $.Scratch.Add "Breadcrumbs" (print "<li><a href='" .URL  "'>" .Name "</a></li>" )  }}
+                          {{ $.Scratch.Add "Breadcrumbs" ( print "<li><a href='" .URL  "'>" .Name "</a></li>" )  }}
                         {{end}}
+                        {{ if .HasChildren  }}
                         <li class="menu-item is-right-arrow{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} current-menu-item{{end}}">
                         <a href="javascript:;" class="">{{ .Name }}</a>
                           <ul class="menu">
                             {{ range .Children }}
-
                             {{if $currentNode.HasMenuCurrent "main" . }}
-                              {{ $.Scratch.Add "Breadcrumbs" (print "<li><a href='" .URL  "'>" .Name "</a></li>" ) }}
+                              {{ $.Scratch.Add "Breadcrumbs" ( print "<li><a href='" .URL  "'>" .Name "</a></li>" )  }}
                             {{end}}
                               <li{{if $currentNode.IsMenuCurrent "main" . }} class="current-menu-item"{{end}}>
                                 <a href="{{.URL}}"> {{ .Name }} </a>
