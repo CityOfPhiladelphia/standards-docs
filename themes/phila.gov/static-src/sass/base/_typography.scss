@@ -8,7 +8,7 @@ h6, .h6 {
   @include secondary-font(400);
 
   &.contrast {
-    border-bottom:10px solid $ben-franklin-blue;
+    border-bottom:10px solid color(ben-franklin-blue);
   }
 
 }
@@ -88,11 +88,11 @@ a:link, a:visited{
   @extend %link-styles;
 }
 a:hover, a:active, a:focus {
-  color:$dark-gray;
+  color:color(dark-gray);
 }
 
 .small-text {
-  color: $dark-gray;
+  color: color(dark-gray);
   font-size: rem-calc(13);
   display:block;
 }
@@ -115,11 +115,11 @@ a:hover, a:active, a:focus {
 }
 
 .callout{
-  border-left:5px solid $kelly-drive-green;
+  border-left:5px solid color(kelly-drive-green);
   line-height:rem-calc(16);
 
   p{
-    color:$medium-gray;
+    color:color(medium-gray);
   }
 }
 article {

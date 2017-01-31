@@ -9,7 +9,7 @@
   @include secondary-font(700);
   background: none;
   margin: $spacing-small 0;
-  color: $dark-gray;
+  color: color(dark-gray);
   height: 40px;
   text-transform: uppercase;
 
@@ -17,7 +17,7 @@
     background: none;
   }
   &:link, &:visited {
-    color: $dark-gray;
+    color: color(dark-gray);
     font-weight: 600;
     font-size: 1rem;
   }
@@ -28,8 +28,8 @@
     padding: 0;
 
     .fa {
-      background: $dark-gray;
-      color:$white;
+      background: color(dark-gray);
+      color:color(white);
       margin-right: .25rem;
       padding: .4em .5em .5em .4em;
       font-size: 1.7em;
@@ -43,11 +43,11 @@
   }
   i.fa {
     //TODO: override in patterns
-    color: $dark-gray;
+    color: color(dark-gray);
   }
 
   .button-label {
-    background-color: $electric-blue;
+    background-color: color(electric-blue);
     min-height: 40px;
     padding-top:$spacing-small;
     padding-bottom:$spacing-small;
@@ -59,8 +59,8 @@
 
   &.outline {
     .button-label {
-      background-color: $white;
-      border: 1px solid $electric-blue;
+      background-color: color(white);
+      border: 1px solid color(electric-blue);
     }
   }
 }
@@ -70,7 +70,7 @@
 a {
   &.button {
     &:link, &:visited {
-      color: $dark-gray;
+      color: color(dark-gray);
       font-weight: 600;
       font-size: 1rem;
     }
@@ -80,10 +80,10 @@ a {
         color:white;
       }
       background: none;
-      color: $white;
+      color: color(white);
       .button-label {
-        color: $white;
-        background: $dark-gray;
+        color: color(white);
+        background: color(dark-gray);
         transition: background-color 300ms ease-in-out;
       }
     }

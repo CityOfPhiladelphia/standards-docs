@@ -12,12 +12,12 @@
   font-weight: bold;
   font-size: rem-calc(12);
   letter-spacing:.01rem;
-  color: $medium-gray;
+  color: color(medium-gray);
   text-transform:uppercase;
 }
 
 %link-styles{
-  color:$dark-ben-franklin;
+  color:color(dark-ben-franklin);
   text-decoration: none;
   font-weight:700;
 }

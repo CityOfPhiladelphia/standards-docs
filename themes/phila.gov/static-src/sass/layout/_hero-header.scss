@@ -38,14 +38,14 @@
         .secondary-menu {
           background: none;
           .dropdown li{
-            border-bottom:2px solid $white;
+            border-bottom:2px solid color(white);
             &:last-child{
-              border-bottom:2px solid $white;
+              border-bottom:2px solid color(white);
             }
           }
           >li {
             display: inline-block;
-            background-color: $ben-franklin-blue;
+            background-color: color(ben-franklin-blue);
             &.is-right-arrow{
               >a {
                 padding: $spacing-small $spacing-large;
@@ -55,7 +55,7 @@
                 display: inline;
                 border-left: 5px solid transparent;
                 border-right: 5px solid transparent;
-                border-top: 5px solid $white;
+                border-top: 5px solid color(white);
                 border-bottom: none;
                 left: 5px;
                 position: relative;
@@ -67,44 +67,44 @@
              &.is-active,
              &.current-menu-ancestor{
                > a{
-                 background: $dark-gray;
-                 color:$white;
+                 background: color(dark-gray);
+                 color:color(white);
                  &::after{
                    border-top: none;
-                   border-bottom: 5px solid $white;
+                   border-bottom: 5px solid color(white);
                    top: -10px;
                  }
                 }
               }
             }
             >a {
-              color: $white;
+              color: color(white);
               padding: $spacing-small $spacing-medium;
             }
           }
           a {
             border:none;
             &:hover, &:active {
-              background: $dark-gray;
-              color:$white;
+              background: color(dark-gray);
+              color:color(white);
             }
           }
           .is-dropdown-submenu {
             top: auto;
             left:0;
             a{
-              background: $ghost-gray;
-              color:$ben-franklin-blue;
+              background: color(ghost-gray);
+              color:color(ben-franklin-blue);
               &:hover, &:active {
-                background: $dark-gray;
-                color:$white;
+                background: color(dark-gray);
+                color:color(white);
               }
             }
           }
           .current-menu-item {
             > a{
-              background: $dark-gray;
-              color:$white;
+              background: color(dark-gray);
+              color:color(white);
             }
           }
         }
@@ -154,7 +154,7 @@
       display:inline-block;
       font-style: italic;
       font-size: .75rem;
-      color: $medium-gray;
+      color: color(medium-gray);
       padding: 0.25rem 0.5rem;
       position: absolute;
       bottom: 105px;
@@ -265,12 +265,12 @@
         }
       }
       .photo-credit {
-        color: $white;
+        color: color(white);
         padding: $spacing-extra-small $spacing-small;
         position:absolute;
         bottom:0;
         right:0;
-        text-shadow: 1px 1px 1px $dark-gray;
+        text-shadow: 1px 1px 1px color(dark-gray);
         // background-color: rgba(0,0,0,.3);
     }
   }

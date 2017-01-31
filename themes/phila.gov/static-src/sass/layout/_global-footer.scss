@@ -7,7 +7,7 @@
 
 footer{
   &.site-footer {
-    background: $white;
+    background: color(white);
     margin-top: $spacing-large;
 
     .department-logo{
@@ -15,7 +15,7 @@ footer{
       height:auto;
     }
     a:link, a:visited {
-      color: $dark-ben-franklin;
+      color: color(dark-ben-franklin);
       text-decoration: none;
       font-weight:normal;
     }
@@ -36,20 +36,20 @@ footer{
             }
             a:link,
             a:visited {
-              color: $white;
+              color: color(white);
             }
             a:hover,
             a:active {
-             color: $electric-blue;
+             color: color(electric-blue);
             }
           }
         }
       }
     }
     .contact{
-      background:$ghost-gray;
-      color:$dark-gray;
-      border-bottom: 1px solid $sidewalk;
+      background:color(ghost-gray);
+      color:color(dark-gray);
+      border-bottom: 1px solid color(sidewalk);
 
       aside{
         font-size: 0.85rem;
@@ -59,7 +59,7 @@ footer{
         }
       }
       aside{
-        border-bottom: 1px solid $white;
+        border-bottom: 1px solid color(white);
       }
 
       @media only screen and (min-width: 40em) {
@@ -67,7 +67,7 @@ footer{
           border-bottom: 0;
         }
         aside:not(:last-child) {
-          border-right: 1px solid $sidewalk;
+          border-right: 1px solid color(sidewalk);
         }
       }
       .logo{
@@ -88,8 +88,8 @@ footer{
       }
     }
     .philly311 {
-      background: $ghost-gray;
-      color: $dark-gray;
+      background: color(ghost-gray);
+      color: color(dark-gray);
 
       .button-label {
         width: 100%;
@@ -103,11 +103,11 @@ footer{
       .intro,
       .trending-requests {
         a:link, a:visited {
-         color:$dark-ben-franklin;
+         color:color(dark-ben-franklin);
          font-weight:normal;
         }
         a:hover, a:active{
-         color:$dark-gray;
+         color:color(dark-gray);
         }
       }
     }
@@ -144,12 +144,12 @@ footer{
       }
       .fat {
         padding: $spacing-medium 0;
-        background: $dark-ben-franklin;
+        background: color(dark-ben-franklin);
         h1, h2, h3, h4, h5, h6 {
           font-size:rem-calc(13);
           border-bottom: 0;
           padding: 0;
-          color: $white;
+          color: color(white);
           text-transform: none;
         }
         section {
@@ -170,7 +170,7 @@ footer{
           }
           a:hover,
           a:active {
-           color: $electric-blue;
+           color: color(electric-blue);
           }
           ul, ol {
             list-style: none;
@@ -190,15 +190,15 @@ footer{
   a {
     &.button {
       &:link, &:visited {
-        color: $dark-gray;
+        color: color(dark-gray);
         font-weight: 600;
         font-size: 1rem;
       }
       &:hover, &:active {
         background: none;
         .button-label {
-          color: $white;
-          background: $dark-gray;
+          color: color(white);
+          background: color(dark-gray);
           transition: background-color 300ms ease-in-out;
         }
       }

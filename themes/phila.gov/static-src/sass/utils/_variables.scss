@@ -1,25 +1,45 @@
-//brights
-$ben-franklin-blue: #2176d2;
-$dark-ben-franklin: #0f4d90;
-$light-ben-franklin: #96c9ff;
-$bell-yellow: #f3c613;
-$flyers-orange: #f99300;
-$kelly-drive-green: #58c04d;
-$electric-blue: #25cef7;
+$colors: (
+  ben-franklin-blue: #2176d2,
+  dark-ben-franklin: #0f4d90,
+  light-ben-franklin: #96c9ff,
+  electric-blue: #25cef7,
 
-//pastels
-$light-green: #b9f2b1;
-$light-yellow: #ffefa2;
-$light-red: #fed0d0;
-$light-blue: #DAEDFE;
+  bell-yellow: #f3c613,
+  light-bell-yellow: #ffefa2,
 
-//mono
-$black: #000000;
-$dark-gray: #444;
-$medium-gray: #a1a1a1;
-$sidewalk: #cfcfcf;
-$ghost-gray: #f0f0f0;
-$white: #fff;
+  kelly-drive-green: #58c04d,
+  light-kelly-drive: #b9f2b1,
+
+  flyers-orange: #f99300,
+  light-red: #fed0d0,
+  light-blue: #DAEDFE,
+
+  black: #000000,
+  dark-gray: #444,
+  medium-gray: #a1a1a1,
+  sidewalk: #cfcfcf,
+  ghost-gray: #f0f0f0,
+  white: #fff
+
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+@each $value in $colors {
+  .#{nth($value, 1)} {
+    color: nth($value, 2);
+  }
+
+  .bg-#{nth($value, 1)} {
+    background-color: nth($value, 2);
+  }
+
+  .bdr-#{nth($value, 1)} {
+    border-color: nth($value, 2);
+  }
+}
 
 //standard spacing
 $spacing-none: 0;

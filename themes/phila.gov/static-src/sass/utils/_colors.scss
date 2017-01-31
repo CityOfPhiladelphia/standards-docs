@@ -1,96 +1,3 @@
-//Easily add classes to set fonts and background colors
-
-/*
-  BRIGHTS
-*/
-.ben-franklin-blue {
-  color: $ben-franklin-blue;
-}
-.bell-yellow {
-  color: $bell-yellow;
-}
-.flyers-orange {
-  color: $flyers-orange;
-}
-.kelly-drive-green {
-  color: $kelly-drive-green;
-}
-.light-ben-franklin {
-  color: $light-ben-franklin;
-}
-.black {
-  color: $black;
-}
-.white {
-  color: $white;
-}
-.bg-ben-franklin-blue {
-  background: $ben-franklin-blue;
-}
-.bg-bell-yellow {
-  background: $bell-yellow;
-}
-.bg-flyers-orange {
-  background: $flyers-orange;
-}
-.bg-kelly-drive-green {
-  background: $kelly-drive-green;
-}
-.bg-light-ben-franklin {
-  background: $light-ben-franklin;
-}
-.bg-black {
-  background: $black;
-}
-.bg-white {
-  background: $white;
-}
-/*
-  GRAYS
-*/
-.dark-gray{
-  color: $dark-gray;
-}
-.medium-gray{
-  color: $medium-gray;
-}
-.ghost-gray {
-  color: $ghost-gray;
-}
-.sidewalk {
-  color: $sidewalk;
-}
-.bg-dark-gray{
-  background: $dark-gray;
-}
-.bg-medium-gray{
-  background: $medium-gray;
-}
-.bg-ghost-gray {
-  background: $ghost-gray;
-}
-.bg-sidewalk {
-  background: $sidewalk;
-}
-
-
-
-//Background colors
-.bg-light-blue {
-  background-color: $light-blue;
-}
-
-// Border colors
-.bdr-ghost-gray {
-  border-color:$ghost-gray;
-}
-.bdr-sidewalk {
-  border-color:$sidewalk;
-}
-.bdr-dark-gray {
-  border-color:$dark-gray;
-}
-
 .bdr-bottom-sm {
   border-bottom: 1px;
   border-bottom-style: solid;
@@ -177,16 +84,16 @@
 //TODO: Move to patterns
 
 .border-bottom-sidewalk{
-  border-bottom:1px solid $sidewalk;
+  border-bottom:1px solid color(sidewalk);
 }
 .border-right-sidewalk{
-  border-right:1px solid $sidewalk;
+  border-right:1px solid color(sidewalk);
 }
 .border-left-sidewalk{
-  border-left:1px solid $sidewalk;
+  border-left:1px solid color(sidewalk);
 }
 .border-top-sidewalk{
-  border-top:1px solid $sidewalk;
+  border-top:1px solid color(sidewalk);
 }
 
 .sentence-case {
@@ -249,7 +156,7 @@ html.is-reveal-open{
 /*provides option to apply a hover-fade to items in which the link state should not change*/
 .hover-fade-keep-a{
   a:hover {
-    color: $ben-franklin-blue;
+    color: color(ben-franklin-blue);
   }
   @extend .hover-fade;
 }

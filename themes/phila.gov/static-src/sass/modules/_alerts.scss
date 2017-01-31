@@ -1,7 +1,7 @@
 .alert {
   &.alert-persistent {
-    background:$dark-gray;
-    color: $white;
+    background:color(dark-gray);
+    color: color(white);
     padding: $spacing-small $spacing-none;
 
     p {
@@ -11,12 +11,12 @@
     }
     a:link, a:visited{
       font-size: .85rem;
-      color:$white;
+      color:color(white);
       text-transform: uppercase;
     }
     a:hover, a:active{
       font-size: .85rem;
-      color:$electric-blue;
+      color:color(electric-blue);
     }
   }
 }

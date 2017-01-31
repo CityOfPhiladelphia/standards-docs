@@ -21,8 +21,8 @@
     padding: 0.85em 1em;
     margin: 0 0 1rem 0;
     font-size: .9rem;
-    background-color: $electric-blue;
-    color: $dark-gray;
+    background-color: color(electric-blue);
+    color: color(dark-gray);
     text-transform: uppercase;
     margin: 1em 0;
     letter-spacing: .03rem;
@@ -51,7 +51,7 @@
     span {
       &.form-required {
         float: none;
-        color:$light-red;
+        color:color(light-red);
       }
     }
  }
@@ -101,8 +101,8 @@
     margin-bottom:$spacing-small;
   }
   .form-header{
-    background: $ben-franklin-blue;
-    color: $white;
+    background: color(ben-franklin-blue);
+    color: color(white);
     padding: 1rem;
   }
   .form-html{
@@ -111,12 +111,12 @@
     h3,
     h4 {
       margin-top:$spacing-medium;
-      border-bottom: 10px solid $ben-franklin-blue;
+      border-bottom: 10px solid color(ben-franklin-blue);
     }
   }
   .form-label{
     display: block;
-    color: $dark-gray;
+    color: color(dark-gray);
     font-family: 'Montserrat', 'Tahoma', sans-serif;
     font-size: 1.21429rem;
     font-weight: bold;
@@ -125,13 +125,13 @@
   select,
   textarea,
   .form-textbox{
-    background-color: $ghost-gray;
+    background-color: color(ghost-gray);
     border: 0;
     box-shadow: none;
   }
   .form-line-error{
-    background: $light-red;
-    border: 1px solid $flyers-orange;
+    background: color(light-red);
+    border: 1px solid color(flyers-orange);
   }
   .form-radio-item {
     display:block;
@@ -251,7 +251,7 @@
   [type="url"]:focus,
   [type="color"]:focus,
   textarea:focus {
-    border: 2px solid $electric-blue;
+    border: 2px solid color(electric-blue);
     background-color: #fff;
     outline: none;
     box-shadow: 0 0 5px #a1a1a1;
@@ -272,7 +272,7 @@
   input[type="url"]:focus,
   input[type="color"]:focus,
   textarea:focus {
-    border-color: $ben-franklin-blue;
+    border-color: color(ben-franklin-blue);
   }
   //JotForm Preview Check
   #previewContainer #previewButtons{
@@ -292,14 +292,14 @@
     border-style: solid;
     border-width: 0;
     cursor: pointer;
-    background: $electric-blue;
-    border-color: $electric-blue;
+    background: color(electric-blue);
+    border-color: color(electric-blue);
     display: inline-block;
     text-align: center;
     line-height: 1;
     padding: 0.85em 1em;
     font-size: .9rem;
-    color: $white;
+    color: color(white);
   }
   @media only screen and (min-width: 40em) {
     .form-line{
@@ -349,8 +349,8 @@
     background-color: white;
     tr{
       td{
-        background-color: $ben-franklin-blue;
-        color: $white;
+        background-color: color(ben-franklin-blue);
+        color: color(white);
       }
     }
   }
@@ -367,12 +367,12 @@
            color: #bbb;
          }
          &.weekend{
-           background: $electric-blue;
+           background: color(electric-blue);
          }
       }
       .today {
-        background: $ben-franklin-blue !important;
-        color: $white;
+        background: color(ben-franklin-blue) !important;
+        color: color(white);
         font-weight: bold;
       }
     }
@@ -389,7 +389,7 @@
     }
     .button{
       @include secondary-font(700);
-      color: $electric-blue;
+      color: color(electric-blue);
       background-color: transparent;
       border-collapse: collapse;
       box-sizing: border-box;
@@ -404,11 +404,11 @@
   }
   th{
     @include secondary-font(400);
-    background: $medium-gray;
+    background: color(medium-gray);
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc;
     font-weight: bold;
-    color: $white;
+    color: color(white);
     font-size: 11px;
     padding: 3px;
     text-align: center;

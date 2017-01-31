@@ -47,15 +47,15 @@ ul.inline-list li{
 }
 
 .bg-white{
-  background-color:$white;
+  background-color:color(white);
 }
 
 .bg-black{
-  background-color:$black;
+  background-color:color(black);
 }
 
 ul.border-bottom-list li{
-  border-bottom:1px solid $dark-gray;
+  border-bottom:1px solid color(dark-gray);
   padding:$spacing-small 0;
   &:last-child{
     border-bottom: none;
@@ -63,5 +63,5 @@ ul.border-bottom-list li{
 }
 
 .border-bottom {
-  border-bottom:1px solid $dark-gray;
+  border-bottom:1px solid color(dark-gray);
 }

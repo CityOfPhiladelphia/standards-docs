@@ -6,7 +6,7 @@
     padding:0;
 
       li{
-        border-bottom:1px solid $sidewalk;
+        border-bottom:1px solid color(sidewalk);
 
       &:last-child{
           border-bottom: none;
@@ -16,16 +16,16 @@
 
   li{
     &.is-active > a {
-      background: $ben-franklin-blue;
-      color:$white;
+      background: color(ben-franklin-blue);
+      color:color(white);
     }
 
     a:hover {
-      background: $ben-franklin-blue;
-      color:$white;
+      background: color(ben-franklin-blue);
+      color:color(white);
     }
     a{
-      color:$dark-gray;
+      color:color(dark-gray);
       font-weight:700;
     }
     ul li{

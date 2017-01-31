@@ -8,7 +8,7 @@ nav#side-nav{
     padding: 1rem .5rem;
   }
   > ul li{
-    border-bottom: 1px solid $sidewalk;
+    border-bottom: 1px solid color(sidewalk);
 
     &:last-of-type {
       border:none;
@@ -22,8 +22,8 @@ nav#side-nav{
 
     > li.current_page_item {
       > a{
-        background: $dark-gray;
-        color: $white;
+        background: color(dark-gray);
+        color: color(white);
       }
     }
     /*ul {
@@ -38,7 +38,7 @@ nav#side-nav{
   }
   &.children{
     li {
-      border-bottom: 2px solid $white;
+      border-bottom: 2px solid color(white);
 
     a{
       padding:.5rem;
@@ -63,8 +63,8 @@ nav#side-nav{
       float:right;
     }
     &.current_page_ancestor > a{
-      background: $ghost-gray;
-      color:$black;
+      background: color(ghost-gray);
+      color:color(black);
     }
     &.current_page_item {
       > a:after{
@@ -77,14 +77,14 @@ nav#side-nav{
   }
   .current_page_ancestor{
     &.page_item_has_children:not(.current_page_parent) > a{
-      border-bottom: 1px solid $sidewalk;
+      border-bottom: 1px solid color(sidewalk);
     }
 
     &.current_page_parent {
 
       > a{
-        background: $ghost-gray;
-        color:$black;
+        background: color(ghost-gray);
+        color:color(black);
 
       }
     }

@@ -2,7 +2,7 @@
   display: inline-block;
   font-size: .8rem;
   line-height: 1;
-  color:$white;
+  color:color(white);
   padding: 0 0.5rem;
 
   &.no-js{
@@ -13,12 +13,12 @@
     padding: .5rem 2rem .5rem .5rem;
 
     &:hover{
-      color: $ben-franklin-blue;
-      background: $light-blue;
+      color: color(ben-franklin-blue);
+      background: color(light-blue);
 
       &::before {
-        color: $ben-franklin-blue;
-        background: $light-blue;
+        color: color(ben-franklin-blue);
+        background: color(light-blue);
       }
     }
   }
@@ -41,8 +41,8 @@
       position: relative;
 
       &:hover::after{
-        color:$ben-franklin-blue;
-        border-color: $ben-franklin-blue transparent transparent;
+        color:color(ben-franklin-blue);
+        border-color: color(ben-franklin-blue) transparent transparent;
       }
 
       &::after{
@@ -68,7 +68,7 @@
     span{
       display: none;
         &:hover{
-          color: $ben-franklin-blue !important;
+          color: color(ben-franklin-blue) !important;
         }
       }
     }
