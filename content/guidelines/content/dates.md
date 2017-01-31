@@ -34,4 +34,4 @@ When specific times are important to include, use numbers. Use a.m. and p.m. fo
 >4 p.m.  
 11:30 a.m.  
 In effect: 6--10 p.m. on Friday, Sept. 9  
-In effect: 6:30 p.m. on Friday, Sept.   9--noon on Saturday, Sept. 10
+In effect: 6:30 p.m. on Friday, Sept. 9--noon on Saturday, Sept. 10
