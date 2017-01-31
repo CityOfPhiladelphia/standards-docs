@@ -1,0 +1,15 @@
+.swatch{
+  padding-right: 2rem;
+}
+.swatch--top{
+  border-style: solid;
+  border-width: 2rem;
+  border-radius: 10px 10px 0 0;
+  padding:1rem;
+}
+.swatch--bottom{
+  background: #f0f0f0;
+  border: .5rem solid #f0f0f0;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 3px #cfcfcf;
+}
