@@ -19,6 +19,7 @@ menu:
 The visual identity system for the City of Philadelphia consists of elements including the logo, color palette, typography, iconography, and photographic style. They work together to create a look and feel that is unique to the City of Philadelphia. These standards help ensure a consistent design and identity.
 
 The goals for creating this standards guide:
+
 1. Streamline the workflow for designers and developers
 2. Maintain a consistency of styles and identity
 3. Create a focal point for our Design and User experience work, both for ourselves and for the community
