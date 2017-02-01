@@ -1,6 +1,6 @@
 ---
-title: Color palette
-date: 2017-01-27
+title: Headers & footers
+date: 2017-02-01
 menu:
   main:
     parent: design-development
