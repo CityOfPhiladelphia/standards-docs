@@ -25,20 +25,3 @@ The goals for creating this standards guide:
 3. Create a focal point for our Design and User experience work, both for ourselves and for the community
 
 ![](/standards/img/design-dev-overview.jpg)
-
-___
-
-<div class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-  <div class="accordion-item is-active" data-accordion-item>
-    <a href="#" class="accordion-title">Accessibility</a>
-    <div class="accordion-content" data-tab-content>
-      <p>A well-designed website is accessible to users of all abilities, including those with low vision, blindness, hearing impairments, cognitive impairments, or motor impairments.</p>
-    </div>
-  </div>
-  <div class="accordion-item" data-accordion-item>
-    <a href="#" class="accordion-title">Accessibility</a>
-    <div class="accordion-content" data-tab-content>
-      <p>A well-designed website is accessible to users of all abilities, including those with low vision, blindness, hearing impairments, cognitive impairments, or motor impairments.</p>
-    </div>
-  </div>
-</div>
