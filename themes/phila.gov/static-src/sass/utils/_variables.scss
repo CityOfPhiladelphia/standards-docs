@@ -5,7 +5,7 @@ $colors: (
   electric-blue: #25cef7,
 
   bell-yellow: #f3c613,
-  light-bell-yellow: #ffefa2,
+  light-bell: #ffefa2,
 
   kelly-drive-green: #58c04d,
   light-kelly-drive: #b9f2b1,
@@ -19,7 +19,7 @@ $colors: (
   medium-gray: #a1a1a1,
   sidewalk: #cfcfcf,
   ghost-gray: #f0f0f0,
-  white: #fff
+  white: #fff,
 
 );
 
@@ -31,14 +31,23 @@ $colors: (
   .#{nth($value, 1)} {
     color: nth($value, 2);
   }
-
   .bg-#{nth($value, 1)} {
     background-color: nth($value, 2);
   }
-
   .bdr-#{nth($value, 1)} {
     border-color: nth($value, 2);
   }
+}
+
+//for some reason black isn't being parsed correctly with the above function, so we're doing it manually
+.black {
+  color: color(black);
+}
+.bg-black{
+  background-color: color(black);
+}
+.bdr-black{
+  border-color: color(black);
 }
 
 //standard spacing
