@@ -24,10 +24,9 @@ The goals for creating this standards guide:
 2. Maintain a consistency of styles and identity
 3. Create a focal point for our Design and User experience work, both for ourselves and for the community
 
-![](/img/design-dev-overview.jpg)
+![](/standards/img/design-dev-overview.jpg)
 
 ___
-
 
 <div class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
   <div class="accordion-item is-active" data-accordion-item>
