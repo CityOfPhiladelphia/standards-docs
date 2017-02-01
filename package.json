@@ -1,0 +1,9 @@
+{
+  "name": "phl-digital-standards",
+  "version": "1.0.0",
+  "description": "City of Philadelphia Digital Standards",
+  "main": "index.js",
+  "repository": "https://github.com/CityOfPhiladelphia/standards.git",
+  "author": "City of Philadelphia",
+  "license": "GPL-3.0",
+}
