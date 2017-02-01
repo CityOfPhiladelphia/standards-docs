@@ -1,16 +1,24 @@
 {{ $currentNode := . }}
 {{ $currentParent := .Menus.main.Parent }}
+{{ $currentSideParent := .Menus.side.Parent }}
+
 
 <nav data-swiftype-index="false" id="services-nav">
   <ul class="vertical menu">
     {{ if eq $currentParent "guidelines" }}
-      {{ if ne .Params.menu.main.identifier nil}}
+      {{ if ne .Params.menu.main.identifier nil }}
         <li class="current_page_item"><a href="{{.URL}}">Overview</a></li>
         {{ range (index .Menus "main").Children }}
-          {{ if eq .Identifier ""}}
+          {{ if eq .Identifier "" }}
             <li class="{{if $currentNode.IsMenuCurrent "side" . }} current_page_item{{end}}">
               <a href="{{.URL}}">{{ .Name }}</a>
             </li>
+          {{ else }}
+            {{ range $.Site.Menus.side }}
+              {{ if .HasChildren }}
+                <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}} {{if $currentNode.HasMenuCurrent "side" . }} current_page_ancestor current_page_parent{{else}}page_item_has_children{{end}}">  <a href="{{ .URL }}">{{ .Name }}</a></li>
+              {{ end }}
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -22,15 +30,16 @@
             <ul class="children{{if $currentNode.HasMenuCurrent "side" . }} current_page_parent{{end}}">
             {{ range .Children }}
               <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}}"><a href="{{.URL}}">{{ .Name }}</a> </li>
-            {{ end }}
-        {{else}}
+            </ul>
+          {{ end }}
+        {{ else }}
           {{ if in .URL $currentParent  }}
             <li class="{{if $currentNode.IsMenuCurrent "side" . }} current_page_item{{end}}">
               <a href="{{.URL}}">{{ .Name }}</a>
             </li>
-          {{end}}
-        {{end}}
-      {{end}}
+          {{ end }}
+        {{ end }}
+      {{ end }}
       </ul>
-  {{end}}
+  {{ end }}
 </nav>
