@@ -7,6 +7,8 @@ menu:
   side:
 ---
 
-Montserrat is used to introduce sections of content on the site and is exclusively reserved for major headlines. Once we have their attention, we can draw them into the details with the highly-legible Open Sans.
+Montserrat is only used for major headlines that introduce sections of content. 
 
-Open Sans serves as the base font for the site. It is used to present the content details. Sans-serifs have been proven to be easier to read on-screen and are incredibly adaptable when resized and displayed across different platforms and browsers. Accordingly, Open Sans is used for body type, secondary and tertiary headlines, and instructional text.
+Open Sans is the base font for the site. It is used for body type, secondary and tertiary headlines, and instructional text.
+
+Sans-serifs were chosen because they are easier to read on screens, and are adaptable across platforms and browsers.
