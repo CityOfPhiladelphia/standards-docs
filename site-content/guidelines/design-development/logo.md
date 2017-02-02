@@ -7,7 +7,11 @@ menu:
   side:
 ---
 
-The City of Philadelphia logo is the most immediate representation of our city, our people, and our brand to the world. It is a valuable asset that must be used consistently in the proper, approved forms. There are 2 color versions of the City of Philadelphia logo provided. There are no absolutes regarding the selection of the specific color application, but context, contrast with regard to background color and surrounding imagery all should be considered. A black & white logo has also been provided for those instances where the logo must be a single color. The bell icon should ALWAYS stay yellow. The exception being when the logo must be all one single color. 
+The City of Philadelphia logo is the most visible representation of our city, our people, and our brand. It is a valuable asset that must be used consistently in the proper, approved forms.
+
+There are two color versions of the City of Philadelphia logo provided. Consider context, contrast with background color, and surrounding imagery when selecting which version to use. 
+
+The bell icon should ALWAYS stay yellow, unless the entire logo must be one color. In those cases, use the black and white logo. 
 
 General set of guidelines for logo usage is outlined as follows:
 
@@ -21,4 +25,6 @@ General set of guidelines for logo usage is outlined as follows:
 8. Do not put text on top of logo
 
 ## For Departments  
-If you are a department that needs a logo, we provide 2 templates for you below. They follow the same design as the City of Philadelphia logo with the name of the department being the main focus. “City of Philadelphia” can go under the department name if you would like. Which version you use is up to you. If you need an avatar for your department social media channel, please use the template provided. It is simple and uses your department initials along with the liberty bell. This will make it recognizable and readable when smaller.
+If you are a department that needs a logo, we provide two templates for you below. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. “City of Philadelphia” can go under the department name if you’d like. You may use either version.
+
+Use the template provided for your department's social media channel avatar. The avatars are recognizable and readable when smaller.
