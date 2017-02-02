@@ -1,6 +1,7 @@
 ---
 title: Content
 date: 2017-01-27
+level: section-header
 menu:
   main:
     name: Content
