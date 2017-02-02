@@ -26,6 +26,7 @@
                           <ul class="menu">
                             {{ range .Children }}
                             {{if $currentNode.HasMenuCurrent "main" . }}
+                              {{ $.Scratch.Add "Parent" (print .Name ) }}
                               {{ $.Scratch.Add "Breadcrumbs" ( print "<li><a href='" .URL  "'>" .Name "</a></li>" )  }}
                             {{end}}
                               <li{{if $currentNode.IsMenuCurrent "main" . }} class="current-menu-item"{{end}}>
