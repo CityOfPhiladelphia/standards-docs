@@ -7,7 +7,9 @@ menu:
   side:
 ---
 
-The color blue is one of our distinguishing features. It's an essential part of our brand identity. It's synonymous with being trustworthy, dependable and secure. Combined with shades of gray and white, the palette provides a welcoming feeling that is easy to read and is clean and simple. Use the accent colors to add some pop and draw attention to certain elements. Always use the accent colors sparingly.
+The color blue is one of our distinguishing features. It's an essential part of our brand identity. It's synonymous with being trustworthy, dependable and secure. Combined with shades of gray and white, the palette provides a welcoming feeling that is easy to read and is clean and simple.
+
+Use the accent colors to add some pop and draw attention to certain elements. Always use the accent colors sparingly.
 
 <div class="row mbxl">
   <div class="medium-5 columns equal-height">
