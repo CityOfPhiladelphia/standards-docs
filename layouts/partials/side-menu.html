@@ -2,7 +2,7 @@
 {{ $currentParent := .Menus.main.Parent }}
 {{ $currentSideParent := .Menus.side.Parent }}
 
-<nav data-swiftype-index="false" id="services-nav">
+<nav data-swiftype-index="false" id="side-nav">
   <ul class="vertical menu">
     {{ if eq $currentParent "guidelines" }}
       {{ if ne .Params.menu.main.identifier nil }}
