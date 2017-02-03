@@ -6,3 +6,5 @@ menu:
     parent: design-development
   side:
 ---
+
+Dropdowns act as an alternative to text link navigation.
