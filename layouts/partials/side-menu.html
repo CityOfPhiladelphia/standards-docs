@@ -29,8 +29,8 @@
             <ul class="children{{if $currentNode.HasMenuCurrent "side" . }} current_page_parent{{end}}">
             {{ range .Children }}
               <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}}"><a href="{{.URL}}">{{ .Name }}</a> </li>
-            </ul>
-          {{ end }}
+            {{ end }}
+          </ul>
         {{ else }}
           {{ if in .URL $currentParent  }}
             <li class="{{if $currentNode.IsMenuCurrent "side" . }} current_page_item{{end}}">
