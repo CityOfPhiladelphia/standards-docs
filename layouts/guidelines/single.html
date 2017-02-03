@@ -1,25 +1,25 @@
 {{ partial "head.html" . }}
 
-  <div class="row">
-    <div class="columns">
-      <h1 class="contrast">
-        {{ if isset $.Params "level"}}
-          {{ .Title }}
-        {{else}}
-          {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
-        {{ end }}
-    </div>
+<div class="row">
+  <div class="columns">
+    <h1 class="contrast">
+      {{ if isset $.Params "level"}}
+        {{ .Title }}
+      {{else}}
+        {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
+      {{ end }}
   </div>
+</div>
 
-<div class="row equal-height border-bottom-sidewalk mtm">
-  <div class="medium-7 columns border-right-sidewalk equal pbxl">
+<div class="tertiary-content row equal-height border-bottom-sidewalk mtm">
+  <div class="side-menu medium-7 columns border-right-sidewalk equal pbxl">
     {{ partial "side-menu.html" . }}
   </div>
   <div class="medium-16 columns equal pbxl">
     <section>
-      {{ if isset $.Params "level"}}{{else}}
+      {{ if isset $.Params "level" }}{{ else }}
         <h2 class="mtn">{{ .Title }}</h2>
-      {{end}}
+      {{ end }}
       <div>
         <article>
            {{ .Content }}
@@ -28,5 +28,6 @@
     </section>
   </div>
 </div>
+
 {{ partialCached "footer.html" . }}
 <link type="text/css" href="{{ .Site.BaseURL }}/css/standards.css" rel="stylesheet">
