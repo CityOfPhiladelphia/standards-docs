@@ -19,7 +19,7 @@ Capitalize days of the week, but do not abbreviate.
 
 >Mayor Kenney will be speaking at the event on Thursday.
 
-## Time-date-place
+### Time-date-place
 The preferred structure for conveying event information in narrative text is time-date-place.
 
 >The press conference will be held at 2 p.m., Jan. 25 at the Municipal Services Building.
@@ -28,7 +28,7 @@ Use of the day of the week is optional. If the day is included, it should be spe
 
 >The press conference will be held at 2 p.m., Saturday, Jan. 25 at the Municipal Services Building.
 
-## Times
+### Times
 When specific times are important to include, use numbers. Use a.m. and p.m. for morning and afternoon. Use noon and midnight to avoid confusion about 12 a.m. and 12 p.m. Use a colon to separate hours and minutes, but don't use a colon for something that occurs on the hour. 
 
 >4 p.m.  

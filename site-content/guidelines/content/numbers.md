@@ -18,13 +18,13 @@ Use digits instead of spelling out a number when it:
 * Is part of a percentage. (*19 percent of registered voters; 110% effort*)
 * Is part of a range of numbers. (*the coveted 18--34 demographic; working 9 to 5*)
 
-## Phone and fax numbers
+### Phone and fax numbers
 Use parentheses and a space to separate the area code from the rest of a phone or fax number. Use a hyphen (-) between the third and fourth digits that follow the area code.
 
 >Call (215) 686-0306 to find out if the building where you live is being managed by a court-appointed receiver.  
 You can pay delinquent property taxes with a credit card by calling (877) 309-3710.
 
-## Money
+### Money
 Use the dollar sign ($) for amounts given in United States Dollars (USD).
 
 >Project estimates are expected to exceed $289.5 million after the storm damage is assessed.  
@@ -35,7 +35,7 @@ For fractional amounts under $1.00 that do not occur in a chart or list, use dig
 
 >In 2014, the cost of producing a penny dropped to 1.7 cents, down from 2.4 cents in 2011.
 
-## Percentages
+### Percentages
 Spell out the word "percent" (one word) when including percentages in prose writing.
 
 >The study showed a 5 percent decrease in obesity rates among students aged 5 to 18.

@@ -12,7 +12,7 @@ Unnecessary capitalization can come off as overly formal and unapproachable. We 
   - Don't capitalize *federal* or *government*
   - Don't capitalize a job title unless it directly precedes or follows a name
 
-## Proper nouns
+### Proper nouns
 Capitalize the word "city" when referring to the City of Philadelphia as an official organization.
 
 >The City will announce pool openings on Friday.
@@ -22,12 +22,12 @@ Do not capitalize "city" when it is used in an inclusive or general sense.
 
 >Philadelphia has been selected as the host city for the 2016 Democratic National Convention.
 
-## Headings
+### Headings
 Headlines, page titles, subheads, and similar content should follow normal sentence capitalization.
 
 >Making sense of Washington’s tech landscape
 
 >Privileges and responsibilities
 
-## Block capitalization
+### Block capitalization
 DON'T USE CAPITAL LETTERS FOR LONGER HEADLINES OR BLOCKS OF TEXT. IT'S HARD TO READ AND CAN SEEM LIKE "SHOUTING."

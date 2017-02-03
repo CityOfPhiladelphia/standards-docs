@@ -24,7 +24,7 @@ While readers usually prefer active voice, there are situations where passive vo
 **--NOT--**  
 *Someone stole* the motorcycles late last night.
 
-## Address readers actively
+### Address readers actively
 You are also using active voice when you speak directly to the reader. This style is more interesting to read. Use active voice in situations where it's appropriate to encourage action instead of just stating a fact.
 
 >*You can create* a new community garden if there is a City-owned vacant lot in your neighborhood.  

@@ -13,6 +13,7 @@ menu:
     title: Overview
     weight: -100
 ---
+## Introduction
 
 Government writing tends to be dry, complicated, and obscure. It doesn't take into account who is reading it or why, and often talks at readers rather than to them.
 
@@ -22,7 +23,7 @@ We think Philadelphia can do better.
 
 We want to make government services more accessible and understandable to everyday citizens. We want to give people the information they need, to do what they need, in a way that fosters trust. This guide can help you achieve those goals.
 
-## How to use this guide
+### How to use this guide
 We created this guide for reference on an as-needed basis. It’s here when you’re not sure whether to capitalize the word "federal," for instance, or when you’re wondering how to create a friendly, informational tone.
 
 We’ve structured the guide into sections based on the topic covered. Browse the list of contents to find what you’re looking for.
