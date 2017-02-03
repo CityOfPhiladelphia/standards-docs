@@ -36,13 +36,30 @@ h2, .h2 {
   padding:0;
   margin:rem-calc(13 0);
   letter-spacing:.03rem;
-
 }
 
 h3, .h3{
   letter-spacing:.03rem;
   border-bottom: none;
   padding:0;
+}
+
+.tertiary-content{
+  h2{
+    margin-top:0;
+  }
+  h3{
+    color: color(black);
+    background: color(ghost-gray);
+    font-size: rem-calc(25);
+    margin-top: $spacing-large;
+    margin-bottom: $spacing-medium;
+
+    @include breakpoint(medium) {
+      padding: 0 $spacing-medium;
+    }
+
+  }
 }
 
 // Paragraphs + heading interaction
