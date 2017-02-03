@@ -8,24 +8,16 @@
 .button {
   @include secondary-font(700);
   background: none;
-  margin: $spacing-small 0;
   color: color(dark-gray);
   height: 40px;
   text-transform: uppercase;
 
-  &:hover, &:focus {
+  &:focus {
     background: none;
   }
-  &:link, &:visited {
-    color: color(dark-gray);
-    font-weight: 600;
-    font-size: 1rem;
-  }
-
   &.icon {
     display: inline-block;
     position: relative;
-    padding: 0;
 
     .fa {
       background: color(dark-gray);
@@ -65,8 +57,6 @@
   }
 }
 
-// TODO: Consolidate these hover styles
-
 a {
   &.button {
     &:link, &:visited {
@@ -88,4 +78,28 @@ a {
       }
     }
   }
+  &.see-all-right {
+    position: relative;
+    text-transform: none;
+    background: color(electric-blue);
+    color: color(white);
+    &::after{
+      content: "";
+      position: absolute;
+      right:-20px;
+      top:0;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+
+      border-left: 20px solid color(electric-blue);
+    }
+    &:hover::after{
+      border-left: 20px solid color(dark-gray);
+      transition: border-color 300ms ease-in-out;
+
+    }
+  }
+
 }

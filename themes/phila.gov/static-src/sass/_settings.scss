@@ -244,12 +244,12 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.85em 1em;
-$button-margin: 0 0 $global-margin 0;
+$button-padding: 0;
+$button-margin:  $spacing-small 0;
 $button-fill: solid;
-$button-background: $primary-color;
+$button-background: color(electric-blue);
 $button-background-hover: color(dark-gray);
-$button-color: color(electric-blue);
+$button-color: color(dark-gray);
 $button-color-alt: color(black);
 $button-radius: $global-radius;
 $button-sizes: (
@@ -262,7 +262,7 @@ $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
 $button-background-hover-lightness: -20%;
 $button-hollow-hover-lightness: -50%;
-$button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+$button-transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
 
 // 12. Button Group
 // ----------------
