@@ -1,0 +1,8 @@
+{{ if ne .Params "" }}
+  <div class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title">{{ delimit .Params " "}}</a>
+    <div class="accordion-content" data-tab-content>
+      {{  .Inner  }}
+    </div>
+  </div>
+{{end}}
