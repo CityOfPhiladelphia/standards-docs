@@ -13,5 +13,5 @@ Guidelines:
 1. Images must be at least 300 dpi  
 2. Must use imagery that is not visibly dated  
 3. Must be images that have been taken in Philadelphia  
-4. No iphone pics  
+4. No cell phone pics  
 5. Add photo credit where photo credit is due.
