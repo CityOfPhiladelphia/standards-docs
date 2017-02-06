@@ -4,7 +4,6 @@ date: 2017-02-01
 menu:
   main:
     parent: design-development
-    name: Site alerts
   side:
     parent: components
 ---

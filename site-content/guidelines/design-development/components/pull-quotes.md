@@ -4,7 +4,6 @@ date: 2017-02-03
 menu:
   main:
     parent: design-development
-    main: Pull quotes
   side:
     parent: components
 ---
