@@ -11,8 +11,8 @@ The color blue is one of our distinguishing features. It's an essential part of 
 
 Use the accent colors to add some pop and draw attention to certain elements. Always use the accent colors sparingly.
 
-<div class="row mbxl">
-  <div class="medium-5 columns equal-height">
+<div class="row mbxl equal-height">
+  <div class="medium-5 columns">
     <div class="swatch">
       <div class="swatch--top bg-dark-ben-franklin bdr-dark-ben-franklin">
       </div>
@@ -53,8 +53,8 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
     </div>
   </div>
 </div>
-<div class="row mbxl">
-  <div class="medium-5 columns equal-height">
+<div class="row mbxl equal-height">
+  <div class="medium-5 columns">
     <div class="swatch">
       <div class="swatch--top bg-bell-yellow bdr-bell-yellow">
       </div>
@@ -85,8 +85,8 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
     </div>
   </div>
 </div>
-<div class="row mbxl">
-  <div class="medium-5 columns equal-height">
+<div class="row mbxl equal-height">
+  <div class="medium-5 columns">
     <div class="swatch">
       <div class="swatch--top bg-light-bell bdr-light-bell">
       </div>
@@ -128,8 +128,8 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
   </div>
 </div>
 
-<div class="row mbxl">
-  <div class="medium-5 columns equal-height">
+<div class="row mbxl equal-height">
+  <div class="medium-5 columns">
     <div class="swatch">
       <div class="swatch--top bg-black bdr-black">
       </div>
