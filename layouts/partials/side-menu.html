@@ -25,16 +25,13 @@
     {{else}}
       {{ range $.Site.Menus.side }}
         {{ if .HasChildren }}
-          {{/*prevent nested content from appearing in incorrect menus */}}
-          {{ if ne $currentSideParent "" }}
-            <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}} {{if $currentNode.HasMenuCurrent "side" . }} current_page_ancestor current_page_parent{{else}}page_item_has_children{{end}}">
-              <a href="{{ .URL }}">{{ .Name }}</a>
-              <ul class="children{{if $currentNode.HasMenuCurrent "side" . }} current_page_parent{{end}}">
-              {{ range .Children }}
-                <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}}"><a href="{{.URL}}">{{ .Name }}</a> </li>
-              {{ end }}
-            </ul>
-          {{ end }}
+          <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}} {{if $currentNode.HasMenuCurrent "side" . }} current_page_ancestor current_page_parent{{else}}page_item_has_children{{end}}">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+            <ul class="children{{if $currentNode.HasMenuCurrent "side" . }} current_page_parent{{end}}">
+            {{ range .Children }}
+              <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}}"><a href="{{.URL}}">{{ .Name }}</a> </li>
+            {{ end }}
+          </ul>
         {{ else }}
           {{ if in .URL $currentParent  }}
             <li class="{{if $currentNode.IsMenuCurrent "side" . }} current_page_item{{end}}">
