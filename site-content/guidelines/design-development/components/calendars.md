@@ -4,6 +4,7 @@ date: 2017-02-03
 menu:
   main:
     parent: design-development
+    name: Calendars
   side:
     parent: components
 ---
