@@ -1,8 +1,3 @@
-/**
- *
- * Custom js for our theme
- *
-**/
 /*
 //department filter list
 new List('filter-list', {
@@ -10,33 +5,12 @@ new List('filter-list', {
 });
 */
 //provide function for preventing link follow-through
-function noLink(e){
+/*function noLink(e){
   e.preventDefault();
 }
+*/
 
-//provide logo fallback for old browsers. Thanks https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
-function svgasimg() {
-  return document.implementation.hasFeature(
-    'http://www.w3.org/TR/SVG11/feature#Image', '1.1');
-}
-
-if (!svgasimg()){
-  var e = document.getElementsByTagName('img');
-  if (!e.length){
-    e = document.getElementsByTagName('IMG');
-  }
-  for (var i=0, n=e.length; i<n; i++){
-    var img = e[i],
-        src = img.getAttribute('src');
-    if (src.match(/svgz?$/)) {
-      /* URL ends in svg or svgz */
-      img.setAttribute('src',
-      img.getAttribute('data-fallback'));
-    }
-  }
-}
-
-jQuery(document).ready(function($) {
+module.export = $(function(){
 
   /*Globals */
   var navHeight = $('.global-nav').height();
@@ -90,8 +64,9 @@ jQuery(document).ready(function($) {
 
 
   }
-  /* Drilldown menu */
 
+
+  /* Drilldown menu */
   $(document).on('toggled.zf.responsiveToggle', '[data-responsive-toggle]', function(){
     var mobileMenu = new Foundation.Drilldown( $('.mobile-nav-drilldown') );
 
@@ -161,6 +136,7 @@ jQuery(document).ready(function($) {
 
   });
 
+
   $(document).on('hide.zf.drilldown', '[data-drilldown]', function(){
     parentLink.pop();
 
@@ -170,6 +146,7 @@ jQuery(document).ready(function($) {
 
   });
 
+
   $('#services-mega-menu').hover( function(){
     $( '.site-search i' ).addClass('fa-search').removeClass('fa-close');
 
@@ -178,6 +155,7 @@ jQuery(document).ready(function($) {
     $( '.site-search i' ).addClass('fa-search').removeClass('fa-close');
 
   });
+
 
   function resetLayout(){
     togglePageBody( true );
@@ -193,6 +171,7 @@ jQuery(document).ready(function($) {
       $('.title-bar').foundation('toggleMenu');
     }
   }
+
 
   function resetScroll(){
     $('#page').click( function() {
@@ -249,7 +228,9 @@ jQuery(document).ready(function($) {
     }
 
   }
+
   /* Mega menu Dropdown */
+
   $('#services-mega-menu').on('show.zf.dropdown', function() {
 
     $('#back-to-top').css('display', 'none');
@@ -257,18 +238,24 @@ jQuery(document).ready(function($) {
     checkBrowserHeight( navHeight );
   });
 
+
   //click and hover handler for desktop service menu link
+
   $('.services-menu-link').on('click mouseover', function () {
     $( '.site-search i' ).addClass('fa-search').removeClass('fa-close');
   });
 
+
   /* All dropdowns */
+
   $(document).on('hide.zf.dropdown', '[data-dropdown]', function() {
     togglePageBody( true );
     $('body').removeClass('no-scroll');
   });
 
+
   /* Site search dropdown */
+
   $('.site-search-dropdown').on('show.zf.dropdown', function(){
     if ( $('.is-drilldown').is(':visible') ) {
 
@@ -291,10 +278,12 @@ jQuery(document).ready(function($) {
 
   });
 
+
   $('.site-search-dropdown').on('hide.zf.dropdown', function() {
     $( '.site-search i' ).removeClass('fa-close').addClass('fa-search');
     $('.site-search span').text('Search');
   });
+
 
   function drilldownMenuHeight(){
     if (Foundation.MediaQuery.current == 'small') {
@@ -307,6 +296,7 @@ jQuery(document).ready(function($) {
       });
     }
   }
+
 
   $( window ).resize(function() {
 
@@ -325,31 +315,37 @@ jQuery(document).ready(function($) {
     }
     $(window).bind('orientationchange', function(e){
 
-    resetLayout();
+      resetLayout();
+
+    });
+
+    //orientation doesn't matter, always remove the no-scroll class
+    $('body').removeClass('no-scroll');
 
   });
 
-  //orientation doesn't matter, always remove the no-scroll class
-  $('body').removeClass('no-scroll');
-
-});
 
   /* prevent search dropdown from becoming dissconnected from header when keyboard is closed on iOS devices */
+
   $('.search-field').focusout(function() {
     if ( Foundation.MediaQuery.current == 'small' ) {
       window.scrollTo(0, 0);
     }
   });
 
+
+
   resetScroll();
 
   //prevent enter from refreshing the page and stopping filter search
+
   $('#filter-list input').keypress(function(event){
     if(event.keyCode == 13) {
       event.preventDefault();
       return false;
     }
   });
+
 
   $('.clickable-row').click(function() {
     window.location = $(this).data('href');
@@ -361,94 +357,6 @@ jQuery(document).ready(function($) {
     function(){
       $(this).removeClass('is-hover');
   });
-
-  /* Hijack mailchimp signup forms to use ajax handler */
-
-  /*NOTE: this method requires that the form action URL from mailchimp uses subscribe/post-json */
-  ajaxMailChimpForm($('#mc-embedded-subscribe-form'), $('#mc_embed_signup'));
-  // Turn the given MailChimp form into an ajax version of it.
-  // If resultElement is given, the subscribe result is set as html to
-  // that element.
-  function ajaxMailChimpForm($form, $resultElement){
-    // Hijack the submission. We'll submit the form manually.
-    $form.submit(function(e) {
-      e.preventDefault();
-      if (!isValidEmail($form)) {
-        var error =  'A valid email address must be provided.';
-        $resultElement.append(error);
-        $resultElement.css('color', '#f99300');
-      } else {
-        $resultElement.css('color', 'black');
-        $resultElement.append('Subscribing...');
-        submitSubscribeForm($form, $resultElement);
-      }
-    });
-  }
-  // Validate the email address in the form
-  function isValidEmail($form) {
-    var email = $form.find('input[type="email"]').val();
-    if (!email || !email.length) {
-        return false;
-    } else if (email.indexOf('@') == -1) {
-        return false;
-    }
-    return true;
-  }
-  // Submit the form with an ajax/jsonp request.
-  // Based on http://stackoverflow.com/a/15120409/215821
-  function submitSubscribeForm($form, $resultElement) {
-    $.ajax({
-      type: 'GET',
-      url: $form.attr('action'),
-      data: $form.serialize(),
-      cache: false,
-      dataType: 'jsonp',
-      jsonp: 'c', // trigger MailChimp to return a JSONP response
-      contentType: 'application/json; charset=utf-8',
-      error: function(error){
-          // According to jquery docs, this is never called for cross-domain JSONP requests
-      },
-      success: function(data){
-        if (data.result != 'success') {
-          var message = data.msg || 'Sorry. Unable to subscribe. Please try again later.';
-          $resultElement.css('color', '#f99300');
-          if (data.msg && data.msg.indexOf('already subscribed') >= 0) {
-            message = 'You\'re already subscribed. Thank you.';
-            $resultElement.css('color', 'black');
-          }else if (data.msg && data.msg.indexOf('zip code') >= 0) {
-            message = 'Please enter a valid zip code.';
-            $resultElement.css('color', 'f99300');
-          }
-          $resultElement.append(message);
-        } else {
-          $resultElement.css('color', '#58c04d');
-          $resultElement.html('Thank you!<br>You must confirm the subscription in your inbox.');
-        }
-      }
-    });
-  }
-
-  //Set Hero Header Tagline font sizes
-  if( $('.intro .hero-tagline').length && $('.intro .hero-tagline.emphasis').length  ) {
-    var smallFontSize = 2;
-    var largeFontSize = 3.5;
-
-    if( $('[data-type="hero-measure"]').width() > 350) {
-      while ( $('[data-type="hero-measure"]').width() > 350 ) {
-        smallFontSize = smallFontSize - .1;
-        $('[data-type="hero-measure"]').css('font-size', smallFontSize + 'rem');
-      }
-      $('[data-type="hero-tagline"]').css('font-size', smallFontSize + 'rem');
-    }
-
-    if( $('[data-type="hero-measure-emphasis"]').width() > 350 ) {
-      while ( $('[data-type="hero-measure-emphasis"]').width() > 350 ) {
-        largeFontSize = largeFontSize - .1;
-        $('[data-type="hero-measure-emphasis"]').css('font-size', largeFontSize + 'rem');
-      }
-      $('[data-type="hero-tagline-emphasis"]').css('font-size', largeFontSize + 'rem');
-    }
-  }
 
   //Homepage Feedback Form
   $('[data-toggle="feedback"]').click(function() {
@@ -518,16 +426,16 @@ jQuery(document).ready(function($) {
     $(this).feedbackify('https://form.jotform.com/jsform/62516788470970');
   });
 
+
   //foundation equalizer rows
+  //doesn't work with nested Equalizers, because a unique ID is required.
   if ( $('.equal').length > 0 ) {
 
     //equalizeByRow: true to force each instance of equalizer to work individually
-    var equalizerOptions = { equalizeOnStack: false, equalizeByRow: true };
+    var equalizerOptions = { equalizeByRow: true };
 
     $('.equal-height').each( function() {
-
       $(this).find('.equal').attr('data-equalizer-watch','');
-
     });
 
     var equalHeight = new Foundation.Equalizer($ ('.equal-height'), equalizerOptions );
@@ -542,6 +450,6 @@ jQuery(document).ready(function($) {
   }
 
   //reponsive tables
-  $( document ).trigger( 'enhance.tablesaw' );
+  //$( document ).trigger( 'enhance.tablesaw' );
 
 });
