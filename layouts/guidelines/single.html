@@ -11,11 +11,11 @@
   </div>
 </div>
 
-<div class="tertiary-content row equal-height border-bottom-sidewalk mtm">
-  <div class="side-menu medium-7 columns border-right-sidewalk equal pbxl">
+<div class="tertiary-content row border-bottom-sidewalk mtm" data-equalizer="page">
+  <div class="side-menu medium-7 columns border-right-sidewalk pbxl" data-equalizer-watch="page">
     {{ partial "side-menu.html" . }}
   </div>
-  <div class="medium-16 columns equal pbxl">
+  <div class="medium-16 columns pbxl" data-equalizer-watch="page">
     <section>
       {{ if isset $.Params "level" }}{{ else }}
         <h2 class="mtn">{{ .Title }}</h2>
@@ -29,5 +29,5 @@
   </div>
 </div>
 
-{{ partialCached "footer.html" . }}
+{{ partial "footer.html" . }}
 <link type="text/css" href="{{ .Site.BaseURL }}/css/standards.css" rel="stylesheet">
