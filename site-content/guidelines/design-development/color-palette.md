@@ -193,7 +193,6 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
