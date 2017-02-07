@@ -23,7 +23,6 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
