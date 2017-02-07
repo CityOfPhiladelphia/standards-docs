@@ -6,3 +6,27 @@ menu:
     parent: design-development
   side:
 ---
+
+
+{{< accordion-wrap >}}
+
+{{% accordion Example %}}
+Example accordion.
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< accordion-wrap >}}{{% accordion Example %}}{{% /accordion %}}{{</ accordion-wrap >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Usage %}}
+## Implementation
+
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
