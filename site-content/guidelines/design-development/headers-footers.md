@@ -19,7 +19,6 @@ The header provides the City logo, site-wide navigation, and search functionalit
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
