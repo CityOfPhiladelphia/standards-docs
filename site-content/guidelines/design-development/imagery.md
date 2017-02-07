@@ -15,3 +15,18 @@ Guidelines:
 3. Must be images that have been taken in Philadelphia  
 4. No cell phone pics  
 5. Add photo credit where photo credit is due.
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+To use a button on an anchor link, use the class `button`.
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
