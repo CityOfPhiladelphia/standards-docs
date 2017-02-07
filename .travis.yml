@@ -5,9 +5,10 @@ go:
 
 before_script:
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
+
+install:
   - go get -u -v github.com/spf13/hugo
-  - sudo chown -R $USER /usr/local/lib/python2.7
-  - pip install Pygments
+  - pip install Pygments --user
 
 script:
   - hugo
