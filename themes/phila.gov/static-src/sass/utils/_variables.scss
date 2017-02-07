@@ -29,13 +29,13 @@ $colors: (
 
 @each $value in $colors {
   .#{nth($value, 1)} {
-    color: nth($value, 2);
+    color: nth($value, 2) !important;
   }
   .bg-#{nth($value, 1)} {
-    background-color: nth($value, 2);
+    background-color: nth($value, 2) !important;
   }
   .bdr-#{nth($value, 1)} {
-    border-color: nth($value, 2);
+    border-color: nth($value, 2) !important;
   }
 }
 
