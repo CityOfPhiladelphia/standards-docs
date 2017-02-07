@@ -10,3 +10,17 @@ menu:
 ---
 
 Pull quotes are a way to pull out of text a specific sentence or phrase that you want to call attention to. The typeface is Times New Roman Italic/Reg and should be contained in a blue box.
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
