@@ -19,7 +19,6 @@ Tables are used to show data in columns and rows. Dark gray is used for the tabl
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
