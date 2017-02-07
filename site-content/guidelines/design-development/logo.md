@@ -28,3 +28,18 @@ General set of guidelines for logo usage is outlined as follows:
 If you are a department that needs a logo, we provide two templates for you below. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. “City of Philadelphia” can go under the department name if you’d like. You may use either version.
 
 Use the template provided for your department's social media channel avatar. The avatars are recognizable and readable when smaller.
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+To use a button on an anchor link, use the class `button`.
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
