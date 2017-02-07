@@ -10,3 +10,17 @@ menu:
 ---
 
 Press releases use icons combined with text links to provide an entry point to a full press release.
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
