@@ -8,3 +8,18 @@ menu:
 ---
 
 Tables are used to show data in columns and rows. Dark gray is used for the table header. Medium gray and sidewalk gray alternate between rows for the content of the table.
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+To use a button on an anchor link, use the class `button`.
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
