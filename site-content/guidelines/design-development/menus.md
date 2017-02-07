@@ -19,7 +19,6 @@ Dropdowns act as an alternative to text link navigation.
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
