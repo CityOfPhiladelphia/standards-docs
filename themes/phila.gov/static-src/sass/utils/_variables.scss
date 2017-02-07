@@ -49,6 +49,15 @@ $colors: (
 .bdr-black{
   border-color: color(black);
 }
+.white {
+  color: color(white);
+}
+.bg-white{
+  background-color: color(white);
+}
+.bdr-white{
+  border-color:color(white);
+}
 
 //standard spacing
 $spacing-none: 0;
