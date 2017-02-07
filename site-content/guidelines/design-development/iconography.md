@@ -19,7 +19,6 @@ Icons are via Font Awesome, the open source toolkit by @davegandy. We use iconog
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
