@@ -7,10 +7,10 @@
 
 .button {
   @include secondary-font(700);
-  background: none;
+  background: transparent;
   color: color(dark-gray);
-  height: 40px;
   text-transform: uppercase;
+  height:40px;
 
   &:focus {
     background: none;
@@ -23,7 +23,7 @@
       background: color(dark-gray);
       color:color(white);
       margin-right: .25rem;
-      padding: .4em .5em .5em .4em;
+      padding: .35em .5em .5em .35em;
       font-size: 1.7em;
       max-height: 40px;
       vertical-align: sub;
@@ -34,7 +34,6 @@
 
   }
   i.fa {
-    //TODO: override in patterns
     color: color(dark-gray);
   }
 
