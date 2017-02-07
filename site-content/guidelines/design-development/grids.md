@@ -19,7 +19,6 @@ Our grid system is composed of four columns to display content and to make the s
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
