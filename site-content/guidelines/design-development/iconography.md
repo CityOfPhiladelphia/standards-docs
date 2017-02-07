@@ -8,3 +8,18 @@ menu:
 ---
 
 Icons are via Font Awesome, the open source toolkit by @davegandy. We use iconography on phila.gov to provide a simple, easy-to-distinguish visual indicator of key actions or tasks. The icons also create stronger contextual emphasis on the page.
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+To use a button on an anchor link, use the class `button`.
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
