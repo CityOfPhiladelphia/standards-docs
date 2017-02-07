@@ -19,7 +19,6 @@ The branding that you use on your department’s social media profiles should al
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
