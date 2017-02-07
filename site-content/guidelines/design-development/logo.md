@@ -39,7 +39,6 @@ Use the template provided for your department's social media channel avatar. The
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
