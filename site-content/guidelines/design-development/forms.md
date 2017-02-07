@@ -6,3 +6,19 @@ menu:
     parent: design-development
   side:
 ---
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+To use a button on an anchor link, use the class `button`.
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
+
