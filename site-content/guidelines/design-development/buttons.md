@@ -23,7 +23,7 @@ Use “See all" buttons at the end of any incomplete list, including news, notic
 
 {{% accordion How to use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
+To use a button on an anchor link, apply the `button` class.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
