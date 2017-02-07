@@ -19,6 +19,10 @@
     display: inline-block;
     position: relative;
 
+    .button-label{
+      text-align: left;
+    }
+
     .fa {
       background: color(dark-gray);
       color:color(white);
@@ -44,7 +48,7 @@
     padding-bottom:$spacing-small;
     padding-right: 1.42857rem;
     padding-left: 1.42857rem;
-    text-align: left;
+    text-align: center;
     letter-spacing: .03rem;
   }
 
