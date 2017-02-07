@@ -19,7 +19,6 @@ Text links indicate you will be going to another page of information.
 
 {{% accordion Use %}}
 ## Implementation
-To use a button on an anchor link, use the class `button`.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
