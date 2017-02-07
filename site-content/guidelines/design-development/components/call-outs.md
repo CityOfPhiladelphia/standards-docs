@@ -10,3 +10,17 @@ menu:
 ---
 
 Callouts display important information that needs to be highlighted outside of a paragraph.
+
+---
+
+{{< accordion-wrap >}}
+
+{{< accordion Code >}}
+  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< /accordion >}}
+
+{{% accordion Use %}}
+## Implementation
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
