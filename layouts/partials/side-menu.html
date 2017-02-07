@@ -9,10 +9,15 @@
       {{ if ne .Params.menu.main.identifier nil }}
         <li class="current_page_item"><a href="{{.URL}}">Overview</a></li>
         {{ range (index .Menus "main").Children }}
+
           {{ if eq .Identifier "" }}
-            <li class="{{if $currentNode.IsMenuCurrent "side" . }} current_page_item{{end}}">
-              <a href="{{.URL}}">{{ .Name }}</a>
-            </li>
+          {{/* Use "pre" menu template to hide 3rd level content from top-level page view */}}
+            {{ $pre := .Pre | string }}
+            {{ if ne $pre "hide" }}
+              <li class="{{if $currentNode.IsMenuCurrent "side" . }} current_page_item{{end}}">
+                <a href="{{.URL}}">{{ .Name }}</a>
+              </li>
+            {{ end }}
           {{ else }}
             {{ range $.Site.Menus.side }}
               {{ if .HasChildren }}
