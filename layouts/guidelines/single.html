@@ -11,11 +11,11 @@
   </div>
 </div>
 
-<div class="tertiary-content row border-bottom-sidewalk mtm" data-equalizer="page">
-  <div class="side-menu medium-7 columns border-right-sidewalk pbxl" data-equalizer-watch="page">
+<div class="tertiary-content row bdr-bottom bdr-sidewalk mtm" data-equalizer="page">
+  <div class="side-menu medium-7 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
     {{ partial "side-menu.html" . }}
   </div>
-  <div class="medium-16 columns pbxl" data-equalizer-watch="page">
+  <div id="style-guide" class="medium-16 columns pbxl" data-equalizer-watch="page">
     <section>
       {{ if isset $.Params "level" }}{{ else }}
         <h2 class="mtn">{{ .Title }}</h2>
