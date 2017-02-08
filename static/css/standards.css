@@ -1,33 +1,33 @@
-.sg-swatch{
+#style-guide .sg-swatch{
   padding-right: 2rem;
 }
-.sg-swatch--top{
+#style-guide .sg-swatch--top{
   border-style: solid;
   border-width: 2rem;
   border-radius: 10px 10px 0 0;
   padding:1rem;
 }
-.sg-swatch--top--bordered {
+#style-guide .sg-swatch--top--bordered {
   border-style: dotted;
   border-width: .5rem;
   height:6rem;
 }
-.sg-swatch--bottom{
+#style-guide .sg-swatch--bottom{
   background: #f0f0f0;
   border: .5rem solid #f0f0f0;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 3px #cfcfcf;
 }
-.button .sg-hover-example{
+#style-guide .sg-hover-example{
   background-color: #444;
   color: #fff;
 }
-.button.sg-hover-example::after{
+#style-guide .sg-hover-example::after{
   border-left-color: #444;
 }
 
 /* Syntax highlighting*/
-.highlight{
+#style-guide .highlight{
   padding: 1rem;
   color: #f0f0f0;
   width: 100%;
