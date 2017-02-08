@@ -194,13 +194,13 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
 <div class="bg-light-blue dark-ben-franklin pas mbm">dark-ben-franklin on light-blue</div>
 <div class="bg-ben-franklin-blue white pas mbm">white on ben-franklin-blue</div>
 <div class="bg-ghost-gray dark-ben-franklin pas mbm">dark-ben-franklin on ghost-gray</div>
-<div class="dark-ben-franklin pas mbm">dark-ben-franklin on white</div>
+<div class="bdr-all bdr-sidewalk dark-ben-franklin pas mbm">dark-ben-franklin on white</div>
 </div>
 <div class="medium-12 columns">
 <div class="bg-electric-blue black pas mbm">black on electric-blue</div>
 <div class="bg-dark-ben-franklin white pas mbm">white on dark-ben-franklin</div>
 <div class="bg-ghost-gray dark-gray pas mbm">dark-gray on ghost-gray</div>
-<div class="pas mbm">dark-gray on white</div>
+<div class="bdr-all bdr-sidewalk pas mbm">dark-gray on white</div>
 </div>
 </div>
 
