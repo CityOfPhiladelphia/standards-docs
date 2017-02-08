@@ -59,6 +59,11 @@ $colors: (
   border-color:color(white);
 }
 
+.bdr-all{
+  border-width: 1px;
+  border-style: solid;
+}
+
 .bdr-bottom{
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -75,7 +80,6 @@ $colors: (
   border-top-width: 1px;
   border-top-style: solid;
 }
-
 
 .bdr-right-mu {
   border-right: 0;
