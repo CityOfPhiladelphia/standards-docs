@@ -45,23 +45,3 @@ ul.inline-list li{
   //for when you really _really_ need that centered text.
   text-align:center !important;
 }
-
-.bg-white{
-  background-color:color(white);
-}
-
-.bg-black{
-  background-color:color(black);
-}
-
-ul.border-bottom-list li{
-  border-bottom:1px solid color(dark-gray);
-  padding:$spacing-small 0;
-  &:last-child{
-    border-bottom: none;
-  }
-}
-
-.border-bottom {
-  border-bottom:1px solid color(dark-gray);
-}

@@ -59,6 +59,48 @@ $colors: (
   border-color:color(white);
 }
 
+.bdr-bottom{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.bdr-right{
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+.bdr-left{
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+.bdr-top{
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+
+.bdr-right-mu {
+  border-right: 0;
+  @media screen and (min-width: 40em) {
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+}
+
+.nbdr-right-mu {
+  @media screen and (min-width: 40em) {
+    border-right-width: 0px;
+    border-right-style: solid;
+  }
+}
+
+.bdr-bottom-sm {
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  @media screen and (min-width: 40em) {
+    border-bottom-width: 0px;
+  }
+}
+
+
 //standard spacing
 $spacing-none: 0;
 $spacing-extra-small: .25rem;

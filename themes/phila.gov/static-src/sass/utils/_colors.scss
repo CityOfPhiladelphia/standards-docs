@@ -1,29 +1,8 @@
-.bdr-bottom-sm {
-  border-bottom: 1px;
-  border-bottom-style: solid;
-  @media screen and (min-width: 40em) {
-    border-bottom-width: 0px;
-  }
-}
-
-// Vertical rules
-.bdr-right{
-  border-right-width: 1px;
-  border-right-style: solid;
-}
-
-.bdr-right-mu {
-  border-right: 0;
-  @media screen and (min-width: 40em) {
-    border-right-width: 1px;
-    border-right-style: solid;
-  }
-}
-
-.nbdr-right-mu {
-  @media screen and (min-width: 40em) {
-    border-right-width: 0px;
-    border-right-style: solid;
+ul.border-bottom-list li{
+  border-bottom:1px solid color(dark-gray);
+  padding:$spacing-small 0;
+  &:last-child{
+    border-bottom: none;
   }
 }
 
@@ -81,20 +60,6 @@
   }
 }
 
-//TODO: Move to patterns
-
-.border-bottom-sidewalk{
-  border-bottom:1px solid color(sidewalk);
-}
-.border-right-sidewalk{
-  border-right:1px solid color(sidewalk);
-}
-.border-left-sidewalk{
-  border-left:1px solid color(sidewalk);
-}
-.border-top-sidewalk{
-  border-top:1px solid color(sidewalk);
-}
 
 .sentence-case {
   &::first-letter {
