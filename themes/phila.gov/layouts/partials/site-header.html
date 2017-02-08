@@ -7,6 +7,7 @@
             <div class="medium-14 small-centered columns text-overlay">
               <h1><span class="h3 break-after">City of Philadelphia</span> Digital Standards</h1>
               </div>
+            </div>
           </div>
           <div class="show-for-medium">
             <div class="row department-nav">
@@ -15,7 +16,6 @@
                   <nav data-swiftype-index="false">
                     <ul class="secondary-menu vertical medium-horizontal menu dropdown" data-responsive-menu="drilldown medium-dropdown">
                       {{ $currentNode := . }}
-
                       {{ range  $.Site.Menus.main }}
                         {{if $currentNode.HasMenuCurrent "main" . }}
                           {{ $.Scratch.Add "Breadcrumbs" ( print "<li><a href='" .URL  "'>" .Name "</a></li>" )  }}
@@ -35,15 +35,12 @@
                             {{ end }}
                         </ul>
                       {{else}}
-                        <li {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} class=" current-menu-item"{{end}}>
+                        <li{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} class=" current-menu-item"{{end}}>
                         <a href="{{.URL}}">{{ .Name }}</a>
                       {{end}}
-
                       </li>
                       {{end}}
-
                     </ul>
-
                   </nav>
                 </div>
               </div>
