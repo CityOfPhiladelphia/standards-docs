@@ -205,6 +205,18 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
 </div>
 
 ## Implementation
+Utility classes are provided so that any combination of colors can be used, however, only the combinations above meet accessibility requirements. Utility classes are prefixed with the type of utility, then the name of the color.
+
+Background, border and font color are available as utilities. Background colors are prefixed with `bg-`; border colors are prefixed with `bdr-`; and font colors do not need a prefix.
+
+Example:
+
+* `bg-ben-franklin-blue` changes the `background-color` property
+* `ben-franklin-blue` changes the `color` property
+* `bdr-ben-franklin-blue` changes the `border-color` property
+
+All color utility classes are `!important` to ensure they will override assigned properties.
+
 
 {{% /accordion %}}
 
