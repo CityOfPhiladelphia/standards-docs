@@ -44,7 +44,15 @@
 #style-guide .sg-font-open-sans{
   font-family: 'Open Sans';
 }
-#style-guide .sg-font-open-times{
+#style-guide .sg-font-open-sans-semi{
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+#style-guide .sg-font-open-sans-bold{
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+#style-guide .sg-font-times{
   font-family: 'Times New Roman';
 }
 
