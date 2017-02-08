@@ -14,7 +14,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-montserrat">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-montserrat">
       Aa
       </div>
       <div class="sg-swatch--bottom equal">
@@ -24,7 +24,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
   <div class="medium-5 columns end">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-montserrat">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-montserrat">
       <b>Aa</b>
       </div>
       <div class="sg-swatch--bottom equal">
@@ -38,7 +38,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-open-sans">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-open-sans">
       Aa
       </div>
       <div class="sg-swatch--bottom equal">
@@ -48,7 +48,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
   <div class="medium-5 columns end">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-open-sans-semi">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-open-sans-semi">
       Aa
       </div>
       <div class="sg-swatch--bottom equal">
@@ -58,7 +58,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
   <div class="medium-5 columns end">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-open-sans-bold">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-open-sans-bold">
       Aa
       </div>
       <div class="sg-swatch--bottom equal">
@@ -73,7 +73,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-times">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-times">
       Aa
       </div>
       <div class="sg-swatch--bottom equal">
@@ -83,7 +83,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
   <div class="medium-5 columns end">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-times">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-times">
       <i>Aa</i>
       </div>
       <div class="sg-swatch--bottom equal">
@@ -93,7 +93,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
   <div class="medium-5 columns end">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-times">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-times">
       <b>Aa</b>
       </div>
       <div class="sg-swatch--bottom equal">
@@ -103,7 +103,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
   <div class="medium-5 columns end">
     <div class="sg-swatch sg-swatch--text">
-      <div class="sg-swatch--top bg-white bdr-ghost-gray sg-font-times">
+      <div class="sg-swatch--top bg-white bdr-sidewalk sg-font-times">
       <b><i>Aa</i></b>
       </div>
       <div class="sg-swatch--bottom equal">
