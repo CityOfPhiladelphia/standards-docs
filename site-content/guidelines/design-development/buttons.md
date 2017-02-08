@@ -23,7 +23,9 @@ Use “See all" buttons at the end of any incomplete list, including news, notic
 
 {{% accordion How to use %}}
 ## Implementation
-To use a button on an anchor link, apply the `button` class.
+To use a button on an anchor link, apply the `button` class. For consistent alignment across devices and browsers, use the `valign` and `valign-cell` utility classes wrapping the button label.
+
+The margin classes in the example above `mtm` and `mts` are for in-page placement. They are not required.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
