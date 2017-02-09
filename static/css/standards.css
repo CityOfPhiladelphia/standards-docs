@@ -56,6 +56,14 @@
   font-family: 'Times New Roman';
 }
 
+#style-guide .sg-grid{
+  text-align: center;
+}
+
+#style-guide .sg-grid .row{
+  margin-bottom:1rem;
+}
+
 /* Syntax highlighting*/
 #style-guide .highlight{
   padding: 1rem;
