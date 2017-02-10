@@ -22,6 +22,8 @@ Tables are used to show data in columns and rows. Dark gray is used for the tabl
 {{% accordion How to use %}}
 ## Implementation
 
+You can create responsive tables by adding the `responsive` class to any horizontally oriented table. 
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
