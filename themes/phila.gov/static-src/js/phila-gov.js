@@ -449,7 +449,4 @@ module.export = $(function(){
 
   }
 
-  //reponsive tables
-  //$( document ).trigger( 'enhance.tablesaw' );
-
 });
