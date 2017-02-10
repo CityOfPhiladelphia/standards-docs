@@ -1,6 +1,7 @@
 ---
 title: Social media
 date: 2017-02-01
+description: Guidelines for social media image use and open graph markup.
 menu:
   main:
     parent: design-development
@@ -23,13 +24,13 @@ The branding that you use on your department’s social media profiles should al
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}
-
-  {{</ highlight >}}
+  {{< highlight html >}}{{< open-graph >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
+{{% accordion How to use %}}
 ## Implementation
+
+In addition to the visual guidelines, all phila.gov pages should use open graph meta tags. You can change the base image if it is appropriate to do so, like in the case of a blog or news post that contains other images. In most cases, however, the default phila.gov open graph image in the above example is sufficent.  
 
 {{% /accordion %}}
 
