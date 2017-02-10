@@ -1,3 +1,4 @@
-require('./back-to-top.js');
-require('./phila-gov.js');
-require('./svg-fallback.js');
+require('./back-to-top');
+require('./phila-gov');
+require('./svg-fallback');
+require('./responsive-tables');
