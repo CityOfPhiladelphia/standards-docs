@@ -19,6 +19,10 @@ The branding that you use on your department’s social media profiles should al
 ### Twitter header photo
 ![Twitter header photo example](/standards/img/social-media/twitter-header-photo.jpg)
 
+### Open graph
+![Open graph example](/standards/img/social-media/open-graph.jpg)
+
+
 ---
 
 {{< accordion-wrap >}}
