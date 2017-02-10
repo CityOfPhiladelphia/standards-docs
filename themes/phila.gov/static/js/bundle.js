@@ -31,11 +31,12 @@ module.export = $(function(){
 });
 
 },{}],2:[function(require,module,exports){
-require('./back-to-top.js');
-require('./phila-gov.js');
-require('./svg-fallback.js');
+require('./back-to-top');
+require('./phila-gov');
+require('./svg-fallback');
+require('./responsive-tables');
 
-},{"./back-to-top.js":1,"./phila-gov.js":3,"./svg-fallback.js":4}],3:[function(require,module,exports){
+},{"./back-to-top":1,"./phila-gov":3,"./responsive-tables":4,"./svg-fallback":5}],3:[function(require,module,exports){
 /*
 //department filter list
 new List('filter-list', {
@@ -487,12 +488,59 @@ module.export = $(function(){
 
   }
 
-  //reponsive tables
-  //$( document ).trigger( 'enhance.tablesaw' );
-
 });
 
 },{}],4:[function(require,module,exports){
+module.export = $(function(){
+  //inspired by https://github.com/smasala/responsive-tables-js
+
+  function titleLables( content ) {
+    return "<b><span class='responsive-label'>" + content + ": </span></b>";
+  }
+  //TODO: create vertical table option
+  var tables = $( "table.responsive" );
+
+  if ( tables.length > 0 ) {
+
+    tableCount = tables.length;
+
+    for ( var i = 0; i < tableCount; i++ ) {
+      table = $( tables[ i ] );
+
+      //find the rows
+      trs = table.find( "> thead > tr, > tbody > tr, > tr" );
+
+      //pick out headings
+      ths = trs.find( "> th" );
+
+      trCount = trs.length;
+
+      for ( var j = 0; j < trCount; j++ ) {
+        //find cells
+        tds = $( trs[ j ] ).find( "> td" );
+
+        tdCount = tds.length;
+
+        for ( var k = 0; k < tdCount; k++ ) {
+          //headings in order
+          th = ths[ k ];
+
+          //put tds into object so we can inject titleLables
+          tableCell = $( tds[ k ] );
+
+          //get the text of the table headings
+          text = th.textContent || th.innerText || "";
+
+          //prepend td with the heading
+          td = tableCell.prepend( titleLables( text ) );
+        }
+      }
+    }
+  }
+
+});
+
+},{}],5:[function(require,module,exports){
 //provide logo fallback for old browsers. Thanks https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
 module.export = function svg(){
 
