@@ -9,16 +9,19 @@ menu:
 
 Tables are used to show data in columns and rows. Dark gray is used for the table header. Medium gray and sidewalk gray alternate between rows for the content of the table.
 
+{{< table-horizontal >}}
+
 ---
 
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+  {{< highlight html >}}{{< table-horizontal >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
+{{% accordion How to use %}}
 ## Implementation
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
