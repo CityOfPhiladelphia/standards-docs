@@ -10,7 +10,7 @@ menu:
 Sans-serifs were chosen because they are easier to read on screens, and are adaptable across platforms and browsers.
 
 <h3 class="h6">Montserrat</h3>
-<p>Montserrat is only used for major headlines that introduce sections of content.</p>
+<p>Montserrat is only used for headlines that introduce sections of content.</p>
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
@@ -34,7 +34,7 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
 </div>
 <h3 class="h6">Open Sans</h3>
-<p>Open Sans is the base font for the site. It is used for body type, secondary and tertiary headlines, and instructional text.</p>
+<p>Open Sans is the base font for the site. It is used for body type.</p>
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
