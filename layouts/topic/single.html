@@ -1,0 +1,60 @@
+{{ partial "head.html" . }}
+
+<div class="row">
+  <div class="columns">
+    <h1 class="contrast">
+      {{ if isset $.Params "level"}}
+        {{ .Title }}
+      {{else}}
+        {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
+      {{ end }}
+  </div>
+</div>
+
+<div class="topic-page row bdr-bottom bdr-sidewalk mtm" data-equalizer="page">
+  <div class="side-menu medium-7 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
+    {{ partial "side-menu.html" . }}
+  </div>
+  <div id="style-guide" class="medium-16 columns pbxl" data-equalizer-watch="page">
+    <section>
+      {{ if isset $.Params "level" }}{{ else }}
+        <h2 class="mtn">{{ .Title }}</h2>
+      {{ end }}
+      <p>{{ .Description }}</p>
+      <nav>
+        {{ range .Site.Menus.side }}
+          {{ if .HasChildren }}
+            {{ range $index, $child := .Children }}
+            {{ $.Scratch.Add "niceName" .Name }}
+              {{ $c := add $index 1 }}
+              {{ if eq ( mod $c 3 ) 1 }}
+                <div class="row equal-height fat-gutter">
+                {{ end }}
+
+                <div class="small-24 medium-8 column end">
+                  <a href="{{ .URL }}" class="card sub-topic equal">
+                    <div class="content-block">
+                      <h3>{{ .Name }}</h3>
+                      <p>
+                      </p>
+                  </div>
+                </a>
+              </div>
+
+          {{ if eq ( mod $c 3 ) 0 }}
+
+          </div>
+        {{ end }}
+          {{ end }}
+
+          {{ end }}
+
+          {{ end }}
+
+      </nav>
+    </section>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
+<link type="text/css" href="{{ .Site.BaseURL }}/css/standards.css" rel="stylesheet">
