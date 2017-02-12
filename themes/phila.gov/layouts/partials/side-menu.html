@@ -1,11 +1,12 @@
 {{ $currentNode := . }}
 {{ $currentParent := .Menus.main.Parent }}
 {{ $currentSideParent := .Menus.side.Parent }}
+{{ $dropdown := .Params.dropdown }}
 
 <nav data-swiftype-index="false" id="side-nav">
   <ul class="vertical menu">
-    {{/* TODO: Make this less-specific, maybe use front matter */}}
-    {{ if eq $currentParent "guidelines" }}
+
+    {{ if eq $dropdown true  }}
       {{ if ne .Params.menu.main.identifier nil }}
         <li class="current_page_item"><a href="{{.URL}}">Overview</a></li>
         {{ range (index .Menus "main").Children }}
@@ -27,7 +28,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-    {{else}}
+    {{else}} {{/* this isn't guidelines */}}
       {{ range $.Site.Menus.side }}
         {{ if .HasChildren }}
           <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}} {{if $currentNode.HasMenuCurrent "side" . }} current_page_ancestor current_page_parent{{else}}page_item_has_children{{end}}">
