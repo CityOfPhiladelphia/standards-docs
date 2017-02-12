@@ -1,7 +1,6 @@
 ---
 title: Guidelines
 date: 2017-01-27
-url: /guidelines/
 menu:
   main:
     name: Guidelines
