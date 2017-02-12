@@ -28,7 +28,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-    {{else}} {{/* this isn't guidelines */}}
+    {{else}} {{/* this isn't in a dropdown */}}
       {{ range $.Site.Menus.side }}
         {{ if .HasChildren }}
           <li class="{{if $currentNode.IsMenuCurrent "side" . }}current_page_item{{end}} {{if $currentNode.HasMenuCurrent "side" . }} current_page_ancestor current_page_parent{{else}}page_item_has_children{{end}}">
