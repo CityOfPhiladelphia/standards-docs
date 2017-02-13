@@ -6,18 +6,18 @@ menu:
     parent: design-development
   side:
 ---
-
+{{< text-inputs >}}
 ---
 
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+  {{< highlight html >}}{{< text-inputs >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
-## Implementation
+{{% accordion How to use %}}
+
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
-
