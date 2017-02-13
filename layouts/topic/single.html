@@ -1,9 +1,10 @@
 {{ partial "head.html" . }}
-
+{{ $currentNode := . }}
+{{ $currentParent := .Menus.main.Parent }}
 <div class="row">
   <div class="columns">
     <h1 class="contrast">
-      {{ if isset $.Params "level"}}
+      {{ if isset $.Params "dropdown" }}
         {{ .Title }}
       {{else}}
         {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
@@ -21,16 +22,15 @@
         <h2 class="mtn">{{ .Title }}</h2>
       {{ end }}
       <p>{{ .Description }}</p>
+      {{ .Content }}
       <nav>
         {{ range .Site.Menus.side }}
           {{ if .HasChildren }}
             {{ range $index, $child := .Children }}
-            {{ $.Scratch.Add "niceName" .Name }}
               {{ $c := add $index 1 }}
               {{ if eq ( mod $c 3 ) 1 }}
                 <div class="row equal-height fat-gutter">
-                {{ end }}
-
+              {{ end }}
                 <div class="small-24 medium-8 column end">
                   <a href="{{ .URL }}" class="card sub-topic equal">
                     <div class="content-block">
@@ -40,16 +40,18 @@
                   </div>
                 </a>
               </div>
-
-          {{ if eq ( mod $c 3 ) 0 }}
-
-          </div>
+                {{ if eq ( mod $c 3 ) 0 }}
+                  </div>
+                {{ end }}
+              {{ end }} {{/* end range */}}
+        {{else}}
+        {{ if in .URL $currentParent  }}
+          <li class="{{if $currentNode.IsMenuCurrent "side" . }} current_page_item{{end}}">
+            <a href="{{.URL}}">{{ .Name }}</a>
+          </li>
         {{ end }}
-          {{ end }}
-
-          {{ end }}
-
-          {{ end }}
+        {{end}}
+      {{ end }}
 
       </nav>
     </section>
