@@ -24,6 +24,23 @@ A card serves as an entry point to more detailed information. Cards may contain 
 {{% accordion How to use %}}
 ## Implementation
 
+Cards are a way to feature a link or a set of links in a section. Card types should not be mixed and have different markup requirements. Regardless of the card type, use a maximum of three cards in a row.
+
+### Media card
+The media card is the base for all card types.
+
+Apply the `card` class to an `<a>` tag to use this card style. An image is required.
+
+### Call to action cards
+A call to action card must contain an icon relating to the topic of the card, a title and a short description.
+
+Apply the `card--action` class and the base `card` class to an `<a>` tag.
+
+### Summary cards
+Summary cards are used to display more information about a page within a site section. They must contain a heading and a short description.
+
+Apply the `card--summary` class and the base `card` class to an `<a>` tag.
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
