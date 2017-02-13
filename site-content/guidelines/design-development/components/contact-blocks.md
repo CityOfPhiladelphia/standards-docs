@@ -9,7 +9,7 @@ menu:
     parent: components
 ---
 
-This is where all department contact info and social media links go.
+Put all department contact info and social media links in a contact block.
 
 ---
 
