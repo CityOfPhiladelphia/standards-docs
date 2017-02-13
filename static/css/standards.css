@@ -64,6 +64,19 @@
   margin-bottom:1rem;
 }
 
+#style-guide .sg-input-focus{
+  border:2px solid #25cef7;
+  background: white;
+}
+#style-guide .sg-input-success{
+  border:2px solid #b9f2b1;
+}
+
+#style-guide .sg-input-error{
+  border: 2px solid #fed0d0;
+}
+
+
 /* Syntax highlighting*/
 #style-guide .highlight{
   padding: 1rem;
