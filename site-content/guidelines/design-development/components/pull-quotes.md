@@ -9,7 +9,7 @@ menu:
     parent: components
 ---
 
-Pull quotes are a way to pull out of text a specific sentence or phrase that you want to call attention to. The typeface is Times New Roman Italic/Reg and should be contained in a blue box.
+Pull quotes allow you to call attention to a specific sentence or phrase.  The typeface is Times New Roman Italic/Reg and should be contained in a blue box.
 
 ---
 
