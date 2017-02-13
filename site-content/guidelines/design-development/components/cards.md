@@ -11,16 +11,19 @@ menu:
 
 A card serves as an entry point to more detailed information. Cards may contain a photo, text, icon, or a link about a single subject. We use them to present news and blog items that have images. We also use them for resources that contain links to other sites.
 
+{{< cards >}}
+
 ---
 
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+  {{< highlight html >}}{{< cards >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
+{{% accordion How to use %}}
 ## Implementation
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}

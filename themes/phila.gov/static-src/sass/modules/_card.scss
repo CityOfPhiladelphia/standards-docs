@@ -1,27 +1,103 @@
-.card{
-  margin-bottom:$spacing-medium;
-
-  &.sub-topic{
-    background: rgba(color(light-ben-franklin), .3);
-    border-bottom: none;
+a{
+  &.card{
+    color: color(dark-gray);
+    font-weight: normal;
+    margin-bottom:$spacing-medium;
+    border-bottom: 5px solid color(ben-franklin-blue);
+    font-size: rem-calc(13);
     display: block;
+    background:color(ghost-gray);
 
-    @media screen and (min-width: 40em) {
-      margin-bottom:$spacing-extra;
+    @include transition( opacity, .2s );
+
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+      color: color(dark-ben-franklin);
+      padding:0;
+      background: transparent;
+      margin: .5rem 0;
+      font-size: 1rem;
+    }
+    > a {
+      display: block;
+
+      &:link,
+      &:visited{
+        color:color(ben-franklin-blue);
+      }
     }
 
+    &:hover{
+      @extend %lower-opacity;
+    }
+    img {
+      width:100%;
+      height:auto;
+    }
     .content-block{
-      padding: 1.5rem;
+      padding:1rem;
     }
-    &::before {
-      content: '';
-      width: 0;
-      height: 0;
-      border-top: 10px solid transparent;
-      border-bottom: 10px solid transparent;
-      border-left: 10px solid $white;
-      position: absolute;
-      margin-top: 20px;
+    p{
+      margin-bottom: 0;
+    }
+    .source{
+      display: block;
+      padding:.5rem 0;
+    }
+
+    //TODO: Remove sub-topic, leaving it in now for backwards compatibility
+    &.sub-topic,
+    &.card--preview{
+      background: rgba( color(light-ben-franklin), .3 );
+      border-bottom: none;
+
+      @media screen and (min-width: 40em) {
+        margin-bottom:$spacing-extra;
+      }
+
+      .content-block{
+        padding: 1.5rem;
+      }
+      h1, h2, h3, h4, h5, h6,
+      .h1, .h2, .h3, .h4, .h5, .h6 {
+        margin:0;
+
+      }
+      &::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid $white;
+        position: absolute;
+        margin-top: 1.5rem;
+      }
+    }
+    //TODO: Remove action-panel, leaving it in now for backwards compatibility
+    &.action-panel,
+    &.card--action {
+      color: $dark-gray;
+      font-weight: normal;
+      border-bottom: 0;
+
+      .panel {
+        border:none;
+        padding:1rem;
+        margin-bottom: 1rem;
+
+        header {
+          color: color(ben-franklin-blue);
+          font-weight: 700;
+          text-align: center;
+          .fa-circle {
+            color: color(bell-yellow);
+          }
+        }
+        @media only screen and (min-width: 64em) {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 }

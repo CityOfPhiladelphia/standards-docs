@@ -18,3 +18,7 @@
   word-break: break-word;
   hyphens: auto;
 }
+
+@mixin transition( $property, $speed ){
+  transition: $property $speed ease-in-out;
+}
