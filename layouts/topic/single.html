@@ -34,7 +34,7 @@
               {{ $pre := .Pre | string }}
               {{ if ne $pre "hide" }}
                 <div class="small-24 medium-8 column end">
-                  <a href="{{ .URL }}" class="card sub-topic equal">
+                  <a href="{{ .URL }}" class="card card--overview equal">
                     <div class="content-block">
                       <h3>{{ .Name }}</h3>
                       <p></p>
@@ -46,7 +46,7 @@
               {{ range $index, $menuSide := $.Site.Menus.side }}
                 {{ if .HasChildren }}
                   <div class="small-24 medium-8 column end">
-                    <a href="{{ .URL }}" class="card sub-topic equal">
+                    <a href="{{ .URL }}" class="card card--overview equal">
                       <div class="content-block">
                         <h3>{{ .Name }}</h3>
                         <p></p>
@@ -63,7 +63,7 @@
               {{ if in .URL $currentParent }}
                   {{ range .Children }}
                     <div class="small-24 medium-8 column end">
-                      <a href="{{ .URL }}" class="card sub-topic equal">
+                      <a href="{{ .URL }}" class="card card--overview equal">
                         <div class="content-block">
                           <h3>{{ .Name }}</h3>
                           <p></p>

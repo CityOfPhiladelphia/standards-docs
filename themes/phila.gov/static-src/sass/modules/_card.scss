@@ -47,7 +47,7 @@ a{
 
     //TODO: Remove sub-topic, leaving it in now for backwards compatibility
     &.sub-topic,
-    &.card--summary{
+    &.card--overview{
       background: rgba( color(light-ben-franklin), .3 );
       border-bottom: none;
 
