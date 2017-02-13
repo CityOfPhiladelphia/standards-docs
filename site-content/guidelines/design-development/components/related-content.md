@@ -1,16 +1,12 @@
 ---
-title: Contact blocks
-date: 2017-02-03
+title: Related content
+date: 2017-02-13
 menu:
   main:
     parent: design-development
     pre: hide
   side:
     parent: components
----
-
-Put all department contact info and social media links in a contact block.
-
 ---
 
 {{< accordion-wrap >}}
