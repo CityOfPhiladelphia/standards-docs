@@ -15,7 +15,7 @@ a{
       color: color(dark-ben-franklin);
       padding:0;
       background: transparent;
-      margin: .5rem 0;
+      margin: 1rem 0;
       font-size: 1rem;
     }
     > a {
@@ -47,7 +47,7 @@ a{
 
     //TODO: Remove sub-topic, leaving it in now for backwards compatibility
     &.sub-topic,
-    &.card--preview{
+    &.card--summary{
       background: rgba( color(light-ben-franklin), .3 );
       border-bottom: none;
 
@@ -81,22 +81,20 @@ a{
       font-weight: normal;
       border-bottom: 0;
 
-      .panel {
-        border:none;
-        padding:1rem;
-        margin-bottom: 1rem;
+      hr + .content-block{
+        padding-top:0;
+      }
 
-        header {
-          color: color(ben-franklin-blue);
-          font-weight: 700;
-          text-align: center;
-          .fa-circle {
-            color: color(bell-yellow);
-          }
+      header {
+        color: color(dark-ben-franklin);
+        font-weight: 700;
+        text-align: center;
+        .fa-circle {
+          color: color(bell-yellow);
         }
-        @media only screen and (min-width: 64em) {
-          margin-bottom: 0;
-        }
+      }
+      @media only screen and (min-width: 64em) {
+        margin-bottom: 0;
       }
     }
   }
