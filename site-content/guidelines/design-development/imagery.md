@@ -7,7 +7,8 @@ menu:
   side:
 ---
 
-Carefully considered photography brings another dimension to our city’s brand identity. The pictures we use should be expressive, show real people and emotions and be cropped for maximum effect. The attributes to apply to pictures are enjoying, optimistic, natural, clear, simple, real people in real situations. Your aim should be to convey a photojournalistic approach, creating a true sense of place, depicting real-life interaction between people. Never contrived or cliched. Our beautiful city has a personality, too. It can be a way to reinforce our brand by showing it’s character and the interesting people who populate it. Use dynamic lines, interesting angles and interesting crops to show personality.
+Carefully considered photography brings another dimension to the City’s brand identity. Pictures should be expressive, show real people and emotions, and be cropped for greatest effect. Aim for a photojournalistic approach, creating a sense of place, and showing real-life interactions between people. Never use a photo that’s contrived or cliched. Dynamic lines, angles and cropping give images personality.
+
 
 Guidelines:  
 
