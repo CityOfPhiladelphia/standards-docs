@@ -11,16 +11,20 @@ menu:
 
 Put all department contact info and social media links in a contact block.
 
+{{< contact-block >}}
+
 ---
 
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+  {{< highlight html >}}{{< contact-block >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
+{{% accordion How to use %}}
 ## Implementation
+
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
