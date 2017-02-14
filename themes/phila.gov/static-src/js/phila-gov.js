@@ -432,7 +432,11 @@ module.export = $(function(){
   if ( $('.equal').length > 0 ) {
 
     //equalizeByRow: true to force each instance of equalizer to work individually
-    var equalizerOptions = { equalizeByRow: true };
+    var equalizerOptions = {
+      equalizeOnStack: true,
+      equalizeByRow: true,
+      equalizeOn: 'small'
+    };
 
     $('.equal-height').each( function() {
       $(this).find('.equal').attr('data-equalizer-watch','');
