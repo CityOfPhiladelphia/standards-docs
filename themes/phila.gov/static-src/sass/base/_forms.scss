@@ -60,6 +60,40 @@ input:-webkit-autofill {
 }
 
 
+@mixin form-controls( $unselected-icon, $selected-icon ) {
+  display:none;
+
+  + label[for]{
+    color: color(dark-ben-franklin);
+    font-size:$global-font-size;
+  }
+
+  + label::before {
+    content: $unselected-icon;
+    display:inline-block;
+    padding-right:10px;
+    font-family: FontAwesome;
+    color: color(dark-ben-franklin);
+
+  }
+
+  &:checked + label::before {
+    content: $selected-icon;
+    display:inline-block;
+    padding-right:10px;
+    font-family: FontAwesome;
+  }
+}
+
+//Custom checkboxes
+input[type=checkbox] {
+  @include form-controls( '\f096', '\f14a');
+}
+//Custom Radios
+input[type=radio] {
+  @include form-controls( '\f10c', '\f111');
+}
+
 // JotForms
 .form-all{
   button{

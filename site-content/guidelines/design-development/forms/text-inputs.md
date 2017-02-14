@@ -7,6 +7,7 @@ menu:
     pre: hide
   side:
     parent: forms
+    weight: 0
 ---
 
 {{< form-text-inputs >}}
