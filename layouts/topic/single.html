@@ -35,7 +35,6 @@
               {{/* Use "pre" menu template to hide 3rd level content from top-level page view */}}
               {{ $pre := .Pre | string }}
               {{ if ne $pre "hide" }}
-              where at
                 <div class="small-24 medium-8 column end">
                   <a href="{{ .URL }}" class="card card--overview equal">
                     <div class="content-block">
@@ -48,7 +47,6 @@
             {{ else }}
               {{ range $index, $menuSide := $.Site.Menus.side }}
                 {{ if .HasChildren }}
-                not here
                   <div class="small-24 medium-8 column end">
                     <a href="{{ .URL }}" class="card card--overview equal">
                       <div class="content-block">
