@@ -9,7 +9,9 @@ menu:
     parent: components
 ---
 
-Press releases use icons combined with text links to provide an entry point to a full press release.
+Press releases use icons combined with text links to provide an entry point to a full press release
+
+![Press release example](/standards/img/components/press-release-example.jpg)
 
 ---
 
