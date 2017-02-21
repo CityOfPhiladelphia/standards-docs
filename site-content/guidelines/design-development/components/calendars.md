@@ -11,7 +11,7 @@ menu:
 
 Use calendars to display important events or due dates. It is recommended that you display no more than three dates on a department home page and that you always have a photo as the background.
 
-![Calendar example](/standards/img/calendar-example.jpg)
+![Calendar example](/standards/img/components/calendar-example.jpg)
 
 ---
 
