@@ -9,14 +9,22 @@ menu:
     parent: components
 ---
 
+
+{{< related-content >}}
+
+---
+
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+  {{< highlight html >}}{{< related-content >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
+{{% accordion How to use %}}
+
 ## Implementation
+Combine an `<h3>` and an unordered list.
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
