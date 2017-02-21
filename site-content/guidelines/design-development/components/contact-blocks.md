@@ -24,6 +24,7 @@ Put all department contact info and social media links in a contact block.
 {{% accordion How to use %}}
 ## Implementation
 
+The contact block template uses the <a href="http://microformats.org/wiki/hcard" class="external">hCard</a> standard for marking up contact information. Even if you do not use the contact block as it is rendered above, use the appropriate hCard markup for all contact information.
 
 {{% /accordion %}}
 
