@@ -21,9 +21,6 @@ Press releases use icons combined with text links to provide an entry point to a
   {{< highlight html >}}{{< press-release >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion How to use %}}
-## Implementation
-
 
 {{% /accordion %}}
 
