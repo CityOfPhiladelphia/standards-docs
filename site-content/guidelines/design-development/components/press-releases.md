@@ -9,20 +9,22 @@ menu:
     parent: components
 ---
 
-Press releases use icons combined with text links to provide an entry point to a full press release
+Press releases use icons combined with text links to provide an entry point to a full press release.
 
-![Press release example](/standards/img/components/press-release-example.jpg)
+{{< press-release >}}
 
 ---
 
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+  {{< highlight html >}}{{< press-release >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
+{{% accordion How to use %}}
 ## Implementation
+
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
