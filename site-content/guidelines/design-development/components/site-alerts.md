@@ -15,6 +15,9 @@ Service updates call out important time-sensitive information. They can be used 
 
 ![Service update example](/standards/img/components/service-updates-example.jpg)
 
+{{< service-updates >}}
+
+
 Site-wide alerts are used to call out important information across the whole website. These are to be used in true emergencies only.
 
 ![Service update example](/standards/img/components/site-wide-alert-example.jpg)
