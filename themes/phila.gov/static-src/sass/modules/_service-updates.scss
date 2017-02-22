@@ -1,0 +1,49 @@
+//Service Updates
+.home{
+  .service-update-row{
+    padding-top: $spacing-medium;
+  }
+}
+.service-update-row{
+  background: $white;
+  padding-top: $spacing-extra;
+}
+
+.service-update{
+  color: #444444;
+  margin-bottom: .5rem;
+  @include secondary-font(400);
+
+  &.service-update--critical {
+    > div {
+      > div {
+        background: color(light-red);
+      }
+    }
+  }
+  &.service-update--warning {
+    > div {
+      > div {
+        background: color(light-bell);
+      }
+    }
+  }
+  > div {
+    border-right: 5px solid transparent;
+    > div {
+      background: color(light-kelly-drive);
+    }
+  }
+  .icon {
+    @include breakpoint(small only) {
+      text-align: center;
+    }
+    .icon-label{
+      text-transform: uppercase;
+      vertical-align: text-bottom;
+      @include breakpoint(small only) {
+        display: block;
+      }
+    }
+  }
+}
