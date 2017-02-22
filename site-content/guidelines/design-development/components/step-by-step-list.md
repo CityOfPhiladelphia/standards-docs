@@ -9,14 +9,16 @@ menu:
     parent: components
 ---
 
+{{< step-by-step-list >}}
+
+---
+
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+  {{< highlight html >}}{{< step-by-step-list >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
-## Implementation
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
