@@ -29,7 +29,9 @@
     }
   }
   > div {
-    border-right: 5px solid transparent;
+    &:first-of-type{
+      border-right: 5px solid transparent;
+    }
     > div {
       background: color(light-kelly-drive);
     }
