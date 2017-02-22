@@ -1,3 +1,22 @@
+#site-wide-alert{
+  background: color(dark-ben-franklin);
+  color: color(white);
+  .icon {
+    color:color(electric-blue);
+  }
+  .message{
+    @include secondary-font(400);
+    font-size: .9rem;
+  }
+  .dates{
+    font-style: italic;
+  }
+  a:link, a:visited{
+    color: color(white);
+    text-decoration: underline;
+  }
+}
+
 .alert {
   &.alert-persistent {
     background:color(dark-gray);
