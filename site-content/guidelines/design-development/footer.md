@@ -22,6 +22,11 @@ The global footer has two parts. The top first section of the footer provides 31
 
 {{% accordion How to use %}}
 ## Implementation
+
+Use the markup above to implement the global footer.
+
+This portion of the Digital Standards is still a work in progress.
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
