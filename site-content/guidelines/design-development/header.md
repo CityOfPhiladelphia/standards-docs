@@ -21,6 +21,10 @@ The global header provides the City logo, site-wide navigation, and search funct
 
 {{% accordion How to use %}}
 ## Implementation
+
+The global header should be sticky when the user scrolls down the page. If you have included the standards styles, javascript files, and used the markup above, the header should function out-of-the-box. Do not modify the markup.
+
+This portion of the Digital Standards is still a work in progress.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
