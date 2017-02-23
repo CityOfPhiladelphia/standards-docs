@@ -24,6 +24,12 @@ Guidelines for using the City of Philadelphia logo:
 * Don’t change the orientation of the logo.
 * Don’t put text on top of logo.
 
+The .zip files below provide three high-quality versions of the logo in the following formats:
+
+* Original `.ai`
+* High-res `.png`
+* `.svg`
+
 <div class="border-list">
   <div class="row collapse">
     <div class="medium-12 columns border-list-items center">
@@ -71,21 +77,50 @@ Guidelines for using the City of Philadelphia logo:
   </div>
 </div>
 
-## For departments
+### For departments
 If you’re a department that needs a logo, ODDT provides two templates for you below. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. “City of Philadelphia” can go under the department name if you’d like. You may use either version.
 
 Use the template provided for your department's social media channel avatar. The avatars are recognizable and readable when smaller.
 
+If your department needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phila.gov</a>.
+
+<div class="border-list">
+  <div class="row collapse">
+    <div class="medium-12 columns center border-list-items">
+      <div class="border-list-item valign pam">
+        <img src="/standards/img/logo/city-of-philadelphia-department-logo-example.png" alt="Department logo example" class="phl pbm">
+      </div>
+    </div>
+    <div class="medium-12 columns center border-list-items">
+      <div class="border-list-item valign pam">
+          <img src="/standards/img/logo/city-of-philadelphia-department-logo-full-example.png" alt="Department logo example" class="phl pbm">
+        </div>
+    </div>
+  </div>
+</div>
 ---
 
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-  {{< highlight html >}}{{< button >}}{{</ highlight >}}
+{{< highlight html >}}
+<a href="https://beta.phila.gov" class="logo" tabindex="1" aria-label="City of Philadelphia">
+  <img src="/standards/img/logo/city-of-philadelphia.svg" data-fallback="/standards/img/logo/city-of-philadelphia.png" alt="City of Philadelphia">
+</a>
+{{< /highlight >}}
 {{< /accordion >}}
 
-{{% accordion Use %}}
+{{% accordion How to use %}}
+## Accessibility
+
+The City of Philadelphia logo and department logos must be recognizable, but do not have to meet the contrast ratios we follow for font usage across the site. They use the Trebuchet font which is a standard sans serif font that is artistic, accessible across all devices and platforms, and very readable.
+
 ## Implementation
+
+The City of Philadelphia logo is an .svg file with a .png fallback for older browsers. If you have included the full City of Philadelphia standard javascript in your project, you can use:
+
+`<img src="/path/to/logo/city-of-philadelphia.svg" data-fallback="/path/to/fallback/city-of-philadelphia.png" alt="City of Philadelphia">`
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
