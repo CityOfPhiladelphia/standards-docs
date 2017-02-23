@@ -1,0 +1,33 @@
+.border-list{
+
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    margin-top:1rem;
+  }
+  .border-list-items{
+
+    @media only screen and (min-width: 40em) {
+      border-right: 1px solid color(medium-gray);
+      &:last-of-type{
+        border-right: 0;
+      }
+    }
+
+    .border-list-item{
+      @media only screen and (min-width: 40em) {
+        border-bottom: 1px solid color(medium-gray);
+        &:last-of-type{
+          border-bottom: 0;
+        }
+      }
+      a:not(.button) {
+        div {
+          .fa {
+            margin-right:$spacing-medium;
+          }
+          display:table-cell;
+          vertical-align:middle;
+        }
+      }
+    }
+  }
+}
