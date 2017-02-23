@@ -23,17 +23,17 @@ Site-wide alerts are used to call out important information across the whole web
 
 {{< site-wide-alert >}}
 
-
 ---
 
 {{< accordion-wrap >}}
 
 {{< accordion Code >}}
-
+  <h3>Service updates</h3>
   {{< highlight html >}}{{< service-updates >}}{{</ highlight >}}
 
+  <h3>Site-wide alerts</h3>
   {{< highlight html >}}{{< site-wide-alert >}}{{</ highlight >}}
-  
+
 {{< /accordion >}}
 
 {{% /accordion %}}
