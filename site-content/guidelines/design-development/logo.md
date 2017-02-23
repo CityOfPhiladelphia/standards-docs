@@ -11,20 +11,67 @@ The City of Philadelphia’s logo is the most visible representation of the city
 
 There are two color versions of the City of Philadelphia logo provided. Consider context, contrast with background color, and surrounding imagery when selecting which version to use.
 
-The bell icon should always stay yellow, unless the entire logo must be one color. In those cases, use the black and white logo.   
+The bell icon should always stay yellow, unless the entire logo must be one color. In those cases, use the black and white logo.
 
 Guidelines for using the City of Philadelphia logo:
 
-* Don’t recreate, crop, or reconfigure logo artwork.  
-* Logo artwork must be uniformly scaled.  
-* Logo artwork should appear against a solid background.  
-* Don’t put a white box around the logo when placed on a dark background.  
-* Don’t reproduce the logo in colors other than those specified.  
-* Don’t add drop shadows.  
-* Don’t change the orientation of the logo.  
+* Don’t recreate, crop, or reconfigure logo artwork.
+* Logo artwork must be uniformly scaled.
+* Logo artwork should appear against a solid background.
+* Don’t put a white box around the logo when placed on a dark background.
+* Don’t reproduce the logo in colors other than those specified.
+* Don’t add drop shadows.
+* Don’t change the orientation of the logo.
 * Don’t put text on top of logo.
 
-## For departments  
+<div class="border-list">
+  <div class="row collapse">
+    <div class="medium-12 columns border-list-items center">
+      <div class="border-list-item valign pam">
+        <img src="/standards/img/logo/city-of-philadelphia.png" alt="City of Philadelphia" class="phxl pbm">
+        <a href="/standards/img/logo/standard.zip" class="button icon">
+          <div class="valign">
+            <i class="fa fa-download valign-cell"></i>
+            <div class="button-label valign-cell">Download zip</div>
+          </div>
+        </a>
+      </div>
+      <div class="border-list-item valign pam">
+        <img src="/standards/img/logo/city-of-philadelphia-blue-text.png" alt="City of Philadelphia" class="phxl pbm">
+        <a href="/standards/img/logo/blue-text.zip" class="button icon">
+          <div class="valign">
+            <i class="fa fa-download valign-cell"></i>
+            <div class="button-label valign-cell">Download zip</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="medium-12 columns center border-list-items">
+      <div class="border-list-item valign pam">
+        <img src="/standards/img/logo/city-of-philadelphia-gray.png" alt="City of Philadelphia" class="phxl pbm">
+        <a href="/standards/img/logo/all-gray.zip" class="button icon">
+          <div class="valign">
+            <i class="fa fa-download valign-cell"></i>
+            <div class="button-label valign-cell">Download zip</div>
+          </div>
+        </a>
+      </div>
+      <div class="border-list-item valign pam">
+        <div class="bg-dark-gray mhxl">
+          <img src="/standards/img/logo/city-of-philadelphia-white.png" alt="City of Philadelphia" class="pas">
+        </div>
+        <a href="/standards/img/logo/all-white.zip" class="button icon">
+          <div class="valign">
+            <i class="fa fa-download valign-cell"></i>
+            <div class="button-label valign-cell">Download zip</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+## For departments
 If you’re a department that needs a logo, ODDT provides two templates for you below. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. “City of Philadelphia” can go under the department name if you’d like. You may use either version.
 
 Use the template provided for your department's social media channel avatar. The avatars are recognizable and readable when smaller.
