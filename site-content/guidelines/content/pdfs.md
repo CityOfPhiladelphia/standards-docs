@@ -1,5 +1,5 @@
 ---
-title: PDFs are meant to be printed
+title: PDFs
 date: 2017-02-27
 menu:
   main:
