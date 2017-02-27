@@ -1,12 +1,11 @@
 ---
-title: Calendar
+title: Calendar events
 date: 2017-02-27
 menu:
   main:
     parent: content
   side:
 ---
-## Calendar events
 
 
 Use Google calendar to set up your calendar events.
