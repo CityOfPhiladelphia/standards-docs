@@ -6,9 +6,7 @@ menu:
     parent: content
   side:
 ---
-# News, blogs, and press releases
 
-----
 What’s the difference between news, blog posts, and press releases? These are the three types of content your department might release and we want to make it clear which is best.
 
 **News**: Must be new information, presented without opinion. 
