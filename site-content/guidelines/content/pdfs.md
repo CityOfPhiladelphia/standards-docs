@@ -1,12 +1,11 @@
 ---
-title: PDFs
+title: PDFs are meant to be printed
 date: 2017-02-27
 menu:
   main:
     parent: content
   side:
 ---
-## PDFs are meant to be printed
 
 
  Don’t post a pdf version of a document unless it needs to be printed.
