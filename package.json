@@ -11,10 +11,12 @@
   },
   "devDependencies": {
     "browserify": "^14.1.0",
+    "mkdirp": "^0.5.1",
     "node-sass": "^4.5.0"
   },
   "scripts": {
     "clean": "rimraf public/*",
+    "prebuild": "mkdirp themes/phila.gov/static/js",
     "theme-css:build": "node-sass --include-path node_modules/phila-standards/dist/css --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css",
     "standards-css:build": "node-sass static-src/scss/style-guide.scss static/css/style-guide.css",
     "fonts:build": "cp -R node_modules/phila-standards/dist/fonts static",
