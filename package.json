@@ -17,11 +17,11 @@
   "scripts": {
     "clean": "rimraf public/*",
     "prebuild": "mkdirp themes/phila.gov/static/js",
-    "theme-css:build": "node-sass --include-path node_modules/phila-standards/dist/css --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css",
-    "standards-css:build": "node-sass static-src/scss/style-guide.scss static/css/style-guide.css",
-    "fonts:build": "cp -R node_modules/phila-standards/dist/fonts static",
+    "build:theme-css": "node-sass --include-path node_modules/phila-standards/dist/css --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css",
+    "build:standards-css": "node-sass static-src/scss/style-guide.scss static/css/style-guide.css",
+    "build:fonts": "cp -R node_modules/phila-standards/dist/fonts static",
     "build:js": "cp node_modules/phila-standards/dist/js/phila-standards.js themes/phila.gov/static/js/standards.js",
-    "build": "yarn run theme-css:build && yarn run standards-css:build && yarn run fonts:build && yarn run js:build",
+    "build": "yarn run build:theme-css && yarn run build:standards-css && yarn run build:fonts && yarn run build:js",
     "prestart": "yarn run build",
     "start": "hugo serve"
   }
