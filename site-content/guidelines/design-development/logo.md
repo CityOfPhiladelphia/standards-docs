@@ -34,8 +34,8 @@ The .zip files below provide three high-quality versions of the logo in the foll
   <div class="row collapse">
     <div class="medium-12 columns border-list-items center">
       <div class="border-list-item valign pam">
-        <img src="/standards/img/logo/city-of-philadelphia.png" alt="City of Philadelphia" class="phxl pbm">
-        <a href="/standards/img/logo/standard.zip" class="button icon">
+        <img src="/standards-docs/img/logo/city-of-philadelphia.png" alt="City of Philadelphia" class="phxl pbm">
+        <a href="/standards-docs/img/logo/standard.zip" class="button icon">
           <div class="valign">
             <i class="fa fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
@@ -43,8 +43,8 @@ The .zip files below provide three high-quality versions of the logo in the foll
         </a>
       </div>
       <div class="border-list-item valign pam">
-        <img src="/standards/img/logo/city-of-philadelphia-blue-text.png" alt="City of Philadelphia" class="phxl pbm">
-        <a href="/standards/img/logo/blue-text.zip" class="button icon">
+        <img src="/standards-docs/img/logo/city-of-philadelphia-blue-text.png" alt="City of Philadelphia" class="phxl pbm">
+        <a href="/standards-docs/img/logo/blue-text.zip" class="button icon">
           <div class="valign">
             <i class="fa fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
@@ -54,8 +54,8 @@ The .zip files below provide three high-quality versions of the logo in the foll
     </div>
     <div class="medium-12 columns center border-list-items">
       <div class="border-list-item valign pam">
-        <img src="/standards/img/logo/city-of-philadelphia-gray.png" alt="City of Philadelphia" class="phxl pbm">
-        <a href="/standards/img/logo/all-gray.zip" class="button icon">
+        <img src="/standards-docs/img/logo/city-of-philadelphia-gray.png" alt="City of Philadelphia" class="phxl pbm">
+        <a href="/standards-docs/img/logo/all-gray.zip" class="button icon">
           <div class="valign">
             <i class="fa fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
@@ -64,9 +64,9 @@ The .zip files below provide three high-quality versions of the logo in the foll
       </div>
       <div class="border-list-item valign pam">
         <div class="bg-dark-gray mhxl">
-          <img src="/standards/img/logo/city-of-philadelphia-white.png" alt="City of Philadelphia" class="pas">
+          <img src="/standards-docs/img/logo/city-of-philadelphia-white.png" alt="City of Philadelphia" class="pas">
         </div>
-        <a href="/standards/img/logo/all-white.zip" class="button icon">
+        <a href="/standards-docs/img/logo/all-white.zip" class="button icon">
           <div class="valign">
             <i class="fa fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
@@ -88,12 +88,12 @@ If your department needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phi
   <div class="row collapse">
     <div class="medium-12 columns center border-list-items">
       <div class="border-list-item valign pam">
-        <img src="/standards/img/logo/city-of-philadelphia-department-logo-example.png" alt="Department logo example" class="phl pbm">
+        <img src="/standards-docs/img/logo/city-of-philadelphia-department-logo-example.png" alt="Department logo example" class="phl pbm">
       </div>
     </div>
     <div class="medium-12 columns center border-list-items">
       <div class="border-list-item valign pam">
-          <img src="/standards/img/logo/city-of-philadelphia-department-logo-full-example.png" alt="Department logo example" class="phl pbm">
+          <img src="/standards-docs/img/logo/city-of-philadelphia-department-logo-full-example.png" alt="Department logo example" class="phl pbm">
         </div>
     </div>
   </div>
@@ -105,7 +105,7 @@ If your department needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phi
 {{< accordion Code >}}
 {{< highlight html >}}
 <a href="https://beta.phila.gov" class="logo" tabindex="1" aria-label="City of Philadelphia">
-  <img src="/standards/img/logo/city-of-philadelphia.svg" data-fallback="/standards/img/logo/city-of-philadelphia.png" alt="City of Philadelphia">
+  <img src="/standards-docs/img/logo/city-of-philadelphia.svg" data-fallback="/standards-docs/img/logo/city-of-philadelphia.png" alt="City of Philadelphia">
 </a>
 {{< /highlight >}}
 {{< /accordion >}}

@@ -19,7 +19,7 @@ Service updates call out important time-sensitive information. They can be used 
 ### Site-wide alerts
 Site-wide alerts are used to call out important information across the whole website. These are to be used in true emergencies only.
 
-![Site-wide alert placement example](/standards/img/components/site-wide-alert-example.jpg)
+![Site-wide alert placement example](/standards-docs/img/components/site-wide-alert-example.jpg)
 
 {{< site-wide-alert >}}
 
