@@ -1,9 +1,26 @@
 {
-  "name": "phl-digital-standards",
-  "version": "1.0.0",
-  "description": "City of Philadelphia Digital Standards",
-  "main": "index.js",
-  "repository": "https://github.com/CityOfPhiladelphia/standards.git",
+  "name": "phila-standards-docs",
+  "version": "0.1.0",
+  "description": "City of Philadelphia Standards documentation",
+  "main": "static/js/main.js",
+  "repository": "https://github.com/CityOfPhiladelphia/standards-docs.git",
   "author": "City of Philadelphia",
   "license": "GPL-3.0",
+  "dependencies": {
+    "phila-standards": "^0.2.2"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "node-sass": "^4.5.0"
+  },
+  "scripts": {
+    "clean": "rimraf public/*",
+    "theme-css:build": "node-sass --include-path node_modules/phila-standards/dist/css --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css",
+    "standards-css:build": "node-sass static-src/scss/style-guide.scss static/css/style-guide.css",
+    "fonts:build": "cp -R node_modules/phila-standards/dist/fonts static",
+    "js:build": "browserify themes/phila.gov/static-src/js/standards.js -o themes/phila.gov/static/js/standards.js",
+    "build": "yarn run theme-css:build && yarn run standards-css:build && yarn run fonts:build && yarn run js:build",
+    "prestart": "yarn run build",
+    "start": "hugo serve"
+  }
 }

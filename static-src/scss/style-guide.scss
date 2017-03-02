@@ -1,0 +1,88 @@
+#style-guide {
+  .sg-swatch{
+    padding-right: 2rem;
+  }
+  .sg-swatch--top{
+    border-style: solid;
+    border-width: 2rem;
+    border-radius: 10px 10px 0 0;
+    padding:1rem;
+  }
+  .sg-swatch.sg-swatch--text .sg-swatch--top{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .sg-swatch--top--bordered {
+    border-style: dotted;
+    border-width: .5rem;
+    height:6rem;
+  }
+  .sg-swatch--bottom{
+    background: #f0f0f0;
+    border: .5rem solid #f0f0f0;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 3px #cfcfcf;
+  }
+  .sg-swatch.sg-swatch--text .sg-swatch--bottom{
+    padding: 1rem;
+    text-align: center;
+  }
+  .sg-hover-example{
+    background-color: #444;
+    color: #fff;
+  }
+  .sg-hover-example::after{
+    border-left-color: #444;
+  }
+
+  .sg-font-montserrat{
+    font-family: 'Montserrat';
+  }
+  .sg-font-open-sans{
+    font-family: 'Open Sans';
+  }
+  .sg-font-open-sans-semi{
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+  .sg-font-open-sans-bold{
+    font-family: 'Open Sans';
+    font-weight: 700;
+  }
+  .sg-font-times{
+    font-family: 'Times New Roman';
+  }
+
+  .sg-grid{
+    text-align: center;
+  }
+
+  .sg-grid .row{
+    margin-bottom:1rem;
+  }
+
+  .sg-input-focus{
+    border:2px solid #25cef7;
+    background: white;
+  }
+  .sg-input-success{
+    border:2px solid #b9f2b1;
+  }
+
+  .sg-input-error{
+    border: 2px solid #fed0d0;
+  }
+
+
+  /* Syntax highlighting*/
+  .highlight{
+    padding: 1rem;
+    color: #f0f0f0;
+    width: 100%;
+    overflow-y: scroll;
+  }
+}
