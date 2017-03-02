@@ -1,4 +1,8 @@
+# Folders
 node_modules/
-public
+public/
+themes/phila.gov/static/css/*
+
+# Files
 .DS_Store
 npm-debug.log
