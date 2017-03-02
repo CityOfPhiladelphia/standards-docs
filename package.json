@@ -24,5 +24,17 @@
     "build": "yarn run theme-css:build && yarn run standards-css:build && yarn run fonts:build && yarn run js:build",
     "prestart": "yarn run build",
     "start": "hugo serve"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
   }
 }
