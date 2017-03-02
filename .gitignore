@@ -2,6 +2,7 @@
 node_modules/
 public/
 themes/phila.gov/static/css/*
+themes/phila.gov/static/js/*
 
 # Files
 .DS_Store
