@@ -36,6 +36,4 @@ Site-wide alerts are used to call out important information across the whole web
 
 {{< /accordion >}}
 
-{{% /accordion %}}
-
 {{</ accordion-wrap >}}

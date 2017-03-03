@@ -19,6 +19,4 @@ menu:
   {{< highlight html >}}{{< step-by-step-list >}}{{</ highlight >}}
 {{< /accordion >}}
 
-{{% /accordion %}}
-
 {{</ accordion-wrap >}}
