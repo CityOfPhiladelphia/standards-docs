@@ -7,12 +7,13 @@
   "author": "City of Philadelphia",
   "license": "GPL-3.0",
   "dependencies": {
-    "phila-standards": "^0.2.2"
+    "phila-standards": "^0.2.8"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.5.0",
+    "onchange": "^3.2.1",
     "rimraf": "^2.6.1"
   },
   "scripts": {
