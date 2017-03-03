@@ -5,7 +5,7 @@ go:
 
 install:
   - pip install Pygments --user
-  - yarn
+  - npm install
 
 before_script:
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
