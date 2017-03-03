@@ -12,17 +12,18 @@
   "devDependencies": {
     "browserify": "^14.1.0",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.5.0"
+    "node-sass": "^4.5.0",
+    "rimraf": "^2.6.1"
   },
   "scripts": {
     "clean": "rimraf public/*",
     "prebuild": "mkdirp themes/phila.gov/static/js",
-    "build:theme-css": "node-sass --include-path node_modules/phila-standards/dist/css --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css",
     "build:standards-css": "node-sass static-src/scss/style-guide.scss static/css/style-guide.css",
     "build:fonts": "cp -R node_modules/phila-standards/dist/fonts static",
-    "build:js": "cp node_modules/phila-standards/dist/js/phila-standards.js themes/phila.gov/static/js/standards.js",
-    "build": "yarn run build:theme-css && yarn run build:standards-css && yarn run build:fonts && yarn run build:js",
+    "build:prod": "cp node_modules/phila-standards/dist/js/phila-standards.js themes/phila.gov/static/js/standards.js && cp node_modules/phila-standards/dist/css/phila-standards.css themes/phila.gov/static/css/standards.css",
+    "build": "yarn run build:dependencies && yarn run build:standards-css && yarn run build:fonts",
     "prestart": "yarn run build",
-    "start": "hugo serve"
+    "start": "hugo serve",
+    "deploy": "yarn run clean && yarn run rebuild && yarn run build:prod && hugo"
   }
 }
