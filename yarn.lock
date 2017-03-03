@@ -1516,9 +1516,9 @@ pbkdf2@^3.0.3:
   dependencies:
     create-hmac "^1.1.2"
 
-phila-standards@^0.2.8:
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/phila-standards/-/phila-standards-0.2.8.tgz#0fab78ee239cd1b614f88160e51d3c487e3bc3ea"
+phila-standards@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/phila-standards/-/phila-standards-0.3.1.tgz#38ba2db6d27912e81f7ef08dda23e806eee84f39"
   dependencies:
     font-awesome "^4.7.0"
     foundation-sites "^6.3.1"
