@@ -1,8 +1,10 @@
-# Folders
+ # Folders
 node_modules/
 public/
 themes/phila.gov/static/css/*
 themes/phila.gov/static/js/*
+static/css/*
+static/js/*
 
 # Files
 .DS_Store
