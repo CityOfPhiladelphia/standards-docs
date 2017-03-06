@@ -1,7 +1,9 @@
 ---
 title: Technical details
 date: 2017-02-11
+description: Information on how to implement the Standards in your next web project, including details on CSS, and JavaScript.
 dropdown: true
+type: topic
 menu:
   main:
     name: Technical details
@@ -13,5 +15,3 @@ menu:
     title: Overview
     weight: -100
 ---
-
-{{< panel "This section of standards.phila.gov is a work-in-progress." >}}
