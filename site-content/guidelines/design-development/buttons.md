@@ -26,6 +26,9 @@ Use “See all" buttons at the end of any incomplete list, including news, notic
 To use a button on an anchor link, apply the `button` class. For consistent alignment across devices and browsers, use the `valign` and `valign-cell` utility classes to wrap the button label.
 
 The margin classes in the example above `mtm` and `mts` are for in-page placement. They are not required.
+
+Buttons are not required to be nested inside a row and column set, as in the above example, but an enclosing `<div>` is required. 
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
