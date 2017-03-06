@@ -7,11 +7,15 @@ menu:
   side:
 ---
 
+Standards is built on <a href="http://foundation.zurb.com/Foundation" class="external">Foundation 6</a>. To make managing assets easier, Foundation JavaScript and necessary styles are packaged with the Standards. You will not need to include them separately in your project.
+
+Because the Standards relies heavily on Foundation, jQuery is a requirement. ODDT recommends you link to a cdn version of jQuery.
+
+You will need to include the Standards CSS and JavaScript on every HTML page of your project.
+
 There are two primary ways to implement Standards in your project.
 
 ### Direct download
-
-You will need to include the Standards CSS and JavaScript on every HTML page of your project.
 
 Download the Standards files directly. You can view the latest version and release notes on the <a href="https://github.com/CityOfPhiladelphia/standards/releases" class="external">GitHub repository</a>.
 
@@ -25,7 +29,6 @@ Download the Standards files directly. You can view the latest version and relea
     </a>
   </div>
 </div>
-
 
 #### Files
 Include the phila-standards folder wherever you store your third-party project assets.
@@ -41,6 +44,24 @@ phila-standards/
 │   ├── phila-standards.js
 ├── fonts/
 └── img/
+{{</ highlight >}}
+
+#### CSS
+
+Add the CSS link to the `<head>` of your HTML pages.
+
+{{< highlight html >}}
+<link rel="stylesheet" href="/path/to/your/assets/css/phila-standards.css">
+{{</ highlight >}}
+
+#### JavaScript
+
+Add the JavaScript just above the closing `</body>` of your HTML pages. You will also need to initialize Foundation. You can do this in your own JavaScript files (make sure to include them AFTER phila-standards JavaScript). Or, you can initialize Foundation directly on the page, like in the example below.
+
+{{< highlight html >}}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/path/to/your/assets/js/phila-standards.js"></script>
+<script>$(document).foundation();</script>
 {{</ highlight >}}
 
 ### Install using npm (or Yarn)
