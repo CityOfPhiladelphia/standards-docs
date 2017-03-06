@@ -9,7 +9,7 @@ menu:
 
 Standards is built on <a href="http://foundation.zurb.com/Foundation" class="external">Foundation 6</a>. To make managing assets easier, Foundation JavaScript and necessary styles are packaged with the Standards. You will not need to include them separately in your project.
 
-Because the Standards relies heavily on Foundation, jQuery is a requirement. ODDT recommends you link to a cdn version of jQuery.
+jQuery is a requirement. ODDT recommends you link to a cdn version of jQuery.
 
 You will need to include the Standards CSS and JavaScript on every HTML page of your project.
 
