@@ -31,8 +31,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {{% accordion How to use %}}
 ## Implementation
 
-Don't modify the code.
-
 1. Add the snippet *immediately after* the opening `<body>` tag in the site template or individual pages as needed. It should be present on every page of all city-owned sites managed by your department or agency.
 2. After you add this snippet to the page, email <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> with the URL of the website for testing. You will receive confirmation that the site that should be tracked and the code is working. ODDT will enable tracking for your site in the citywide account so your site traffic will appear on analytics.phila.gov.
 {{% /accordion %}}
