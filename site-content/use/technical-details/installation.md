@@ -85,3 +85,12 @@ node_modules/phila-standards/
     ├── js/
     └── sass/
 {{</ highlight >}}
+
+#### JavaScript
+`require('phila-standards')` will load all of the JavaScript onto the page. This module doesn't export anything.
+
+#### SASS
+
+The main Sass (SCSS) source file is located in: `node_modules/phila-standards/src/sass/phila-standards.scss`
+
+Non-minified CSS that’s been precompiled is located in: `node_modules/phila-standards/dist/css/phila-standards.css`
