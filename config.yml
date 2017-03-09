@@ -6,3 +6,4 @@ params:
 theme: "phila.gov"
 contentDir: "site-content"
 disableRSS: true
+enableGitInfo: true
