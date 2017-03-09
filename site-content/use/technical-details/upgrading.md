@@ -18,6 +18,10 @@ The Standards are a re-worked version of the City's Pattern Portfolio. If you ar
 
 Depending on the complexity of the project, it may make sense for you to temporarily comment out your project's exiting JavaScript and Stylesheets.
 
+### Add dependencies
+
+Review the [installation guidelines](/use/installation) for information on how to include the Standards in your project. 
+
 ### Markup changes
 In many cases, because you are updating an existing application, you will not want to copy the [Boilerplate](/templates/markup/boilerplate/) markup directly, because it will require you to make extensive markup changes. This section of the guide attempts to identify areas that you will need to address individually, such that you can modify the markup you already have without needing to essentially start from scratch.
 
