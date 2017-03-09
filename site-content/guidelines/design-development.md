@@ -11,4 +11,4 @@ menu:
     weight: 1
 ---
 
-{{< panel "This section of standards.phila.gov is a work-in-progress." >}}
+{{< panel wip >}}

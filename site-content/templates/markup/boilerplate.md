@@ -7,7 +7,7 @@ menu:
   side:
 ---
 
-{{< panel "This section of standards.phila.gov is a work-in-progress." >}}
+{{< panel wip >}}
 
 Use the markup below to create a one-page application.
 
