@@ -10,8 +10,4 @@ menu:
     parent: use
     identifier: technical-details
     weight: 1
-  side:
-    identifier: technical-details
-    title: Overview
-    weight: -100
 ---

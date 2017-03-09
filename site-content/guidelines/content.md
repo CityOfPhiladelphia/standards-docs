@@ -9,8 +9,4 @@ menu:
     parent: guidelines
     identifier: content
     weight: 2
-  side:
-    identifier: content
-    title: Overview
-    weight: -100
 ---

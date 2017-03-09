@@ -7,7 +7,6 @@
 <nav data-swiftype-index="false" id="side-nav" data-swiftype-index="false">
   <ul class="vertical menu">
     {{ if eq $dropdown true  }}
-      <li class="current_page_item"><a href="{{.URL}}">Overview</a></li>
       {{ range (index .Menus "main").Children }}
         {{ if eq .Identifier "" }}
           {{/* Use "pre" menu template to hide 3rd level content from top-level page view */}}

@@ -19,7 +19,7 @@
                       {{ $currentNode := . }}
                       {{ range  $.Site.Menus.main }}
                         {{if $currentNode.HasMenuCurrent "main" . }}
-                          {{ $.Scratch.Add "Breadcrumbs" ( print "<li><a href='" .URL  "'>" .Name "</a></li>" )  }}
+                          {{ $.Scratch.Add "Breadcrumbs" ( print "<li><a href=''>" .Name "</a></li>" )  }}
                         {{end}}
                         {{ if .HasChildren  }}
                         <li class="menu-item is-right-arrow{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} current-menu-item{{end}}">
