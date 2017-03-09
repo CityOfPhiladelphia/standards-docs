@@ -11,7 +11,9 @@ menu:
 
 Put all department contact info and social media links in a contact block.
 
+<div class="large-10 columns connect vcard">
 {{< contact-block >}}
+</div>
 
 ---
 
