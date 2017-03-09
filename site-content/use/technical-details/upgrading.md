@@ -21,16 +21,16 @@ Depending on the complexity of the project, it may make sense for you to tempora
 ### Markup changes
 In many cases, because you are updating an existing application, you will not want to copy the [Boilerplate](/templates/markup/boilerplate/) markup directly, because it will require you to make extensive markup changes. This section of the guide attempts to identify areas that you will need to address individually, such that you can modify the markup you already have without needing to essentially start from scratch.
 
-1. Add `class="no-js"` to the `<head>` tag. This is in the event js is not avialable, or not loaded yet, to prevent a flash of unstyled content (FOUC).
+1. Add `class="no-js"` to the `<head>` tag. This is in the event js is not available, or not loaded yet, to prevent a flash of unstyled content (FOUC).
 
-2. Add the global header code.
+2. Add the global header code. This should replace everything between the `<header>` tags.
   {{< accordion-wrap >}}
   {{< accordion Global header code >}}
     {{< highlight html >}}{{< upgrading-global-header >}}{{</ highlight >}}
   {{< /accordion >}}
   {{< /accordion-wrap >}}
 
-3. After adding the global header code, you will notice that the Service Mega Menu and the Search dropdowns are not available. The markup for these elements can appear anywhere on the page. To save on page load times, place the markup for these after the closing `<footer>` tag.
+3. After adding the global header code, you will notice that the Service mega menu and the Search dropdown are not available. The markup for these elements can be placed anywhere on the page. To save on page load times, place the markup for these after the closing `<footer>` tag.
   {{< accordion-wrap >}}
   {{< accordion Services and search code >}}
     {{< highlight html >}}{{< upgrading-services-search >}}{{</ highlight >}}
