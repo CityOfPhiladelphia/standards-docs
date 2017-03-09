@@ -20,7 +20,7 @@ Depending on the complexity of the project, it may make sense for you to tempora
 
 ### Add dependencies
 
-Review the [installation guidelines](/use/installation) for information on how to include the Standards in your project. 
+Review the [installation guidelines](/use/installation) for information on how to include the Standards in your project.
 
 ### Markup changes
 In many cases, because you are updating an existing application, you will not want to copy the [Boilerplate](/templates/markup/boilerplate/) markup directly, because it will require you to make extensive markup changes. This section of the guide attempts to identify areas that you will need to address individually, such that you can modify the markup you already have without needing to essentially start from scratch.
@@ -38,5 +38,12 @@ In many cases, because you are updating an existing application, you will not wa
   {{< accordion-wrap >}}
   {{< accordion Services and search code >}}
     {{< highlight html >}}{{< upgrading-services-search >}}{{</ highlight >}}
+  {{< /accordion >}}
+  {{< /accordion-wrap >}}
+
+4. All applications should receive graphic treatment. Contact oddt@phila.gov for assistance selecting a hero image. Add the code below under the `<header>` tag and customize the image and page title to suit your application. Note, that the wrapping `#page` and `.content` classes should be closed *before* the `<footer>` tag.
+  {{< accordion-wrap >}}
+  {{< accordion Site header code >}}
+    {{< highlight html >}}{{< upgrading-site-header >}}{{</ highlight >}}
   {{< /accordion >}}
   {{< /accordion-wrap >}}
