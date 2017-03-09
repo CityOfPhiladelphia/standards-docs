@@ -7,7 +7,7 @@
   "author": "City of Philadelphia",
   "license": "GPL-3.0",
   "dependencies": {
-    "phila-standards": "^0.3.1"
+    "phila-standards": "^0.3.3"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
