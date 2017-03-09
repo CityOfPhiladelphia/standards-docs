@@ -25,7 +25,7 @@ Review the [installation guidelines](/use/installation) for information on how t
 ### Markup changes
 In many cases, because you are updating an existing application, you will not want to copy the [Boilerplate](/templates/markup/boilerplate/) markup directly, because it will require you to make extensive markup changes. This section of the guide attempts to identify areas that you will need to address individually, such that you can modify the markup you already have without needing to essentially start from scratch.
 
-1. Add `class="no-js"` to the `<head>` tag. This is in the event js is not available, or not loaded yet, to prevent a flash of unstyled content (FOUC).
+1. Add `class="no-js"` to the `<head>` tag. This is in the event that the JS is not available, or not loaded yet and will prevent a flash of unstyled content (FOUC).
 
 2. Add the global header code. This should replace everything between the `<header>` tags.
   {{< accordion-wrap >}}
