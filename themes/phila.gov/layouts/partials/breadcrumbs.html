@@ -9,7 +9,7 @@
         {{ else }}
         <li><a href="{{ $.Site.BaseURL }}">{{ $.Site.Title }}</a></li>
           {{ $bc := $.Scratch.Get "Breadcrumbs"  }}
-          {{ print $bc | safeHTML }}
+            {{ print $bc | safeHTML }}
       <li>{{ .Title }}</li>
       {{ end }}
     </ol>
