@@ -9,8 +9,4 @@ menu:
     parent: templates
     identifier: markup
     weight: 30
-  side:
-    identifier: markup
-    name: Overview
-    weight: -100
 ---
