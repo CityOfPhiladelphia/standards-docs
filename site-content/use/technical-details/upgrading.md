@@ -41,7 +41,7 @@ In many cases, because you are updating an existing application, you will not wa
   {{< /accordion >}}
   {{< /accordion-wrap >}}
 
-4. All applications should receive graphic treatment. Contact oddt@phila.gov for assistance selecting a hero image. Add the code below under the `<header>` tag and customize the image and page title to suit your application. Note, that the wrapping `#page` and `.content` classes should be closed *before* the `<footer>` tag.
+4. All applications should receive graphic treatment. Contact oddt@phila.gov for assistance selecting a hero image. Add the code below under the `<header>` tag and customize the image and page title to suit your application. Note, that the wrapping `#page` and `#content` divs should be closed *before* the `<footer>` tag.
   {{< accordion-wrap >}}
   {{< accordion Site header code >}}
     {{< highlight html >}}{{< upgrading-site-header >}}{{</ highlight >}}
