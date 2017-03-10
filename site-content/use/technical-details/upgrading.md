@@ -22,8 +22,10 @@ Depending on the complexity of the project, it may make sense for you to tempora
 
 Review the [installation guidelines](/use/installation) for information on how to include the Standards in your project.
 
+<div class="callout">The code provided below includes links to the Standards CSS and JS. You will need to update those links to point to the location of the standards dependency within your project.</div>
+
 ### Markup changes
-In many cases, because you are updating an existing application, you will not want to copy the [Boilerplate](/templates/markup/boilerplate/) markup directly, because it will require you to make extensive markup changes. This section of the guide attempts to identify areas that you will need to address individually, such that you can modify the markup you already have without needing to essentially start from scratch.
+In many cases, because you are updating an existing application, you may not want to copy the [Boilerplate](/templates/markup/boilerplate/) markup directly, because you will need to coordinate extensive markup changes. This section of the guide attempts to identify areas that you will need to address individually, such that you can modify the markup you already have without needing to essentially start from scratch. If your application makes use of partials, these code blocks are be broken up in such a way that you should be able to simply replace the content of existing partials.
 
 1. Add `class="no-js"` to the `<head>` tag. This is in the event that the JS is not available, or not loaded yet and will prevent a flash of unstyled content (FOUC).
 
@@ -33,17 +35,20 @@ In many cases, because you are updating an existing application, you will not wa
     {{< highlight html >}}{{< upgrading-global-header >}}{{</ highlight >}}
   {{< /accordion >}}
   {{< /accordion-wrap >}}
+  <div class="callout mtm">After adding the global header code, you will notice that the Service mega menu and the Search dropdown do not work. To save on page load times, the markup for these elements is placed under the closing footer element. You will find the markup in the **global footer code**, below.</div>
 
-3. After adding the global header code, you will notice that the Service mega menu and the Search dropdown are not available. The markup for these elements can be placed anywhere on the page. To save on page load times, place the markup for these after the closing `<footer>` tag.
-  {{< accordion-wrap >}}
-  {{< accordion Services and search code >}}
-    {{< highlight html >}}{{< upgrading-services-search >}}{{</ highlight >}}
-  {{< /accordion >}}
-  {{< /accordion-wrap >}}
-
-4. All applications should receive graphic treatment. Contact [oddt@phila.gov](mailto:oddt@phila.gov) for assistance selecting a hero image. Add the code below under the `<header>` tag and customize the image and page title to suit your application. Note, that the wrapping `#page` and `#content` divs should be closed *before* the `<footer>` tag. Note: this code assumes a one-page application with no secondary menu.
+3. All applications should receive graphic treatment. Contact [oddt@phila.gov](mailto:oddt@phila.gov) for assistance selecting a hero image. Add the code below under the `<header>` tag and customize the image and page title to suit your application. The wrapping `#page` and `#content` divs should be closed *before* the `<footer>` tag. Your content should go between the `<main>` tags. This code assumes a one-page application with no secondary menu.
   {{< accordion-wrap >}}
   {{< accordion Site header code >}}
     {{< highlight html >}}{{< upgrading-site-header >}}{{</ highlight >}}
   {{< /accordion >}}
   {{< /accordion-wrap >}}
+
+4. Replace existing footer with the global footer code.
+  {{< accordion-wrap >}}
+  {{< accordion Global footer code >}}
+    {{< highlight html >}}{{< upgrading-footer >}}{{</ highlight >}}
+  {{< /accordion >}}
+  {{< /accordion-wrap >}}
+
+Done!
