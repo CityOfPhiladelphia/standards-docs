@@ -16,7 +16,7 @@ The Standards are a re-worked version of the City's Pattern Portfolio. If you ar
 2. Remove `<link>` tag references to FontAwesome and Ionicons. FontAwesome is now included as a dependency and Ionicons is no longer used.
 3. Remove references to Foundation JavaScript, this is also included as a dependency.
 
-Depending on the complexity of the project, it may make sense for you to temporarily comment out your project's exiting JavaScript and Stylesheets.
+Depending on the complexity of the project, it may make sense for you to temporarily comment out your project's existing JavaScript and Stylesheets.
 
 ### Add dependencies
 
