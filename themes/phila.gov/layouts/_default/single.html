@@ -7,6 +7,7 @@
       {{else}}
         {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
       {{ end }}
+    </h1>
   </div>
 </div>
 
@@ -27,6 +28,5 @@
     </section>
   </div>
 </div>
-
-{{ partial "footer.html" . }}
 <link type="text/css" href="{{ .Site.BaseURL }}/css/style-guide.css" rel="stylesheet">
+{{ partial "footer.html" . }}
