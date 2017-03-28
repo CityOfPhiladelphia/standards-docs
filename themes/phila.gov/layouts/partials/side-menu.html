@@ -4,7 +4,7 @@
 
 {{ $dropdown := .Params.dropdown }}
 
-<nav data-swiftype-index="false" id="side-nav" data-swiftype-index="false">
+<nav data-swiftype-index="false" id="side-nav">
   <ul class="vertical menu">
     {{ if eq $dropdown true  }}
       {{ range (index .Menus "main").Children }}
