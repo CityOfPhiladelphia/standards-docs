@@ -6,7 +6,7 @@
 
 <div class="input-error">
   <label class="input-error-label" for="input-error">Text input error</label>
-  <span class="input-error-message" role="alert">Helpful error message</span>
+  <span id="input-error-message" role="alert">Helpful error message</span>
   <input id="input-error" name="input-error" type="text" aria-describedby="input-error-message" class="sg-input-error">
 </div>
 
@@ -15,3 +15,11 @@
 
 <label for="input-type-textarea">Text area label</label>
 <textarea id="input-type-textarea" name="input-type-textarea"></textarea>
+
+<form>
+  <label for="search-example">Search</label>
+  <div class="search">
+    <input id="search-example" type="text" name="search" placeholder="Search" class="search-field">
+    <input type="submit" value="submit" class="search-submit">
+  </div>
+</form>
