@@ -2,12 +2,14 @@
   <div class="dropdown-pane site-search-dropdown" data-dropdown data-v-offset="0" data-hover-pane="true" data-trap-focus="true" data-close-on-click="true" data-auto-focus="true" id="search-dropdown">
     <div class="row columns expanded bg-ghost-gray">
       <div class="row arrow">
-        <div class="medium-12 columns small-centered">
+        <div class="medium-16 columns small-centered">
           <div class="paxl">
-            <form role="search" method="get" class="search" id="search-form" action="https://beta.phila.gov/search/">
-              <label for="search-field"><span class="screen-reader-text">Search form</span></label>
+            <form role="search" method="get" id="search-form" action="https://beta.phila.gov/search/">
+              <label for="search-field" class="show-for-sr">Search form</label>
+              <div class="search">
                 <input type="text" class="search-field" placeholder="Search" value="" name="stq" title="Search" id="search-field">
                 <input type="submit" class="search-submit" value="submit">
+              </div>
             </form>
           </div>
         </div>
