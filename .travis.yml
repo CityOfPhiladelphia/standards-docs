@@ -11,7 +11,7 @@ before_script:
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
   - go get -u -v github.com/spf13/hugo
   - node-sass --include-path node_modules/phila-standards/dist/css --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css && node-sass static-src/scss/style-guide.scss static/css/style-guide.css
-  - browserify themes/phila.gov/static-src/js/standards.js -o themes/phila.gov/static/js/standards.js
+  - browserify ./themes/phila.gov/static-src/js/standards.js -o ./themes/phila.gov/static/js/standards.js
   - mkdir themes/phila.gov/static/js
 
 script:
