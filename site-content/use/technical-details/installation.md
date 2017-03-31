@@ -7,7 +7,9 @@ menu:
   side:
 ---
 
-Standards is built on <a href="http://foundation.zurb.com/Foundation" class="external">Foundation 6</a>. To make managing assets easier, Foundation JavaScript and necessary styles are packaged with the Standards. You won't need to include them separately in your project.
+Standards is built on <a href="http://foundation.zurb.com/Foundation" class="external">Foundation 6</a>, a robust front-end framework. If you are going to use Standards in your project, it is important to remember not to use *any other front-end frameworks*. This includes Bootstrap.
+
+To make managing assets easier, Foundation JavaScript and necessary styles are packaged with the Standards. You won't need to include them separately in your project.
 
 jQuery is also a requirement, but it is included in the compiled Standards JavaScript file. You will not need to add it to your project separately.
 
