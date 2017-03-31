@@ -24,7 +24,5 @@ menu:
 ### Accessibility
 
 All form elements must have matching labels in order to be accessible to screen readers. The label's `for` attribute value must match the form element id.
-
 {{% /accordion %}}
-
 {{</ accordion-wrap >}}

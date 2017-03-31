@@ -7,10 +7,11 @@
   "author": "City of Philadelphia",
   "license": "GPL-3.0",
   "dependencies": {
-    "phila-standards": "^0.3.4"
+    "phila-standards": "^0.4.0"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
+    "browserify-shim": "^3.8.14",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.5.0",
     "onchange": "^3.2.1",
@@ -21,7 +22,7 @@
     "prebuild": "mkdirp themes/phila.gov/static/js && cp -R node_modules/phila-standards/dist/fonts static",
     "build:theme": "node-sass --include-path node_modules/foundation-sites/scss --include-path node_modules/font-awesome/scss --include-path node_modules/phila-standards/src/sass --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css && browserify themes/phila.gov/static-src/js/standards.js -o themes/phila.gov/static/js/standards.js && cp -R node_modules/phila-standards/src/img themes/phila.gov/static",
     "build:site": "node-sass static-src/scss/style-guide.scss static/css/style-guide.css",
-    "build": "yarn run build:theme && yarn run build:site",
+    "build": "yarn run build:site",
     "prestart": "yarn run build",
     "watch": "onchange 'static-src/scss' -- yarn run build:site"
   }
