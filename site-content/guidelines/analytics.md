@@ -8,7 +8,7 @@ menu:
     name: Analytics
     parent: guidelines
     identifier: analytics
-    weight: 60
+    weight: 3
 ---
 
 The City of Philadelphia is undertaking a Unified Web Analytics Strategy. Every phila.gov page should contain the following tracking code to allow us to report on traffic, usage, clicks, and to collect other useful data about phila.gov websites.
