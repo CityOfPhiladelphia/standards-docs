@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+<div class="row">
+  <div class="columns">
+    <h2 class="contrast">{{ .Title }}</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="columns">
+    <section>
+      <div>
+        <p>{{.Content}}</p>
+      </div>
+    </section>
+  </div>
+</div>
+<link type="text/css" href="{{ .Site.BaseURL }}/css/style-guide.css" rel="stylesheet">
+{{ partial "footer.html" . }}

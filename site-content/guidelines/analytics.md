@@ -1,10 +1,12 @@
 ---
 title: Analytics
 date: 2017-01-27
-type: section
+dropdown: true
+type: full
 menu:
   main:
     name: Analytics
+    parent: guidelines
     identifier: analytics
     weight: 60
 ---
