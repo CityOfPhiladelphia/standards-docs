@@ -1,8 +1,10 @@
 ---
 title: Design & development
 date: 2017-01-27
+description: Design & development guidelines.
 dropdown: true
 type: topic
+slug: design-development
 menu:
   main:
     name: Design & development
@@ -11,4 +13,5 @@ menu:
     weight: 1
 ---
 
+wut
 {{< panel wip >}}

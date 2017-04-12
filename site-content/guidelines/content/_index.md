@@ -2,7 +2,6 @@
 title: Content
 date: 2017-01-27
 dropdown: true
-type: topic
 menu:
   main:
     name: Content
@@ -10,3 +9,4 @@ menu:
     identifier: content
     weight: 2
 ---
+content!

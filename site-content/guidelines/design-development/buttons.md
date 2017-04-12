@@ -1,6 +1,7 @@
 ---
 title: Buttons
 date: 2017-02-01
+description: All about them buttons.
 menu:
   main:
     parent: design-development
@@ -27,7 +28,7 @@ To use a button on an anchor link, apply the `button` class. For consistent alig
 
 The margin classes in the example above `mtm` and `mts` are for in-page placement. They are not required.
 
-Buttons are not required to be nested inside a row and column set, as in the above example, but an enclosing `<div>` is required. 
+Buttons are not required to be nested inside a row and column set, as in the above example, but an enclosing `<div>` is required.
 
 {{% /accordion %}}
 
