@@ -13,5 +13,4 @@ menu:
     weight: 1
 ---
 
-wut
 {{< panel wip >}}
