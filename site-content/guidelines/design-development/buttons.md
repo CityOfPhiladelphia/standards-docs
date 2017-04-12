@@ -1,7 +1,6 @@
 ---
 title: Buttons
 date: 2017-02-01
-description: All about them buttons.
 menu:
   main:
     parent: design-development

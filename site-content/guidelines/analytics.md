@@ -2,7 +2,6 @@
 title: Analytics
 date: 2017-01-27
 dropdown: true
-description: yeah
 menu:
   main:
     name: Analytics
