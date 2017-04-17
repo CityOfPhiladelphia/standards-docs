@@ -1,15 +1,47 @@
 {{ partial "head.html" . }}
+{{ $dropdown := .Params.dropdown }}
+
 <div class="row">
   <div class="columns">
-    <h2 class="contrast">{{ .Title }}</h2>
+    <h1 class="contrast">
+      {{ if isset $.Params "dropdown" }}
+        {{ .Title }}
+      {{else}}
+        {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
+      {{ end }}
+    </h1>
   </div>
 </div>
-<div class="row">
-  <div class="columns">
+
+<div class="topic-page row bdr-bottom bdr-sidewalk mtm" data-equalizer="page">
+  <div class="side-menu medium-7 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
+    <nav data-swiftype-index="false" id="side-nav">
+      <ul class="vertical menu">
+        {{ partial "side-menu.html" (dict "menu" .Site.Menus.main "page" . "site" .Site) }}
+      </ul>
+    </nav>
+  </div>
+  <div id="style-guide" class="medium-16 columns pbxl" data-equalizer-watch="page">
     <section>
-      <div>
-        <p>{{.Content}}</p>
-      </div>
+      {{ if isset $.Params "level" }}{{ else }}
+        <h2 class="mtn">{{ .Title }}</h2>
+      {{ end }}
+      <p>{{ .Description }}</p>
+      {{ .Content }}
+      <nav>
+        <div class="row equal-height fat-gutter">
+          {{ range $index, $menu := (index .Menus "main").Children }}
+            <div class="small-24 medium-8 column end">
+              <a href="{{ .URL }}" class="card card--overview equal">
+                <div class="content-block">
+                  <h3>{{ .Name }}</h3>
+                  <p></p>
+                </div>
+              </a>
+            </div>
+          {{ end }}
+        </div>
+      </nav>
     </section>
   </div>
 </div>
