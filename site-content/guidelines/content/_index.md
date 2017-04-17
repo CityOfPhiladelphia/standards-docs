@@ -10,4 +10,3 @@ menu:
     weight: 2
     pre: hide
 ---
-content!
