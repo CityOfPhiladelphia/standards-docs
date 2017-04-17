@@ -2,7 +2,6 @@
 title: Markup
 date: 2017-03-07
 dropdown: true
-type: topic
 menu:
   main:
     name: Markup
