@@ -77,7 +77,6 @@
     border: 2px solid #fed0d0;
   }
 
-
   /* Syntax highlighting*/
   .highlight{
     padding: 1rem;
@@ -85,4 +84,8 @@
     width: 100%;
     overflow-y: scroll;
   }
+}
+//override the typical menu, just for Standards
+nav#services-nav ul ul, nav#side-nav ul ul {
+    display: block !important;
 }
