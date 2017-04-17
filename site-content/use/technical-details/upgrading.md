@@ -4,7 +4,7 @@ date: 2017-03-07
 menu:
   main:
     parent: technical-details
-  side:
+    weight: 2
 ---
 {{< panel wip >}}
 

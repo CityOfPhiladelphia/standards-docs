@@ -4,7 +4,7 @@ date: 2017-02-11
 menu:
   main:
     parent: technical-details
-  side:
+    weight: 1
 ---
 
 Standards is built on <a href="http://foundation.zurb.com/Foundation" class="external">Foundation 6</a>, a robust front-end framework. If you are going to use Standards in your project, it is important to remember not to use *any other front-end frameworks*. This includes Bootstrap.
