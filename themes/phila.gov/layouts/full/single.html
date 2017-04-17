@@ -7,6 +7,7 @@
 <div class="row">
   <div class="columns">
     <section>
+      {{ partial "side-menu.html" (dict "menu" .Site.Menus.main "page" . "site" .Site "description" .Params.description "all" .Site.Pages ) }}
       <div>
         <p>{{.Content}}</p>
       </div>
