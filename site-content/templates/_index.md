@@ -6,5 +6,6 @@ menu:
     name: Templates
     identifier: templates
     weight: 50
+    pre: hide
 ---
 {{< panel wip >}}

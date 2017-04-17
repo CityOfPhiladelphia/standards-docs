@@ -4,10 +4,6 @@ date: 2017-02-14
 menu:
   main:
     parent: forms
-    pre: hide
-  side:
-    parent: forms
-    weight: 1
 ---
 ### Checkboxes
 {{< form-controls-checkboxes >}}

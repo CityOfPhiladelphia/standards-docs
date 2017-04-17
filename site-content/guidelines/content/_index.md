@@ -8,5 +8,6 @@ menu:
     parent: guidelines
     identifier: content
     weight: 2
+    pre: hide
 ---
 content!

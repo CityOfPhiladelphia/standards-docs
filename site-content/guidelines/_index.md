@@ -6,5 +6,6 @@ menu:
     name: Guidelines
     identifier: guidelines
     weight: 30
+    pre: hide
 ---
 {{< panel wip >}}

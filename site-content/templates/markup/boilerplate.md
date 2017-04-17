@@ -4,7 +4,6 @@ date: 2017-03-07
 menu:
   main:
     parent: markup
-  side:
 ---
 
 {{< panel wip >}}
