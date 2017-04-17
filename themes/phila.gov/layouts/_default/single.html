@@ -13,7 +13,11 @@
 
 <div class="tertiary-content row bdr-bottom bdr-sidewalk mtm" data-equalizer="page">
   <div class="side-menu medium-7 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
-    {{ partial "side-menu.html" . }}
+    <nav data-swiftype-index="false" id="side-nav">
+      <ul class="vertical menu">
+        {{ partial "side-menu.html" (dict "menu" .Site.Menus.main "page" . "site" .Site) }}
+      </ul>
+    </nav>
   </div>
   <div id="style-guide" class="medium-16 columns pbxl" data-equalizer-watch="page">
     <section>
