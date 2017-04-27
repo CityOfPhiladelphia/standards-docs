@@ -12,14 +12,7 @@
 </div>
 
 <div class="tertiary-content row bdr-bottom bdr-sidewalk mtm" data-equalizer="page">
-  <div class="side-menu medium-7 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
-    <nav data-swiftype-index="false" id="side-nav">
-      <ul class="vertical menu">
-        {{ partial "side-menu.html" (dict "menu" .Site.Menus.main "page" . "site" .Site) }}
-      </ul>
-    </nav>
-  </div>
-  <div id="style-guide" class="medium-16 columns pbxl" data-equalizer-watch="page">
+  <div id="style-guide" class="medium-16 medium-push-8 columns pbxl" data-equalizer-watch="page">
     <section>
       {{ if isset $.Params "level" }}{{ else }}
         <h2 class="mtn">{{ .Title }}</h2>
@@ -30,6 +23,13 @@
         </article>
       </div>
     </section>
+  </div>
+  <div class="side-menu medium-7 medium-pull-17 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
+    <nav data-swiftype-index="false" id="side-nav">
+      <ul class="vertical menu">
+        {{ partial "side-menu.html" (dict "menu" .Site.Menus.main "page" . "site" .Site) }}
+      </ul>
+    </nav>
   </div>
 </div>
 <link type="text/css" href="{{ .Site.BaseURL }}/css/style-guide.css" rel="stylesheet">
