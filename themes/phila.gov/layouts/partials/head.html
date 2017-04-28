@@ -7,6 +7,8 @@
     <title>{{ .Title }} | Digital Standards | City of Philadelphia</title>
     <link rel="canonical" href="{{ .Permalink }}">
     <link href="{{ .Site.BaseURL }}/css/standards.css" rel="stylesheet">
+    <style type="text/css">{{ partial "hero.css" . | safeCSS }}</style>
+
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}/img/favicon.png">
 

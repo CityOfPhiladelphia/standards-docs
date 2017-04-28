@@ -1,0 +1,3 @@
+.hero-content{
+  background-image: url({{ .Site.BaseURL }}{{ $.Param "heroImageLocation" }});
+}
