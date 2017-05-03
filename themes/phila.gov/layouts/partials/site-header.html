@@ -1,7 +1,7 @@
 <div id="page">
   <div id="content">
     <header>
-      <div class="hero-content" style="background-image:url({{ .Site.BaseURL }}/img/standards-hero.jpg) ">
+      <div class="hero-content">
         <div class="hero-wrap">
           <div class="row expanded pbl">
             <div class="medium-14 small-centered columns text-overlay">
@@ -10,12 +10,11 @@
             </div>
           </div>
           <!-- Begin site navigation -->
-          <div class="show-for-medium">
             <div class="row">
               <div class="small-24 columns">
-                <div class="top-bar mbm-mu" id="site-nav">
+                <div class="mbm-mu" id="site-nav">
                   <nav data-swiftype-index="false">
-                    <ul class="secondary-menu vertical medium-horizontal menu dropdown" data-responsive-menu="drilldown medium-dropdown">
+                    <ul class="secondary-menu vertical medium-horizontal menu dropdown" data-responsive-menu="accordion medium-dropdown">
                       {{ $currentNode := . }}
                       {{ range  $.Site.Menus.main }}
                         {{if $currentNode.HasMenuCurrent "main" . }}
@@ -24,7 +23,7 @@
                         {{ if .HasChildren  }}
                         <li class="menu-item is-right-arrow{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} current-menu-item{{end}}">
                         <a href="javascript:;" class="">{{ .Name }}</a>
-                          <ul class="menu">
+                          <ul class="menu vertical nested">
                             {{ range .Children }}
                             {{if $currentNode.HasMenuCurrent "main" . }}
                               {{ $.Scratch.Add "Parent" (print .Name ) }}
@@ -46,7 +45,6 @@
                 </div>
               </div>
             </div>
-          </div>
           <!-- End site navigation -->
         </div>
       </header>
