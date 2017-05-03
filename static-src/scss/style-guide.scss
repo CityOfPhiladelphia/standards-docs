@@ -89,3 +89,10 @@
 nav#services-nav ul ul, nav#side-nav ul ul {
     display: block !important;
 }
+
+//hack for showing full menu name on mobile
+@media screen and (max-width: 39.9375em) {
+  #site-nav > nav > ul > li:nth-child(1) > a::before{
+    content: "Digital Standards ";
+  }
+}
