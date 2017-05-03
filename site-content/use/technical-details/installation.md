@@ -21,10 +21,10 @@ Download the Standards files directly. You can view the latest version and relea
 
 <div class="row">
   <div class="columns medium-11">
-    <a href="https://github.com/CityOfPhiladelphia/standards/releases/download/0.4.2/phila-standards-0.4.2.zip" class="button icon">
+    <a href="https://github.com/CityOfPhiladelphia/standards/releases/download/0.5.0/phila-standards-0.5.0.zip" class="button icon">
       <div class="valign">
         <i class="fa fa-download valign-cell"></i>
-        <div class="button-label valign-cell">Download version 0.4.2</div>
+        <div class="button-label valign-cell">Download version 0.5.0</div>
       </div>
     </a>
   </div>
