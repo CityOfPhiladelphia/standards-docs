@@ -17,7 +17,7 @@ The global navigation is the unifying element across all phila.gov pages. It is 
 Department and application websites sometimes require their own set of internal navigation. Items in this menu may or may not have subpages.
 
 ### Side navigation
-Content may be so nuanced that a third level of navigation is required.  It consists of third and 4th level pages that are not appropriate to display at the second level.
+Content may be so nuanced that a third level of navigation is required.  It consists of third and fourth level pages that are not appropriate to display at the second level.
 
 ---
 
