@@ -9,7 +9,7 @@ menu:
 We have two types of alerts, service updates and site-wide alerts.
 
 ### Service updates
-Service updates call out important time-sensitive information. They can be used on the homepage, and department landing pages if needed. They tell users the status of a system (transportation, trash, government facilities, etc). This includes current system disruptions as well as warnings.
+Service updates call out important time-sensitive information. They can be used on the homepage, and department landing pages, if needed. They tell users the status of a system (transportation, trash, government facilities, etc.). This includes current system disruptions as well as warnings.
 
 {{< service-updates >}}
 
