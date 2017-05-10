@@ -2,7 +2,6 @@
 
 This repository houses the documentation and website files for the City of Philadelphia's Digital Standards. The UI components, and other assets can be found in the [standards](https://github.com/CityOfPhiladelphia/standards) repository.
 
-
 ## Local copy
 The City of Philadelphia's Digital Standards is compiled using the static site generator, [Hugo](https://gohugo.io/). It uses [npm scripts](https://docs.npmjs.com/misc/scripts) for task running and [Yarn](https://yarnpkg.com/en/) for package management.
 
@@ -25,7 +24,15 @@ hugo serve
 
 The local webserver will be available at: `http://localhost:1313/standards-docs/`
 
-Hugo comes with LiveReload, so you will see changes to Hugo directories reflected immediately.
+To watch for changes to CSS and JavaScript assets, in a separate terminal window run:
+```
+yarn watch
+```
 
-## Pushing changes
+### Making changes
+
+Template markup and assets live in the `themes/phila.gov` directory.
+
+Hugo comes with LiveReload, which will automatically refresh your browser on changes.
+
 Commits to the `master` branch will trigger a build of the site through [Travis CI](https://travis-ci.org/CityOfPhiladelphia/standards-docs).
