@@ -7,9 +7,9 @@ menu:
   side:
 ---
 
-The color blue is an essential part of the City’s visual identity. It’s  synonymous with being trustworthy, dependable, and secure. Combined with shades of gray and white, the palette provides a welcoming feeling that’s easy to read, clean, and simple. 
+The color blue is an essential part of the City’s visual identity. It’s  synonymous with being trustworthy, dependable, and secure. Combined with shades of gray and white, the palette provides a welcoming feeling that’s easy to read, clean, and simple.
 
-Use the accent colors to add some pop and draw attention to certain elements. Always use the accent colors sparingly. 
+Use the accent colors to add some pop and draw attention to certain elements. Always use the accent colors sparingly.
 
 
 <div class="row mbxl equal-height">
@@ -212,9 +212,9 @@ Background, border and font color are available as utilities. Background colors 
 
 Example:
 
-* `bg-ben-franklin-blue` changes the `background-color` property
-* `ben-franklin-blue` changes the `color` property
-* `bdr-ben-franklin-blue` changes the `border-color` property
+* `bg-ben-franklin-blue` changes the `background-color` property.
+* `ben-franklin-blue` changes the `color` property.
+* `bdr-ben-franklin-blue` changes the `border-color` property.
 
 All color utility classes are `!important` to ensure they will override assigned properties.
 

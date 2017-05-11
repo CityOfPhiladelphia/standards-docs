@@ -24,7 +24,7 @@ Choose icons from Font Awesome, the open source toolkit by @davegandy. Iconograp
 
 Icons will be read aloud to screen readers by default. If the icon is purely decorative in nature, add `aria-hidden="true"` to the `<i>` tag to prevent it from being announced by screen readers.
 
-Additionally, if the icon has meaning in the current context, use the `aria-label` attribute with a value that identifies the way the icon is being used, or the location the link take the user.
+Additionally, if the icon has meaning in the current context, use the `aria-label` attribute with a value that identifies the way the icon is being used or the location the link take the user.
 
 Example: {{< highlight html >}}
 <a class="site-search" aria-label="Search">
