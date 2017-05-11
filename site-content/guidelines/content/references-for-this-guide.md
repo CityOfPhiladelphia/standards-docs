@@ -4,7 +4,6 @@ date: 2017-01-30
 menu:
   main:
     parent: content
-  side:
 ---
 
 <a href="https://pages.18f.gov/content-guide/" class="external">18F Content Guide</a>

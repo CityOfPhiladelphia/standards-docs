@@ -4,7 +4,6 @@ date: 2017-02-27
 menu:
   main:
     parent: content
-  side:
 ---
 
 On a document page, one or more related files can be downloaded by users. These pages prevent users and departments from having lots of stray links to files that are difficult to find and update.

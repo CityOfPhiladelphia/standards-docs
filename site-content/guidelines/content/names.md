@@ -4,7 +4,6 @@ date: 2017-01-30
 menu:
   main:
     parent: content
-  side:
 ---
 
 Use the [City government directory](https://beta.phila.gov/departments/) to find the official name of an office, department, or commission. Use that name consistently.
