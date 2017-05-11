@@ -4,7 +4,6 @@ date: 2017-01-30
 menu:
   main:
     parent: content
-  side:
 ---
 
 

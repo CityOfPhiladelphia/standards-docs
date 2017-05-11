@@ -4,7 +4,6 @@ date: 2017-01-30
 menu:
   main:
     parent: content
-  side:
 ---
 
 **Write content in clear, simple terms. Avoid wordy descriptions and jargon. **City of Philadelphia websites are for everyone in the City. The content they contain should therefore be as straightforward as possible.

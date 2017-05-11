@@ -4,7 +4,6 @@ date: 2017-01-30
 menu:
   main:
     parent: content
-  side:
 ---
 
 Spell out numbers one through nine; use numerals beyond that (10, 11, etc.). Spell out a number when it:

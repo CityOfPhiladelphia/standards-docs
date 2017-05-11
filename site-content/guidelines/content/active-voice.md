@@ -4,7 +4,6 @@ date: 2017-01-27
 menu:
   main:
     parent: content
-  side:
 ---
 Use active voice, not passive voice, whenever possible.
 

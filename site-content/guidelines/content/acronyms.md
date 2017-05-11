@@ -4,7 +4,6 @@ date: 2017-01-27
 menu:
   main:
     parent: content
-  side:
 ---
 **Acronyms can confuse readers. Whenever possible, use the full name.**
 

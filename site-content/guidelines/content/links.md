@@ -4,7 +4,6 @@ date: 2017-01-30
 menu:
   main:
     parent: content
-  side:
 ---
 
 Links are most effective when they are specific and descriptive. When you create a link, highlight text that will give users a clear idea of what they will see if they follow it. This is especially useful for people with vision impairment who use screen readers, and will often [skip from one link to another](http://webaim.org/techniques/hypertext/#link_to_link) as a way of skimming content.

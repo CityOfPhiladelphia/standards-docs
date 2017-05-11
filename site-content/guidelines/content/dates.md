@@ -4,7 +4,6 @@ date: 2017-01-30
 menu:
   main:
     parent: content
-  side:
 ---
 
 **Use numbers for dates and years.** Don't use *st, nd, rd,* or *th*.  Write out the name of months. When you use months with a date, only abbreviate the following months: Jan., Feb., Aug., Sept., Oct., Nov. and Dec.

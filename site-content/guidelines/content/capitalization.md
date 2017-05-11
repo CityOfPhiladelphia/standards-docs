@@ -4,7 +4,6 @@ date: 2017-01-27
 menu:
   main:
     parent: content
-  side:
 ---
 
 Unnecessary capitalization can come off as overly formal and unapproachable. We follow these capitalization guidelines:  
