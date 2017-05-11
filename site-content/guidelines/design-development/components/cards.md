@@ -43,7 +43,7 @@ The media card is the base for all card types.
 Apply the `card` class to an `<a>` tag to use this card style. An image is required.
 
 ### Call to action cards
-A call to action card must contain an icon relating to the topic of the card, a title and a short description. This is the only card type that can link to off-site content.
+A call to action card must contain an icon relating to the topic of the card, a title, and a short description. This is the only card type that can link to off-site content.
 
 Apply the `card--action` class and the base `card` class to an `<a>` tag.
 

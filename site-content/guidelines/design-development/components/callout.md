@@ -21,7 +21,7 @@ Callouts display important information that needs to be highlighted outside of a
 {{% accordion How to use %}}
 ## Implementation
 
-Callouts are full-width divs meant to draw attention to a change, or other important information. Apply the `callout` class to any div.
+Callouts are full-width divs meant to draw attention to a change or other important information. Apply the `callout` class to any div.
 
 {{% /accordion %}}
 
