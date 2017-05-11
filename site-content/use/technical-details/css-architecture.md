@@ -33,3 +33,17 @@ The Standards CSS is intentionally opinionated. Using the Standards in your proj
 ### Class names
 
 Any of the class names in the <a href="http://foundation.zurb.com/sites/docs/" class="external">Foundation 6</a> documentation are also available for use in the Standards.
+
+#### Other useful classes
+{{< accordion-wrap >}}
+
+{{< accordion External links >}}
+You can add the `external` class to a link to indicate the visitor will be taken to another website.
+{{< highlight html >}}
+<a href="https://beta.phila.gov">City of Philadelphia</a>  
+<a href="https://alistapart.com" class="external">A List Apart</a>
+{{< /highlight >}}
+
+{{% /accordion %}}
+
+{{</ accordion-wrap >}}
