@@ -4,7 +4,7 @@ date: 2017-01-31
 menu:
   main:
     parent: design-development
-  side:
+    weight: 5
 ---
 
 Choose icons from Font Awesome, the open source toolkit by @davegandy. Iconography should provide a simple, visual indicator of key actions or tasks. The icons also create stronger contextual emphasis on the page.

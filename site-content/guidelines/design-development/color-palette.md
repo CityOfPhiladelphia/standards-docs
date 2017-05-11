@@ -4,7 +4,7 @@ date: 2017-01-27
 menu:
   main:
     parent: design-development
-  side:
+    weight: 1
 ---
 
 The color blue is an essential part of the City’s visual identity. It’s  synonymous with being trustworthy, dependable, and secure. Combined with shades of gray and white, the palette provides a welcoming feeling that’s easy to read, clean, and simple.

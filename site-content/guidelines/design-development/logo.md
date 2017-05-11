@@ -4,7 +4,7 @@ date: 2017-01-27
 menu:
   main:
     parent: design-development
-  side:
+    weight: 4
 ---
 
 The City of Philadelphia’s logo is the most visible representation of the city, its people, and its visual identity . The logo is a valuable asset that must be used consistently in the proper, approved forms.

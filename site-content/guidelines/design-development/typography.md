@@ -4,7 +4,7 @@ date: 2017-01-27
 menu:
   main:
     parent: design-development
-  side:
+    weight: 2
 ---
 
 Sans-serifs were chosen because they are easier to read on screens, and are adaptable across platforms and browsers.
