@@ -4,7 +4,7 @@ date: 2017-01-31
 menu:
   main:
     parent: design-development
-  side:
+    weight: 3
 ---
 
 Carefully considered photography brings another dimension to the City’s brand identity. Pictures should be expressive, show real people and emotions, and be cropped for greatest effect. Aim for a photojournalistic approach, creating a sense of place, and showing real-life interactions between people. Never use a photo that’s contrived or cliched. Dynamic lines, angles and cropping give images personality.
