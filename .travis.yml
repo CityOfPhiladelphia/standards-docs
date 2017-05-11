@@ -5,6 +5,9 @@ go:
 
 install:
   - pip install Pygments --user
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
   - npm install
 
 before_script:
