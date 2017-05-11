@@ -3,8 +3,7 @@ title: Menus
 date: 2017-02-01
 menu:
   main:
-    parent: design-development
-  side:
+    parent: components
 ---
 
 Phila.gov uses three types of menus to organize information.
