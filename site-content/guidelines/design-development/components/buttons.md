@@ -3,7 +3,7 @@ title: Buttons
 date: 2017-02-01
 menu:
   main:
-    parent: design-development
+    parent: components
 ---
 
 Use buttons for actions. The default color for buttons is electric blue. The text is dark gray. The hover state is dark gray with white text. Add an icon when appropriate.

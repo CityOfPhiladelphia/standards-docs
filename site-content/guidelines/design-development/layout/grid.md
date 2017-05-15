@@ -3,7 +3,8 @@ title: Grid
 date: 2017-02-01
 menu:
   main:
-    parent: design-development
+    parent: layout
+    weight: 1
 ---
 
 The grid system is composed of 24 columns.

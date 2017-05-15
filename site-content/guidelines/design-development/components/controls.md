@@ -3,7 +3,7 @@ title: Controls
 date: 2017-02-14
 menu:
   main:
-    parent: forms
+    parent: components
 ---
 ### Checkboxes
 {{< form-controls-checkboxes >}}

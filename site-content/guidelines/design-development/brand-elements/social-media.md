@@ -4,7 +4,7 @@ date: 2017-02-01
 description: Guidelines for social media image use and open graph markup.
 menu:
   main:
-    parent: design-development
+    parent: brand-elements
     weight: 6
 ---
 
