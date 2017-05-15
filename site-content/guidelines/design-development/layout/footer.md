@@ -3,7 +3,7 @@ title: Footer
 date: 2017-02-13
 menu:
   main:
-    parent: components
+    parent: layout
 ---
 
 The global footer has two parts. The top first section of the footer provides 311 information. The second area of the footer links to community resources, city government, and social media.
