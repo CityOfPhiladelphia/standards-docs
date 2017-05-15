@@ -84,18 +84,17 @@ Example: He referred to the Sarbanes–Oxley Act.
 
 See also “hyphen.”
 
+**To make an Em-Dash**
 
+* Mac: Option + shift + hyphen
+* Windows: Alt + 151 (#pad)
+* WordPress: Three consecutive hyphens
 
-**En Dash, –
-Em Dash, —**
+**To make an En-Dash**
 
-**HOW DO WE MAKE THIS A TABLE?**
-Mac: Option + hyphen
-Windows: Alt + 150 (#pad)
-WordPress: Two consecutive hyphens
-Mac: Option + shift + hyphen
-Windows: Alt + 151 (#pad)
-WordPress: Three consecutive hyphens
+* Mac: Option + hyphen
+* Windows: Alt + 150 (#pad)
+* WordPress: Two consecutive hyphens
 
 
 **Ellipses**
