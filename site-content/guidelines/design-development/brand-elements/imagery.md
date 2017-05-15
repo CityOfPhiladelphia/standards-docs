@@ -3,7 +3,7 @@ title: Imagery
 date: 2017-01-31
 menu:
   main:
-    parent: design-development
+    parent: brand-elements
     weight: 3
 ---
 

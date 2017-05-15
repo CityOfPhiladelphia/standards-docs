@@ -1,80 +1,206 @@
 ---
-title: Punctuation
-date: 2017-01-30
+title: Punctuation 
+date: 2017-05-15
 menu:
   main:
     parent: content
 ---
+**Ampersand**
+Use an “&” in labels, headings, and subheadings. Spell out the word “and” in prose, lists, and department or office titles.
 
+**[Brackets]**  Brackets are used to indicate that the writer has replaced the original word in quoted text with a different word to clarify the speaker’s intended meaning.
 
-### Addresses
-When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd. Blvd., etc).
+Example: She attended [graduate] school.
 
->1401 John F. Kennedy Blvd.
+Example: He sat in on [several courses] during his day visiting the university.
 
-### Ampersand
-Use an &amp; in labels, headings, and subheadings. Spell out the word "and" in prose, lists, and department or office titles.
+**Bulleted lists**
+Capitalize the first word of every bullet. Include a period only if the bullet point makes a complete sentence following the introductory phrase.
 
-### Bulleted lists
-Capitalize the first word of every bullet.
+Example: When you go to the store, please buy:
 
->When you go to the store, please buy:
+* Bread. 
+* Milk. 
+* Apples.  
 
->* *Bread*
-* *Milk*  
-* *Apples*  
+**Capitalization**
+Unnecessary capitalization can come off as overly formal and unapproachable. We follow these capitalization guidelines:
 
-Include a period only if the bullet point makes a complete sentence following the introductory phrase.
+ * Don’t capitalize “federal” or “government.”
 
->*When you go to the store, please:*
+Example: Working for the federal commission was very rewarding.
 
->* *Buy bread, milk, and apples.*
-* *Fill the car with gas.*
+Example: City government makes important decisions.
+ 
+* Don’t capitalize a job title unless it directly precedes a proper name.
 
-### Colons
+Example:. Write to Chief Technical Officer, Jane Doe.
+
+Example: Write to the chief technical officer.
+
+ * Do capitalize the word city when referring to the City of Philadelphia as an official organization.
+
+Example: The City will announce pool openings on Friday.
+
+Example: There are several City employees at the event.
+
+* Don’t capitalize “city” when it is used in an inclusive or general sense.
+
+Example: Philadelphia was selected as the host city for the 2016 Democratic National Convention. 
+
+* In titles, do not capitalize coordinate conjunctions (for example, “and,” “but,” “or”); or prepositions with four or fewer letters.
+
+* Do capitalize proper nouns.
+
+Examples:  Pennsylvania, World War II, Acme Explosives Company
+
+**Colons**
 Capitalize the first word after a colon only if what follows is a complete sentence.
 
->*I have several favorite foods: apples, bananas, and pita chips.*  
-*I have several favorite foods: Apples were my first favorite snack, but pita chips are a rising star in my life.*
+Example:  I have several favorite foods: apples, bananas, and pita chips.
 
-### Commas
+Example:  I have several favorite foods: Apples were my first favorite snack, but pita chips are a rising star in my life.
+
+**Commas**
 We prefer the serial comma (sometimes called the Oxford comma). In a list of three or more, include a comma before the conjunction.
 
->*Please buy bread, milk, and apples.*
+Example: Please buy bread, milk, and apples.
 
-### Dashes
-#### Em dash
+**Contractions**
+Standard English contractions ( for example., “we’ll,” “ you’ll,” “won’t,” “don’t,” “haven’t”) are acceptable – even encouraged – in informal web content, but not in proposals or statements of work, where you should use  a more formal tone.
 
-When offsetting a phrase with dashes, you should use the longer "em dash," with no space on either side of the dash.
+**Dashes**
+Different types of dashes are used in different situations
 
-WordPress automatically converts 3 consecutive hyphens into an em dash.
+* Em dash: An em dash is a long dash. Use an Em dash to set off a phrase. Don’t use a single hyphen in place of an em dash.
 
->*We emphasize open, digital record keeping, and&mdash;whenever possible&mdash;we illuminate our processes.*
+Example: We emphasize open, digital record keeping, and—whenever possible—we illuminate our processes.
 
-Don't use a single hyphen in place of an em dash.
+* En dash: An en dash is shorter than an em dash. Use an en dash to convey a range. The en dash is also used in to show connected items. Don’t use  a single hyphen in place of an  en dash.
 
-#### En dash
-Although we advocate using words rather than symbols, in some contexts you may use an "en dash" to convey a range. For example, both *10–20 students* and *10 to 20 students* are acceptable options.
+Example: The program is open to children ages 10-12.
 
-The en dash is also used in to show relationships and connections, as in the *Sarbanes&ndash;Oxley Act*, a *JFK&ndash;LAX flight, *or the *Jones--Martin wedding*.
+Example: He referred to the Sarbanes–Oxley Act.
 
-WordPress automatically converts 2 consecutive hyphens into an en dash.
+See also “hyphen.”
 
-### Dates
-Include the full name of the month, as in *December 14, 1954.*
+**To make an Em-Dash**
 
-### Quotation marks
-Below are examples of correctly punctuated quotations.
+* Mac: Option + shift + hyphen
+* Windows: Alt + 151 (#pad)
+* WordPress: Three consecutive hyphens
 
->*“Would you like a banana?” he asked.*  
-*“I hate bananas,” she said. “You know I hate bananas.”*  
-*He paused before saying, “Bananas are not something people should hate.”*
+**To make an En-Dash**
 
-### Semicolons
-Use semicolons at the end of bullet points if the list is either inclusive or exclusive.
+* Mac: Option + hyphen
+* Windows: Alt + 150 (#pad)
+* WordPress: Two consecutive hyphens
 
->Acceptable forms of identification include:
 
->* Drivers license;
+**Ellipses**
+Ellipses indicate things left unsaid. They are often used to shorten quoted material, removing irrelevant words without changing the meaning.
+Unless used to shorten a quote, write around them as much as possible. If they are absolutely necessary, they should be treated as a word, with spaces before and after.
+
+Example: “Ask not what your country can do for you. Ask what you can do for your country.”
+
+“Ask not what your country can do … your country.”
+
+**Hyphen**
+The hyphen indicates conjunction and has three uses:
+
+* To distinguish between homographs
+
+Example: re-dress = dress again
+
+Example: redress = remedy or fix
+
+* To link certain prefixes with their main word
+
+Example: non-planar
+
+Example: sub-achiever
+
+* Use a hyphen when the letters brought together:
+
+ * Are the same 
+
+  * Are vowels
+
+ * Form an uncommon word 
+
+ * May be misread
+
+
+
+* To link related terms in compound adjectives and adverbs.
+
+* Use a hanging hyphen when two compound adjectives are separated
+
+Example: three- and four-digit numbers
+
+Example: a ten-boat or -vessel regatta
+
+* Hyphenate two-word numbers from 21 to 99 when presented as words
+
+Example: sixty-six
+
+* Hyphenate fractions
+
+Example: six-eighths
+
+* Do not hyphenate other multi-word numbers
+
+Example: two hundred (not two-hundred)
+
+* Hyphenate values and units as compound adjectives if the unit is given as a whole word
+ 
+Example: (9-millimetre gun)
+
+* Where hyphens are not used, always separate values and units by a non-breaking space
+
+Example: 9 mm gun
+
+**(Parentheses)**
+Unless used to introduce an acronym for the first time, these tend to distract from the flow of a sentence and should be avoided in favor of commas and dashes.
+
+**Periods and Spaces** Do not separate acronyms with periods or blank spaces 
+
+Examples: GOP, NASA, OBE, GmbH
+
+* Many periods and spaces that were traditionally required have now dropped out of usage
+
+Example: “PhD” is preferred to  “Ph.D.”
+
+* Truncated (“Hon.” for “Honorable”), compressed (“cmte.” for “committee”) and contracted (“Dr.” for “Doctor”) abbreviations may or may not be closed with a period.
+
+**Plurals of Lowercase Letters**
+Use apostrophe + s to form plurals of lowercase letters.
+
+Example: Don’t forget to dot your i’s.
+
+What about plural of uppercase letters, like acronyms?  There is no need for apostrophes indicating a plural on capitalized letters, numbers and symbols.
+
+**Quotation marks**
+Below are examples of correctly punctuated quotations:
+
+* “Would you like a banana?” he asked.
+
+* “I hate bananas,” she said. “You know I hate bananas.”
+
+* He paused before saying, “Bananas are not something people should hate.”
+
+Quotation marks should NOT be used to indicate emphasis or emotion, nor should they be used to set off proper names. 
+
+Example: Get ready for hurricane season. NOT: Get ready for “hurricane season.” 
+
+Example: NOT: We are currently understaffed but we will “do our best” to get to your concern in a timely manner. 
+
+Example: NOT: Joe Johnson became the head of the “Department of Human Affairs” in June 1999. 
+
+**Semicolons**Use semicolons at the end of bullet points.
+
+Example: Acceptable forms of identification include:
+
+* Driver’s license;
 * Birth certificate;
 * Or Social Security card.
