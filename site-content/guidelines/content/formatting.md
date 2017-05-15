@@ -11,8 +11,8 @@ DON’T USE CAPITAL LETTERS FOR LONGER HEADLINES OR BLOCKS OF TEXT. IT’S HARD 
 **Block Quotes**
 Use block quotes when you want to highlight a single sentence or phrase from within the body of your writing. Block quotes use text format and placement to highlight a particular issue so readers who scan can get the most important nugget from the story. Use block quotes sparingly to create the biggest impact.
 
-Example: 
->“We are changing the way the City website serves our residents” - Office of Open Data and Digital Transformation
+>Example: 
+“We are changing the way the City website serves our residents” - Office of Open Data and Digital Transformation
 
 **Bold, Italics, and Underline**
 Bold calls attention to key information. Italics are used under specific conditions, such as to indicate the title of a book. Avoid using italics to emphasize an idea or to create a sarcastic tone. Underlining should not be used in web communications. 
