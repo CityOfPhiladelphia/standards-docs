@@ -1,11 +1,13 @@
 ---
 title: Common Usage
 date: 2017-05-15
+description: Embrace the City style by using these guidelines.
 menu:
   main:
     parent: content
 ---
-**Acronyms and abbreviations**
+### Acronyms and abbreviations
+
 * The first time you refer to an organization or project that uses an acronym, write out the full name and follow with the abbreviation in parentheses.
 
 Example: The General Services Administration (GSA) oversees the business of the U.S. Federal Government.
@@ -32,15 +34,18 @@ Do not use an apostrophe to form the plural of an acronym.
 
 Example: Did you receive the PDFs?
 
-**Addresses**
+### Addresses
+
 When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd. Blvd., etc).
 
 Example: 1401 John F. Kennedy Blvd.
 
-**All right / alright**
+### All right / alright
+
 Although "alright" is widely used, it is considered nonstandard English. As the American Heritage Dictionary notes, it is not “all right to use alright.”
 
-**Bimonthly / semimonthly**
+### Bimonthly / semimonthly
+
 
 * Bimonthly is an adjective that means every two months. Bimonthly is also a noun referring to a publication issued every two months.
 
@@ -52,7 +57,8 @@ Example: The company publishes several popular bimonthlies.
 
 Example: We have semimonthly meetings on the 1st and the 15th.
 
-**Capital / capitol**
+### Capital / capitol
+
 
 * Use “capitol” when referring to a building.
 
@@ -69,13 +75,15 @@ Example: Harrisburg is the capital of Pennsylvania.
 
 Example: After leaving the capitol building, Senator Toomey went to the Capitol to discuss plans to improve his state’s capital in Harrisburg, by investing more capital in infrastructure projects.
 
-**Citizen**
+### Citizen
+
 Since some of those people living within the City might not be citizens, we prefer to use residents or individuals.  
 
-**Companywide**
+### Companywide
+
 NOT company-wide
 
-**Dates**
+### Dates
 * Use numbers for dates and years.
  
 * Don’t use st, nd, rd, or th.
@@ -98,14 +106,16 @@ Example: Philadelphia was founded on Oct. 27, 1682.
 
 Example: Mayor Kenney will be speaking at the event on Thursday.
 
-**e-**
+### e-
+
 Use e-, with a hyphen, to abbreviate electronic
  
 Example: e-book, e-commerce
 
 Exception – email
 
-**Emigrate from / immigrate to**
+### Emigrate from / immigrate to
+
 * Emigrate means to leave one country or region to settle in another.
 
 Example: In 1900, my grandfather emigrated from Russia.
@@ -114,7 +124,8 @@ Example: In 1900, my grandfather emigrated from Russia.
 
 Example:  Many Mexicans immigrate to the United States to find work.
 
-**Figurative language** 
+### Figurative language
+
 Avoid using figurative language. It often doesn’t say what you actually mean and can make your content more difficult to understand. 
 For example:
 
@@ -124,7 +135,8 @@ For example:
 * In order to (extra words that usually mean the same thing as “to”)
 * One-stop shop (we’re the government, not a big box store.)
 
-**Historic / historical**
+### Historic / historical
+
 In general usage, historic refers to what is important in history.
 
 Example:  A historic summit meeting between the prime ministers
@@ -133,7 +145,8 @@ Historical applies more broadly to whatever existed in the past, whether it was 
 
 Example:  A historical department, the City eliminated the Department of Horse and Buggies in 1909.  
 
-**Inclusive language** 
+### Inclusive language
+
 The City of Philadelphia uses language that is inclusive regardless of age, ancestry, color, disability, domestic or sexual violence victim status, ethnicity, familial status, gender identity, marital status, national origin, race, religion, sex, or sexual orientation. To that end, we always write with a person-first perspective. 
 
 * **Age**: Unless it is important for the reader to know, don’t reference a person’s age. 
@@ -164,12 +177,14 @@ It is acceptable, when applicable, to use the non-gendered pronoun, “they” a
 
 Example: The Center was created to assist those with bipolar disorder, schizophrenia, and severe depression. 
 
-**Inc. / incorporated**
+### Inc. / incorporated
+
 When the word is part of a company name, use Inc. Do not include a comma before Inc.
 
 Example: Time Warner Inc.
 
-**Login / log in**
+### Login / log in
+
 One word when used as a noun or adjective. 
 
 Example: What’s your login name?
@@ -178,7 +193,8 @@ Two words when used as a verb.
 
 Example: Hurry up and log in!
 
-**Measurements**
+### Measurements
+
 Use English units of measure (e.g., foot, mile, gallon and pound). Spell out units of measure, except after numbers, where abbreviations (e.g., ft., lb., m.p.g.) may be used. Avoid the use of measurement symbols (e.g., # for pound), including in tables.
 
 Example: 23 ft. high
@@ -191,7 +207,8 @@ Example: 12 ft. x 12 ft.
 
 Example: price per pound
 
-**Names** 
+### Names
+
 Use the [City government directory](https://beta.phila.gov/departments/) to find the official name of an office, department, or commission. Use that name consistently.
 
 Department of Revenue
@@ -208,10 +225,12 @@ Example: John Jones said that city government is the most fulfilling job he’s 
 
 John Jones and Casey Jones say their work in city government is essential. John Jones joined his department in 1994. Casey Jones began her work with the City in 2001. 
 
-**Nationwide**
+### Nationwide
+
 NOT national or nation-wide.
 
-**Numbers**
+### Numbers
+
 Spelling out numbers one through nine; use numerals beyond that (10, 11, etc.).
  
 **Spell out a number when it**:
@@ -285,19 +304,22 @@ Example: 1900s
 
 *See the “numerals” entry in [AP Stylebook](https://www.apstylebook.com/) for complete guidance.
 
-**Online**
+### Online
+
 One word.
 
-**Onsite**
+### Onsite
 One word.
 
-**Passive voice**
-Passive voice can create dull and awkward sentences and should be avoided except when you intend to be vague about who is responsible for an action. Aim for active voice. 
+### Passive voice
+
+Passive voice can create dull and awkward sentences and you should avoid it, except when you intend to be vague about who is responsible for an action. Aim for active voice. 
  
 Example: 
 The department charged fines incorrectly and apologized for the error. - NOT- Mistakes were made and fines were charged.
 
-**Plain language** 
+### Plain language
+
 Don’t use formal or long words when easy or short ones will do.
 
 Example: Use “about” instead of “approximately,” and so on.
@@ -330,7 +352,8 @@ We lose our users’ trust if we write using government buzzwords and jargon. Of
 * User testing (unless you’re actually testing the users — otherwise, use “usability testing”)
 * Utilize
 
-**Principal / principle**
+### Principal / principle
+
 “Principal” is a noun that means “a person who holds a high position or plays an important role,” or “a sum of money.” “Principal” is also an adjective that means “chief, leading.”
 
 Example: The school principal has 20 years of teaching experience.
@@ -339,44 +362,31 @@ Example: The school principal has 20 years of teaching experience.
 
 Example: They refused to compromise their principles.
 
-**Redundant phrases**
+### Redundant phrases
+
 Find alternatives to common redundant phrases below:
  
 Redundant | Revised
-----------------------------
+--------- | ------------------
 for the purpose of | to
-
 for the reason that | because
-
 future plans | plans
-
 in excess of | more than
-
 in order to | to
-
 reason why | why
-
 root cause | cause
-
 widely diverse | diverse
-
 advance planning | planning
-
 assembled together | assembled
-
 background experience | experience
-
 completely eliminate | eliminate
-
 component part | component
-
 cooperate together | cooperate
-
 end result | result
-
 final end | end
 
-**Rollout / roll out**
+### Rollout / roll out
+
 “Roll out” is a verb.
 
 Example: Roll out the barrel; we’ll have a barrel of fun.
@@ -385,7 +395,8 @@ Example: Roll out the barrel; we’ll have a barrel of fun.
 
 Example: To promote success, we should devise a rollout plan.
 
-**Set up / setup**
+*** Set up / setup
+
 “Set up” is a verb that denotes the act of putting something together.
 
 Example:  He set up the meeting room.
@@ -394,12 +405,14 @@ Example:  He set up the meeting room.
 
 Example:  We all agreed the new setup was an improvement.
 
-**State name abbreviations**
+### State name abbreviations
+
 Write out state names when not preceded by a city name. Use [AP Stylebook](https://www.apstylebook.com/) abbreviations when following a city name. Set off on both sides with a comma if in the middle of a sentence. Never use postal abbreviations except when writing out a complete postal address.
 
 Example: Our headquarters are in Philadelphia, Pa., but we serve the world.
 
-**The**
+### The
+
 Do not capitalize as part of a proper noun or title unless “the” is part of the trademarked or copyrighted name.
 
 Example: New York City is also called the Big Apple.
@@ -408,10 +421,12 @@ Example: An article in The New York Times quoted the mayor.
 
 Example: Listed as one of the Fortune 500, Acme was a great place to work.
 
-**Third-party (adj.) / third party (n.)**
+### Third-party (adj.) / third party (n.)
+
 Always hyphenate the adjective, but never the noun.
 
-**Time-date-place**
+### Time-date-place
+
 The preferred structure for conveying event information in text is time-date-place. 
 Use of the day of the week is optional. If the day is included, it should be spelled out.
 
@@ -419,7 +434,8 @@ Example: The press conference will be held at 2 p.m., Jan. 25 at the Municipal S
 
 Example: The press conference will be held at 2 p.m., Saturday, Jan. 25 at the Municipal Services Building.
 
-**Times**
+### Times
+
 * Use numbers to state exact times.Use a.m. and p.m. for morning and afternoon. 
 * Use noon and midnight to avoid confusion about 12 a.m. and 12 p.m. 
 * Use a colon to separate hours and minutes, but don’t use a colon for something that occurs on the hour. 
@@ -434,7 +450,8 @@ Example: Parking is legal until midnight.
 
 Example: Parking rules are in effect from 6:30 p.m. to 10 p.m.
 
-**Titles, job**
+### Titles, job
+
 In general, capitalize job titles when they precede the individual’s name. Do NOT capitalize when they follow the individual’s name in a sentence. 
 
 Example: Senior Vice President of Marketing, Jim Smith, is a member.
@@ -443,28 +460,33 @@ Example: John Doe, vice president of operations, has been with Acme for 10 years
 
 See also, capitalization 
 
-**Titles of media**
+### Titles of media
+
 Italicize names of magazines, newspapers, books, newsletters and movies.
 
 * Generally avoid underlining. 
 * Put names of reports and articles in quotation marks. 
 
-**United States / U.S.**
+### United States / U.S.
+
 United States is a noun. U.S. is an adjective.
 
 Example:Clams Casino is the most renowned dish in the United States.
 
 Example: The company’s U.S. client base is extensive.
 
-**User**
+### User
+
 Avoid the word “user”  in favor of more appropriate words, like “resident” or “individual.”
 Example: Over 14,000 residents have signed up for the service.
 Example: The Mayor estimates that some 36,000 individuals will be involved. 
 
-**Year and a half / year-and-a-half**
+## #Year and a half / year-and-a-half
+
 Hyphenate only when it is used as an adjective.
 Example: A year-and-a-half assignment.
 Example: A year and a half on the management team.
 
-**ZIP code**
+### ZIP code
+
 Capitalize. ZIP is an acronym for “zone improvement plan.”
