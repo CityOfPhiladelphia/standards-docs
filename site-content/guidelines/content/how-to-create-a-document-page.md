@@ -1,5 +1,5 @@
 ---
-title: Document pages
+title: How to create a document page
 date: 2017-02-27
 menu:
   main:

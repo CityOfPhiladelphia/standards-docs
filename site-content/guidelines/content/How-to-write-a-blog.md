@@ -1,6 +1,6 @@
 ---
-title: News, blogs, and press releases
-date: 2017-02-27
+title: How to write a blog
+date: 2017-05-15
 menu:
   main:
     parent: content

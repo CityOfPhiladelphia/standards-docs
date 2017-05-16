@@ -1,6 +1,6 @@
 ---
-title: PDFs
-date: 2017-02-27
+title: how to write news
+date: 2017-05-15
 menu:
   main:
     parent: content
