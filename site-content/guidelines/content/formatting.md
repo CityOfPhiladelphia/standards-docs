@@ -73,6 +73,7 @@ Excessive linking can be confusing and overwhelming. If a resource, topic, or or
  
 **Lists**
 There are two types of lists: bulleted and numbered. Bulleted lists are known as “unordered” on the web, and numbered lists are known as “ordered.” Most lists should be unordered. Only use an ordered list if the order or number of items matters, as in a list of steps. 
+
 **PDFs** 
 Usability expert Jakob Nielsen explains that [PDFs are good for distributing documents and forms that need to be printed] (https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/). However, PDFs have several limitations.
 PDFs are:
