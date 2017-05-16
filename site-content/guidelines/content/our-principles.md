@@ -1,7 +1,7 @@
 ---
 title: Our principles
 date: 2017-01-30
-description: These are the guiding principles for all City writing.
+description: Read our approach to creating accessible, effective, human-centered content for residents.
 menu:
   main:
     parent: content
