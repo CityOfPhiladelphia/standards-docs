@@ -14,10 +14,10 @@ along with standards for formatting, punctuation, and common usage, will help  u
 
 We are … | That means we … 
 ------------ | ---------------------------- 
-Accessible | Use plain language and Write for diverse audiences 
-Effective | Make content goal-oriented and Use active voice 
-Dignified & Human-Centered | Are helpful and Write for resident needs
-Clear & Trustworthy|Provide context  and Are accurate and Are complete 
+Accessible | Use plain language  Write for diverse audiences 
+Effective | Make content goal-oriented   Use active voice 
+Dignified & Human-Centered | Are helpful   Write for resident needs
+Clear & Trustworthy|Provide context  Are accurate   Are complete 
 
 **Our Guiding Principles**
 
