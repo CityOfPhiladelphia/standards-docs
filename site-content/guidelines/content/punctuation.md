@@ -1,7 +1,7 @@
 ---
 title: Punctuation 
 date: 2017-05-15
-description: Bullets, hyphens, ampersands and more. Use them right by referring to these guidelines. 
+description: Bullets, hyphens, ampersands and more. Get guidance on the right way to use them. 
 menu:
   main:
     parent: content
