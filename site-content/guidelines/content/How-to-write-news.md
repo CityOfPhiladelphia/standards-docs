@@ -1,5 +1,5 @@
 ---
-title: how to write news
+title: How to write news
 date: 2017-05-15
 menu:
   main:
