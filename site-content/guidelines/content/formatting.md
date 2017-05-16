@@ -1,7 +1,7 @@
 ---
 title: Formatting
 date: 2017-05-15
-description: Formatting guidelines for headlines, links, quotes, calendars and more.
+description: Style rules for headlines, links, quotes, calendars, and other text.
 menu:
   main:
     parent: content
