@@ -35,22 +35,22 @@ Example: Did you receive the PDFs?
 **Addresses**
 When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd. Blvd., etc).
 
-Example 1401 John F. Kennedy Blvd.
+Example: 1401 John F. Kennedy Blvd.
 
 **All right / alright**
-Although alright is widely used, it is considered nonstandard English. As the American Heritage Dictionary notes, it is not “all right to use alright.”
+Although "alright" is widely used, it is considered nonstandard English. As the American Heritage Dictionary notes, it is not “all right to use alright.”
 
 **Bimonthly / semimonthly**
 
 * Bimonthly is an adjective that means every two months. Bimonthly is also a noun referring to a publication issued every two months.
 
-Example I brought the cake for the bimonthly office party.
+Example: I brought the cake for the bimonthly office party.
 
-Example The company publishes several popular bimonthlies.
+Example: The company publishes several popular bimonthlies.
 
 * Semimonthly is an adjective that means happening twice a month.
 
-Example We have semimonthly meetings on the 1st and the 15th.
+Example: We have semimonthly meetings on the 1st and the 15th.
 
 **Capital / capitol**
 
@@ -268,11 +268,11 @@ Example: Late fee: 5% of the total due, plus an additional 0.5% for every month 
 
 * **Phone and fax numbers**: Use parentheses and a space to separate the area code from the rest of a phone or fax number. Use a hyphen (-) between the third and fourth digits that follow the area code.
 
-Example Call (215) 686-0306 to find out if the building where you live is being managed by a court-appointed receiver.
+Example: Call (215) 686-0306 to find out if the building where you live is being managed by a court-appointed receiver.
 
-Example You can pay delinquent property taxes with a credit card by calling (877) 309-3710.
+Example: You can pay delinquent property taxes with a credit card by calling (877) 309-3710.
 
-* **Ranges**: Use “to” when constructing number ranges within sentences.An en dash may be used in place of “to” outside of sentences to save space
+* **Ranges**: Use “to” when constructing number ranges within sentences. An en dash may be used in place of “to” outside of sentences to save space
 Example: 20 to 30 days
 Example: Hours 5–8 p.m.
 
