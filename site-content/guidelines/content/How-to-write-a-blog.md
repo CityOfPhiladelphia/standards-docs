@@ -1,6 +1,7 @@
 ---
 title: How to write a blog
 date: 2017-05-15
+description: To create a blog that engages your audience, here's what you need to know.
 menu:
   main:
     parent: content
