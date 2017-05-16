@@ -19,13 +19,13 @@ Bold calls attention to key information. Italics are used under specific conditi
 
 **Calendar** 
 Use Google calendar to set up your calendar events.
-Use the [Dates](This is a link to common usage) section of the common usage guide to check your use of date, time, place, and abbreviations.
+Use the [Dates]section of the common usage guide to check your use of date, time, place, and abbreviations.
 All-day events taking place on the same day should be entered all together. Use an ampersand (&) before the last item in the list, and do not use a serial comma.
 
 Example: Monthly payment due for Wage, Hotel, Outdoor Advertising, Parking, Valet Parking & Vehicle Rental Taxes
  
 **Headings**
-Use Headings to break up content into sections. Headlines, page titles, subheads, and similar content should follow sentence capitalization rules.Thank
+Use Headings to break up content into sections. Headlines, page titles, subheads, and similar content should follow sentence capitalization rules.
 
 Example: How to pay your taxes.
 
@@ -39,11 +39,11 @@ For written languages that read left to right, left justification is most approp
 
 **Links** Links are most effective when they are specific and descriptive. When you create a link, highlight text that will give users a clear idea of what they will see if they follow the link. This is especially useful for people with vision impairments who use screen readers, and will often [skip from one link to another] (this is a link) as a way of skimming content.
 
-Example: To be ready for the unexpected, you and your family need to [make an emergency plan](this is a link).
+Example: To be ready for the unexpected, you and your family need to [make an emergency plan](https://beta.phila.gov/services/safety-emergency-preparedness/prepare-for-an-emergency/make-an-emergency-plan/).
 
 NOT
 
-To be ready for the unexpected, you can find out how to create an emergency plan [here](this is a link).
+To be ready for the unexpected, you can find out how to create an emergency plan [here](https://beta.phila.gov/services/safety-emergency-preparedness/prepare-for-an-emergency/make-an-emergency-plan/).
 
 * **No “click here”** Do not use “click here” as the label for any link. Since “click here” is not descriptive, it’s harder for people to find the linked content through a search engine. It’s also becoming an outdated term, since mobile devices involve tapping, not clicking.
 
@@ -72,16 +72,15 @@ When you are linking to a website outside of phila.gov check the box that indica
 Excessive linking can be confusing and overwhelming. If a resource, topic, or organization is referenced multiple times on one page you only need to link to it the first time. For example, if you refer to the Office of Property Assessment three times in a content item, link to it the first time but not the second or third times.
  
 **Lists**
-There are two types of lists: bulleted and numbered. Bulleted lists are known as “unordered” on the web, and numbered lists are known as “ordered.” Most lists should be unordered. Only use an ordered list if the order or number of items matters, as in a list of steps. (LINK TO LISTS IN D AND D and to punctuation. 
-
+There are two types of lists: bulleted and numbered. Bulleted lists are known as “unordered” on the web, and numbered lists are known as “ordered.” Most lists should be unordered. Only use an ordered list if the order or number of items matters, as in a list of steps. 
 **PDFs** 
-Usability expert Jakob Nielsen explains that PDFs are good for distributing documents and forms that need to be printed. However, PDFs have several limitations.
+Usability expert Jakob Nielsen explains that [PDFs are good for distributing documents and forms that need to be printed] (https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/). However, PDFs have several limitations.
 PDFs are:
 Hard to read on computer and mobile screens.
 Not always accessible to people with disabilities.
 Not easily shared on social media.
 
-For these reasons, PDFs shouldn’t be used for content that you want people to read online. If you have many PDFs, you should store them on a Document page (see HOW TO MAKE A DOCMENT PAGE LINK)
+For these reasons, PDFs shouldn’t be used for content that you want people to read online. If you have many PDFs, you should store them on a Document page (see HOW TO MAKE A DOCMENT PAGE)
 
 **White Space**
 Whenever possible, use lots of white space. White space, or negative space, is the unmarked parts of a page, including the space between lines, columns, and images. Break up walls of text and keep paragraphs at four sentences or less to ensure sufficient white space.
