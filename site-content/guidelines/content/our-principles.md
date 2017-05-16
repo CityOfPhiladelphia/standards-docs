@@ -1,6 +1,7 @@
 ---
 title: Our Principles
 date: 2017-01-30
+description: These are the guiding principles for all City writing.
 menu:
   main:
     parent: content
