@@ -5,39 +5,48 @@ menu:
   main:
     parent: content
 ---
-**Block Capitalization** 
+### Block Capitalization
+
 DON’T USE CAPITAL LETTERS FOR LONGER HEADLINES OR BLOCKS OF TEXT. IT’S HARD TO READ AND CAN SEEM LIKE “SHOUTING.” 
 
-**Block Quotes**
+### Block Quotes
+
 Use block quotes when you want to highlight a single sentence or phrase from within the body of your writing. Block quotes use text format and placement to highlight a particular issue so readers who scan can get the most important nugget from the story. Use block quotes sparingly to create the biggest impact.
 
 >Example: 
 “We are changing the way the City website serves our residents” - Office of Open Data and Digital Transformation
 
-**Bold, Italics, and Underline**
+### Bold, Italics, and Underline
+
 Bold calls attention to key information. Italics are used under specific conditions, such as to indicate the title of a book. Avoid using italics to emphasize an idea or to create a sarcastic tone. Underlining should not be used in web communications. 
 
-**Calendar** 
+### Calendar
+
 Use Google calendar to set up your calendar events.
 Use the [Dates]section of the common usage guide to check your use of date, time, place, and abbreviations.
 All-day events taking place on the same day should be entered all together. Use an ampersand (&) before the last item in the list, and do not use a serial comma.
 
 Example: Monthly payment due for Wage, Hotel, Outdoor Advertising, Parking, Valet Parking & Vehicle Rental Taxes
  
-**Headings**
+### Headings
+
 Use Headings to break up content into sections. Headlines, page titles, subheads, and similar content should follow sentence capitalization rules.
 
 Example: How to pay your taxes.
 
-**Headlines**
+### Headlines
+
 Headlines should be unique, specific and short, conveying the most important point of the piece. Treat headlines as sentences without ending punctuation by including verbs. Only capitalize proper nouns. Use the present and active voice. Use commas instead of “and” or “&.”
 
 Example: Ways to pay, options for residents of Philadelphia
 
-**Justification (left, right, center)**
+### Justification (left, right, center)
+
 For written languages that read left to right, left justification is most appropriate for bodies of text. Center justification should be used sparingly. For written languages that read right to left, right justification is most appropriate for bodies of text. Be consistent. Never mix justifications within a document.
 
-**Links** Links are most effective when they are specific and descriptive. When you create a link, highlight text that will give users a clear idea of what they will see if they follow the link. This is especially useful for people with vision impairments who use screen readers, and will often [skip from one link to another] (this is a link) as a way of skimming content.
+### Links
+
+Links are most effective when they are specific and descriptive. When you create a link, highlight text that will give users a clear idea of what they will see if they follow the link. This is especially useful for people with vision impairments who use screen readers, and will often skip from one link to another as a way of skimming content.
 
 Example: To be ready for the unexpected, you and your family need to [make an emergency plan](https://beta.phila.gov/services/safety-emergency-preparedness/prepare-for-an-emergency/make-an-emergency-plan/).
 
@@ -71,10 +80,12 @@ When you are linking to a website outside of phila.gov check the box that indica
 * **Repetitive links**
 Excessive linking can be confusing and overwhelming. If a resource, topic, or organization is referenced multiple times on one page you only need to link to it the first time. For example, if you refer to the Office of Property Assessment three times in a content item, link to it the first time but not the second or third times.
  
-**Lists**
+### Lists
+
 There are two types of lists: bulleted and numbered. Bulleted lists are known as “unordered” on the web, and numbered lists are known as “ordered.” Most lists should be unordered. Only use an ordered list if the order or number of items matters, as in a list of steps. 
 
-**PDFs** 
+### PDFs
+
 Usability expert Jakob Nielsen explains that [PDFs are good for distributing documents and forms that need to be printed] (https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/). However, PDFs have several limitations.
 PDFs are:
 Hard to read on computer and mobile screens.
@@ -83,6 +94,7 @@ Not easily shared on social media.
 
 For these reasons, PDFs shouldn’t be used for content that you want people to read online. If you have many PDFs, you should store them on a Document page (see HOW TO MAKE A DOCMENT PAGE)
 
-**White Space**
+### White Space
+
 Whenever possible, use lots of white space. White space, or negative space, is the unmarked parts of a page, including the space between lines, columns, and images. Break up walls of text and keep paragraphs at four sentences or less to ensure sufficient white space.
 
