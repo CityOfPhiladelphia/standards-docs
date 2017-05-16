@@ -1,0 +1,40 @@
+{{ partial "head.html" . }}
+<div class="row">
+  <div class="columns">
+    <h1 class="contrast">
+      {{ if isset $.Params "dropdown" }}
+        {{ .Title }}
+      {{else}}
+        {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
+      {{ end }}
+    </h1>
+  </div>
+</div>
+
+<div class="tertiary-content row bdr-bottom bdr-sidewalk mtm" data-equalizer="page">
+  <div id="style-guide" class="medium-16 medium-push-8 columns pbxl" data-equalizer-watch="page">
+    <section>
+      {{ if isset $.Params "level" }}{{ else }}
+        <h2 class="mtn">{{ .Title }}</h2>
+      {{ end }}
+      <div>
+        <article>
+          <div id="filter-list">
+            <input class="search" placeholder="Filter list" />
+            <ul class="list no-bullet pln">
+              <p>{{.Content}}</p>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+  <div class="side-menu medium-7 medium-pull-17 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
+    <nav data-swiftype-index="false" id="side-nav">
+      <ul class="vertical menu">
+        {{ partial "side-menu.html" (dict "menu" .Site.Menus.main "page" . "site" .Site) }}
+      </ul>
+    </nav>
+  </div>
+</div>
+{{ partial "footer.html" . }}
