@@ -1,5 +1,5 @@
 ---
-title: Common Usage
+title: Common usage
 date: 2017-05-15
 description: Embrace the City style by using these guidelines.
 menu:
