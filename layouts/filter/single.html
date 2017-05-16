@@ -20,8 +20,10 @@
       <div>
         <article>
           <div id="filter-list">
-            <label for="filter">Filter the the content on this page</label>
-            <input type="text" class="search" placeholder="Begin typing..." id="filter"/>
+            <label for="filter" class="accessible">Filter the the content on this page</label>
+            <div class="search">
+              <input type="text" class="search-field" placeholder="Begin typing to filter this content..." id="filter"/>
+            </div>
             <ul class="list no-bullet pln">
               <p>{{.Content}}</p>
             </ul>
