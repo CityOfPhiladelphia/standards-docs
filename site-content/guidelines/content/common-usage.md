@@ -1,7 +1,7 @@
 ---
 title: Common usage
 date: 2017-05-15
-description: Embrace the City style by using these guidelines.
+description: Embrace the City’s writing style by adopting our preferred words, phrases, and standards.
 menu:
   main:
     parent: content
