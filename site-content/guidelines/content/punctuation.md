@@ -9,7 +9,6 @@ menu:
 ---
 
 {{% filter-item Ampersand %}}
-
 Use an “&” in labels, headings, and subheadings. Spell out the word “and” in prose, lists, and department or office titles.
 {{% /filter-item %}}
 
@@ -21,7 +20,6 @@ Brackets are used to indicate that the writer has replaced the original word in 
 {{% /filter-item %}}
 
 {{% filter-item Bulleted lists %}}
-
 Capitalize the first word of every bullet. Include a period only if the bullet point makes a complete sentence following the introductory phrase.
 
 * **Example:** When you go to the store, please buy:
@@ -29,8 +27,8 @@ Capitalize the first word of every bullet. Include a period only if the bullet p
   * Milk.
   * Apples.  
 {{% /filter-item %}}
-{{% filter-item Capitalization %}}
 
+{{% filter-item Capitalization %}}
 Unnecessary capitalization can come off as overly formal and unapproachable. We follow these capitalization guidelines:
 
 #### Don’t capitalize “federal” or “government.”  
@@ -57,11 +55,9 @@ In titles, do not capitalize coordinate conjunctions (for example, “and,” �
 #### Do capitalize proper nouns.
 
 * Examples:  Pennsylvania, World War II, Acme Explosives Company
-
 {{% /filter-item %}}
 
 {{% filter-item Colons %}}
-
 Capitalize the first word after a colon only if what follows is a complete sentence.
 
 * **Example:**  I have several favorite foods: apples, bananas, and pita chips.
@@ -69,7 +65,6 @@ Capitalize the first word after a colon only if what follows is a complete sente
 {{% /filter-item %}}
 
 {{% filter-item Commas %}}
-
 We prefer the serial comma (sometimes called the Oxford comma). In a list of three or more, include a comma before the conjunction.
 
 * **Example:** Please buy bread, milk, and apples.
@@ -78,8 +73,8 @@ We prefer the serial comma (sometimes called the Oxford comma). In a list of thr
 {{% filter-item Contractions %}}
 Standard English contractions ( for example., “we’ll,” “ you’ll,” “won’t,” “don’t,” “haven’t”) are acceptable – even encouraged – in informal web content, but not in proposals or statements of work, where you should use  a more formal tone.
 {{% /filter-item %}}
-{{% filter-item Dashes %}}
 
+{{% filter-item Dashes %}}
 Different types of dashes are used in different situations.
 
 #### Em dash
@@ -106,20 +101,16 @@ See also “hyphen.”
 * Mac: Option + hyphen
 * Windows: Alt + 150 (#pad)
 * WordPress: Two consecutive hyphens
-
 {{% /filter-item %}}
 
 {{% filter-item Ellipses %}}
-
 Ellipses indicate things left unsaid. They are often used to shorten quoted material, removing irrelevant words without changing the meaning.
 Unless used to shorten a quote, write around them as much as possible. If they are absolutely necessary, they should be treated as a word, with spaces before and after.
 
 * **Example:** The sign said "no eating, drinking, or smoking,” becomes, _The sign said "no ... smoking."_
-
 {{% /filter-item %}}
 
 {{% filter-item Hyphen %}}
-
 The hyphen indicates conjunction and has several uses:
 
 #### To distinguish between homographs
@@ -169,19 +160,15 @@ Hyphenate values and units as compound adjectives if the unit is given as a whol
 Where hyphens are not used, always separate values and units by a non-breaking space
 
 * **Example:** 9 mm gun
-
 {{% /filter-item %}}
 
 {{% filter-item Parentheses %}}
-
 Unless used to introduce an acronym for the first time, these tend to distract from the flow of a sentence and should be avoided in favor of commas and dashes.
 
 * **Example:** ()
-
 {{% /filter-item %}}
 
 {{% filter-item Periods and spaces %}}
-
 Do not separate acronyms with periods or blank spaces
 
 Examples: GOP, NASA, OBE, GmbH
@@ -194,7 +181,6 @@ Truncated (“Hon.” for “Honorable”), compressed (“cmte.” for “commi
 {{% /filter-item %}}
 
 {{% filter-item Plurals of lowercase letters %}}
-
 Use apostrophe + s to form plurals of lowercase letters.
 
 * **Example:** Don’t forget to dot your i’s.
@@ -203,7 +189,6 @@ What about plural of uppercase letters, like acronyms?  There is no need for apo
 {{% /filter-item %}}
 
 {{% filter-item Quotation marks %}}
-
 Below are examples of correctly punctuated quotations:
 
 * “Would you like a banana?” he asked.
@@ -221,12 +206,10 @@ Quotation marks should NOT be used to indicate emphasis or emotion, nor should t
 {{% /filter-item %}}
 
 {{% filter-item Semicolons %}}
-
 Use semicolons at the end of bullet points.
 
 * **Example:** Acceptable forms of identification include:
   * Driver’s license;
   * Birth certificate;
   * Or Social Security card.
-
 {{% /filter-item %}}
