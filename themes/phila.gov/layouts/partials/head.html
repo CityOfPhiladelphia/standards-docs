@@ -10,12 +10,8 @@
     <style type="text/css">{{ partial "hero.css" . | safeCSS }}</style>
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}/img/favicon.png">
-
-    {{ $directory := "static/css" }}
-    {{ $filename := "styles.css" }}
-    {{ if (where (readDir $directory) "Name" $filename) }}
+    
     <link type="text/css" href="{{ .Site.BaseURL }}/css/styles.css" rel="stylesheet">
-    {{ end }}
 
     {{ partial "social-media.html" . }}
 
