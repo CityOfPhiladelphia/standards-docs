@@ -1,0 +1,8 @@
+{{ if ne .Params "" }}
+<li>
+  <h3 id="{{ delimit .Params " "}}" class="title">{{ delimit .Params " "}}</h3>
+  <div class="content">
+    {{  .Inner  }}
+  </div>
+</li>
+{{end}}

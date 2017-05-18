@@ -19,7 +19,15 @@
       {{ end }}
       <div>
         <article>
-           {{ .Content }}
+          <div id="filter-list">
+            <label for="filter" class="accessible">Filter the the content on this page</label>
+            <div class="search">
+              <input type="text" class="search-field" placeholder="Begin typing to search this content..." id="filter"/>
+            </div>
+            <ul class="list no-bullet pln">
+              <p>{{.Content}}</p>
+            </ul>
+          </div>
         </article>
       </div>
     </section>

@@ -5,6 +5,7 @@ description: To create a blog that engages your audience, here's what you need t
 menu:
   main:
     parent: content
+    weight: 5
 ---
 
 What’s the difference between news, blog posts, and press releases? These are the three types of content your department might release and we want to make it clear which is best.
