@@ -6,6 +6,7 @@ type: filter
 menu:
   main:
     parent: content
+    weight: 3
 ---
 {{% filter-item Block capitalization %}}
 DON’T USE CAPITAL LETTERS FOR LONGER HEADLINES OR BLOCKS OF TEXT. IT’S HARD TO READ AND CAN SEEM LIKE “SHOUTING.”

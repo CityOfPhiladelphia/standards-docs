@@ -5,4 +5,5 @@ description:  Press release basics to get you up and running.
 menu:
   main:
     parent: content
+    weight: 7
 ---

@@ -4,6 +4,7 @@ date: 2017-02-27
 menu:
   main:
     parent: content
+    weight: 10
 ---
 Use red alerts for critical and unexpected events.
 

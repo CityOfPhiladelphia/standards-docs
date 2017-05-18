@@ -5,6 +5,7 @@ description: Document pages house some of our most important information. Hereâ€
 menu:
   main:
     parent: content
+    weight: 8
 ---
 
 On a document page, one or more related files can be downloaded by users. These pages prevent users and departments from having lots of stray links to files that are difficult to find and update.

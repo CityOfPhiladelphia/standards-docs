@@ -6,6 +6,7 @@ type: filter
 menu:
   main:
     parent: content
+    weight: 2
 ---
 
 {{% filter-item Ampersand %}}

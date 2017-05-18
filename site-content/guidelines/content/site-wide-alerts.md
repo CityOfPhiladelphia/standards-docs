@@ -4,6 +4,7 @@ date: 2017-02-27
 menu:
   main:
     parent: content
+    weight: 9
 ---
 Site-wide alerts are only used for weather and safety emergencies. Site-wide alerts appear on every page of the site as part of the header. They should be used sparingly so they have real impact every time they are used.
 

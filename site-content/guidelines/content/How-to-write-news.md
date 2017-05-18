@@ -5,6 +5,7 @@ description: Best practices for writing a news story.
 menu:
   main:
     parent: content
+    weight: 6
 ---
 
 
