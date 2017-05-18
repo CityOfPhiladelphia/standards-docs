@@ -1,6 +1,7 @@
 ---
 title: How to create a document page
 date: 2017-02-27
+description: Document pages house some of our most important information. Here’s how to use them effectively.
 menu:
   main:
     parent: content
