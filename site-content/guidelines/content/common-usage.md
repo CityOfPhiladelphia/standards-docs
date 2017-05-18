@@ -2,131 +2,132 @@
 title: Common usage
 date: 2017-05-15
 description: Embrace the City’s writing style by adopting our preferred words, phrases, and standards.
+type: filter
 menu:
   main:
     parent: content
 ---
-### Acronyms and abbreviations
 
-* The first time you refer to an organization or project that uses an acronym, write out the full name and follow with the abbreviation in parentheses.
+{{% filter-item Acronyms and abbreviations %}}
 
-Example: The General Services Administration (GSA) oversees the business of the U.S. Federal Government.
+The first time you refer to an organization or project that uses an acronym, write out the full name and follow with the abbreviation in parentheses.
 
-* NASA, NAACP, Some names are more recognizable when they are abbreviated, as with IBM, and FBI. 
+* **Example:** The General Services Administration (GSA) oversees the business of the U.S. Federal Government.
+
+Some names are more recognizable when they are abbreviated, as with IBM, and FBI.
+
 In such instances, the acronym is always acceptable and you don’t need to spell out the full name at first use.
 
-* If at all possible, use a shortened version of the name, and not the acronym, in your second reference
+#### If possible, use a shortened version of the name, and not the acronym, in your second reference
 Use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between identical or similar acronyms.
 
-Example: Use Parks & Rec. instead of PPR.
- 
-Example: Use the Act instead of Fire and Police Employee Relations Act.
+* **Example:** Use Parks & Rec. instead of PPR.
+* **Example:** Use the Act instead of Fire and Police Employee Relations Act.
+* **Example:** Use Commerce in place of Department of Commerce, rather than DOC.
+* **Example:** Use Corrections in place of Department of Corrections, rather than DOC.
 
-Example: Use Commerce in place of Department of Commerce, rather than DOC.
+Only use abbreviations without any explanation if they are in common use among the targeted readership (e.g., ZIP code, HTML, CSS PDF, URL and, in some cases, IT).
 
-Example: Use Corrections in place of Department of Corrections, rather than DOC.
+Acronyms should be capitalized. Otherwise, avoid unless they make the text easier to read.
 
-* Only use abbreviations without any explanation if they are in common use among the targeted readership (e.g., ZIP code, HTML, CSS PDF, URL and, in some cases, IT).
+* **Example:** ZIP is an acronym for Zone Improvement Plan.
 
-* Acronyms should be capitalized. Otherwise, avoid unless they make the text easier to read.
-Example: ZIP is an acronym for Zone Improvement Plan.
 Do not use an apostrophe to form the plural of an acronym.
 
-Example: Did you receive the PDFs?
+* **Example:** Did you receive the PDFs?
+{{% /filter-item %}}
 
-### Addresses
-
+{{% filter-item Addresses %}}
 When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd. Blvd., etc).
 
-Example: 1401 John F. Kennedy Blvd.
+* **Example:** 1401 John F. Kennedy Blvd.
+{{% /filter-item %}}
 
-### All right / alright
+{{% filter-item "All right / alright" %}}
 
 Although "alright" is widely used, it is considered nonstandard English. As the American Heritage Dictionary notes, it is not “all right to use alright.”
+{{% /filter-item %}}
 
-### Bimonthly / semimonthly
+{{% filter-item "Bimonthly / semimonthly" %}}
+Bimonthly is an adjective that means every two months. Bimonthly is also a noun referring to a publication issued every two months.
 
+* **Example:** I brought the cake for the bimonthly office party.
+* **Example:** The company publishes several popular bimonthlies.
 
-* Bimonthly is an adjective that means every two months. Bimonthly is also a noun referring to a publication issued every two months.
+Semimonthly is an adjective that means happening twice a month.
 
-Example: I brought the cake for the bimonthly office party.
+* **Example:** We have semimonthly meetings on the 1st and the 15th.
+{{% /filter-item %}}
 
-Example: The company publishes several popular bimonthlies.
+{{% filter-item "Capital / capitol" %}}
+Use “capitol” when referring to a building.
 
-* Semimonthly is an adjective that means happening twice a month.
+* **Example:** After speaking with Governor Wolf, representatives returned to the capitol.
 
-Example: We have semimonthly meetings on the 1st and the 15th.
+Use “Capitol” only when referring to the building in Washington, DC.
 
-### Capital / capitol
+* **Example:** We took a field trip to the Capitol.
 
+Use “capital”  for talking about the official seat of a  government,  for talking about wealth or assets,  or for a capital letter.
 
-* Use “capitol” when referring to a building.
+* **Example:** Harrisburg is the capital of Pennsylvania.
+* **Example:** After leaving the capitol building, Senator Toomey went to the Capitol to discuss plans to improve his state’s capital in Harrisburg, by investing more capital in infrastructure projects.
+{{% /filter-item %}}
 
-Example: After speaking with Governor Wolf, representatives returned to the capitol.
-
-* Use “Capitol” only when referring to the building in Washington, DC.
-
-Example: We took a field trip to the Capitol.
-
-* Use “capital”  for talking about the official seat of a  government,  for talking about wealth or assets,  or for a capital letter.
-
-Example: Harrisburg is the capital of Pennsylvania.
-
-
-Example: After leaving the capitol building, Senator Toomey went to the Capitol to discuss plans to improve his state’s capital in Harrisburg, by investing more capital in infrastructure projects.
-
-### Citizen
-
+{{% filter-item "Citizen" %}}
 Since some of those people living within the City might not be citizens, we prefer to use residents or individuals.  
+{{% /filter-item %}}
 
-### Companywide
-
+{{% filter-item "Companywide" %}}
 NOT company-wide
+{{% /filter-item %}}
 
-### Dates
-* Use numbers for dates and years.
- 
-* Don’t use st, nd, rd, or th.
+{{% filter-item "Dates" %}}
 
-* When you use months with a date, only abbreviate the following months: Jan., Feb., Aug., Sept., Oct., Nov. and Dec.
+Use numbers for dates and years.
 
-Example: The Phillies’ opening day is April 8.
+Don’t use st, nd, rd, or th.
 
-Example: The first day of school will be Wednesday, Sept. 9 this year.
+When you use months with a date, only abbreviate the following months: Jan., Feb., Aug., Sept., Oct., Nov. and Dec.
 
-* You don’t need to use a comma if only a year and month are given.
+* **Example:** The Phillies’ opening day is April 8.
+* **Example:** The first day of school will be Wednesday, Sept. 9 this year.
 
-Example: I began my job in December 2017.
+You don’t need to use a comma if only a year and month are given.
 
-* You do need a comma when date, month and year are given.
+* **Example:** I began my job in December 2017.
 
-Example: Philadelphia was founded on Oct. 27, 1682.
 
-* Capitalize days of the week, and do not abbreviate.
+You do need a comma when date, month and year are given.
 
-Example: Mayor Kenney will be speaking at the event on Thursday.
+* **Example:** Philadelphia was founded on Oct. 27, 1682.
 
-### e-
+Capitalize days of the week, and do not abbreviate.
 
+* **Example:** Mayor Kenney will be speaking at the event on Thursday.
+{{% /filter-item %}}
+
+{{% filter-item "e-" %}}
 Use e-, with a hyphen, to abbreviate electronic
- 
-Example: e-book, e-commerce
+
+* **Example:** e-book, e-commerce
 
 Exception – email
+{{% /filter-item %}}
 
-### Emigrate from / immigrate to
 
-* Emigrate means to leave one country or region to settle in another.
+{{% filter-item "Emigrate from / immigrate to" %}}
+Emigrate means to leave one country or region to settle in another.
 
-Example: In 1900, my grandfather emigrated from Russia.
+* **Example:** In 1900, my grandfather emigrated from Russia.
 
-* Immigrate means to enter another country and reside there.
+Immigrate means to enter another country and reside there.
 
-Example:  Many Mexicans immigrate to the United States to find work.
+* **Example:**  Many Mexicans immigrate to the United States to find work.
+{{% /filter-item %}}
 
-### Figurative language
-
-Avoid using figurative language. It often doesn’t say what you actually mean and can make your content more difficult to understand. 
+{{% filter-item "Figurative language" %}}
+Avoid using figurative language. It often doesn’t say what you actually mean and can make your content more difficult to understand.
 For example:
 
 * Drive (you can only drive vehicles, not schemes or people)
@@ -134,33 +135,51 @@ For example:
 * Going forward (unless you’re giving directions)
 * In order to (extra words that usually mean the same thing as “to”)
 * One-stop shop (we’re the government, not a big box store.)
+{{% /filter-item %}}
 
-### Historic / historical
-
+{{% filter-item "Historic / historical" %}}
 In general usage, historic refers to what is important in history.
 
-Example:  A historic summit meeting between the prime ministers
+* **Example:**  A historic summit meeting between the prime ministers
 
 Historical applies more broadly to whatever existed in the past, whether it was important or not.
 
-Example:  A historical department, the City eliminated the Department of Horse and Buggies in 1909.  
+* **Example:**  A historical department, the City eliminated the Department of Horse and Buggies in 1909.  
+{{% /filter-item %}}
 
-### Inclusive language
+{{% filter-item "Inclusive language" %}}
+The City of Philadelphia uses language that is inclusive regardless of age, ancestry, color, disability, domestic or sexual violence victim status, ethnicity, familial status, gender identity, marital status, national origin, race, religion, sex, or sexual orientation. To that end, we always write with a person-first perspective.
 
-The City of Philadelphia uses language that is inclusive regardless of age, ancestry, color, disability, domestic or sexual violence victim status, ethnicity, familial status, gender identity, marital status, national origin, race, religion, sex, or sexual orientation. To that end, we always write with a person-first perspective. 
+#### Age
+Unless it is important for the reader to know, don’t reference a person’s age.
 
-* **Age**: Unless it is important for the reader to know, don’t reference a person’s age. 
-* **Disability**: When writing about those with disabilities, we use people-first language. 
-	Example: Children with Cerebral Palsy have benefited from the program. 
-	We also make sure that any disability is correctly identified. 
-	Example: The program serves over 3,000 individuals who are classified with a spectrum disorder. NOT The program serves over 3,000 autistic people. 
-* **Hearing**: Use the term “deaf” as an adjective to describe those with significant hearing loss. One can also use the term “partially deaf” or “hard of hearing” for those with less significant hearing loss. 
-* **Vision**: A person without vision is blind. A person with some vision can be “legally blind” or is identified as having “low vision.” 
-* **Gender and sexuality**: Whenever possible, use neutral language for titles.
-	Example: Chairperson, firefighter, police officer. 
-  *  LGBT: Refer to the LGTB or LGBTQ community as a single acronym, although a reference to the meaning, spelled out, should be included for first reference. 
+#### Disability
 
-Example: Jones has long been a champion of the lesbian, gay, bisexual, transgender, queer (LGBTQ) community and reaffirmed his commitment in a the speech on Thursday. 
+When writing about those with disabilities, we use people-first language.
+
+* **Example:** Children with Cerebral Palsy have benefited from the program.
+
+We also make sure that any disability is correctly identified.
+
+* **Example:** The program serves over 3,000 individuals who are classified with a spectrum disorder.
+  * NOT: The program serves over 3,000 autistic people.
+
+#### Hearing
+Use the term “deaf” as an adjective to describe those with significant hearing loss. One can also use the term “partially deaf” or “hard of hearing” for those with less significant hearing loss.
+
+#### Vision
+
+A person without vision is blind. A person with some vision can be “legally blind” or is identified as having “low vision.”
+
+#### Gender and sexuality
+Whenever possible, use neutral language for titles.
+
+* **Example:** Chairperson, firefighter, police officer.
+
+#### LGBT
+Refer to the LGTB or LGBTQ community as a single acronym, although a reference to the meaning, spelled out, should be included for first reference.
+
+* **Example:** Jones has long been a champion of the lesbian, gay, bisexual, transgender, queer (LGBTQ) community and reaffirmed his commitment in a the speech on Thursday.
 
 Use the following as adjectives, but never as nouns:
 
@@ -171,162 +190,171 @@ Use the following as adjectives, but never as nouns:
   * trans
   * LGBT/Q
 
-It is acceptable, when applicable, to use the non-gendered pronoun, “they” as a singular. 
+It is acceptable, when applicable, to use the non-gendered pronoun, “they” as a singular.
 
-* **Mental and physical conditions**: When referencing mental or physical conditions, do not refer to an individual as “mentally ill.” Instead, if warranted, you may use the same rules as for those with disabilities. 
+#### Mental and physical conditions
+When referencing mental or physical conditions, do not refer to an individual as “mentally ill.” Instead, if warranted, you may use the same rules as for those with disabilities.
 
-Example: The Center was created to assist those with bipolar disorder, schizophrenia, and severe depression. 
+* **Example:** The Center was created to assist those with bipolar disorder, schizophrenia, and severe depression.
+{{% /filter-item %}}
 
-### Inc. / incorporated
-
+{{% filter-item  "Inc. / incorporated" %}}
 When the word is part of a company name, use Inc. Do not include a comma before Inc.
 
-Example: Time Warner Inc.
+* **Example:** Time Warner Inc.
+{{% /filter-item %}}
 
-### Login / log in
+{{% filter-item  "Login / log in" %}}
+One word when used as a noun or adjective.
 
-One word when used as a noun or adjective. 
-
-Example: What’s your login name?
+* **Example:** What’s your login name?
 
 Two words when used as a verb.
 
-Example: Hurry up and log in!
+* **Example:** Hurry up and log in!
+{{% /filter-item %}}
 
-### Measurements
-
+{{% filter-item  "Measurements" %}}
 Use English units of measure (e.g., foot, mile, gallon and pound). Spell out units of measure, except after numbers, where abbreviations (e.g., ft., lb., m.p.g.) may be used. Avoid the use of measurement symbols (e.g., # for pound), including in tables.
 
-Example: 23 ft. high
+* **Example:** 23 ft. high
+* **Example:** 6 ft. 2 in.
+* **Example:** 144 sq. ft.
+* **Example:** 12 ft. x 12 ft.
+* **Example:** price per pound
+{{% /filter-item %}}
 
-Example: 6 ft. 2 in.
-
-Example: 144 sq. ft.
-
-Example: 12 ft. x 12 ft.
-
-Example: price per pound
-
-### Names
-
+{{% filter-item  "Names" %}}
 Use the [City government directory](https://beta.phila.gov/departments/) to find the official name of an office, department, or commission. Use that name consistently.
 
-Department of Revenue
-–NOT–
-Revenue Department
+* **Example:** Department of Revenue
+  * NOT: Revenue Department
 
 After the first reference on a page use the shortened name.
 
-Example: File your City taxes with the Department of Revenue. If you have trouble paying your taxes, Revenue has a variety of assistance programs. 
+* **Example:** File your City taxes with the Department of Revenue. If you have trouble paying your taxes, Revenue has a variety of assistance programs.
 
-* For people, on initial mention, use First Name Last Name. Subsequent mentions use only last name. If two individuals in a story have the same last name, use First Name Last Name in every instance. 
+For people, on initial mention, use First Name Last Name. Subsequent mentions use only last name. If two individuals in a story have the same last name, use First Name Last Name in every instance.
 
-Example: John Jones said that city government is the most fulfilling job he’s ever had. Jones joined his department in 1994. 
+* **Example:** John Jones said that city government is the most fulfilling job he’s ever had. Jones joined his department in 1994.
 
-John Jones and Casey Jones say their work in city government is essential. John Jones joined his department in 1994. Casey Jones began her work with the City in 2001. 
+John Jones and Casey Jones say their work in city government is essential. John Jones joined his department in 1994. Casey Jones began her work with the City in 2001.
+{{% /filter-item %}}
 
-### Nationwide
-
+{{% filter-item  "Nationwide" %}}
 NOT national or nation-wide.
+{{% /filter-item %}}
 
-### Numbers
-
+{{% filter-item  "Numbers" %}}
 Spelling out numbers one through nine; use numerals beyond that (10, 11, etc.).
- 
-**Spell out a number when it**:
 
-* Occurs at the start of a sentence. 
+#### Spell out a number when it:
 
-Example: Twenty minutes later, the last cyclist crossed the finish line.
+Occurs at the start of a sentence.
 
-* Is a fraction used as an estimate. 
+* **Example:** Twenty minutes later, the last cyclist crossed the finish line.
 
-Example: one-half, two-thirds, three-quarters
+Is a fraction used as an estimate.
 
-**Use digits instead of spelling out a number when it**:
+* **Example:** one-half, two-thirds, three-quarters
 
-  * Includes a decimal point. 
+#### Use digits instead of spelling out a number when it
 
-Example: At that time, the average age for marriage was just 18.7 years old.
-  * Is part of a percentage 
+  * Includes a decimal point.
 
-Example: 19 percent of registered voters
+* **Example:** At that time, the average age for marriage was just 18.7 years old.
 
-  * Is part of a range of numbers 
+Is part of a percentage
 
-Example: the coveted 18–34 demographic; working 9 to 5
+* **Example:** 19 percent of registered voters
 
-* **Ages**: Always use digits to express ages 
+Is part of a range of numbers
 
-Example: 5 years old.
+* **Example:** the coveted 18–34 demographic; working 9 to 5
 
-* **Decimal points**: Use a leading zero (0.05, not .05) for numbers between minus one and plus one. Use a consistent number of decimal places within a document.
+#### Ages
+Always use digits to express ages.
 
-* **Fractions**: Spell out and hyphenate all numbers less than one 
+* **Example:** 5 years old.
 
-Example: one-half, two-thirds
+#### Decimal points
+Use a leading zero (0.05, not .05) for numbers between minus one and plus one. Use a consistent number of decimal places within a document.
 
-Separate fractions from a preceding whole number with a space 
+#### Fractions
+Spell out and hyphenate all numbers less than one.
 
-Example: 5 ½
+* **Example:** one-half, two-thirds
 
-* **Measurement**: Always use figures in measurements
- 
-Example:  5 feet by 20 feet
+Separate fractions from a preceding whole number with a space.
 
-* **Money**: Use the dollar sign ($) for amounts given in United States Dollars (USD). For fractional amounts under $1.00 that do not occur in a chart or list, use digits for the number and spell out the word “cents.”
+* **Example:** 5 ½
 
-Example: Project estimates are expected to exceed $289.5 million after the storm damage is assessed.
+#### Measurement
+Always use figures in measurements.
 
-Example In 2014, the cost of producing a penny dropped to 1.7 cents, down from 2.4 cents in 2011.
+* **Example:**  5 feet by 20 feet
 
-* **Percentages**: Use digits rather than spelling out the number and spell out the word “percent” (one word) when including percentages in prose writing. Use the percentage sign (%) when including percentages in charts, lists, and brief summaries.
-Example: The study showed a 5 percent decrease in obesity rates among students aged 5 to 18.
+#### Money
+Use the dollar sign ($) for amounts given in United States Dollars (USD). For fractional amounts under $1.00 that do not occur in a chart or list, use digits for the number and spell out the word “cents.”
 
-Example: Late fee: 5% of the total due, plus an additional 0.5% for every month the bill is not paid.
+#### Example
+Project estimates are expected to exceed $289.5 million after the storm damage is assessed.
 
-* **Phone and fax numbers**: Use parentheses and a space to separate the area code from the rest of a phone or fax number. Use a hyphen (-) between the third and fourth digits that follow the area code.
+* **Example:** In 2014, the cost of producing a penny dropped to 1.7 cents, down from 2.4 cents in 2011.
 
-Example: Call (215) 686-0306 to find out if the building where you live is being managed by a court-appointed receiver.
+#### Percentages
+Use digits rather than spelling out the number and spell out the word “percent” (one word) when including percentages in prose writing. Use the percentage sign (%) when including percentages in charts, lists, and brief summaries.
 
-Example: You can pay delinquent property taxes with a credit card by calling (877) 309-3710.
+* **Example:** The study showed a 5 percent decrease in obesity rates among students aged 5 to 18.
+* **Example:** Late fee: 5% of the total due, plus an additional 0.5% for every month the bill is not paid.
 
-* **Ranges**: Use “to” when constructing number ranges within sentences. An en dash may be used in place of “to” outside of sentences to save space
-Example: 20 to 30 days
-Example: Hours 5–8 p.m.
+#### Phone and fax numbers
+Use parentheses and a space to separate the area code from the rest of a phone or fax number. Use a hyphen (-) between the third and fourth digits that follow the area code.
 
-* **Ratios**: Use figures and hyphens. Include the word to unless the number immediately preceded the word “ratio.”
+* **Example:** Call (215) 686-0306 to find out if the building where you live is being managed by a court-appointed receiver.
+* **Example:** You can pay delinquent property taxes with a credit card by calling (877) 309-3710.
 
-Example: The ratio was 2-to-1, a 2-1 ratio and a ratio of 2-to-1.
+#### Ranges
+Use “to” when constructing number ranges within sentences. An en dash may be used in place of “to” outside of sentences to save space.
 
-* **Years**: Do not use an apostrophe when pluralizing years 
-Example: 1900s
+* **Example:** 20 to 30 days
+* **Example:** Hours 5–8 p.m.
 
-*See the “numerals” entry in [AP Stylebook](https://www.apstylebook.com/) for complete guidance.
+#### Ratios
+Use figures and hyphens. Include the word to unless the number immediately preceded the word “ratio.”
 
-### Online
+* **Example:** The ratio was 2-to-1, a 2-1 ratio and a ratio of 2-to-1.
 
+#### Years
+Do not use an apostrophe when pluralizing years.
+
+* **Example:** 1900s
+
+See the “numerals” entry in [AP Stylebook](https://www.apstylebook.com/) for complete guidance.
+{{% /filter-item %}}
+
+{{% filter-item  Online %}}
 One word.
+{{% /filter-item %}}
 
-### Onsite
+{{% filter-item  Onsite %}}
 One word.
+{{% /filter-item %}}
 
-### Passive voice
+{{% filter-item  Passive voice %}}
+Passive voice can create dull and awkward sentences and you should avoid it, except when you intend to be vague about who is responsible for an action. Aim for active voice.
 
-Passive voice can create dull and awkward sentences and you should avoid it, except when you intend to be vague about who is responsible for an action. Aim for active voice. 
- 
-Example: 
-The department charged fines incorrectly and apologized for the error. - NOT- Mistakes were made and fines were charged.
+* **Example:** The department charged fines incorrectly and apologized for the error. - NOT- Mistakes were made and fines were charged.
+{{% /filter-item %}}
 
-### Plain language
-
+{{% filter-item  Plain language %}}
 Don’t use formal or long words when easy or short ones will do.
 
-Example: Use “about” instead of “approximately,” and so on.
+* **Example:** Use “about” instead of “approximately,” and so on.
 
-[plainlanguage.gov](www.plainlanguage.gov) is a good resource and offers tips for making sure your writing is clear to all audiences. 
+[Plainlanguage.gov](http://www.plainlanguage.gov) is a good resource and offers tips for making sure your writing is clear to all audiences.
 
-We lose our users’ trust if we write using government buzzwords and jargon. Often, these words are too general and vague, and they can lead to misinterpretation or empty, meaningless text. We can do without the following words: 
+We lose our users’ trust if we write using government buzzwords and jargon. Often, these words are too general and vague, and they can lead to misinterpretation or empty, meaningless text. We can do without the following words:
 
 * Agenda (unless you’re talking about a meeting)
 * Combating (use “working against” or “fighting”)
@@ -351,21 +379,21 @@ We lose our users’ trust if we write using government buzzwords and jargon. Of
 * Touchpoint (instead, mention specific system components)
 * User testing (unless you’re actually testing the users — otherwise, use “usability testing”)
 * Utilize
+{{% /filter-item %}}
 
-### Principal / principle
-
+{{% filter-item  "Principal / principle" %}}
 “Principal” is a noun that means “a person who holds a high position or plays an important role,” or “a sum of money.” “Principal” is also an adjective that means “chief, leading.”
 
-Example: The school principal has 20 years of teaching experience.
+* **Example:** The school principal has 20 years of teaching experience.
 
 “Principle” is a noun that means “a rule or standard,” or “a basic truth or law.”
 
-Example: They refused to compromise their principles.
+* **Example:** They refused to compromise their principles.
+{{% /filter-item %}}
 
-### Redundant phrases
-
+{{% filter-item "Redundant phrases" %}}
 Find alternatives to common redundant phrases below:
- 
+
 Redundant | Revised
 --------- | ------------------
 for the purpose of | to
@@ -384,109 +412,104 @@ component part | component
 cooperate together | cooperate
 end result | result
 final end | end
+{{% /filter-item %}}
 
-### Rollout / roll out
-
+{{% filter-item  "Rollout / roll out" %}}
 “Roll out” is a verb.
 
-Example: Roll out the barrel; we’ll have a barrel of fun.
+* **Example:** Roll out the barrel; we’ll have a barrel of fun.
 
 “Rollout” is a noun or adjective.
 
-Example: To promote success, we should devise a rollout plan.
+* **Example:** To promote success, we should devise a rollout plan.
+{{% /filter-item %}}
 
-*** Set up / setup
-
+{{% filter-item  "Set up / setup" %}}
 “Set up” is a verb that denotes the act of putting something together.
 
-Example:  He set up the meeting room.
+* **Example:**  He set up the meeting room.
 
 “Setup” is the noun that represents the result or arrangement of what you have put together.
 
-Example:  We all agreed the new setup was an improvement.
+* **Example:**  We all agreed the new setup was an improvement.
+{{% /filter-item %}}
 
-### State name abbreviations
-
+{{% filter-item  State name abbreviations %}}
 Write out state names when not preceded by a city name. Use [AP Stylebook](https://www.apstylebook.com/) abbreviations when following a city name. Set off on both sides with a comma if in the middle of a sentence. Never use postal abbreviations except when writing out a complete postal address.
 
-Example: Our headquarters are in Philadelphia, Pa., but we serve the world.
+* **Example:** Our headquarters are in Philadelphia, Pa., but we serve the world.
+{{% /filter-item %}}
 
-### The
-
+{{% filter-item The %}}
 Do not capitalize as part of a proper noun or title unless “the” is part of the trademarked or copyrighted name.
 
-Example: New York City is also called the Big Apple.
+* **Example:** New York City is also called the Big Apple.
+* **Example:** An article in The New York Times quoted the mayor.
+* **Example:** Listed as one of the Fortune 500, Acme was a great place to work.
+{{% /filter-item %}}
 
-Example: An article in The New York Times quoted the mayor.
-
-Example: Listed as one of the Fortune 500, Acme was a great place to work.
-
-### Third-party (adj.) / third party (n.)
+{{% filter-item Third-party %}}
+Third-party (adjective) vs. third party (noun)
 
 Always hyphenate the adjective, but never the noun.
+{{% /filter-item %}}
 
-### Time-date-place
-
-The preferred structure for conveying event information in text is time-date-place. 
+{{% filter-item Time-date-place %}}
+The preferred structure for conveying event information in text is time-date-place.
 Use of the day of the week is optional. If the day is included, it should be spelled out.
 
-Example: The press conference will be held at 2 p.m., Jan. 25 at the Municipal Services Building.
+* **Example:** The press conference will be held at 2 p.m., Jan. 25 at the Municipal Services Building.
+* **Example:** The press conference will be held at 2 p.m., Saturday, Jan. 25 at the Municipal Services Building.
+{{% /filter-item %}}
 
-Example: The press conference will be held at 2 p.m., Saturday, Jan. 25 at the Municipal Services Building.
+{{% filter-item Times %}}
+* Use numbers to state exact times.
+* Use a.m. and p.m. for morning and afternoon.
+* Use noon and midnight to avoid confusion about 12 a.m. and 12 p.m.
+* Use a colon to separate hours and minutes, but don’t use a colon for something that occurs on the hour.
 
-### Times
+* **Example:** The conference will start at 4 p.m.
+* **Example:** We pick up the mail at 10 a.m. and 3 p.m
+* **Example:** Lunch is at noon.
+* **Example:** Parking is legal until midnight.
+* **Example:** Parking rules are in effect from 6:30 p.m. to 10 p.m.
+{{% /filter-item %}}
 
-* Use numbers to state exact times.Use a.m. and p.m. for morning and afternoon. 
-* Use noon and midnight to avoid confusion about 12 a.m. and 12 p.m. 
-* Use a colon to separate hours and minutes, but don’t use a colon for something that occurs on the hour. 
+{{% filter-item "Titles, job" %}}
+In general, capitalize job titles when they precede the individual’s name. Do NOT capitalize when they follow the individual’s name in a sentence.
 
-Example: The conference will start at 4 p.m.
+* **Example:** Senior Vice President of Marketing, Jim Smith, is a member.
+* **Example:** John Doe, vice president of operations, has been with Acme for 10 years.
 
-Example: We pick up the mail at 10 a.m. and 3 p.m
+See also, capitalization.
+{{% /filter-item %}}
 
-Example: Lunch is at noon.
-
-Example: Parking is legal until midnight.
-
-Example: Parking rules are in effect from 6:30 p.m. to 10 p.m.
-
-### Titles, job
-
-In general, capitalize job titles when they precede the individual’s name. Do NOT capitalize when they follow the individual’s name in a sentence. 
-
-Example: Senior Vice President of Marketing, Jim Smith, is a member.
-
-Example: John Doe, vice president of operations, has been with Acme for 10 years.
-
-See also, capitalization 
-
-### Titles of media
-
+{{% filter-item "Titles, media" %}}
 Italicize names of magazines, newspapers, books, newsletters and movies.
 
-* Generally avoid underlining. 
-* Put names of reports and articles in quotation marks. 
+* Generally avoid underlining.
+* Put names of reports and articles in quotation marks.
+{{% /filter-item %}}
 
-### United States / U.S.
-
+{{% filter-item "United States / U.S." %}}
 United States is a noun. U.S. is an adjective.
 
-Example:Clams Casino is the most renowned dish in the United States.
+* **Example:** Clams Casino is the most renowned dish in the United States.
+* **Example:** The company’s U.S. client base is extensive.
+{{% /filter-item %}}
 
-Example: The company’s U.S. client base is extensive.
-
-### User
-
+{{% filter-item User %}}
 Avoid the word “user”  in favor of more appropriate words, like “resident” or “individual.”
-Example: Over 14,000 residents have signed up for the service.
-Example: The Mayor estimates that some 36,000 individuals will be involved. 
+* **Example:** Over 14,000 residents have signed up for the service.
+* **Example:** The Mayor estimates that some 36,000 individuals will be involved.
+{{% /filter-item %}}
 
-## #Year and a half / year-and-a-half
-
+{{% filter-item "Year and a half / year-and-a-half" %}}
 Hyphenate only when it is used as an adjective.
-Example: A year-and-a-half assignment.
-Example: A year and a half on the management team.
+* **Example:** A year-and-a-half assignment.
+* **Example:** A year and a half on the management team.
+{{% /filter-item %}}
 
-### ZIP code
-
-Capitalize. ZIP is an acronym for “zone improvement plan.”
+{{% filter-item "ZIP code" %}}
+Capitalize. ZIP is an acronym for “Zone Improvement Plan.”
+{{% /filter-item %}}
