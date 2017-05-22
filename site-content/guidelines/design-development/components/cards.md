@@ -6,7 +6,7 @@ menu:
     parent: components
 ---
 
-A card serves as an entry point to more detailed information. The type of card depends on your use case. There are three types of cards:
+A card serves as an entry point to more detailed information. The type of card depends on the use case. There are three types of cards:
 
 1. [Media](#media-cards) -- used to display news and blog posts.
 2. [Call to action](#call-to-action-cards) -- used to highlight other websites where more information about a topic can be found.
