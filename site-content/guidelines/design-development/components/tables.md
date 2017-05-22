@@ -6,7 +6,7 @@ menu:
     parent: components
 ---
 
-Tables are used to show data in columns and rows. Dark gray is used for the table header. Medium gray and sidewalk gray alternate between rows for the content of the table.
+Tables are used to show data in columns and rows. They are only to be used for tabular data -- never for layout. 
 
 {{< table-horizontal >}}
 
