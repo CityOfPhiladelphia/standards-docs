@@ -25,8 +25,8 @@ If you have a Google account with Drive enabled, you can make a copy of the Slid
 
 #### Make a copy
 
-1. Login to your Google Account.
-2. Click the "Access Slide Presentation" button.
+1. Make sure you are logged into your Google account.
+2. Click the "Access Slide Presentation" button above.
 3. In the window that appears, go to File > Make a copy.
 4. Locate an appropriate folder in your Google Drive account and click "OK".
 
@@ -50,7 +50,7 @@ You won't need to edit other areas of the Master slides.
 </div>
 
 #### Download PowerPoint
-1. Click the "Access PowerPoint presentation" button.
+1. Click the "Access PowerPoint presentation" button above.
 2. Click the download <i class="fa fa-download" aria-hidden="true"></i>
  icon in the upper right hand corner of the screen.
 
