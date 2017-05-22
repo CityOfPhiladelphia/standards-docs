@@ -1,6 +1,7 @@
 ---
 title: Contact blocks
 date: 2017-02-03
+description: Use contact blocks to display contact information.
 menu:
   main:
     parent: components
