@@ -6,7 +6,11 @@ menu:
     parent: components
 ---
 
-A card serves as an entry point to more detailed information. Cards may contain a photo, text, icon, or a link about a single subject. We use them to present news and blog items that have images. We also use them for resources that contain links to other sites.
+A card serves as an entry point to more detailed information. The type of card depends on your use case. There are three types of cards:
+
+1. [Media](#media-cards) -- used to display news and blog posts.
+2. [Call to action](#call-to-action-cards) -- used to highlight other websites where more information about a topic can be found.
+3. [Summary](#summary-cards) -- used to provide more information about a page before a clickthrough.
 
 ### Media cards
 {{< card-media >}}
@@ -14,8 +18,8 @@ A card serves as an entry point to more detailed information. Cards may contain 
 ### Call to action cards
 {{< card-cta >}}
 
-### Overview cards
-{{< card-overview >}}
+### Summary cards
+{{< card-summary >}}
 
 ---
 
@@ -43,7 +47,7 @@ The media card is the base for all card types.
 Apply the `card` class to an `<a>` tag to use this card style. An image is required.
 
 ### Call to action cards
-A call to action card must contain an icon relating to the topic of the card, a title, and a short description. This is the only card type that can link to off-site content.
+A call to action card must contain an icon relating to the topic of the card, a title, and a short description. This is the only card type that should link to off-site content.
 
 Apply the `card--action` class and the base `card` class to an `<a>` tag.
 
