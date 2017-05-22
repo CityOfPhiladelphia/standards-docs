@@ -1,11 +1,12 @@
 ---
 title: Step-by-step list
 date: 2017-02-13
+description: Example markup for creating a visually compelling set of steps. 
 menu:
   main:
     parent: components
 ---
-A step-by-step list is used to indicate a sequence of actions someone must take in order to complete a process. 
+A step-by-step list is used to indicate a sequence of actions someone must take in order to complete a process.
 
 {{< step-by-step-list >}}
 

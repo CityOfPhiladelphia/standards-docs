@@ -1,6 +1,7 @@
 ---
 title: Pull quotes
 date: 2017-02-03
+description: Pull quotes are designed blocks of text that highlight important or meaningful quotes. 
 menu:
   main:
     parent: components

@@ -1,6 +1,7 @@
 ---
 title: Menus
 date: 2017-02-01
+description: Menu examples and descriptions of when to use them. 
 menu:
   main:
     parent: layout

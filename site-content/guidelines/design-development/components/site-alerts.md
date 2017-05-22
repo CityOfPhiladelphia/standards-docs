@@ -1,6 +1,7 @@
 ---
 title: Site alerts
 date: 2017-02-01
+description: Use alerts to convey critical information on a homepage or site-wide.
 menu:
   main:
     parent: components

@@ -1,6 +1,7 @@
 ---
 title: Header
 date: 2017-02-01
+description: Markup for creating the site-wide header. 
 menu:
   main:
     parent: layout

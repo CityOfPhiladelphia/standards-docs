@@ -1,6 +1,7 @@
 ---
 title: Footer
 date: 2017-02-13
+description: Instructions for using the globa footer on your site.  
 menu:
   main:
     parent: layout
