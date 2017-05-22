@@ -7,11 +7,11 @@ menu:
     weight: 4
 ---
 
-The City of Philadelphia’s logo is the most visible representation of the city, its people, and its visual identity . The logo is a valuable asset that must be used consistently in the proper, approved forms.
+The City of Philadelphia’s logo is the most visible representation of the city, its people, and its visual identity. The logo is a valuable asset that must be used consistently in the proper, approved forms.
 
 There are two color versions of the City of Philadelphia logo provided. Consider context, contrast with background color, and surrounding imagery when selecting which version to use.
 
-The bell icon should always stay yellow, unless the entire logo must be one color. In those cases, use the black and white logo.
+The bell icon should always be yellow, unless the entire logo must be one color. In those cases, use the black and white logo.
 
 Guidelines for using the City of Philadelphia logo:
 
@@ -80,7 +80,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
 ### For departments
 If you’re a department that needs a logo, ODDT provides two templates for you below. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. “City of Philadelphia” can go under the department name if you’d like. You may use either version.
 
-Use the template provided for your department's social media channel avatar. The avatars are recognizable and readable when smaller.
+Use the template provided for your department's social media channel avatar. The avatars are recognizable and readable when presented in a smaller area.
 
 If your department needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phila.gov</a>.
 
@@ -113,11 +113,11 @@ If your department needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phi
 {{% accordion How to use %}}
 ## Accessibility
 
-The City of Philadelphia logo and department logos must be recognizable, but do not have to meet the contrast ratios we follow for font usage across the site. They use the Trebuchet font which is a standard sans serif font that is artistic, accessible across all devices and platforms, and very readable.
+The City of Philadelphia logo and department logos must be recognizable, but do not have to meet the contrast ratios we follow for font usage across the site. They use the Trebuchet font -- a standard sans serif font that is artistic, accessible across all devices and platforms, and readable.
 
 ## Implementation
 
-The City of Philadelphia logo is an .svg file with a .png fallback for older browsers. If you have included the full City of Philadelphia standard javascript in your project, you can use:
+The City of Philadelphia logo is an .svg file with a .png fallback for older browsers. If you have included the full City of Philadelphia standards JavaScript in your project, you can use:
 
 `<img src="/path/to/logo/city-of-philadelphia.svg" data-fallback="/path/to/fallback/city-of-philadelphia.png" alt="City of Philadelphia">`
 
