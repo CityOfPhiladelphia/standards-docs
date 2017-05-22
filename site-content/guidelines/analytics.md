@@ -2,6 +2,7 @@
 title: Analytics
 date: 2017-01-27
 type: full
+description: Add the City's analytics code to your project.
 menu:
   main:
     name: Analytics
