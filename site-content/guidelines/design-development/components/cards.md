@@ -1,6 +1,7 @@
 ---
 title: Cards
 date: 2017-02-03
+description: Information about "cards" -- elements used to display summary about a link before users click through.
 menu:
   main:
     parent: components
