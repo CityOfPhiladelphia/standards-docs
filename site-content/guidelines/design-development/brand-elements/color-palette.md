@@ -1,6 +1,7 @@
 ---
 title: Color palette
 date: 2017-01-27
+description: The City's color palette uses bold blues, with limited accent colors.
 menu:
   main:
     parent: brand-elements
