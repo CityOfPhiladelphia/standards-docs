@@ -25,6 +25,8 @@ Guidelines for using the City of Philadelphia logo:
 * Don’t change the orientation of the logo.
 * Don’t put text on top of logo.
 
+Public use is allowed, but use by external organizations must be approved by the [Office of the City Representative](https://beta.phila.gov/departments/city-representative/).
+
 The .zip files below provide three high-quality versions of the logo in the following formats:
 
 * Original `.ai`
