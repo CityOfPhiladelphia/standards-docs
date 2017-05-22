@@ -7,7 +7,7 @@ menu:
     weight: 5
 ---
 
-Choose icons from Font Awesome, the open source toolkit by @davegandy. Iconography should provide a simple, visual indicator of key actions or tasks. The icons also create stronger contextual emphasis on the page.
+Choose icons from <a href="http://fontawesome.io/" class="external">Font Awesome</a>, the open source toolkit by <a href="https://twitter.com/davegandy" class="external">@davegandy</a>. Iconography should provide a simple, visual indicator of key actions or tasks. The icons also create stronger contextual emphasis on the page.
 
 {{< icons >}}
 
