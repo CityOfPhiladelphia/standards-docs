@@ -6,7 +6,7 @@ menu:
     parent: components
 ---
 
-Put all department contact info and social media links in a contact block.
+Put all department contact info and social media links in a contact block. Contact blocks display important information about a department or entity. If possible, all four contact areas (address, phone, email, and social media) should always be displayed. If a field is missing, the row for that content should be removed.  
 
 <div class="large-10 columns connect vcard">
 {{< contact-block >}}
