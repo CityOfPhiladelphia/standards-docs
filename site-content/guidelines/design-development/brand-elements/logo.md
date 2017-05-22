@@ -1,6 +1,7 @@
 ---
 title: Logo
 date: 2017-01-27
+description: Design and technical details on how to use the City of Philadelphia's official logo.
 menu:
   main:
     parent: brand-elements
