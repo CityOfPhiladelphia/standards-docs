@@ -6,7 +6,7 @@ menu:
     parent: components
 ---
 
-Pull quotes allow you to call attention to a specific sentence or phrase.  The typeface is Times New Roman Italic/Reg and should be contained in a blue box.
+Pull quotes allow you to call attention to a specific sentence or phrase using design elements.
 
 {{< pull-quotes >}}
 
@@ -20,6 +20,7 @@ Pull quotes allow you to call attention to a specific sentence or phrase.  The t
 
 {{% accordion How to use %}}
 ## Implementation
+Use the code above to create a pull quote.
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
