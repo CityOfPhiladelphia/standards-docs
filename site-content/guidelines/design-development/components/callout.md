@@ -1,6 +1,7 @@
 ---
 title: Callout
 date: 2017-02-03
+description: Instructions for how and when to use callouts. 
 menu:
   main:
     parent: components

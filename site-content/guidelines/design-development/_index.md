@@ -1,7 +1,7 @@
 ---
 title: Design & development
 date: 2017-01-27
-description: Design & development guidelines.
+description: Visual and technical details for incorporating the Digital Standards in your project. 
 dropdown: true
 menu:
   main:
@@ -11,5 +11,3 @@ menu:
     weight: 1
     pre: hide
 ---
-
-{{< panel wip >}}

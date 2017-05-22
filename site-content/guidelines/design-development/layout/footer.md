@@ -1,6 +1,7 @@
 ---
 title: Footer
 date: 2017-02-13
+description: Instructions for using the globa footer on your site.  
 menu:
   main:
     parent: layout
@@ -19,8 +20,6 @@ The global footer has two parts. The top first section of the footer provides 31
 ## Implementation
 
 Use the [boilerplate](/templates/markup/boilerplate/) markup to implement the footer.
-
-This portion of the Digital Standards is still a work in progress.
 
 {{% /accordion %}}
 

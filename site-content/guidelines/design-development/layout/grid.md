@@ -1,6 +1,7 @@
 ---
 title: Grid
 date: 2017-02-01
+description: Explanation of the grid system found in Standards. It is built on Foundation 6.
 menu:
   main:
     parent: layout

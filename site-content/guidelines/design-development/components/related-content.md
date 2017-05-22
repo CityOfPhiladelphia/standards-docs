@@ -1,11 +1,12 @@
 ---
 title: Related content
 date: 2017-02-13
+description: Related content indicates more information can be found elsewhere on the internet.
 menu:
   main:
     parent: components
 ---
-
+Use related content when more information about a topic can be found on other pages or websites.
 
 {{< related-content >}}
 

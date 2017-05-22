@@ -1,9 +1,10 @@
 ---
-title: Boilerplate
+title: HTML boilerplate
 date: 2017-03-07
+dropdown: true
 menu:
   main:
-    parent: markup
+    parent: templates
 ---
 
 {{< panel wip >}}

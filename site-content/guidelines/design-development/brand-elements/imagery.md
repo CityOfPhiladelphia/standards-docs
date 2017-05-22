@@ -1,6 +1,7 @@
 ---
 title: Imagery
 date: 2017-01-31
+description: Use these image guidelines to create beautiful digital experiences.
 menu:
   main:
     parent: brand-elements
@@ -14,7 +15,7 @@ Guidelines:
 
 1. Images must be at least 300 dpi  
 2. Must use imagery that is not visibly dated  
-3. Must be images that have been taken in Philadelphia  
+3. Must be photographs that have been taken in Philadelphia  
 4. No cell phone pictures  
 5. Add photo credit where photo credit is due
 
