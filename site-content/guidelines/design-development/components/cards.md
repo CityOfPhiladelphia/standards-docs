@@ -32,7 +32,7 @@ A card serves as an entry point to more detailed information. The type of card d
 <h3>Call to action cards</h3>
 {{< card-cta >}}
 <h3>Overview cards</h3>
-{{< card-overview >}}
+{{< card-summary >}}
 {{</ highlight >}}
 {{< /accordion >}}
 
