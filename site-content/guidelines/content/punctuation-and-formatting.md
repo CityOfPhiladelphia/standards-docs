@@ -204,9 +204,6 @@ Where hyphens are not used, always separate values and units by a non-breaking s
 * **Example:** 9 mm gun
 {{% /filter-item %}}
 
-{{% filter-item Justification %}}
-For written languages that read left to right, left justification is most appropriate for bodies of text. Center justification should be used sparingly. For written languages that read right to left, right justification is most appropriate for bodies of text. Be consistent. Never mix justifications within a document.
-{{% /filter-item %}}
 
 {{% filter-item Links %}}
 Links are most effective when they are specific and descriptive. When you create a link, highlight text that will give users a clear idea of what they will see if they follow the link. This is especially useful for people with vision impairments who use screen readers, and will often skip from one link to another as a way of skimming content.
