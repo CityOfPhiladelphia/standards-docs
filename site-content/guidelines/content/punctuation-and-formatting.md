@@ -1,5 +1,5 @@
 ---
-title: Formatting
+title: Punctuation and Formatting
 date: 2017-05-15
 description: Rules for formatting and punctuation.
 type: filter
