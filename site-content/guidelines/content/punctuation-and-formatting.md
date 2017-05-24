@@ -265,9 +265,12 @@ For these reasons, PDFs shouldn’t be used for content that you want people to 
 {{% /filter-item %}}
 
 {{% filter-item Parentheses %}}
-Parentheses are used to set off non-essential information in a sentence. Read your sentence without the parenthetical content - if it still makes sense, then you are using parentheses correctly.
+Parentheses are used to set off non-essential information in a sentence.
+
 * **Example:** The director (and the duputy director) attended the gala.
-Parentheses are also used to set off area codes in phone numbers. Type one space after the area code in parentheses. 
+
+Parentheses are also used to set off area codes in phone numbers. Type one space after the area code in parentheses.
+
 * **Example:** (215) 867-5309 
 {{% /filter-item %}}
 
