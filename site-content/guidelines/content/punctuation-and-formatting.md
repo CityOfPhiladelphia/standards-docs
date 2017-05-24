@@ -6,7 +6,7 @@ type: filter
 menu:
   main:
     parent: content
-    weight: 3
+    weight: 4
 ---
 {{% filter-item Ampersand %}}
 Use an “&” in labels, headings, and subheadings. Spell out the word “and” in prose, lists, and department or office titles.
