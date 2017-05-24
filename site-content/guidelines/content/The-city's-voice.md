@@ -5,7 +5,7 @@ description: Read our approach to creating accessible, effective, human-centered
 menu:
   main:
     parent: content
-    weight: 1
+    weight: 2
 ---
 
 We’re here to assist people in becoming empowered residents of the city. We do this through the design of the digital experience, but also through the language we use to communicate with the public and with each other.
