@@ -23,13 +23,6 @@ Use block quotes when you want to highlight a single sentence or phrase from wit
 “We are changing the way the City website serves our residents” - Office of Open Data and Digital Transformation
 {{% /filter-item %}}
 
-{{% filter-item Emphasis %}}
-**Bold** calls attention to key information.
-
-_Italics_ are used under specific conditions, such as to indicate the title of a book. Avoid using italics to emphasize an idea or to create a sarcastic tone.
-
-Underlining should not be used in web communications, as this can be reserved to indicate a link.
-{{% /filter-item %}}
 
 {{% filter-item Brackets %}}
 Brackets are used to indicate that the writer has replaced the original word in quoted text with a different word to clarify the speaker’s intended meaning.
@@ -38,14 +31,7 @@ Brackets are used to indicate that the writer has replaced the original word in 
 * **Example:** He sat in on [several courses] during his day visiting the university.
 {{% /filter-item %}}
 
-{{% filter-item Bulleted lists %}}
-Capitalize the first word of every bullet. Include a period only if the bullet point makes a complete sentence following the introductory phrase.
 
-* **Example:** When you go to the store, please buy:
-  * Bread.
-  * Milk.
-  * Apples.  
-{{% /filter-item %}}
 
 
 
@@ -110,6 +96,17 @@ Different types of dashes are used in different situations.
 An em dash is a long dash. Use an Em dash to set off a phrase. Don’t use a single hyphen in place of an em dash.
 
 * **Example:** We emphasize open, digital record keeping, and—whenever possible—we illuminate our processes.
+
+{{% filter-item Emphasis %}}
+**Bold** calls attention to key information.
+
+_Italics_ are used under specific conditions, such as to indicate the title of a book. Avoid using italics to emphasize an idea or to create a sarcastic tone.
+
+Underlining should not be used in web communications, as this can be reserved to indicate a link.
+{{% /filter-item %}}
+
+
+
 
 #### En dash
 An en dash is shorter than an em dash. Use an en dash to convey a range. The en dash is also used in to show connected items. Don’t use  a single hyphen in place of an  en dash.
@@ -243,6 +240,17 @@ Excessive linking can be confusing and overwhelming. If a resource, topic, or or
 {{% filter-item Lists %}}
 
 There are two types of lists: bulleted and numbered. Bulleted lists are known as “unordered” on the web, and numbered lists are known as “ordered.” Most lists should be unordered. Only use an ordered list if the order or number of items matters, as in a list of steps.
+
+**Bulleted lists**
+Capitalize the first word of every bullet. Include a period only if the bullet point makes a complete sentence following the introductory phrase.
+
+* **Example:** When you go to the store, please buy:
+  * Bread.
+  * Milk.
+  * Apples.  
+{{% /filter-item %}}
+
+
 {{% /filter-item %}}
 
 {{% filter-item PDFs %}}
