@@ -10,15 +10,10 @@ menu:
 
 We’re here to assist people in becoming empowered residents of the city. We do this through the design of the digital experience, but also through the language we use to communicate with the public and with each other.
 
-**Our guiding principles**
-along with standards for formatting, punctuation, and common usage, will help  us maintain consistent content throughout [beta.phila.gov](www.beta.phila.gov)
+**The City's Voice**,
+along with standards for formatting, punctuation, and common usage, help maintain consistent content throughout [beta.phila.gov](www.beta.phila.gov).
 
-We are … | That means we …
------------- | ----------------------------
-Accessible | Use plain language & write for diverse audiences
-Effective | Make content goal-oriented & use active voice
-Dignified & Human-Centered | Are helpful & write for resident needs
-Clear & Trustworthy|Provide context, are accurate & are complete
+
 
 ### Keep the following in mind as you write for the web:
 
