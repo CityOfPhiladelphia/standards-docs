@@ -15,16 +15,15 @@ menu:
 
 <p>Many government websites provide an overwhelming amount of information with few cues on how to navigate it. This can cause confusion, frustration, and a feeling of powerlessness for readers. We think Philadelphia can do better.</p>
 
-<p>Government services should be accessible and understandable to everyone. We set out to create standards that are:</p>
+<p>Government services should be accessible and understandable to everyone.</p>
 
-<ul>
-  <li>Accessible.</li>
-  <li>Dignified.</li>
-  <li>Effective.</li>
-  <li>Human-centered.</li>
-  <li>Clear.</li>
-  <li>Trustworthy.</li>
-</ul>
+<p>These standards are divided into guides for:</p>
+
+* **Design and Development**: the visual branding elements and tools that define how City websites should look and function.
+
+* **Content**: all the information you need to write for City websites.
+
+* **Analytics**: as part of the City’s commitment to open data, we employ a Unified Web Analytics Strategy and have included the necessary code for employing it.
 
 </div>
 <div class="columns medium-8">
