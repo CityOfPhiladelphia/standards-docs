@@ -1,7 +1,7 @@
 ---
 title: Punctuation and Formatting
 date: 2017-05-15
-description: Rules for formatting and punctuation.
+description: Rules for punctuation and formatting
 type: filter
 menu:
   main:
