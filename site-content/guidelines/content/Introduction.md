@@ -5,7 +5,7 @@ description: Some information about our content standards and how to use them.
 menu:
   main:
     parent: content
-    weight: 8
+    weight: 1
 ---
 
 Government writing tends to be dry, complicated, and obscure. It doesn’t take into account who is reading it or why, and often talks at readers rather than to them.
