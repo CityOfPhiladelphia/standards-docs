@@ -10,7 +10,7 @@ menu:
 
 We’re here to assist people in becoming empowered residents of the city. We do this through the design of the digital experience, but also through the language we use to communicate with the public and with each other.
 
-**The City's Voice**,
+**The City's voice**,
 along with standards for formatting, punctuation, and common usage, help maintain consistent content throughout [beta.phila.gov](www.beta.phila.gov).
 
 
