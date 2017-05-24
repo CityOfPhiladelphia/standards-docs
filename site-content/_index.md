@@ -19,11 +19,11 @@ menu:
 
 <p>These standards are divided into guides for:</p>
 
-* **Design and Development**: the visual branding elements and tools that define how City websites should look and function.
+<p>* **Design and Development**: the visual branding elements and tools that define how City websites should look and function.</p>
 
-* **Content**: all the information you need to write for City websites.
+<p>* **Content**: all the information you need to write for City websites.</p>
 
-* **Analytics**: as part of the City’s commitment to open data, we employ a Unified Web Analytics Strategy and have included the necessary code for employing it.
+<p>* **Analytics**: as part of the City’s commitment to open data, we employ a Unified Web Analytics Strategy and have included the necessary code for employing it.</p>
 
 </div>
 <div class="columns medium-8">
