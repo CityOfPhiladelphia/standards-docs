@@ -96,6 +96,8 @@ Different types of dashes are used in different situations.
 An em dash is a long dash. Use an Em dash to set off a phrase. Don’t use a single hyphen in place of an em dash.
 
 * **Example:** We emphasize open, digital record keeping, and—whenever possible—we illuminate our processes.
+{{% /filter-item %}}
+
 
 {{% filter-item Emphasis %}}
 **Bold** calls attention to key information.
@@ -107,8 +109,8 @@ Underlining should not be used in web communications, as this can be reserved to
 
 
 
+{{% filter-item En dash %}}
 
-#### En dash
 An en dash is shorter than an em dash. Use an en dash to convey a range. The en dash is also used in to show connected items. Don’t use  a single hyphen in place of an  en dash.
 
 * **Example:** The program is open to children ages 10-12.
@@ -248,9 +250,6 @@ Capitalize the first word of every bullet. Include a period only if the bullet p
   * Bread.
   * Milk.
   * Apples.  
-{{% /filter-item %}}
-
-
 {{% /filter-item %}}
 
 {{% filter-item PDFs %}}
