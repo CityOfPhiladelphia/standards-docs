@@ -261,16 +261,16 @@ PDFs are:
 * Not always accessible to people with disabilities.
 * Not easily shared on social media.
 
-For these reasons, PDFs shouldn’t be used for content that you want people to read online. If you have many PDFs, you should store them on a Document page (see HOW TO MAKE A DOCMENT PAGE)
+For these reasons, PDFs shouldn’t be used for content that you want people to read online. 
 {{% /filter-item %}}
 
 
 {{% filter-item Periods and spaces %}}
-Do not separate acronyms with periods or blank spaces
+Do not separate acronyms with periods or blank spaces.
 
 Examples: GOP, NASA, OBE, GmbH
 
-Many periods and spaces that were traditionally required have now dropped out of usage
+Many periods and spaces that were traditionally required have now dropped out of usage.
 
 * **Example:** “PhD” is preferred to  “Ph.D.”
 
