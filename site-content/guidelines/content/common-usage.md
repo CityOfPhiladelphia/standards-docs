@@ -6,7 +6,7 @@ type: filter
 menu:
   main:
     parent: content
-    weight: 4
+    weight: 3
 ---
 
 {{% filter-item Acronyms and abbreviations %}}
