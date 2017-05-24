@@ -275,6 +275,9 @@ Many periods and spaces that were traditionally required have now dropped out of
 * **Example:** “PhD” is preferred to  “Ph.D.”
 
 Truncated (“Hon.” for “Honorable”), compressed (“cmte.” for “committee”) and contracted (“Dr.” for “Doctor”) abbreviations may or may not be closed with a period.
+
+Type only one space after a period.
+
 {{% /filter-item %}}
 
 {{% filter-item Plurals of lowercase letters %}}
