@@ -44,22 +44,6 @@ When giving addresses spell out the street name entirely, but abbreviate the typ
 * **Example:** 1401 John F. Kennedy Blvd.
 {{% /filter-item %}}
 
-{{% filter-item "All right / alright" %}}
-
-Although "alright" is widely used, it is considered nonstandard English. As the American Heritage Dictionary notes, it is not “all right to use alright.”
-{{% /filter-item %}}
-
-{{% filter-item "Bimonthly / semimonthly" %}}
-Bimonthly is an adjective that means every two months. Bimonthly is also a noun referring to a publication issued every two months.
-
-* **Example:** I brought the cake for the bimonthly office party.
-* **Example:** The company publishes several popular bimonthlies.
-
-Semimonthly is an adjective that means happening twice a month.
-
-* **Example:** We have semimonthly meetings on the 1st and the 15th.
-{{% /filter-item %}}
-
 {{% filter-item "Capital / capitol" %}}
 Use “capitol” when referring to a building.
 
@@ -77,10 +61,6 @@ Use “capital”  for talking about the official seat of a  government,  for ta
 
 {{% filter-item "Citizen" %}}
 Since some of those people living within the City might not be citizens, we prefer to use residents or individuals.  
-{{% /filter-item %}}
-
-{{% filter-item "Companywide" %}}
-NOT company-wide
 {{% /filter-item %}}
 
 {{% filter-item "Dates" %}}
@@ -199,11 +179,6 @@ When referencing mental or physical conditions, do not refer to an individual as
 * **Example:** The Center was created to assist those with bipolar disorder, schizophrenia, and severe depression.
 {{% /filter-item %}}
 
-{{% filter-item  "Inc. / incorporated" %}}
-When the word is part of a company name, use Inc. Do not include a comma before Inc.
-
-* **Example:** Time Warner Inc.
-{{% /filter-item %}}
 
 {{% filter-item  "Login / log in" %}}
 One word when used as a noun or adjective.
@@ -242,9 +217,6 @@ For people, on initial mention, use First Name Last Name. Subsequent mentions us
 John Jones and Casey Jones say their work in city government is essential. John Jones joined his department in 1994. Casey Jones began her work with the City in 2001.
 {{% /filter-item %}}
 
-{{% filter-item  "Nationwide" %}}
-NOT national or nation-wide.
-{{% /filter-item %}}
 
 {{% filter-item  "Numbers" %}}
 Spelling out numbers one through nine; use numerals beyond that (10, 11, etc.).
@@ -415,18 +387,9 @@ end result | result
 final end | end
 {{% /filter-item %}}
 
-{{% filter-item  "Rollout / roll out" %}}
-“Roll out” is a verb.
-
-* **Example:** Roll out the barrel; we’ll have a barrel of fun.
-
-“Rollout” is a noun or adjective.
-
-* **Example:** To promote success, we should devise a rollout plan.
-{{% /filter-item %}}
 
 {{% filter-item  "Set up / setup" %}}
-“Set up” is a verb that denotes the act of putting something together.
+“Set up” is a verb that suggests the act of putting something together.
 
 * **Example:**  He set up the meeting room.
 
