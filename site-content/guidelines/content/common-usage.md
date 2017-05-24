@@ -15,11 +15,11 @@ The first time you refer to an organization or project that uses an acronym, wri
 
 * **Example:** The General Services Administration (GSA) oversees the business of the U.S. Federal Government.
 
-Some names are more recognizable when they are abbreviated, as with IBM, and FBI.
+Some names are more recognizable when they are abbreviated, as with IBM and FBI.
 
 In such instances, the acronym is always acceptable and you don’t need to spell out the full name at first use.
 
-#### If possible, use a shortened version of the name, and not the acronym, in your second reference
+#### If possible, use a shortened version of the name, and not the acronym, in your second reference.
 Use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between identical or similar acronyms.
 
 * **Example:** Use Parks & Rec. instead of PPR.
@@ -39,7 +39,7 @@ Do not use an apostrophe to form the plural of an acronym.
 {{% /filter-item %}}
 
 {{% filter-item Addresses %}}
-When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd. Blvd., etc).
+When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd., Blvd., etc).
 
 * **Example:** 1401 John F. Kennedy Blvd.
 {{% /filter-item %}}
@@ -56,7 +56,8 @@ Use “Capitol” only when referring to the building in Washington, DC.
 Use “capital”  for talking about the official seat of a  government,  for talking about wealth or assets,  or for a capital letter.
 
 * **Example:** Harrisburg is the capital of Pennsylvania.
-* **Example:** After leaving the capitol building, Senator Toomey went to the Capitol to discuss plans to improve his state’s capital in Harrisburg, by investing more capital in infrastructure projects.
+* **Example:** It takes capital to start your own business.
+* **Example:** Begin proper nouns with a capital letter.
 {{% /filter-item %}}
 
 {{% filter-item "Citizen" %}}
@@ -69,7 +70,7 @@ Use numbers for dates and years.
 
 Don’t use st, nd, rd, or th.
 
-When you use months with a date, only abbreviate the following months: Jan., Feb., Aug., Sept., Oct., Nov. and Dec.
+When you use months with a date, only abbreviate the following months: Jan., Feb., Aug., Sept., Oct., Nov., and Dec.
 
 * **Example:** The Phillies’ opening day is April 8.
 * **Example:** The first day of school will be Wednesday, Sept. 9 this year.
@@ -79,11 +80,11 @@ You don’t need to use a comma if only a year and month are given.
 * **Example:** I began my job in December 2017.
 
 
-You do need a comma when date, month and year are given.
+You do need a comma when date, month, and year are given.
 
 * **Example:** Philadelphia was founded on Oct. 27, 1682.
 
-Capitalize days of the week, and do not abbreviate.
+Capitalize days of the week and do not abbreviate.
 
 * **Example:** Mayor Kenney will be speaking at the event on Thursday.
 {{% /filter-item %}}
@@ -125,7 +126,7 @@ In general usage, historic refers to what is important in history.
 
 Historical applies more broadly to whatever existed in the past, whether it was important or not.
 
-* **Example:**  A historical department, the City eliminated the Department of Horse and Buggies in 1909.  
+* **Example:**  The City eliminated the Department of Horse and Buggies, a historical department, in 1909.  
 {{% /filter-item %}}
 
 {{% filter-item "Inclusive language" %}}
@@ -146,19 +147,20 @@ We also make sure that any disability is correctly identified.
   * NOT: The program serves over 3,000 autistic people.
 
 #### Hearing
-Use the term “deaf” as an adjective to describe those with significant hearing loss. One can also use the term “partially deaf” or “hard of hearing” for those with less significant hearing loss.
+Use the term “deaf” as an adjective to describe those with significant hearing loss. You can also use the term “partially deaf” or “hard of hearing” for those with less significant hearing loss.
 
 #### Vision
 
-A person without vision is blind. A person with some vision can be “legally blind” or is identified as having “low vision.”
+A person without vision is blind. A person with some vision can be “legally blind” or can be identified as having “low vision.”
 
 #### Gender and sexuality
 Whenever possible, use neutral language for titles.
 
 * **Example:** Chairperson, firefighter, police officer.
 
-#### LGBT
-Refer to the LGTB or LGBTQ community as a single acronym, although a reference to the meaning, spelled out, should be included for first reference.
+#### LGBT (lesbian, gay, bisexual, transgender)
+
+Refer to the LGTB or LGBTQ community as a single acronym. As with all abbreviations, spell it out at first use and use the acronym thereafter.
 
 * **Example:** Jones has long been a champion of the lesbian, gay, bisexual, transgender, queer (LGBTQ) community and reaffirmed his commitment in a the speech on Thursday.
 
@@ -231,7 +233,7 @@ Is a fraction used as an estimate.
 
 * **Example:** one-half, two-thirds, three-quarters
 
-#### Use digits instead of spelling out a number when it
+#### Use digits instead of spelling out a number when it:
 
   * Includes a decimal point.
 
@@ -248,7 +250,7 @@ Is part of a range of numbers
 #### Ages
 Always use digits to express ages.
 
-* **Example:** 5 years old.
+* **Example:** 5 years old
 
 #### Decimal points
 Use a leading zero (0.05, not .05) for numbers between minus one and plus one. Use a consistent number of decimal places within a document.
@@ -294,7 +296,7 @@ Use “to” when constructing number ranges within sentences. An en dash may be
 * **Example:** Hours 5–8 p.m.
 
 #### Ratios
-Use figures and hyphens. Include the word to unless the number immediately preceded the word “ratio.”
+Use figures and hyphens. Include the word "to" unless the number immediately preceded the word “ratio.”
 
 * **Example:** The ratio was 2-to-1, a 2-1 ratio and a ratio of 2-to-1.
 
@@ -327,7 +329,7 @@ Don’t use formal or long words when easy or short ones will do.
 
 [Plainlanguage.gov](http://www.plainlanguage.gov) is a good resource and offers tips for making sure your writing is clear to all audiences.
 
-We lose our users’ trust if we write using government buzzwords and jargon. Often, these words are too general and vague, and they can lead to misinterpretation or empty, meaningless text. We can do without the following words:
+We lose our readers' trust if we write using government buzzwords and jargon. Often, these words are too general and vague, and they can lead to misinterpretation or empty, meaningless text. We can do without the following words:
 
 * Agenda (unless you’re talking about a meeting)
 * Combating (use “working against” or “fighting”)
