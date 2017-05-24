@@ -150,7 +150,7 @@ Use Headings to break up content into sections. Headlines, page titles, subheads
 {{% filter-item Headlines %}}
 Headlines should be unique, specific and short, conveying the most important point of the piece. Treat headlines as sentences without ending punctuation by including verbs. Only capitalize proper nouns. Use the present and active voice. Use commas instead of “and” or “&.”
 
-* **Example:*** Ways to pay, options for residents of Philadelphia
+* **Example:** Ways to pay, options for residents of Philadelphia
 {{% /filter-item %}}
 
 {{% filter-item Hyphen %}}
