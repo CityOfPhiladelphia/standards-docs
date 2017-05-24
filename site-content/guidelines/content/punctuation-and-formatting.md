@@ -86,7 +86,9 @@ We prefer the serial comma (sometimes called the Oxford comma). In a list of thr
 {{% /filter-item %}}
 
 {{% filter-item Contractions %}}
-Standard English contractions ( for example., “we’ll,” “ you’ll,” “won’t,” “don’t,” “haven’t”) are acceptable – even encouraged – in informal web content, but not in proposals or statements of work, where you should use  a more formal tone.
+Use common contractions like it’s, can’t, shouldn’t, and you’ll. Contractions are part of everyday conversation, so readers find them easy to understand.
+
+Too many uses of it is, cannot, and should not can seem archaic and formal. We can move away from this without compromising the reliable and professional tone of information coming from government.
 {{% /filter-item %}}
 
 {{% filter-item Dashes %}}
