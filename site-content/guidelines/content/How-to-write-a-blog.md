@@ -74,7 +74,7 @@ Example: a sprayground—a playground with sprinklers!
 
 12. FACT CHECK, FACT CHECK, FACT CHECK! Don’t assume that posted phone numbers are correct, name spellings are accurate, or dates and times provided are exact. Double-checking before the information is public is the best way to build authority and trust with our readers.
 
-13. Submit to for final approval.
+13. Submit for final approval.
 
 14. If sharing on City social media accounts (Facebook, Twitter, etc.), make sure that someone is monitoring the comments there. Please note that comments are turned **OFF** for all City blog posts.
  
