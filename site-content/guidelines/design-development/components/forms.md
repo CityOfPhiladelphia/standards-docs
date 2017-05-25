@@ -9,12 +9,30 @@ menu:
 
 
 ### Text inputs
+
+Forms can be used to collect information, create sign ups, launch surveys, or extend interactions. 
+ 
+Use text inputs when collecting short information (first name, last name). HTML 5 inputs allow for the collection of phone numbers and email addresses with modern browser built-in validation. 
+
+Some available forms have specific uses: 
+
+* **Text input error** - used to show that a field was incorrectly filled.
+* **Text input success** - used to show errors are corrected.
+* **Text areas**- allow for expanded input. Can be used for notes or other text that may not fit within a specifically-constrained box. 
+
+
 {{< form-text-inputs >}}
 
 ### Checkboxes
+
+Use ONLY when user can select multiple options
+
 {{< form-controls-checkboxes >}}
 
 ### Radios
+
+Use ONLY when users are limited to a single option.
+
 {{< form-controls-radios >}}
 
 ---
