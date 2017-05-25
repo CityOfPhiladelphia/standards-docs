@@ -7,12 +7,16 @@ menu:
     parent: content
     weight: 100
 ---
+Here are more helpful resources for creating great content.
+
 
 <a href="https://pages.18f.gov/content-guide/" class="external">18F Content Guide</a>
 
 <a href="https://www.apstylebook.com/" class="external">Associated Press Stylebook</a>
 
 <a href="http://consciousstyleguide.com/" class="external">The Conscious Style Guide</a>
+
+<a href="http://www.quickanddirtytips.com/grammar-girl" class="external">Quick and Dirtry Tips from the Grammar Girl</a>
 
 <a href="http://www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/TOC.cfm" class="external">Federal Plain Language Guidelines</a>
 
