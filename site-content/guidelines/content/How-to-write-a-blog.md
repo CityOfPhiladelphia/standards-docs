@@ -47,37 +47,36 @@ Example: This blog will get parents of school-age children to visit our page abo
 * Write [alt text](http://webaim.org/techniques/alttext/) for any image descriptions for accessibility.
  
 ### A step-by-step process
+ 
 
-1. Make sure this is really best-suited to be a blog and is not news,  a press release, or an update to an existing web page. 
+1. Identify your specific audience.
 
-2. Identify your specific audience.
+2. Generate the idea.
 
-3. Generate the idea.
+3. Focus the idea into a purpose statement.
 
-4. Focus the idea into a purpose statement.
+4. Develop a great headline.
 
-5. Develop a great headline.
+5. Come up with an outline.
 
-6. Come up with an outline.
+6. Work with you Public Information Officer (PIO) to vet your idea and get permission to post.
 
-7. Work with you Public Information Officer (PIO) to vet your idea and get permission to post.
+7. Receive approval for blog concept.
 
-8. Receive approval for blog concept.
-
-9. Write the text, making sure that you fully understand the information and that you present that information in a clear, effective manner. Remember that your readers aren’t experts, so you should explain unfamiliar terms or concepts.
+8. Write the text, making sure that you fully understand the information and that you present that information in a clear, effective manner. Remember that your readers aren’t experts, so you should explain unfamiliar terms or concepts.
 Example: a sprayground—a playground with sprinklers!
 
-10. Find compelling [images](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/design-development/brand-elements/imagery.md).
+9. Find compelling [images](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/design-development/brand-elements/imagery.md).
 
-11. Proof for spelling, grammar—make sure to use the content standards for [punctuation and formatting](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/punctuation-and-formatting.md) and [common usage](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/common-usage.md).
+10. Proof for spelling, grammar—make sure to use the content standards for [punctuation and formatting](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/punctuation-and-formatting.md) and [common usage](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/common-usage.md).
 
-12. Check for plagiarism.
+11. Check for plagiarism.
 
-13. FACT CHECK, FACT CHECK, FACT CHECK! Don’t assume that posted phone numbers are correct, name spellings are accurate, or dates and times provided are exact. Double-checking before the information is public is the best way to build authority and trust with our readers.
+12. FACT CHECK, FACT CHECK, FACT CHECK! Don’t assume that posted phone numbers are correct, name spellings are accurate, or dates and times provided are exact. Double-checking before the information is public is the best way to build authority and trust with our readers.
 
-14. Submit to for final approval.
+13. Submit to for final approval.
 
-15. If sharing on City social media accounts (Facebook, Twitter, etc.), make sure that someone is monitoring the comments there. Please note that comments are turned **OFF** for all City blog posts.
+14. If sharing on City social media accounts (Facebook, Twitter, etc.), make sure that someone is monitoring the comments there. Please note that comments are turned **OFF** for all City blog posts.
  
  
 ### Some common missteps to avoid:
