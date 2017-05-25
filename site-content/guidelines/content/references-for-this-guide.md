@@ -1,7 +1,7 @@
 ---
 title: References for this guide
 date: 2017-01-30
-description: More resources for creating great content.
+description: Here are more resources for creating great content.
 menu:
   main:
     parent: content
