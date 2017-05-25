@@ -183,8 +183,7 @@ Do not hyphenate other multi-word numbers
 
 * **Example:** two hundred (not two-hundred)
 
-See also "Dashes."
-
+Hyphens are used less frequently than dashes. See also "Dashes" which are more often used than hyphens.
 
 
 {{% filter-item Links %}}
