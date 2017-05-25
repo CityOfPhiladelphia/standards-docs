@@ -150,19 +150,9 @@ Use Headings to break up content into sections. Headlines, page titles, subheads
 * **Example:** How to pay your taxes.
 {{% /filter-item %}}
 
-{{% filter-item Headlines %}}
-Headlines should be unique, specific and short, conveying the most important point of the piece. Treat headlines as sentences without ending punctuation by including verbs. Only capitalize proper nouns. Use the present and active voice. Use commas instead of “and” or “&.”
-
-* **Example:** Ways to pay, options for residents of Philadelphia
-{{% /filter-item %}}
 
 {{% filter-item Hyphen %}}
 The hyphen indicates conjunction and has several uses:
-
-#### To distinguish between homographs
-
-* **Example:** re-dress = dress again
-* **Example:** redress = remedy or fix
 
 #### To link certain prefixes with their main word
 
@@ -173,17 +163,11 @@ Use a hyphen when the letters brought together:
 * Form an uncommon word
 * May be misread
 
-
-* **Example:** non-planar
-* **Example:** sub-achiever
-
 #### To link related terms in compound adjectives and adverbs.
 
 Use a hanging hyphen when two compound adjectives are separated
 
 * **Example:** three- and four-digit numbers
-
-* **Example:** a ten-boat or -vessel regatta
 
 ---
 
@@ -199,14 +183,8 @@ Do not hyphenate other multi-word numbers
 
 * **Example:** two hundred (not two-hundred)
 
-Hyphenate values and units as compound adjectives if the unit is given as a whole word
+See also "Dashes."
 
-* **Example:** (9-millimetre gun)
-
-Where hyphens are not used, always separate values and units by a non-breaking space
-
-* **Example:** 9 mm gun
-{{% /filter-item %}}
 
 
 {{% filter-item Links %}}
