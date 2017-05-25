@@ -18,6 +18,6 @@ Here are more helpful resources for creating great content.
 
 <a href="http://www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/TOC.cfm" class="external">Federal Plain Language Guidelines</a>
 
-<a href="http://www.quickanddirtytips.com/grammar-girl" class="external">Quick and Dirty Tips from the Grammar Girl</a>
-
 <a href="https://www.gov.uk/guidance/style-guide" class="external">GOV.UK Style guide</a>
+
+<a href="http://www.quickanddirtytips.com/grammar-girl" class="external">Quick and Dirty Tips from the Grammar Girl</a>
