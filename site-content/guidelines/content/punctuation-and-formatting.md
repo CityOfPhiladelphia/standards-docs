@@ -166,8 +166,6 @@ Use a hanging hyphen when two compound adjectives are separated
 
 * **Example:** three- and four-digit numbers
 
----
-
 Hyphenate two-word numbers from 21 to 99 when presented as words
 
 * **Example:** sixty-six
