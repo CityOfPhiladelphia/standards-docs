@@ -38,11 +38,32 @@ Do not use an apostrophe to form the plural of an acronym.
 * **Example:** Did you receive the PDFs?
 {{% /filter-item %}}
 
+{{% filter-item Active vs. passive voice %}}
+
+Use active voice, not passive voice, whenever possible.
+Active voice makes it immediately clear who or what is performing an action.
+* **Example:** The mayor recommends that City residents take shelter before the winter storm.
+
+Passive voice describes a sentence that doesn’t state who or what is responsible for an action, or puts the “do-er” later in the sentence than the thing being done.
+
+* **Example:**  It is recommended that City residents take shelter before the winter storm.
+* **Example:** A recommendation was made by the mayor to take shelter before the winter storm.
+
+While readers usually prefer active voice, there are situations where passive voice is useful. This includes times when the acting person or thing is actually unknown, or when you want to draw attention to the object being acted upon.
+
+* **Example:** The motorcycles were stolen late last night.
+–NOT–
+
+Someone stole the motorcycles late last night.
+
+
+
 {{% filter-item Addresses %}}
 When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd., Blvd., etc).
 
 * **Example:** 1401 John F. Kennedy Blvd.
 {{% /filter-item %}}
+
 
 {{% filter-item "Capital / capitol" %}}
 Use “capitol” when referring to a building.
@@ -317,9 +338,7 @@ One word.
 {{% /filter-item %}}
 
 {{% filter-item  Passive voice %}}
-Passive voice can create dull and awkward sentences and you should avoid it, except when you intend to be vague about who is responsible for an action. Aim for active voice.
-
-* **Example:** The department charged fines incorrectly and apologized for the error. - NOT- Mistakes were made and fines were charged.
+See "Active vs. passive voice."
 {{% /filter-item %}}
 
 {{% filter-item  Plain language %}}
