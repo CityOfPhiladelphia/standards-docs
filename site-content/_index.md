@@ -13,21 +13,24 @@ menu:
 <h2 class="contrast">Why standards are important</h2>
 <p>Philadelphia’s digital standards provide the design, code, and content guidelines for City websites. These standards were created by the Office of Open Data and Digital Transformation for people who are designing, creating, and writing for the City of Philadelphia. </p>
 
-<p>Why use standards?</p>
+<h3>Why use standards?</h3>
 
-<p> Government services should be accessible and understandable to everyone. Standards make sure that we present information in a way that allows as many people as possible to access it.</p>
+<ul>
+<li>Government services should be accessible and understandable to everyone. Standards make sure that we present information in a way that allows as many people as possible to access it.</li>
 
-<p> A unified message across all digital communications builds trust in those who use our programs and services. It also makes things less confusing for those looking for help or information.</p>
+<li>A unified message across all digital communications builds trust in those who use our programs and services. It also makes things less confusing for those looking for help or information.</li>
 
-<p> Standards help outside vendors and individual departments, offices, commissions, and agencies create a consisitent identity for the City of Philadelphia.</p>
+<li>Standards help outside vendors and individual departments, offices, commissions, and agencies create a consistent identity for the City of Philadelphia.</li>
+</ul>
 
 <p>These standards are divided into guides for:</p>
+<ul>
+<li><strong>Design and Development:</strong> the visual branding elements and tools that define how City websites should look and function.</li>
 
-<p><strong>Design and Development:</strong> the visual branding elements and tools that define how City websites should look and function.</p>
+<li><strong>Content:</strong> all the information you need to write for City websites.</li>
 
-<p><strong>Content:</strong> all the information you need to write for City websites.</p>
-
-<p><strong>Analytics:</strong> as part of the City’s commitment to open data, we employ a Unified Web Analytics Strategy and have included the necessary code for employing it.</p>
+<li><strong>Analytics:</strong> as part of the City’s commitment to open data, we employ a Unified Web Analytics Strategy and have included the necessary code for employing it.</li>
+</ul>
 
 </div>
 <div class="columns medium-8">
