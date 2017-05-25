@@ -1,2 +1,1 @@
-var $ = require('jquery');
-require('phila-standards');
+var philaStandards = require('phila-standards');
