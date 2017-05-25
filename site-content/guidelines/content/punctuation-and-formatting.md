@@ -8,6 +8,9 @@ menu:
     parent: content
     weight: 4
 ---
+Use these rules for punctuation and formatting content.
+
+
 {{% filter-item Ampersand %}}
 Use an “&” in labels, headings, and subheadings. Spell out the word “and” in prose, lists, and department or office titles.
 {{% /filter-item %}}
