@@ -57,10 +57,9 @@ While readers usually prefer active voice, there are situations where passive vo
 * **Example:** The motorcycles were stolen late last night.
 –NOT–
 
-Someone stole the motorcycles late last night.
+NOT: Someone stole the motorcycles late last night.
+
 {{% /filter-item %}}
-
-
 
 {{% filter-item Addresses %}}
 When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd., Blvd., etc).
