@@ -38,7 +38,7 @@ Do not use an apostrophe to form the plural of an acronym.
 * **Example:** Did you receive the PDFs?
 {{% /filter-item %}}
 
-{{% filter-item Active vs. passive voice %}}
+{{% filter-item "Active vs. passive voice" %}}
 
 Use active voice, not passive voice, whenever possible.
 Active voice makes it immediately clear who or what is performing an action.
