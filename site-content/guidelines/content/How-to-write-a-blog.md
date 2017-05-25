@@ -46,7 +46,7 @@ Example: This blog will get parents of school-age children to visit our page abo
 
 * Write [alt text](http://webaim.org/techniques/alttext/) for any image descriptions for accessibility.
  
-### A Step-by-step process
+### A step-by-step process
 
 1. Make sure this is really best-suited to be a blog and is not news,  a press release, or an update to an existing web page. 
 
