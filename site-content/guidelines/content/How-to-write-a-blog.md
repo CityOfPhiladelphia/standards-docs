@@ -11,7 +11,7 @@ menu:
 
 This document provides information about best practices for writing blogs, and offers helpful tips and information about creating blogs for City websites.
  
-### Blog Planning Tips
+### Blog planning tips
  
 Keep in mind how your blog content advances the department’s mission and goals. Blogs should reinforce information that is already made public.  
  
@@ -46,7 +46,7 @@ Example: This blog will get parents of school-age children to visit our page abo
 
 * Write [alt text](http://webaim.org/techniques/alttext/) for any image descriptions for accessibility.
  
-### A Step-by-Step Process
+### A Step-by-step process
 
 1. Make sure this is really best-suited to be a blog and is not news,  a press release, or an update to an existing web page. 
 
