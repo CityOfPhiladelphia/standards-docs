@@ -104,16 +104,6 @@ An em dash is a long dash. Use an Em dash to set off a phrase. Don’t use a sin
 {{% /filter-item %}}
 
 
-{{% filter-item Emphasis %}}
-**Bold** calls attention to key information.
-
-_Italics_ are used under specific conditions, such as to indicate the title of a book. Avoid using italics to emphasize an idea or to create a sarcastic tone.
-
-Underlining should not be used in web communications, as this can be reserved to indicate a link.
-{{% /filter-item %}}
-
-
-
 {{% filter-item En dash %}}
 
 An en dash is shorter than an em dash. Use an en dash to convey a range. The en dash is also used in to show connected items. Don’t use  a single hyphen in place of an  en dash.
@@ -141,6 +131,14 @@ Ellipses indicate things left unsaid. They are often used to shorten quoted mate
 Unless used to shorten a quote, write around them as much as possible. If they are absolutely necessary, they should be treated as a word, with spaces before and after.
 
 * **Example:** The sign said "no eating, drinking, or smoking,” becomes, _The sign said "no ... smoking."_
+{{% /filter-item %}}
+
+{{% filter-item Emphasis %}}
+**Bold** calls attention to key information.
+
+_Italics_ are used under specific conditions, such as to indicate the title of a book. Avoid using italics to emphasize an idea or to create a sarcastic tone.
+
+Underlining should not be used in web communications, as this can be reserved to indicate a link.
 {{% /filter-item %}}
 
 
