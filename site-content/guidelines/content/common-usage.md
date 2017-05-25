@@ -9,6 +9,9 @@ menu:
     weight: 3
 ---
 
+Embrace the City’s writing style by adopting our preferred words, phrases, and standards.
+
+
 {{% filter-item Acronyms and abbreviations %}}
 
 The first time you refer to an organization or project that uses an acronym, write out the full name and follow with the abbreviation in parentheses.
