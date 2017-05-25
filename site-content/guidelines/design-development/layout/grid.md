@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-The grid system is composed of 24 columns.
+The grid system is composed of 24 columns. It is the foundation on which all site layouts are built. Grids can be nested if needed. If you’re unfamiliar with grid systems, [this document](http://foundation.zurb.com/sites/docs/grid.html) will provide more information. 
 <div class="sg-grid">
   {{< grids >}}
 </div>
