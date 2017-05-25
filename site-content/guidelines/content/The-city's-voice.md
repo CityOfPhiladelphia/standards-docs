@@ -8,10 +8,10 @@ menu:
     weight: 2
 ---
 
-We’re here to assist people in becoming empowered residents of the city. We do this through the design of the digital experience, but also through the language we use to communicate with the public and with each other.
+We’re here to assist people in becoming empowered residents of the city. We do this both through the design of the digital experience, and through the language we use to communicate with the public and with each other.
 
 **The City's voice**,
-along with standards for formatting, punctuation, and common usage, help maintain consistent content throughout [beta.phila.gov](www.beta.phila.gov).
+along with standards for punctuation and formatting, and common usage, help maintain consistent content throughout [beta.phila.gov](www.beta.phila.gov).
 
 
 
