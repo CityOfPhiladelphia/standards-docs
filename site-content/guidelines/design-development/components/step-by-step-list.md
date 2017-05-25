@@ -6,7 +6,10 @@ menu:
   main:
     parent: components
 ---
-A step-by-step list is used to indicate a sequence of actions someone must take in order to complete a process.
+
+This list incorporates graphics and should be used to indicate a sequence of actions for complex processes. 
+[Ordered and unordered lists](https://cityofphiladelphia.github.io/standards-docs/guidelines/content/punctuation-and-formatting/), with less significant markup can be used within the site as well. 
+
 
 {{< step-by-step-list >}}
 
