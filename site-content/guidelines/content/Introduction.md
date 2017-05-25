@@ -25,7 +25,7 @@ We created this guide for reference on an as-needed basis. It’s here when you�
 
 We’ve structured the guide into sections based on the topic covered. Browse the list of contents to find what you’re looking for.
 
-Our guidelines rely on the [Associated Press Stylebook](https://www.apstylebook.com)and the Merriam-Webster dictionary, and you should look to those resources if you don't find what you are looking for here. You can also see the [References for this guide](https://github.com/CityOfPhiladelphia/standards-docs/commit/3c2ae95f4ae735c9f075c2fc0b7c029a44004542) for our favorite helpful sources.
+Our guidelines rely on the [Associated Press Stylebook](https://www.apstylebook.com)and the [Merriam-Webster dictionary](https://www.merriam-webster.com/), and you should look to those resources if you don't find what you are looking for here. You can also see the [References for this guide](https://github.com/CityOfPhiladelphia/standards-docs/commit/3c2ae95f4ae735c9f075c2fc0b7c029a44004542) for our favorite helpful sources.
 
 This guide will continue to grow and change as we learn more about how people use our content. If you feel the guide is incorrect, inconsistent, or missing something, by all means, let us know so that we can address it.
 
