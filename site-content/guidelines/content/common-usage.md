@@ -55,9 +55,8 @@ Passive voice describes a sentence that doesn’t state who or what is responsib
 While readers usually prefer active voice, there are situations where passive voice is useful. This includes times when the acting person or thing is actually unknown, or when you want to draw attention to the object being acted upon.
 
 * **Example:** The motorcycles were stolen late last night.
-–NOT–
 
-Someone stole the motorcycles late last night.
+NOT: Someone stole the motorcycles late last night.
 
 {{% /filter-item %}}
 
