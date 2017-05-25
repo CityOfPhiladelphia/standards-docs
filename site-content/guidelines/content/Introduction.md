@@ -16,6 +16,8 @@ We think Philadelphia can do better.
 
 We want to make government services more accessible and understandable to everyday people. We want to give people the information they need, to do what they need, in a way that fosters trust. This guide can help you achieve those goals.
 
+For more detailed information than what you see here, consult the AP Style Guide, Merriam Webster dictionary, or some of the other resources found in the Reference section. 
+
 
 ### How to use this guide
 
