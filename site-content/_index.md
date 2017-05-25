@@ -10,7 +10,7 @@ menu:
 
 <div class="row">
 <div class="columns medium-16">
-<h2 class="contrast">Why standards are important</h1>
+<h2 class="contrast">Why standards are important</h2>
 <p>Philadelphia’s digital standards provide the design, code, and content guidelines for City websites. These standards were created by the Office of Open Data and Digital Transformation for people who are designing, creating, and writing for the City of Philadelphia. </p>
 
 <p>Many government websites provide an overwhelming amount of information with few cues on how to navigate it. This can cause confusion, frustration, and a feeling of powerlessness for readers. We think Philadelphia can do better.</p>
@@ -19,15 +19,15 @@ menu:
 
 <p>These standards are divided into guides for:</p>
 
-<p> Design and Development: the visual branding elements and tools that define how City websites should look and function.</p>
+<p><strong>Design and Development:</strong> the visual branding elements and tools that define how City websites should look and function.</p>
 
-<p> Content: all the information you need to write for City websites.</p>
+<p><strong>Content:</strong> all the information you need to write for City websites.</p>
 
-<p> Analytics: as part of the City’s commitment to open data, we employ a Unified Web Analytics Strategy and have included the necessary code for employing it.</p>
+<p><strong>Analytics:</strong> as part of the City’s commitment to open data, we employ a Unified Web Analytics Strategy and have included the necessary code for employing it.</p>
 
 </div>
 <div class="columns medium-8">
-<h2 class="contrast">Have questions?</h1>
+<h2 class="contrast">Have questions?</h2>
 {{< contact-block >}}
 </div>
 </div>
