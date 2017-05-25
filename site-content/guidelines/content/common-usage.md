@@ -57,7 +57,7 @@ While readers usually prefer active voice, there are situations where passive vo
 * **Example:** The motorcycles were stolen late last night.
 –NOT–
 
-NOT: Someone stole the motorcycles late last night.
+Someone stole the motorcycles late last night.
 
 {{% /filter-item %}}
 
