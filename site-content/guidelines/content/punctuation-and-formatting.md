@@ -101,7 +101,12 @@ Different types of dashes are used in different situations.
 An em dash is a long dash. Use an Em dash to set off a phrase. Don’t use a single hyphen in place of an em dash.
 
 * **Example:** We emphasize open, digital record keeping, and—whenever possible—we illuminate our processes.
-{{% /filter-item %}}
+
+**To make an Em-Dash**
+
+* Mac: Option + shift + hyphen
+* Windows: Alt + 151 (#pad)
+* WordPress: Three consecutive hyphens
 
 #### En dash
 
@@ -110,19 +115,14 @@ An en dash is shorter than an em dash. Use an en dash to convey a range. The en 
 * **Example:** The program is open to children ages 10-12.
 * **Example:** He referred to the Sarbanes–Oxley Act.
 
-See also “hyphen.”
-
-**To make an Em-Dash**
-
-* Mac: Option + shift + hyphen
-* Windows: Alt + 151 (#pad)
-* WordPress: Three consecutive hyphens
-
 **To make an En-Dash**
 
 * Mac: Option + hyphen
 * Windows: Alt + 150 (#pad)
 * WordPress: Two consecutive hyphens
+
+See also “hyphen.”
+
 {{% /filter-item %}}
 
 {{% filter-item Ellipses %}}
