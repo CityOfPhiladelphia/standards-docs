@@ -11,17 +11,8 @@ menu:
 <div class="row">
 <div class="columns medium-16">
 <h2 class="contrast">Why standards are important</h2>
-<p>Philadelphia’s digital standards provide the design, code, and content guidelines for City websites. These standards were created by the Office of Open Data and Digital Transformation for people who are designing, creating, and writing for the City of Philadelphia. </p>
+<p>Philadelphia’s digital standards provide the design, code, and content guidelines for City websites. These standards were created by the Office of Open Data and Digital Transformation for people who are designing, creating, and writing for the City of Philadelphia. Standards allow as many people as possible to access City information. Standards also help outside vendors and individual departments, offices, commissions, and agencies create a consistent identity for the City of Philadelphia.</p>
 
-<h3>Why use standards?</h3>
-
-<ul>
-<li>Government services should be accessible and understandable to everyone. Standards make sure that we present information in a way that allows as many people as possible to access it.</li>
-
-<li>A unified message across all digital communications builds trust in those who use our programs and services. It also makes things less confusing for those looking for help or information.</li>
-
-<li>Standards help outside vendors and individual departments, offices, commissions, and agencies create a consistent identity for the City of Philadelphia.</li>
-</ul>
 
 <p>These standards are divided into guides for:</p>
 <ul>
