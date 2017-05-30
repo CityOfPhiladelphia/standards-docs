@@ -21,7 +21,7 @@
                           {{ $.Scratch.Add "Breadcrumbs" ( print "<li><a href=''>" .Name "</a></li>" )  }}
                         {{end}}
                         {{ if .HasChildren  }}
-                        <li class="menu-item is-right-arrow{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} current-menu-item{{end}}">
+                        <li class="menu-item {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} current-menu-item{{end}}">
                         <a href="javascript:;" class="">{{ .Name }}</a>
                           <ul class="menu vertical nested">
                             {{ range .Children }}
