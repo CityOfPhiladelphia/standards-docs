@@ -8,7 +8,9 @@ menu:
     weight: 6
 ---
 
-The branding that you use on your department’s social media profiles should align with the City’s branding that we use on phila.gov. The brand should be reflected in your profile pictures, icons, header images, and other imagery. For consistency, your header image should always match with the header image on your department site. Your profile picture can be your logo if you have one. if you need an image sized to the specifications required, contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a>.
+The branding that you use on your department’s social media profiles should align with the City’s branding that is used on phila.gov. The brand should be reflected in your profile pictures, icons, header images, and other imagery. For consistency, your header image should always match the header image on your department site. Your profile picture can be your logo, if you have one. if you need an image sized to the specifications required, contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a>.
+
+Never use a pixelated or incorrectly sized image. Contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> if you need imagery.
 
 ### beta.phila.gov department site
 ![Hero header example](/standards-docs/img/social-media/beta-hero-header.jpg)
@@ -20,8 +22,7 @@ The branding that you use on your department’s social media profiles should al
 ![Twitter header photo example](/standards-docs/img/social-media/twitter-header-photo.jpg)
 
 ### Open graph
-![Open graph example](/standards-docs/img/social-media/open-graph.jpg)
-
+<img src="/standards-docs/img/social-media/open-graph.jpg" alt="Open graph example" class="no-scale">
 
 ---
 
@@ -34,7 +35,18 @@ The branding that you use on your department’s social media profiles should al
 {{% accordion How to use %}}
 ## Implementation
 
-In addition to the visual guidelines, all phila.gov pages should use open graph meta tags. You can change the base image if it is appropriate to do so, like in the case of a blog or news post that contains other images. In most cases, however, the default phila.gov open graph image in the above example is sufficient.  
+In addition to the visual guidelines, all phila.gov pages should use <a href="http://ogp.me/" class="external">open graph</a> meta tags.
+
+The four required meta tags are:
+
+* `og:title`
+* `og:type`
+* `og:image`
+* `og:url`
+
+If you are using the Standards markup in your site's header, you are only required to change the og:title and og:url. You are free to use the phila.gov default image, as shown in the example above. You can remove the included og:description if you choose to do so.
+
+To see how a page on your site will appear when shared on social media, you can use the <a href="https://cards-dev.twitter.com/validator" class="external">Twitter Card validator</a> and the <a href="https://developers.facebook.com/tools/debug/sharing/" class="external">Facebook Sharing Debugger.</a>
 
 {{% /accordion %}}
 
