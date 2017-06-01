@@ -120,9 +120,13 @@ The City of Philadelphia logo and department logos must be recognizable, but do 
 
 ## Implementation
 
-The City of Philadelphia logo is an .svg file with a .png fallback for older browsers. If you have included the full City of Philadelphia standards JavaScript in your project, you can use:
+For websites, the City of Philadelphia logo is an .svg file with a .png fallback for older browsers. If you have included the full City of Philadelphia Standards JavaScript in your project, you can use the following:
 
 `<img src="/path/to/logo/city-of-philadelphia.svg" data-fallback="/path/to/fallback/city-of-philadelphia.png" alt="City of Philadelphia">`
+
+If you have not included the full Standards JavaScript, then you can use:
+
+`<img src="/path/to/logo/city-of-philadelphia.png" alt="City of Philadelphia">`
 
 {{% /accordion %}}
 
