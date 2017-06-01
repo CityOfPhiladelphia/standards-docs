@@ -193,7 +193,7 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
 ## Accessibility
 While the color palette is flexible, not all color combinations will meet Web Content Accessibility Guidelines. The following color combinations are valid, and will pass WCAG AA contrast ratios.
 
-To verify that other color combinations pass the WCAG standards you can use an <a href="http://webaim.org/resources/contrastchecker/" class="external">online color contrast checker</a>. You can also download the WAVE
+To verify that other color combinations pass the WCAG standards you can use an <a href="http://webaim.org/resources/contrastchecker/" class="external">online color contrast checker</a>. You can also <a href="http://wave.webaim.org/extension/" class="external">download the FireFox or Chrome browser extension</a> or use the <a href="http://wave.webaim.org/">online version</a> of the WAVE toolbar to check accessibly of webpages.
 
 <div class="row">
 <div class="medium-12 columns">
@@ -213,7 +213,7 @@ To verify that other color combinations pass the WCAG standards you can use an <
 ## Implementation
 Utility classes are provided so that any combination of colors can be used, however, only the combinations above meet accessibility requirements. Utility classes are prefixed with the type of utility, then the name of the color.
 
-Background, border and font color are available as utilities.
+Background, border and font color are available as utility classes and can be applied to any element.
 
 * Background colors are prefixed with `bg-`.
 * Border colors are prefixed with `bdr-`.
