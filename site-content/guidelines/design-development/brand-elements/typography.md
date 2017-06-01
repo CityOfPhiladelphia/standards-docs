@@ -120,6 +120,8 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
 {{% accordion How to use %}}
 ## Implementation
 
+To establish page hierarchy for content heavy sites, all headings and paragraph tags have specific styling applied to them so pages flow visually from topic to detail.
+
 <h1>Heading 1 without contrast</h1>
 
 You can add the `contrast` class to an `h1` tag to create page titles.  
