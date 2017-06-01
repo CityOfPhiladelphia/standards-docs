@@ -26,7 +26,7 @@ Icons will be read aloud to screen readers by default. If the icon is purely dec
 
 Additionally, if the icon has meaning in the current context, use the `aria-label` attribute with a value that identifies the way the icon is being used or the location the link take the user.
 
-Example: {{< highlight html >}}
+**Example:** {{< highlight html >}}
 <a class="site-search" aria-label="Search">
   <i class="fa fa-search fa-2x" aria-hidden="true"></i>
 </a>

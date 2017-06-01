@@ -232,7 +232,7 @@ Background, border and font color are available as utility classes and can be ap
 * Border colors are prefixed with `bdr-`.
 * Font colors do not need a prefix.
 
-Example:
+**Example:**
 
 * `bg-ben-franklin-blue` changes the `background-color` property.
 * `bdr-ben-franklin-blue` changes the `border-color` property.
