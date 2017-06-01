@@ -34,7 +34,19 @@ Guidelines:
 
 {{% accordion How to use %}}
 ## Implementation
-All images are required to have alternate text. Good alternate text describes the image in its surrounding context. If an image contains text, that text must be the alternate text. If the image is purely visual and does not contain meaningful information, the alternate text can be blank, but the attribute must be present.
+All images are required to have alternate text.
+
+Good alternate text describes the image within its surrounding context. For example, a headshot of a person should contain the person's name. Never say "Photo of", as it is unnecessary.
+
+**Example:** `<img src="captain-picard.jpg" alt="Captain Jean-Luc Picard">`
+
+If an image contains text, like a logo, that text must be the alternate text.
+
+**Example:** `<img src="city-of-philadelphia-logo.jpg" alt="City of Philadelphia">`
+
+If the image is purely visual and does not contain meaningful information, the alternate text can be blank, but the attribute must be present. This indicates to screenreaders that the image is not important to understanding the content on the page.
+
+**Example:** `<img src="hero-header-background.jpg" alt="">`
 
 You can read more about alternate text on the <a href="http://webaim.org/techniques/alttext/" class="external">WebAIM website</a>.
 {{% /accordion %}}
