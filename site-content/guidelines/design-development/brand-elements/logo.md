@@ -107,7 +107,7 @@ If your department needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phi
 
 {{< accordion Code >}}
 {{< highlight html >}}
-<a href="https://beta.phila.gov" class="logo" tabindex="1" aria-label="City of Philadelphia">
+<a href="https://beta.phila.gov" class="logo" tabindex="0" aria-label="City of Philadelphia">
   <img src="/standards-docs/img/logo/city-of-philadelphia.svg" data-fallback="/standards-docs/img/logo/city-of-philadelphia.png" alt="City of Philadelphia">
 </a>
 {{< /highlight >}}
