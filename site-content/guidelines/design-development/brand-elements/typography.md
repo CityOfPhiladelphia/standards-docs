@@ -120,22 +120,27 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
 {{% accordion How to use %}}
 ## Implementation
 
-<h1 class="contrast">Heading 1 example</h1>
+<h1>Heading 1 without contrast</h1>
+
 You can add the `contrast` class to an `h1` tag to create page titles.  
 
-**Example:** `<h1 class="contrast">`
+**Example:** `<h1 class="contrast">Heading 1 with contrast example</h1>`
+
+<h1 class="contrast">Heading 1 with contrast example</h1>
 
 <h2>Heading 2 example</h2>
 
-<h3>Heading 3 example</h3>
 Heading three appearing within an `<article>` tag always has a gray background.
 
+<h3>Heading 3 example</h3>
 <h4>Heading 4 example</h4>
 <h5>Heading 5 example</h5>
 <h6>Heading 6 example</h6>
 
-You can use any named heading as a class to override default heading size.    
-**Example:** `<h3 class="h5">Smaller text</h3>`
+You can use any heading as a class to override default heading size.  
+
+**Example:** `<h2 class="h5">Smaller text heading example</h2>`
+<h2 class="h5">Smaller text heading example</h2>
 
 {{% /accordion %}}
 
