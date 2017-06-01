@@ -1,5 +1,5 @@
 ---
-title: The City's voice
+title: Our writing style
 date: 2017-01-30
 description: Read our approach to creating accessible, effective, human-centered content for residents.
 menu:
