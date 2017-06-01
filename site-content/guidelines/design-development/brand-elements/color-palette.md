@@ -189,6 +189,19 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
 
 {{< accordion-wrap >}}
 
+{{< accordion Code >}}
+  {{< highlight html >}}
+<div class="bg-light-blue dark-ben-franklin pas mbm">dark-ben-franklin on light-blue</div>
+<div class="bg-ben-franklin-blue white pas mbm">white on ben-franklin-blue</div>
+<div class="bg-ghost-gray dark-ben-franklin pas mbm">dark-ben-franklin on ghost-gray</div>
+<div class="bdr-all bdr-sidewalk dark-ben-franklin pas mbm">dark-ben-franklin on white</div>
+<div class="bg-electric-blue black pas mbm">black on electric-blue</div>
+<div class="bg-dark-ben-franklin white pas mbm">white on dark-ben-franklin</div>
+<div class="bg-ghost-gray dark-gray pas mbm">dark-gray on ghost-gray</div>
+<div class="bdr-all bdr-sidewalk pas mbm">dark-gray on white</div>
+{{</ highlight >}}
+{{< /accordion >}}
+
 {{% accordion How to use %}}
 ## Accessibility
 While the color palette is flexible, not all color combinations will meet Web Content Accessibility Guidelines. The following color combinations are valid, and will pass WCAG AA contrast ratios.
