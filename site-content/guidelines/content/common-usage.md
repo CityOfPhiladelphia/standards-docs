@@ -66,21 +66,6 @@ When giving addresses spell out the street name entirely, but abbreviate the typ
 {{% /filter-item %}}
 
 
-{{% filter-item "Capital / capitol" %}}
-Use “capitol” when referring to a building.
-
-* **Example:** After speaking with Governor Wolf, representatives returned to the capitol.
-
-Use “Capitol” only when referring to the building in Washington, DC.
-
-* **Example:** We took a field trip to the Capitol.
-
-Use “capital”  for talking about the official seat of a  government,  for talking about wealth or assets,  or for a capital letter.
-
-* **Example:** Harrisburg is the capital of Pennsylvania.
-* **Example:** It takes capital to start your own business.
-* **Example:** Begin proper nouns with a capital letter.
-{{% /filter-item %}}
 
 {{% filter-item "Citizen" %}}
 Since some of those people living within the City might not be citizens, we prefer to use residents or individuals.  
@@ -317,11 +302,6 @@ Use “to” when constructing number ranges within sentences. An en dash may be
 * **Example:** 20 to 30 days
 * **Example:** Hours 5–8 p.m.
 
-#### Ratios
-Use figures and hyphens. Include the word "to" unless the number immediately preceded the word “ratio.”
-
-* **Example:** The ratio was 2-to-1, a 2-1 ratio and a ratio of 2-to-1.
-
 #### Years
 Do not use an apostrophe when pluralizing years.
 
@@ -376,15 +356,6 @@ We lose our readers' trust if we write using government buzzwords and jargon. Of
 * Utilize
 {{% /filter-item %}}
 
-{{% filter-item  "Principal / principle" %}}
-“Principal” is a noun that means “a person who holds a high position or plays an important role,” or “a sum of money.” “Principal” is also an adjective that means “chief, leading.”
-
-* **Example:** The school principal has 20 years of teaching experience.
-
-“Principle” is a noun that means “a rule or standard,” or “a basic truth or law.”
-
-* **Example:** They refused to compromise their principles.
-{{% /filter-item %}}
 
 {{% filter-item "Redundant phrases" %}}
 Find alternatives to common redundant phrases below:
