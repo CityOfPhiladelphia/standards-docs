@@ -1,11 +1,11 @@
 ---
 title: Introduction
 date: 2017-02-27
-description: Some information about our content standards and how to use them. 
+description: Some information about our content standards and how to use them.
 menu:
   main:
     parent: content
-    weight: 1
+    weight: 100
 ---
 
 Government writing tends to be dry, complicated, and obscure. It doesn’t take into account who is reading it or why, and often talks at readers rather than to them.
@@ -16,7 +16,7 @@ We think Philadelphia can do better.
 
 We want to make government services more accessible and understandable to everyday people. We want to give people the information they need, to do what they need, in a way that fosters trust. This guide can help you achieve those goals.
 
- 
+
 
 
 ### How to use this guide

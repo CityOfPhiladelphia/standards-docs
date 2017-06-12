@@ -6,7 +6,7 @@ type: filter
 menu:
   main:
     parent: content
-    weight: 4
+    weight: 400
 ---
 Use these rules for punctuation and formatting content.
 
@@ -239,7 +239,7 @@ PDFs are:
 * Not always accessible to people with disabilities.
 * Not easily shared on social media.
 
-For these reasons, PDFs shouldn’t be used for content that you want people to read online. 
+For these reasons, PDFs shouldn’t be used for content that you want people to read online.
 {{% /filter-item %}}
 
 {{% filter-item Parentheses %}}
@@ -249,7 +249,7 @@ Parentheses are used to set off non-essential information in a sentence.
 
 Parentheses are also used to set off area codes in phone numbers. Type one space after the area code in parentheses.
 
-* **Example:** (215) 867-5309 
+* **Example:** (215) 867-5309
 {{% /filter-item %}}
 
 

@@ -5,7 +5,7 @@ description: Here are more helpful resources for creating great content.
 menu:
   main:
     parent: content
-    weight: 100
+    weight: 600
 ---
 Here are more helpful resources for creating great content.
 

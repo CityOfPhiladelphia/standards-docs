@@ -5,28 +5,28 @@ description: To create a blog that engages your audience, here's what you need t
 menu:
   main:
     parent: content
-    weight: 5
+    weight: 500
 ---
 
 
 This document provides information about best practices for writing blogs, and offers helpful tips and information about creating blogs for City websites.
- 
+
 ### Blog planning tips
- 
+
 Keep in mind how your blog content advances the department’s mission and goals. Blogs should reinforce information that is already made public.  
- 
+
 **Remember that blog posts**:
 
 * Are social.
-* Have personality and use more informal language. 
+* Have personality and use more informal language.
 * Use tone that aligns with the department but that is always friendly and professional.
 * Often get written in the first person.
 * Don’t serve to update existing site content (which should be updated on the website itself).
- 
+
 ### Before you start, you’ll need:
 * A snappy headline that makes the reader interested.
 
-* A purpose statement that includes the blog’s intended audience. 
+* A purpose statement that includes the blog’s intended audience.
 Example: This blog will get parents of school-age children to visit our page about City summer camps and sign their children up.
 
 * A compelling image with appropriate attribution listing the source. Images should be a minimum of 660px wide by 430px tall.
@@ -34,7 +34,7 @@ Example: This blog will get parents of school-age children to visit our page abo
 * A call to action. Many blogs engage readers by asking them to do something (go to an event, click on a link to sign up to something, learn more about the topic).
 
 * Contact information. Make sure that you double-check your information for accuracy!
- 
+
 ### Formatting is important.
 * Length: 300-500 words; blog posts should be short enough to read through easily.
 
@@ -45,9 +45,9 @@ Example: This blog will get parents of school-age children to visit our page abo
 * Include a short description of your blog for the content management system. Descriptions are limited to tweet length (140 characters) and are required.
 
 * Write [alt text](http://webaim.org/techniques/alttext/) for any image descriptions for accessibility.
- 
+
 ### A step-by-step process
- 
+
 
 1. Identify your specific audience.
 
@@ -77,10 +77,10 @@ Example: a sprayground—a playground with sprinklers!
 13. Submit for final approval.
 
 14. If sharing on City social media accounts (Facebook, Twitter, etc.), make sure that someone is monitoring the comments there. Please note that comments are turned **OFF** for all City blog posts.
- 
- 
+
+
 ### Some common missteps to avoid:
- 
+
 * **Don’t make your blog too long**: A wall of words is overwhelming and readers will stop.
 
 * **Don’t use jargon** - but do make sure you understand technical specifics of the department. Find a subject expert if you’re not sure about a topic, but then explain it in plain language that any reader will understand.
@@ -88,23 +88,23 @@ Example: a sprayground—a playground with sprinklers!
 * **Don’t be all over the place**! Keep it simple and focused on your purpose statement.
 
 * **Don’t forget to spell out acronyms on first mention**.
- 
- 
+
+
 
 ### Here are some examples of effective blogs:
- 
-* [**Artworks**](https://www.arts.gov/art-works/2017/taking-note-round-arts-participation-research) 
+
+* [**Artworks**](https://www.arts.gov/art-works/2017/taking-note-round-arts-participation-research)
 
 While the posts on this blog can be dense and a little long, the writers keep the focus on the reader and important issues they might need to know. They also break up the content with headings and use friendly language that fits with the personality of the organization.
 
-* [**Innovate Government**](http://www.innovategovernment.com/team-nyc/) 
+* [**Innovate Government**](http://www.innovategovernment.com/team-nyc/)
 
 This blog does what a blog is supposed to. It gives all kinds of visuals to guide the story, breaks up text under headings, and tries to always keep the information accessible to the reader.
 
-* [**Uwishunu**](http://www.uwishunu.com/) 
+* [**Uwishunu**](http://www.uwishunu.com/)
 
 We like this blog because it creates a sense of excitement, it has beautiful images, and it provides clear information in good groupings that are reader-friendly. The writers also do a good job of breaking up text into nice-sized bits.
 
-* [**Philadelphia Department of Licenses and Inspections**](https://beta.phila.gov/posts/department-of-licenses-and-inspections/2017-05-10-building-safety-month-five-things-to-think-about-in-your-everyday-life/) 
+* [**Philadelphia Department of Licenses and Inspections**](https://beta.phila.gov/posts/department-of-licenses-and-inspections/2017-05-10-building-safety-month-five-things-to-think-about-in-your-everyday-life/)
 
-This blog offers lots of helpful information presented through an easy-to-grasp list. It also provides contacts to more information. 
+This blog offers lots of helpful information presented through an easy-to-grasp list. It also provides contacts to more information.
