@@ -6,4 +6,4 @@ params:
   heroImageLocation: "img/standards-hero.jpg"
 theme: "phila.gov"
 contentDir: "site-content"
-disableRSS: true
+disableKinds: ["RSS"]
