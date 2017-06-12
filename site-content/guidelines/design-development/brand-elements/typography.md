@@ -1,11 +1,13 @@
 ---
 title: Typography
 date: 2017-01-27
+description: Information about font choices and when to use certain fonts. 
 menu:
   main:
     parent: brand-elements
     weight: 2
 ---
+Typography is the foundational building block of the beta.phila.gov design. Fonts that are readable, yet bold encompass the brand.
 
 Sans-serifs were chosen because they are easier to read on screens, and are adaptable across platforms and browsers.
 
