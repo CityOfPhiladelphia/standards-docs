@@ -11,6 +11,12 @@ Choose icons from <a href="http://fontawesome.io/" class="external">Font Awesome
 
 {{< icons >}}
 
+### Icon use example
+
+The press release template uses icons to reenforce the type of content the user is accessing.
+
+{{< press-release >}}
+
 ---
 
 {{< accordion-wrap >}}
