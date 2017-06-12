@@ -1,7 +1,7 @@
 ---
 title: Iconography
 date: 2017-01-31
-description: When and how to use icons with the context of Standards. 
+description: When and how to use icons with the context of Standards.
 menu:
   main:
     parent: brand-elements
@@ -14,7 +14,7 @@ Choose icons from <a href="http://fontawesome.io/" class="external">Font Awesome
 
 ### Icon use example
 
-The press release template uses icons to reenforce the type of content the user is accessing.
+The press release template uses icons to reinforce the type of content the user is accessing.
 
 {{< press-release >}}
 
