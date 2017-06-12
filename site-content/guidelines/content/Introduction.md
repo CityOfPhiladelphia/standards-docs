@@ -1,7 +1,7 @@
 ---
 title: Introduction
 date: 2017-02-27
-description: Some information about our content standards and how to use them.
+description: Information about our content standards and how to use them.
 menu:
   main:
     parent: content
