@@ -1,6 +1,7 @@
 ---
 title: Installation
 date: 2017-02-11
+description: How to include Standards in your web project. 
 menu:
   main:
     parent: technical-details
