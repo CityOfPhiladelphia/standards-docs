@@ -1,6 +1,7 @@
 ---
 title: Upgrade guide
 date: 2017-03-07
+description: A step-by-step guide for migrating a site using phila.gov's Pattern Portfolio.
 menu:
   main:
     parent: technical-details
