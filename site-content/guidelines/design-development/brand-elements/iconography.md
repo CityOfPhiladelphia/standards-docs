@@ -1,6 +1,7 @@
 ---
 title: Iconography
 date: 2017-01-31
+description: When and how to use icons with the context of Standards. 
 menu:
   main:
     parent: brand-elements
