@@ -22,10 +22,10 @@
       <p>{{ .Description }}</p>
       {{ .Content }}
       <nav class="hide-for-small-only">
-        <div class="row equal-height fat-gutter">
-          {{ range .Paginator.Pages.ByParam "Menu.Main.Weight" }}
+        <div class="row fat-gutter"  data-equalizer data-equalize-by-row="false">
+          {{ range .Paginator.Pages.ByParam "menu.main.weight" }}
             <div class="small-24 medium-8 column end">
-              <a href="{{ .URL }}" class="card card--overview equal">
+              <a href="{{ .URL }}" class="card card--overview" data-equalizer-watch>
                 <div class="content-block">
                   <h3>{{ .Title }}</h3>
                   {{ .Description }}
