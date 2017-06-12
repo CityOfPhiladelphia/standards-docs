@@ -1,6 +1,7 @@
 ---
 title: Iconography
 date: 2017-01-31
+description: When and how to use icons with the context of Standards.
 menu:
   main:
     parent: brand-elements
@@ -10,6 +11,12 @@ menu:
 Choose icons from <a href="http://fontawesome.io/" class="external">Font Awesome</a>, the open source toolkit by <a href="https://twitter.com/davegandy" class="external">@davegandy</a>. Iconography should provide a simple, visual indicator of key actions or tasks. Use icons to create stronger contextual emphasis on a page.
 
 {{< icons >}}
+
+### Icon use example
+
+The press release template uses icons to reinforce the type of content the user is accessing.
+
+{{< press-release >}}
 
 ---
 

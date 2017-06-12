@@ -5,6 +5,7 @@ description: Information about "cards" -- elements used to display summary about
 menu:
   main:
     parent: components
+    weight: 800
 ---
 
 A card serves as an entry point to more detailed information. The type of card depends on the use case. There are three types of cards:

@@ -1,6 +1,7 @@
 ---
 title: CSS architecture
 date: 2017-03-10
+description: Information on how phila.gov uses CSS and how to follow our established patterns. 
 menu:
   main:
     parent: technical-details

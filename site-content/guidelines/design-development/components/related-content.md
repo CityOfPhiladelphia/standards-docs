@@ -5,6 +5,7 @@ description: Related content indicates more information can be found elsewhere o
 menu:
   main:
     parent: components
+    weight: 200
 ---
 Use related content when more information about a topic can be found on other pages or websites.
 

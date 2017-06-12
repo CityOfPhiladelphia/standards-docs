@@ -1,13 +1,13 @@
 {{ partial "head.html" . }}
 {{ $dropdown := .Params.dropdown }}
-
+{{ $parent := $.Scratch.Get "Parent"  }}
 <div class="row">
   <div class="columns">
     <h1 class="contrast">
       {{ if isset $.Params "dropdown" }}
         {{ .Title }}
       {{else}}
-        {{ $parent := $.Scratch.Get "Parent"  }}{{ print $parent }}
+        {{ print $parent }}
       {{ end }}
     </h1>
   </div>
@@ -22,16 +22,40 @@
       <p>{{ .Description }}</p>
       {{ .Content }}
       <nav class="hide-for-small-only">
-        <div class="row equal-height fat-gutter">
-          {{ range $index, $menu := (index .Menus "main").Children }}
+        <div class="row fat-gutter"  data-equalizer data-equalize-by-row="false">
+          {{ range .Paginator.Pages.ByParam "menu.main.weight" }}
             <div class="small-24 medium-8 column end">
-              <a href="{{ .URL }}" class="card card--overview equal">
+              <a href="{{ .URL }}" class="card card--overview" data-equalizer-watch>
                 <div class="content-block">
-                  <h3>{{ .Name }}</h3>
-                  <p></p>
+                  <h3>{{ .Title }}</h3>
+                  {{ .Description }}
                 </div>
               </a>
             </div>
+          {{ end }}
+
+          {{ $sect := (.Site.GetPage "section" "guidelines") }}
+            {{ if ne $parent "Design & development"}}
+              {{ if $sect }}
+                {{ range $sect.Sections }}
+                {{ if .InSection $ }}
+                {{ template "section-nav"  (dict "sections" .Sections "current" $ ) }}
+                {{end}}
+              {{ end }}
+            {{ end }}
+          {{else}}
+          {{end}}
+          {{ define "section-nav" }}
+            {{ range .sections }}
+              <div class="small-24 medium-8 column end {{ if .InSection $.current }} hide {{end}}">
+                <a href="{{ .URL }}" class="card card--overview equal">
+                  <div class="content-block">
+                    <h3>{{ .Title }}</h3>
+                    {{ .Description }}
+                  </div>
+                </a>
+              </div>
+            {{ end }}
           {{ end }}
         </div>
       </nav>

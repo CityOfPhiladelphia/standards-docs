@@ -5,6 +5,7 @@ description: Use contact blocks to display contact information.
 menu:
   main:
     parent: components
+    weight: 500
 ---
 
 Put all department contact info and social media links in a contact block. Contact blocks display important information about a department or entity. If possible, all four contact areas (address, phone, email, and social media) should always be displayed. If a field is missing, the row for that content should be removed.  

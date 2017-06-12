@@ -5,7 +5,7 @@ description: Read our approach to creating accessible, effective, human-centered
 menu:
   main:
     parent: content
-    weight: 2
+    weight: 200
 ---
 
 We’re here to assist people in becoming empowered residents of the city. We do this both through the design of the digital experience, and through the language we use to communicate with the public and with each other.
@@ -22,7 +22,7 @@ along with standards for punctuation and formatting, and common usage, help main
 
 * **Don’t use formal or long words when easy or short ones will do.**
 
-* **Write conversationally**: Picture your audience and write as if you were talking to them one-on-one and with the authority of someone who can actively help. Using contractions can help create a friendly, informal tone as well. [Plainlanguage.gov](http://www.plainlanguage.gov/) offers helpful tips. 
+* **Write conversationally**: Picture your audience and write as if you were talking to them one-on-one and with the authority of someone who can actively help. Using contractions can help create a friendly, informal tone as well. [Plainlanguage.gov](http://www.plainlanguage.gov/) offers helpful tips.
 
 * **Write for diverse audiences**: We write for a diverse audience of readers who all interact with our content in different ways. We aim to make content accessible to those with disabilities and to users of all cognitive capabilities. We use language that isn’t exclusionary and is nondiscriminatory. See the entry on [Inclusive language](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/common-usage.md) in the common usage section of this guide.
 
@@ -30,7 +30,7 @@ along with standards for punctuation and formatting, and common usage, help main
 
 * **[Write in active voice](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/common-usage.md)**
 
-* **Be helpful**: We want to always use a tone that has authority that also comes from a helpful, empathetic perspective. 
+* **Be helpful**: We want to always use a tone that has authority that also comes from a helpful, empathetic perspective.
 
 * **Think resident-focused**: Always write with the audience in mind. How might someone needing Parks and Recreation services have different needs and stress levels than someone in touch with the Department of Human Services?  Understanding the audience helps our communications maintain a human-centered approach that treats those who use city services with dignity.
 

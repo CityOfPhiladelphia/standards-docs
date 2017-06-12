@@ -5,6 +5,7 @@ description: When and how to use buttons on your website.
 menu:
   main:
     parent: components
+    weight: 100
 ---
 
 Use buttons for actions. The default color for buttons is electric blue. The text is dark gray. The hover state is dark gray with white text. Icons can be added to provide further context for where the button's link will take a user.

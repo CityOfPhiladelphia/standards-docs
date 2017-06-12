@@ -6,7 +6,7 @@ type: filter
 menu:
   main:
     parent: content
-    weight: 3
+    weight: 300
 ---
 
 Embrace the City’s writing style by adopting our preferred words, phrases, and standards.

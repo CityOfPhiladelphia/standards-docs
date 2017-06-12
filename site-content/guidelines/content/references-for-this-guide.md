@@ -1,11 +1,11 @@
 ---
 title: References for this guide
 date: 2017-01-30
-description: Here are more helpful resources for creating great content.
+description: Helpful resources for creating great content.
 menu:
   main:
     parent: content
-    weight: 100
+    weight: 600
 ---
 Here are more helpful resources for creating great content.
 

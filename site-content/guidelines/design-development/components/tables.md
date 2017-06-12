@@ -1,10 +1,11 @@
 ---
 title: Tables
 date: 2017-02-01
-description: Use tables to organize tabular data. 
+description: Use tables to organize tabular data.
 menu:
   main:
     parent: components
+    weight: 700
 ---
 
 Tables are used to show data in columns and rows. They are only to be used for tabular data -- never for layout.

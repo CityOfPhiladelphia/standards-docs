@@ -5,6 +5,7 @@ description: Use alerts to convey critical information on a homepage or site-wid
 menu:
   main:
     parent: components
+    weight: 800
 ---
 
 There are two types of alerts, service updates and site-wide alerts.
