@@ -24,11 +24,11 @@ along with standards for punctuation and formatting, and common usage, help main
 
 * **Write conversationally**: Picture your audience and write as if you were talking to them one-on-one and with the authority of someone who can actively help. Using contractions can help create a friendly, informal tone as well. [Plainlanguage.gov](http://www.plainlanguage.gov/) offers helpful tips.
 
-* **Write for diverse audiences**: We write for a diverse audience of readers who all interact with our content in different ways. We aim to make content accessible to those with disabilities and to users of all cognitive capabilities. We use language that isn’t exclusionary and is nondiscriminatory. See the entry on [Inclusive language](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/common-usage.md) in the common usage section of this guide.
+* **Write for diverse audiences**: We write for a diverse audience of readers who all interact with our content in different ways. We aim to make content accessible to those with disabilities and to users of all cognitive capabilities. We use language that isn’t exclusionary and is nondiscriminatory. See the entry on [Inclusive language](/standards-docs/guidelines/content/common-usage/) in the common usage section of this guide.
 
 * **Be goal-oriented & appropriate**: Before you start writing, ask: What purpose does this serve? What do people need to know? Do I give them the information using language that appropriately reflects my department?
 
-* **[Write in active voice](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/common-usage.md)**
+* **Write in [active voice](/standards-docs/guidelines/content/common-usage/#Active vs. passive voice)**
 
 * **Be helpful**: We want to always use a tone that has authority that also comes from a helpful, empathetic perspective.
 
