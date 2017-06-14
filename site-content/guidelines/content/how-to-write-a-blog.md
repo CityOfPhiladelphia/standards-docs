@@ -66,9 +66,9 @@ Example: This blog will get parents of school-age children to visit our page abo
 8. Write the text, making sure that you fully understand the information and that you present that information in a clear, effective manner. Remember that your readers aren’t experts, so you should explain unfamiliar terms or concepts.
 Example: a sprayground—a playground with sprinklers!
 
-9. Find compelling [images](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/design-development/brand-elements/imagery.md).
+9. Find compelling [images](/standards-docs/guidelines/design-development/brand-elements/imagery).
 
-10. Proof for spelling, grammar—make sure to use the content standards for [punctuation and formatting](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/punctuation-and-formatting.md) and [common usage](https://github.com/CityOfPhiladelphia/standards-docs/blob/master/site-content/guidelines/content/common-usage.md).
+10. Proof for spelling, grammar—make sure to use the content standards for [punctuation and formatting](/standards-docs/guidelines/content/punctuation-and-formatting) and [common usage](/standards-docs/guidelines/content/common-usage).
 
 11. Check for plagiarism.
 
