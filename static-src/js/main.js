@@ -17,3 +17,29 @@ $('body').on('click', "a[href^='#']", function (ev) {
 if (window.location.hash) {
   $(window).trigger('hashchange');
 }
+
+var wpURL = 'https://beta.phila.gov/wp-json/wp/v2/services';
+
+  $.ajax({
+    method: "GET",
+    url: wpURL,
+    data: 'parent=0&per_page=100'
+  })
+  .done(function( data ) {
+    console.log('Succeess: ' + data);
+    stuff = data;
+
+    for (var i=0;i<data.length;i++) {
+      console.log(data[i].title);
+     }
+    $.each(data, function(i, value) {
+       console.log('Value of '+ i +' is : ' + value.title.rendered);
+       console.log('Value of '+ i +' is : ' + value.link);
+
+       $( '.result' ).append('<div>' + value.title.rendered + value.link +  '</div>');
+
+    })
+  })
+  .fail(function( data ) {
+    console.log('Failure: ' + data);
+  });
