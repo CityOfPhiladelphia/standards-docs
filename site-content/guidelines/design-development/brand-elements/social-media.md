@@ -13,16 +13,16 @@ The branding that you use on your department’s social media profiles should al
 Never use a pixelated or incorrectly sized image. Contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> if you need imagery.
 
 ### beta.phila.gov department site
-![Hero header example](/standards-docs/img/social-media/beta-hero-header.jpg)
+![Hero header example](/img/social-media/beta-hero-header.jpg)
 
 ### Facebook cover image
-![Facebook cover image example](/standards-docs/img/social-media/facebook-cover-image.jpg)
+![Facebook cover image example](/img/social-media/facebook-cover-image.jpg)
 
 ### Twitter header photo
-![Twitter header photo example](/standards-docs/img/social-media/twitter-header-photo.jpg)
+![Twitter header photo example](/img/social-media/twitter-header-photo.jpg)
 
 ### Open graph
-<img src="/standards-docs/img/social-media/open-graph.jpg" alt="Open graph example" class="no-scale">
+<img src="/img/social-media/open-graph.jpg" alt="Open graph example" class="no-scale">
 
 ---
 

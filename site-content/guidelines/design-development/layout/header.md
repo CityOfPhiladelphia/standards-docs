@@ -10,7 +10,7 @@ menu:
 
 The global header provides the City logo, site-wide navigation, and search functionality.
 
-<img src="/standards-docs/img/header-example.jpg" alt="Example of global header" class="bdr-all bdr-dark-gray">
+<img src="/img/header-example.jpg" alt="Example of global header" class="bdr-all bdr-dark-gray">
 
 ---
 

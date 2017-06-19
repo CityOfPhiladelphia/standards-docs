@@ -22,7 +22,7 @@ To start a local server, run:
 hugo serve
 ```
 
-The local webserver will be available at: `http://localhost:1313/standards-docs/`
+The local webserver will be available at: `http://localhost:1313/`
 
 To watch for changes to CSS and JavaScript assets, in a separate terminal window run:
 ```

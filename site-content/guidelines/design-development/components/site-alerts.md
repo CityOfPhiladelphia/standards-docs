@@ -54,7 +54,7 @@ In effect: Friday, Sept. 9 to Saturday, Sept. 10
 {{< site-wide-alert >}}
 
 #### Placement example
-![Site-wide alert placement example](/standards-docs/img/components/site-wide-alert-example.jpg)
+![Site-wide alert placement example](/img/components/site-wide-alert-example.jpg)
 
 ---
 

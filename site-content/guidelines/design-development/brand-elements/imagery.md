@@ -19,8 +19,8 @@ Guidelines:
 4. No cell phone pictures  
 5. Add photo credit where photo credit is due
 
-![Example of appropriate imagery](/standards-docs/img/imagery-example-1.jpg)
-![Example of appropriate imagery](/standards-docs/img/imagery-example-2.jpg)
+![Example of appropriate imagery](/img/imagery-example-1.jpg)
+![Example of appropriate imagery](/img/imagery-example-2.jpg)
 
 ---
 
