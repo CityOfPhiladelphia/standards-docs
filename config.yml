@@ -1,6 +1,6 @@
 languageCode: "en-us"
 title: "City of Philadelphia Digital Standards"
-baseurl: "https://cityofphiladelphia.github.io/standards-docs/"
+baseurl: "https://standards.phila.gov"
 params:
   description: "Digital standards by the City of Philadelphia."
   heroImageLocation: "img/standards-hero.jpg"
