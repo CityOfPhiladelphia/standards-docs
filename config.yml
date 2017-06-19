@@ -3,7 +3,7 @@ title: "City of Philadelphia Digital Standards"
 baseurl: "http://standards.phila.gov"
 params:
   description: "Digital standards by the City of Philadelphia."
-  heroImageLocation: "img/standards-hero.jpg"
+  heroImageLocation: "/img/standards-hero.jpg"
 theme: "phila.gov"
 contentDir: "site-content"
 disableKinds: ["RSS"]
