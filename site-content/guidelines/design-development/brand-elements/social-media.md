@@ -8,7 +8,7 @@ menu:
     weight: 6
 ---
 
-The branding that you use on your department’s social media profiles should align with the City’s branding that is used on phila.gov. The brand should be reflected in your profile pictures, icons, header images, and other imagery. For consistency, your header image should always match the header image on your department site. Your profile picture can be your logo, if you have one. if you need an image sized to the specifications required, contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a>.
+The branding that you use on your department’s social media profiles should align with the City’s branding that is used on phila.gov. The brand should be reflected in your profile pictures, icons, header images, and other imagery. Your profile picture can be your logo, if you have one. If you need an image sized to the specifications required, contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a>.
 
 Never use a pixelated or incorrectly sized image. Contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> if you need imagery.
 
