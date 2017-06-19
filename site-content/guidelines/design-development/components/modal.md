@@ -6,7 +6,7 @@ menu:
     parent: components
 ---
 
-Use modals to display content that is not substantial enough to warrant its own page or navigation item, for example, a newsletter signup, as shown in the example below. 
+Use modals to display content that is not substantial enough to warrant its own page or navigation item, for example, a newsletter signup, as shown in the example below.
 
 <div>
   <a data-open="example-modal" class="button full-width">
@@ -40,8 +40,9 @@ Use modals to display content that is not substantial enough to warrant its own 
 
 {{% accordion How to use %}}
 ## Implementation
+Modals are most often calls to action to fill out a form, etc. As such, a button should be used as the link to open a modal, as in the example above.
 
-
+The `data-open` attribute should be applied to the button link and the value of that attribute should match the id of the div to be opened.
 
 {{% /accordion %}}
 
