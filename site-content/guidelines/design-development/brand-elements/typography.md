@@ -1,7 +1,7 @@
 ---
 title: Typography
 date: 2017-01-27
-description: Information about font choices and when to use certain fonts. 
+description: Information about font choices and when to use certain fonts.
 menu:
   main:
     parent: brand-elements
@@ -11,8 +11,20 @@ Typography is the foundational building block of the beta.phila.gov design. Font
 
 Sans-serifs were chosen because they are easier to read on screens, and are adaptable across platforms and browsers.
 
+You can download Montserrat and Open Sans from <a href="https://fonts.google.com/" class="external">Google Webfonts</a>, or you can download them directly using the links below.
+
 <h3 class="h6">Montserrat</h3>
 <p>Montserrat is only used for headlines that introduce sections of content.</p>
+<div class="row mbl">
+  <div class="medium-11 columns">
+  <a href="/fonts/montserrat.zip" class="button icon">
+    <div class="valign">
+      <i class="fa fa-download valign-cell"></i>
+      <div class="button-label valign-cell">Download Montserrat</div>
+    </div>
+  </a>
+  </div>
+</div>
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
@@ -36,7 +48,17 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
   </div>
 </div>
 <h3 class="h6">Open Sans</h3>
-<p>Open Sans is the base font for the site. It is used for body type.</p>
+<p>Open Sans is used for body type.</p>
+<div class="row mbl">
+  <div class="medium-11 columns">
+  <a href="/fonts/open_sans.zip" class="button icon">
+    <div class="valign">
+      <i class="fa fa-download valign-cell"></i>
+      <div class="button-label valign-cell">Download Open Sans</div>
+    </div>
+  </a>
+  </div>
+</div>
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
@@ -72,6 +94,8 @@ Sans-serifs were chosen because they are easier to read on screens, and are adap
 
 <h3 class="h6">Times New Roman</h3>
 <p>Times New Roman is used exclusively for pull quotes.</p>
+<div class="callout mbl"> Times New Roman is a standard computer font, but it is not a free download.
+</div>
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch sg-swatch--text">
