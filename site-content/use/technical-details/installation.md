@@ -1,7 +1,7 @@
 ---
 title: Installation
 date: 2017-02-11
-description: How to include Standards in your web project. 
+description: How to include Standards in your web project.
 menu:
   main:
     parent: technical-details
@@ -18,18 +18,7 @@ You will need to include the Standards CSS and JavaScript on every HTML page of 
 
 ### Direct download
 
-Download the Standards files directly. You can view the latest version and release notes on the <a href="https://github.com/CityOfPhiladelphia/standards/releases" class="external">GitHub repository</a>.
-
-<div class="row">
-  <div class="columns medium-11">
-    <a href="https://github.com/CityOfPhiladelphia/standards/releases/download/0.5.0/phila-standards-0.5.0.zip" class="button icon">
-      <div class="valign">
-        <i class="fa fa-download valign-cell"></i>
-        <div class="button-label valign-cell">Download version 0.5.0</div>
-      </div>
-    </a>
-  </div>
-</div>
+You can choose to download the Standards files directly. The latest version and release notes are available on the <a href="https://github.com/CityOfPhiladelphia/standards/releases" class="external">GitHub repository</a>.
 
 #### Files
 Include the phila-standards folder wherever you store your third-party project assets.
