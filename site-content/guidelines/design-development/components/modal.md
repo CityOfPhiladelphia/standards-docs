@@ -1,6 +1,7 @@
 ---
 title: Modals
 date: 2017-05-11
+description: Modals can be used for content that is short doesn't require an entire page, like an email subscribe form.
 menu:
   main:
     parent: components
