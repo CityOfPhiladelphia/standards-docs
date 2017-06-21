@@ -81,11 +81,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
 </div>
 
 ### For departments
-If you’re a department that needs a logo, ODDT provides two templates for you below. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. “City of Philadelphia” can go under the department name if you’d like. You may use either version.
-
-Use the template provided for your department's social media channel avatar. The avatars are recognizable and readable when presented in a smaller area.
-
-If your department needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phila.gov</a>.
+If you’re a department that needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phila.gov</a>. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. 
 
 <div class="border-list">
   <div class="row collapse">
