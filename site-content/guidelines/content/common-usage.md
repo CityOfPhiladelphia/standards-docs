@@ -1,7 +1,7 @@
 ---
 title: Common usage
 date: 2017-05-15
-description: Embrace the City’s writing style by adopting our preferred words, phrases, and standards.
+description: Create consistent content by adopting our preferred words, phrases, and standards.
 type: filter
 menu:
   main:
@@ -9,7 +9,7 @@ menu:
     weight: 300
 ---
 
-Embrace the City’s writing style by adopting our preferred words, phrases, and standards.
+Create consistent content by adopting our preferred words, phrases, and standards.
 
 
 {{% filter-item Acronyms and abbreviations %}}
