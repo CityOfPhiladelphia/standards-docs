@@ -25,6 +25,8 @@ Tables are used to show data in columns and rows. They are only to be used for t
 
 You can create responsive tables by adding the `responsive` class to any horizontally oriented table.
 
+Optionally, add the `js-hide-empty` class to hide columns that contain no content. 
+
 {{% /accordion %}}
 
 {{</ accordion-wrap >}}
