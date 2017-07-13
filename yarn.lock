@@ -784,7 +784,7 @@ form-data@~2.1.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
-foundation-sites@^6.3.1:
+foundation-sites@^6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.4.1.tgz#49bbf7b59675f9690c04528f4141cd0147094532"
   dependencies:
@@ -1643,12 +1643,12 @@ performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
-phila-standards@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/phila-standards/-/phila-standards-0.7.2.tgz#da4186a721a7f41932969d5c30615121b6e6bbe4"
+phila-standards@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/phila-standards/-/phila-standards-0.8.0.tgz#7551041ce7131ba0381d68d5b64d57b92ea688bf"
   dependencies:
     font-awesome "^4.7.0"
-    foundation-sites "^6.3.1"
+    foundation-sites "^6.4.1"
     postscribe "^2.0.8"
 
 pify@^2.0.0:
