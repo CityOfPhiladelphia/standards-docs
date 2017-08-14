@@ -23,9 +23,9 @@ Tables are used to show data in columns and rows. They are only to be used for t
 {{% accordion How to use %}}
 ## Implementation
 
-You can create responsive tables by adding the `responsive` class to any horizontally oriented table.
+Add the `.stack` class to stack tables on small screens.
 
-Optionally, add the `js-hide-empty` class to hide columns that contain no content. 
+Optionally, add the `js-hide-empty` class to hide columns that contain no content.
 
 {{% /accordion %}}
 
