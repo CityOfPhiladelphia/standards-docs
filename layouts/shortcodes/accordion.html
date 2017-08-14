@@ -1,6 +1,7 @@
 {{ if ne .Params "" }}
-  <div class="accordion-item{{ if in .Params "use" }} is-active{{ end }}" data-accordion-item>
-    <a href="#" class="accordion-title">{{ delimit .Params " "}}</a>
+{{ $slug := delimit .Params " "}}
+  <div id="{{  urlize  $slug }}" class="accordion-item{{ if in .Params "use" }} is-active{{ end }}" data-accordion-item>
+    <a href="#{{  urlize  $slug }}" class="accordion-title">{{ delimit .Params " "}}</a>
     <div class="accordion-content" data-tab-content>
       {{  .Inner  }}
     </div>
