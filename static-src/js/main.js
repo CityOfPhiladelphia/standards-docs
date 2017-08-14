@@ -1,4 +1,5 @@
 require('./filter-list.js');
+require('./copy-paste.js');
 
 /* Account for sticky header when anchor links are present */
 function anchorOffset() {
