@@ -1,9 +1,20 @@
 {{ if ne .Params "" }}
-{{ $slug := delimit .Params " "}}
-  <div id="{{  urlize  $slug }}" class="accordion-item{{ if in .Params "use" }} is-active{{ end }}" data-accordion-item>
-    <a href="#{{  urlize  $slug }}" class="accordion-title">{{ delimit .Params " "}}</a>
-    <div class="accordion-content" data-tab-content>
-      {{  .Inner  }}
+{{ $slug := lower (delimit .Params " ")}}
+<div id="{{  urlize  $slug }}" class="accordion-item{{ if in $slug "use" }} is-active{{ end }}" data-accordion-item>
+  <a href="#{{  urlize  $slug }}" class="accordion-title">{{ delimit .Params " "}}</a>
+  <div class="accordion-content" data-tab-content>
+    {{ if in $slug "code" }}
+    <div class="code-content">
+      <a class="button clipy" data-clipboard-target=".code-content">
+        <div class="valign">
+          <div class="button-label valign-cell">Copy code</div>
+        </div>
+      </a>
+    {{end}}
+    {{ .Inner }}
+    {{ if in $slug "code" }}
     </div>
+  {{end}}
   </div>
+</div>
 {{end}}
