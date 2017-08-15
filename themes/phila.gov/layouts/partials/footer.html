@@ -232,6 +232,8 @@
       <script src="{{ .Site.BaseURL }}/js/scripts.js"></script>
     {{ end }}
 
-{{end}}{{/* template not eq to "app" */}}
+{{else}}{{/* template not eq to "app" */}}
+  {{ partial "app-footer.html" . }}
+{{end}}
 </body>
 </html>

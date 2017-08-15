@@ -1,3 +1,4 @@
+{{ $type := $.Param "type" }}
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -6,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ .Title }} | Digital Standards | City of Philadelphia</title>
     <link rel="canonical" href="{{ .Permalink }}">
+    {{ if ne $type "app" }}
     <link href="{{ .Site.BaseURL }}/css/standards.css" rel="stylesheet">
+    {{else}}
+    <link href="{{ .Site.BaseURL }}/css/phila-app.css" rel="stylesheet">
+    {{end}}
+
     <style type="text/css">{{ partial "hero.css" . | safeCSS }}</style>
 
     <link rel="shortcut icon" type="image/x-icon" href="http://standards.phila.gov/img/favicon.png">
@@ -30,12 +36,13 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MC6CR2');</script>
   <!-- End Google Tag Manager -->
-  {{ $type := $.Param "type" }}
   {{ if ne $type "app" }}
     <header class="global-nav pbm pbn-mu mbn-mu">
       {{ partial "global-header.html" . }}
     </header>
       {{ partial "hero-header.html" . }}
       {{ partial "breadcrumbs.html" . }}
+  {{else}}
+    {{ partial "app-header.html" . }}
   {{end}}
   <main>
