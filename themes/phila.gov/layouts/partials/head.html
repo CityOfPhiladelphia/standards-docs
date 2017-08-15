@@ -9,7 +9,7 @@
     <link href="{{ .Site.BaseURL }}/css/standards.css" rel="stylesheet">
     <style type="text/css">{{ partial "hero.css" . | safeCSS }}</style>
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://standards.phila.gov/img/favicon.png">
 
     {{ $directory := "static/css" }}
     {{ $filename := "styles.css" }}
@@ -30,9 +30,12 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MC6CR2');</script>
   <!-- End Google Tag Manager -->
-  <header class="global-nav pbm pbn-mu mbn-mu">
-    {{ partial "global-header.html" . }}
-  </header>
-    {{ partial "site-header.html" . }}
-    {{ partial "breadcrumbs.html" . }}
+  {{ $type := $.Param "type" }}
+  {{ if ne $type "app" }}
+    <header class="global-nav pbm pbn-mu mbn-mu">
+      {{ partial "global-header.html" . }}
+    </header>
+      {{ partial "hero-header.html" . }}
+      {{ partial "breadcrumbs.html" . }}
+  {{end}}
   <main>
