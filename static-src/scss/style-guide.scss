@@ -100,3 +100,17 @@ nav#services-nav ul ul, nav#side-nav ul ul {
     content: "Digital Standards ";
   }
 }
+
+.accordion-content {
+  word-wrap: break-word;
+  max-width: 680px;
+}
+
+.code-content{
+  position: relative;
+  .clipy{
+    position: absolute;
+    top:0;
+    right:0;
+  }
+}

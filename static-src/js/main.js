@@ -1,4 +1,5 @@
 require('./filter-list.js');
+require('./copy-paste.js');
 
 /* Account for sticky header when anchor links are present */
 function anchorOffset() {
@@ -14,6 +15,15 @@ $('body').on('click', "a[href^='#']", function (ev) {
     anchorOffset();
   }
 });
+
 if (window.location.hash) {
   $(window).trigger('hashchange');
 }
+
+$('.accordion').on('deeplink.zf.accordion', function() {
+  Foundation.reInit('equalizer');
+});
+
+$('.accordion').on('down.zf.accordion', function() {
+  Foundation.reInit('equalizer');
+});
