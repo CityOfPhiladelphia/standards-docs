@@ -9,11 +9,10 @@
     <link rel="canonical" href="{{ .Permalink }}">
     {{ if ne $type "app" }}
     <link href="{{ .Site.BaseURL }}/css/standards.css" rel="stylesheet">
+    <style type="text/css">{{ partial "hero.css" . | safeCSS }}</style>
     {{else}}
     <link href="{{ .Site.BaseURL }}/css/phila-app.css" rel="stylesheet">
     {{end}}
-
-    <style type="text/css">{{ partial "hero.css" . | safeCSS }}</style>
 
     <link rel="shortcut icon" type="image/x-icon" href="http://standards.phila.gov/img/favicon.png">
 
