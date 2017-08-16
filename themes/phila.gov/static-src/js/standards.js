@@ -1,1 +1,1 @@
-var philaStandards = require('phila-standards');
+require('phila-standards');
