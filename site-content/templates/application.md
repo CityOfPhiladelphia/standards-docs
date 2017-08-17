@@ -22,7 +22,7 @@ The only requirement for this template is the Standards Application CSS. You wil
 {{< accordion-wrap >}}
 
 {{< accordion Application boilerplate code >}}
-  {{< highlight html >}}{{<  >}}{{< app-boilerplate >}}{{</ highlight >}}
+  {{< highlight html >}}{{< app-boilerplate >}}{{</ highlight >}}
 {{< /accordion >}}
 
 {{</ accordion-wrap >}}
