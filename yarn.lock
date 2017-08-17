@@ -796,7 +796,7 @@ form-data@~2.1.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
-foundation-sites@^6.4.1:
+foundation-sites@^6.4.2:
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.4.2.tgz#8aeb2a7e720a9a17e13359cdab8a05c1393a421f"
   dependencies:
@@ -1661,12 +1661,12 @@ performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
-phila-standards@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/phila-standards/-/phila-standards-0.8.0.tgz#7551041ce7131ba0381d68d5b64d57b92ea688bf"
+phila-standards@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/phila-standards/-/phila-standards-0.9.0.tgz#6eab4459c83ca5d1e74b361de4d91bc303b278b5"
   dependencies:
     font-awesome "^4.7.0"
-    foundation-sites "^6.4.1"
+    foundation-sites "^6.4.2"
     postscribe "^2.0.8"
 
 pify@^2.0.0:
@@ -2204,8 +2204,8 @@ timers-browserify@^1.0.1:
     process "~0.11.0"
 
 tiny-emitter@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.1.tgz#e65919d91e488e2a78f7ebe827a56c6b188d51af"
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
