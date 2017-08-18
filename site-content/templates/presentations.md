@@ -16,11 +16,7 @@ The Office of Open Data and Digital Transformation is providing Google Slides an
 ### Google Slides
 If you have a Google account with Drive enabled, you can make a copy of the Slide presentation for editing.
 <div>
-<a href="https://docs.google.com/presentation/d/1ffPUdkc96MUrMcURG_QHpaCLucs0NjMYIXs93THtlLA/edit#slide=id.g116b3f0fb6_0_0" class="button" target="blank">
-  <div class="valign">
-    <div class="button-label valign-cell">Access Slide presentation   <span class="accessible">Link opens in new tab</span></div>
-  </div>
-</a>
+<a href="https://docs.google.com/presentation/d/1ffPUdkc96MUrMcURG_QHpaCLucs0NjMYIXs93THtlLA/edit#slide=id.g116b3f0fb6_0_0" class="button" target="blank">Access Slide presentation   <span class="accessible">Link opens in new tab</span></a>
 </div>
 
 #### Make a copy
@@ -42,10 +38,7 @@ You won't need to edit other areas of the Master slides.
 ### Microsoft PowerPoint
 
 <div>
-<a href="https://drive.google.com/open?id=0B9D6-1S8hyl-cG1EUG9Xb3ptbnM" class="button" class="blank">
-  <div class="valign">
-    <div class="button-label valign-cell">Access PowerPoint presentation <span class="accessible">Link opens in new tab</span></div>
-  </div>
+<a href="https://drive.google.com/open?id=0B9D6-1S8hyl-cG1EUG9Xb3ptbnM" class="button" class="blank">Access PowerPoint presentation <span class="accessible">Link opens in new tab</span>
 </a>
 </div>
 
