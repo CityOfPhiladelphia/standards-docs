@@ -5,11 +5,7 @@
   <div class="accordion-content" data-tab-content>
     {{ if in $slug "code" }}
     <div class="code-content">
-      <a class="button clipy" data-clipboard-target=".code-content">
-        <div class="valign">
-          <div class="button-label valign-cell">Copy code</div>
-        </div>
-      </a>
+      <a class="button clipy" data-clipboard-target=".code-content">Copy code</a>
     {{end}}
     {{ .Inner }}
     {{ if in $slug "code" }}

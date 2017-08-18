@@ -35,6 +35,12 @@ Use radios only when users can select a single option.
 
 {{< form-controls-radios >}}
 
+### Dropdowns
+
+Use dropdowns when a single item should be selected by the user. Avoiding using the `multiple` attribute.
+
+{{< form-controls-dropdown >}}
+
 ---
 
 {{< accordion-wrap >}}

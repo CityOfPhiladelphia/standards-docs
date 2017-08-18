@@ -10,7 +10,7 @@
     "clipboard": "^1.7.1",
     "jquery": "^3.2.1",
     "list.js": "^1.5.0",
-    "phila-standards": "^0.8.0"
+    "phila-standards": "^0.9.0"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
@@ -23,10 +23,10 @@
   "scripts": {
     "clean": "rimraf public/*",
     "prebuild": "mkdirp themes/phila.gov/static/js && mkdirp static/js && cp -R node_modules/phila-standards/dist/fonts static",
-    "build:theme": "node-sass --include-path node_modules/font-awesome/scss --include-path node_modules/phila-standards/src/sass --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css && browserify themes/phila.gov/static-src/js/standards.js -o themes/phila.gov/static/js/standards.js && cp -R node_modules/phila-standards/src/img themes/phila.gov/static",
+    "build:theme": "node-sass --include-path node_modules/font-awesome/scss --include-path node_modules/foundation-sites/scss --include-path node_modules/phila-standards/src/sass --output-style compressed --source-map true themes/phila.gov/static-src/scss/standards.scss themes/phila.gov/static/css/standards.css && browserify themes/phila.gov/static-src/js/standards.js -o themes/phila.gov/static/js/standards.js && cp -R node_modules/phila-standards/src/img themes/phila.gov/static",
+    "build:app": "cp *node_modules/phila-standards/dist/css/phila-app.min.css*  themes/phila.gov/static/css/",
     "build:site": "node-sass static-src/scss/style-guide.scss static/css/styles.css && browserify static-src/js/main.js -o static/js/scripts.js",
-    "build": "yarn run build:site",
-    "prestart": "yarn run build",
+    "build": "yarn build:site && yarn build:theme && yarn build:app",
     "watch": "onchange 'static-src/scss' 'static-src/js' -- yarn run build:site"
   }
 }

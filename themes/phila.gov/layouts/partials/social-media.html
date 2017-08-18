@@ -1,10 +1,7 @@
 <meta name="twitter:card" content="summary">
-<meta property="og:title" content="{{ .Title }}">
-{{ if eq .Title "Home"}}
-  <meta property="og:description" content="{{ .Site.Params.Description }}">
-  {{else}}
-  <meta property="og:description" content="{{ .Params.description }}">
-{{end}}
+<meta property="og:title" content="{{ .Title }}"> {{ if eq .Title "Home"}}
+<meta property="og:description" content="{{ .Site.Params.Description }}"> {{else}}
+<meta property="og:description" content="{{ .Params.description }}"> {{end}}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="Digital Standards | City of Philadelphia">
