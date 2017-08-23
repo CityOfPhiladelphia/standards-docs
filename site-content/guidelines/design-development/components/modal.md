@@ -10,11 +10,7 @@ menu:
 Use modals to display content that is not substantial enough to warrant its own page or navigation item, for example, a newsletter signup, as shown in the example below.
 
 <div>
-  <a data-open="example-modal" class="button full-width">
-    <div class="valign">
-      <div class="button-label valign-cell">View an example modal</div>
-    </div>
-  </a>
+  <a data-open="example-modal" class="button full-width">View an example modal</a>
 </div>
 
 {{< components-modal >}}
