@@ -129,7 +129,38 @@ Use the accent colors to add some pop and draw attention to certain elements. Al
     </div>
   </div>
 </div>
-
+<div class="row mbxl equal-height">
+  <div class="medium-5 columns">
+    <div class="sg-swatch">
+      <div class="sg-swatch--top bg-phanatic-green bdr-phanatic-green">
+      </div>
+      <div class="sg-swatch--bottom equal">
+        phanatic-green<br>
+        <b>#3a833c</b>
+      </div>
+    </div>
+  </div>
+  <div class="medium-5 columns">
+    <div class="sg-swatch">
+      <div class="sg-swatch--top bg-love-park-red bdr-love-park-red">
+      </div>
+      <div class="sg-swatch--bottom equal">
+        love-park-red<br>
+        <b>#cc3000</b>
+      </div>
+    </div>
+  </div>
+  <div class="medium-5 columns end">
+    <div class="sg-swatch">
+      <div class="sg-swatch--top bg-pride-purple bdr-pride-purple">
+      </div>
+      <div class="sg-swatch--bottom equal">
+        pride-purple<br>
+        <b>#9400c6</b>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="row mbxl equal-height">
   <div class="medium-5 columns">
     <div class="sg-swatch">
@@ -240,7 +271,7 @@ Background, border and font color are available as utility classes and can be ap
 
 All color utility classes are `!important` to ensure they will override assigned properties.
 
-If you are using the Standards sass, you can use `color(name-of-color)` in your sass files to assign any of the color values above.  
+If you are using the Standards sass, you can use `color(name-of-color)` in your sass files to assign any of the color values above.
 
 
 {{% /accordion %}}
