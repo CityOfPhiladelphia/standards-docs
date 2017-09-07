@@ -37,13 +37,14 @@ The .zip files below provide three high-quality versions of the logo in the foll
   <div class="row collapse">
     <div class="medium-12 columns border-list-items center">
       <div class="border-list-item valign pam">
-        <img src="/img/logo/city-of-philadelphia.png" alt="City of Philadelphia" class="phxl pbm">
+        <img src="/img/logo/city-of-philadelphia.png" alt="City of Philadelphia" class="phxl pbm" style="height:66.5px">
         <a href="/img/logo/standard.zip" class="button icon">
           <div class="valign">
             <i class="fa fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
+        <div>PMS Gold - 122c</div>
       </div>
       <div class="border-list-item valign pam">
         <img src="/img/logo/city-of-philadelphia-blue-text.png" alt="City of Philadelphia" class="phxl pbm">
@@ -53,6 +54,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
+        <div>PMS Blue - 301c | PMS Gold - 122c</div>
       </div>
     </div>
     <div class="medium-12 columns center border-list-items">
@@ -64,6 +66,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
+        <div>PMS Gray - Cool gray</div>
       </div>
       <div class="border-list-item valign pam">
         <div class="bg-dark-gray mhxl">
@@ -81,7 +84,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
 </div>
 
 ### For departments
-If you’re a department that needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phila.gov</a>. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus. 
+If you’re a department that needs a logo, email <a href="mailto:oddt@phila.gov ">oddt@phila.gov</a>. They follow the same design as the City of Philadelphia logo, with the name of the department as the main focus.
 
 <div class="border-list">
   <div class="row collapse">
