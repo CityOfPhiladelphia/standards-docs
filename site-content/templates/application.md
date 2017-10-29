@@ -23,7 +23,7 @@ Most importantly, Foundation grid classes are available, including the new <a hr
 There are a number of ways to include the app css in your project.
 
 #### Use an unpkg link.
-For example: `https://unpkg.com/phila-standards@0.9.2/dist/css/phila-app.css`
+For example: `https://unpkg.com/phila-standards@0.11.2/dist/css/phila-app.min.css`
 
 Replace the version number with the version of the application standards you want to use. The application standards start at version 0.9.0.
 
