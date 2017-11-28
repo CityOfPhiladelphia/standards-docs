@@ -36,3 +36,6 @@ along with standards for punctuation and formatting, and common usage, help main
 
 
 * **Make sure you're accurate and complete**: Communications should give the user the information they need and that information should be current and correct. Always remember to fact check your work! Offer a means of contact for more information. Don’t create a communications dead end.
+
+
+* **Avoid commercial endorsements**: Because we use a .gov domain, we can’t advertise or endorse commercial products, services, individuals, firms, or corporations. For more information, see the [federal regulations on .gov domains](https://home.dotgov.gov/registration/requirements/#no-non-government-advertisements). For questions or specific guidance, contact the Philadelphia Law Department.
