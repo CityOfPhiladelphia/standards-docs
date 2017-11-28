@@ -19,7 +19,7 @@ install:
 
 before_script:
   - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-  - go get -u -v github.com/spf13/hugo
+  - go get -u -v github.com/gohugoio/hugo
 
 script:
   - yarn build
