@@ -213,7 +213,7 @@ When linking to a form or document, link to the document page that houses that f
 #### Indicate when linking to a website outside of phila.gov
 When you are linking to a website outside of phila.gov check the box that indicates that this website is not part of phila.gov. This helps users know they’ll be going to a new website, not a different page on phila.gov. For more information visit [technical details on linking](/use/technical-details/css-architecture/#class-names).
 
-#### Avoid commercial endorsement
+#### Avoid links that imply endorsement
 Because we use a .gov domain, it is important not to imply that the City endorses or favors any specific private-sector supplier. To avoid this perception, ensure that links to third parties meet a clear user need. Never include a link in return for cash or services. This includes requests for reciprocal linking. 
 
 #### Repetitive links
