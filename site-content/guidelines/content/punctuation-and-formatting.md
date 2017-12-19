@@ -297,12 +297,12 @@ Quotation marks should NOT be used to indicate emphasis or emotion, nor should t
 {{% /filter-item %}}
 
 {{% filter-item Semicolons %}}
-Use semicolons at the end of bullet points.
+You can use semicolons at the end of bullet points. If you choose to punctuate your bulleted list this way, do not capitalize the first letter in each bullet point unless it is a proper noun. Place a coordinating conjunction after the semicolon of the penultimate bullet point.
 
 * **Example:** Acceptable forms of identification include:
-  * Driver’s license;
-  * Birth certificate;
-  * Or Social Security card.
+  * driver’s license;
+  * birth certificate; or
+  * Social Security card.
 {{% /filter-item %}}
 
 
