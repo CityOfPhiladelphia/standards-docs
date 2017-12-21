@@ -14,7 +14,7 @@ Create consistent content by adopting our preferred words, phrases, and standard
 
 {{% filter-item Acronyms and abbreviations %}}
 
-The first time you refer to an organization or project that uses an acronym, write out the full name and follow with the abbreviation in parentheses.
+The first time you refer to an organization or project that is commonly known by an acronym, write out the full name and follow with the abbreviation in parentheses.
 
 * **Example:** The General Services Administration (GSA) oversees the business of the U.S. Federal Government.
 
@@ -25,7 +25,7 @@ In such instances, the acronym is always acceptable and you don’t need to spel
 #### If possible, use a shortened version of the name, and not the acronym, in your second reference.
 Use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between identical or similar acronyms.
 
-* **Example:** Use Parks & Rec. instead of PPR.
+* **Example:** Use Parks & Rec instead of PPR.
 * **Example:** Use the Act instead of Fire and Police Employee Relations Act.
 * **Example:** Use Commerce in place of Department of Commerce, rather than DOC.
 * **Example:** Use Corrections in place of Department of Corrections, rather than DOC.
