@@ -14,7 +14,7 @@ Create consistent content by adopting our preferred words, phrases, and standard
 
 {{% filter-item Acronyms and abbreviations %}}
 
-The first time you refer to an organization or project that is commonly known by an acronym, write out the full name and follow with the abbreviation in parentheses.
+The first time you refer to an organization or project that uses an acronym, write out the full name and follow with the abbreviation in parentheses.
 
 * **Example:** The General Services Administration (GSA) oversees the business of the U.S. Federal Government.
 
