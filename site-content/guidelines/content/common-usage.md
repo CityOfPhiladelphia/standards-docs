@@ -23,7 +23,7 @@ Some names are more recognizable when they are abbreviated, as with IBM and FBI.
 In such instances, the acronym is always acceptable and you don’t need to spell out the full name at first use.
 
 #### If possible, use a shortened version of the name, and not the acronym, in your second reference.
-Use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between identical or similar acronyms.
+Use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between identical or similar acronyms. When using a shortened name, it is not necessary to include the parenthetical after the first mention. 
 
 * **Example:** Use Parks & Rec instead of PPR.
 * **Example:** Use the Act instead of Fire and Police Employee Relations Act.
