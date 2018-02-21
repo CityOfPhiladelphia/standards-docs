@@ -119,7 +119,6 @@ Immigrate means to enter another country and reside there.
 Avoid using figurative language. It often doesn’t say what you actually mean and can make your content more difficult to understand.
 For example:
 
-* Drive (you can only drive vehicles, not schemes or people)
 * Drive out (unless you’re talking about cattle, use “get rid of”)
 * Going forward (unless you’re giving directions)
 * In order to (extra words that usually mean the same thing as “to”)
