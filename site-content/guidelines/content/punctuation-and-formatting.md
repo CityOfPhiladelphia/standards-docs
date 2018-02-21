@@ -142,9 +142,15 @@ Underlining should not be used in web communications, as this can be reserved to
 
 
 {{% filter-item Headings %}}
-Use Headings to break up content into sections. Headlines, page titles, subheads, and similar content should follow sentence capitalization rules.
+Use Headings to break up content into sections. Headlines, page titles, subheads, and similar content should follow sentence capitalization rules. 
 
 * **Example:** How to pay your taxes.
+
+When a heading includes a proper noun, that word should be capitalized, even if it does not appear at the beginning of the heading.
+
+* **Example:** How to celebrate summer in Philadelphia. 
+
+
 {{% /filter-item %}}
 
 
