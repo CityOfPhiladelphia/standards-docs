@@ -12,7 +12,7 @@ Use these rules for punctuation and formatting content.
 
 
 {{% filter-item Ampersand %}}
-Use an “&” in labels, headings, and subheadings. Spell out the word “and” in prose, lists, and department or office titles.
+Unless it is part of an official name or title, spell out "and" when writing for the web. 
 {{% /filter-item %}}
 
 {{% filter-item Block capitalization %}}
