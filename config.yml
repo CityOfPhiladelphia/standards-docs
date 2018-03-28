@@ -7,3 +7,4 @@ params:
 theme: "phila.gov"
 contentDir: "site-content"
 disableKinds: ["RSS"]
+pygmentsUseClassic: true
