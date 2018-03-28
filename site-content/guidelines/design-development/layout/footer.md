@@ -19,7 +19,7 @@ The global footer has two parts. The top first section of the footer provides 31
 {{% accordion How to use %}}
 ## Implementation
 
-Use the [boilerplate](/templates/markup/boilerplate/) markup to implement the footer.
+Use the [boilerplate](/templates/boilerplate/) markup to implement the footer.
 
 {{% /accordion %}}
 
