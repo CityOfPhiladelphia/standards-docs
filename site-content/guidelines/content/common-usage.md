@@ -91,9 +91,10 @@ You do need a comma when date, month, and year are given.
 
 * **Example:** Philadelphia was founded on Oct. 27, 1682.
 
-Capitalize days of the week and do not abbreviate.
+Capitalize days of the week and do not abbreviate unless space is limited. When space is limited, abbreviations for days of week should be used. 
 
 * **Example:** Mayor Kenney will be speaking at the event on Thursday.
+* **Example:** M, Tu, F 8 a.m. - 4:30 p.m.; W, Th, Sa, Sun 7:30 a.m. - 4 p.m.
 {{% /filter-item %}}
 
 {{% filter-item "e-" %}}
