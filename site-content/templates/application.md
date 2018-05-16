@@ -31,7 +31,7 @@ Replace the version number with the version of the application standards you wan
 Use yarn or npm to install the phila-standards package. Then, use a build tool to include the application css.  
 
 #### Direct link
-You could link directly to the version of the standards on this site, however, this is not recommend for production sites as the code will be updated without warning anytime a new version of the standards is released.  `http://standards.phila.gov/css/phila-app.css`
+You could link directly to the version of the standards on this site, however, this is not recommend for production sites as the code will be updated without warning anytime a new version of the standards is released.  `https://standards.phila.gov/css/phila-app.css`
 
 ---
 
