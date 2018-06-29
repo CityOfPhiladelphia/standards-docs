@@ -23,7 +23,7 @@ Some names are more recognizable when they are abbreviated, as with IBM and FBI.
 In such instances, the acronym is always acceptable and you don’t need to spell out the full name at first use.
 
 #### If possible, use a shortened version of the name, and not the acronym, in your second reference.
-Use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between identical or similar acronyms.
+Use a shortened name instead of an acronym when making a second reference to something with a long title. Readers can understand a shortened name without having to think about the first reference. This also helps prevent confusion between identical or similar acronyms. When using a shortened name, it is not necessary to include the parenthetical after the first mention. 
 
 * **Example:** Use Parks & Rec instead of PPR.
 * **Example:** Use the Act instead of Fire and Police Employee Relations Act.
@@ -91,9 +91,10 @@ You do need a comma when date, month, and year are given.
 
 * **Example:** Philadelphia was founded on Oct. 27, 1682.
 
-Capitalize days of the week and do not abbreviate.
+Capitalize days of the week and do not abbreviate unless space is limited. When space is limited, abbreviations for days of week should be used. 
 
 * **Example:** Mayor Kenney will be speaking at the event on Thursday.
+* **Example:** M, Tu, F 8 a.m. - 4:30 p.m.; W, Th, Sa, Sun 7:30 a.m. - 4 p.m.
 {{% /filter-item %}}
 
 {{% filter-item "e-" %}}
@@ -119,7 +120,6 @@ Immigrate means to enter another country and reside there.
 Avoid using figurative language. It often doesn’t say what you actually mean and can make your content more difficult to understand.
 For example:
 
-* Drive (you can only drive vehicles, not schemes or people)
 * Drive out (unless you’re talking about cattle, use “get rid of”)
 * Going forward (unless you’re giving directions)
 * In order to (extra words that usually mean the same thing as “to”)

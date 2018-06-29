@@ -12,7 +12,7 @@ Use these rules for punctuation and formatting content.
 
 
 {{% filter-item Ampersand %}}
-Use an “&” in labels, headings, and subheadings. Spell out the word “and” in prose, lists, and department or office titles.
+Unless it is part of an official name or title, spell out "and" when writing for the web. 
 {{% /filter-item %}}
 
 {{% filter-item Block capitalization %}}
@@ -142,9 +142,15 @@ Underlining should not be used in web communications, as this can be reserved to
 
 
 {{% filter-item Headings %}}
-Use Headings to break up content into sections. Headlines, page titles, subheads, and similar content should follow sentence capitalization rules.
+Use Headings to break up content into sections. Headlines, page titles, subheads, and similar content should follow sentence capitalization rules. 
 
 * **Example:** How to pay your taxes.
+
+When a heading includes a proper noun, that word should be capitalized, even if it does not appear at the beginning of the heading.
+
+* **Example:** How to celebrate summer in Philadelphia. 
+
+
 {{% /filter-item %}}
 
 
