@@ -6,8 +6,6 @@ menu:
     weight: 10
     pre: hide
 ---
-{{< panel wip >}}
-
 <div class="row">
 <div class="columns medium-16">
 <h2 class="contrast">Why standards are important</h2>
