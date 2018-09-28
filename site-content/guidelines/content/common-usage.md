@@ -29,6 +29,7 @@ Use a shortened name instead of an acronym when making a second reference to som
 * **Example:** Use the Act instead of Fire and Police Employee Relations Act.
 * **Example:** Use Commerce in place of Department of Commerce, rather than DOC.
 * **Example:** Use Corrections in place of Department of Corrections, rather than DOC.
+* **Example:** Use something awsome.
 
 Only use abbreviations without any explanation if they are in common use among the targeted readership (e.g., ZIP code, HTML, CSS PDF, URL and, in some cases, IT).
 
