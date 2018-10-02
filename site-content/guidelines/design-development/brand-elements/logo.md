@@ -40,7 +40,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         <img src="/img/logo/city-of-philadelphia.png" alt="City of Philadelphia" class="phxl pbm" style="height:66.5px">
         <a href="/img/logo/standard.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
@@ -50,7 +50,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         <img src="/img/logo/city-of-philadelphia-blue-text.png" alt="City of Philadelphia" class="phxl pbm">
         <a href="/img/logo/blue-text.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
@@ -62,7 +62,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         <img src="/img/logo/city-of-philadelphia-gray.png" alt="City of Philadelphia" class="phxl pbm">
         <a href="/img/logo/all-gray.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
@@ -74,7 +74,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         </div>
         <a href="/img/logo/all-white.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>

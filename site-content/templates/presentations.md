@@ -44,7 +44,7 @@ You won't need to edit other areas of the Master slides.
 
 #### Download PowerPoint
 1. Click the "Access PowerPoint presentation" button above.
-2. Click the download <i class="fa fa-download" aria-hidden="true"></i>
+2. Click the download <i class="fas fa-download" aria-hidden="true"></i>
  icon in the upper right hand corner of the screen.
 
 #### Edit the title slide

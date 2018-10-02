@@ -35,7 +35,7 @@ Additionally, if the icon has meaning in the current context, use the `aria-labe
 
 **Example:** {{< highlight html >}}
 <a class="site-search" aria-label="Search">
-  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+  <i class="fas fa-search fa-2x" aria-hidden="true"></i>
 </a>
 {{</ highlight >}}
 

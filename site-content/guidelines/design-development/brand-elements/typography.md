@@ -19,7 +19,7 @@ You can download Montserrat and Open Sans from <a href="https://fonts.google.com
   <div class="medium-11 columns">
   <a href="/fonts/montserrat.zip" class="button icon">
     <div class="valign">
-      <i class="fa fa-download valign-cell"></i>
+      <i class="fas fa-download valign-cell"></i>
       <div class="button-label valign-cell">Download Montserrat</div>
     </div>
   </a>
@@ -53,7 +53,7 @@ You can download Montserrat and Open Sans from <a href="https://fonts.google.com
   <div class="medium-11 columns">
   <a href="/fonts/open_sans.zip" class="button icon">
     <div class="valign">
-      <i class="fa fa-download valign-cell"></i>
+      <i class="fas fa-download valign-cell"></i>
       <div class="button-label valign-cell">Download Open Sans</div>
     </div>
   </a>
