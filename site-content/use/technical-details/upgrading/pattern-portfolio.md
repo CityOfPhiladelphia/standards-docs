@@ -9,8 +9,6 @@ menu:
     identifier: upgrade-pp
 ---
 
-{{< panel wip >}}
-
 The Standards are a re-worked version of the City's Pattern Portfolio. If you are migrating an existing application, use this guide to assist you with changes.
 
 ### Remove old references

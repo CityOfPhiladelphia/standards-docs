@@ -7,8 +7,6 @@ menu:
     parent: templates
 ---
 
-{{< panel wip >}}
-
 Use the markup below to create a one-page application.
 
 ---

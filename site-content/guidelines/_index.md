@@ -9,4 +9,3 @@ menu:
     weight: 30
     pre: hide
 ---
-{{< panel wip >}}
