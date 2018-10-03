@@ -1,15 +1,17 @@
-Common usage, formatting, and punctuation
+---
+title: Common usage, formatting, and punctuation
+date: 2018-10-02
+description: Create consistent content by adopting our preferred words, phrases, and standards.
+type: filter
+menu:
+  main:
+    parent: content
+    weight: 300
+---
 
-[Common usage](https://docs.google.com/document/d/1Y7aOpZuFO50ghOrjNRcoU2cR_cWzysY9Xia9Q1TIeQk/edit#heading=h.e2sglelod3b5)
+<h2 class="contrast" id="common-usage">Common usage</h2>
 
-[Formatting](https://docs.google.com/document/d/1Y7aOpZuFO50ghOrjNRcoU2cR_cWzysY9Xia9Q1TIeQk/edit#heading=h.xr95apmihwf9)
-
-[Punctuation](https://docs.google.com/document/d/1Y7aOpZuFO50ghOrjNRcoU2cR_cWzysY9Xia9Q1TIeQk/edit#heading=h.abq26fu1uo1)
-
-Common usage
-------------
-
-### Acronyms and abbreviations
+{{% filter-item Acronyms and abbreviations %}}
 
 The first time you refer to an organization or project that uses an acronym, write out the full name and follow with the abbreviation in parentheses.
 
@@ -39,25 +41,35 @@ Do not use an apostrophe to form the plural of an acronym.
 
 -   Example: Did you receive the PDFs?
 
-### Active vs. passive voice
+{{% /filter-item %}}
+
+{{% filter-item "Active vs. passive voice" %}}
 
 See active and passive voice in our writing style guide.
 
-### Addresses
+{{% /filter-item %}}
+
+{{% filter-item Addresses %}}
 
 When giving addresses spell out the street name entirely, but abbreviate the type of street (St., Rd., Blvd., etc).
 
 -   Example: 1401 John F. Kennedy Blvd.
 
-### Citizen
+{{% /filter-item %}}
+
+{{% filter-item Citizen %}}
 
 Since some of those people living within the city might not be citizens, we prefer to use "residents" or "individuals."
 
-### Conversational language
+{{% /filter-item %}}
+
+{{% filter-item Conversational language %}}
 
 See conversational language in our writing style guide.
 
-### Dates
+{{% /filter-item %}}
+
+{{% filter-item Dates %}}
 
 Use numbers for dates and years.
 
@@ -83,7 +95,9 @@ Capitalize days of the week and do not abbreviate unless space is limited. When 
 
 -   Example: M, Tu, F 8 a.m. - 4:30 p.m.; W, Th, Sa, Sun 7:30 a.m. - 4 p.m.
 
-### Emigrate from / immigrate to
+{{% /filter-item %}}
+
+{{% filter-item "Emigrate from / immigrate to" %}}
 
 Emigrate means to leave one country or region to settle in another.
 
@@ -93,15 +107,21 @@ Immigrate means to enter another country and reside there.
 
 -   Example: Many people immigrate to the United States to find work.
 
-### Figurative language
+{{% /filter-item %}}
+
+{{% filter-item Figurative language %}}
 
 See figurative language in our writing style guide.
 
-### Inclusive language
+{{% /filter-item %}}
+
+{{% filter-item Inclusive language %}}
 
 See inclusive language in our writing style guide.
 
-### Historic / historical
+{{% /filter-item %}}
+
+{{% filter-item "Historic / historical" %}}
 
 In general usage, historic refers to what is important in history.
 
@@ -111,7 +131,9 @@ Historical applies more broadly to whatever existed in the past, whether it was 
 
 -   Example: The City eliminated the Department of Horse and Buggies, a historical department, in 1909.
 
-### Login / log in
+{{% /filter-item %}}
+
+{{% filter-item "Login / log in" %}}
 
 One word when used as a noun or adjective.
 
@@ -121,7 +143,9 @@ Two words when used as a verb.
 
 -   Example: Hurry up and log in!
 
-### Measurements
+{{% /filter-item %}}
+
+{{% filter-item Measurements %}}
 
 Use English units of measure (e.g., foot, mile, gallon and pound). Spell out units of measure, except after numbers, where abbreviations (e.g., ft., lb., m.p.g.) may be used. Avoid the use of measurement symbols (e.g., # for pound), including in tables.
 
@@ -135,7 +159,9 @@ Use English units of measure (e.g., foot, mile, gallon and pound). Spell out uni
 
 -   Example: price per pound
 
-### Names
+{{% /filter-item %}}
+
+{{% filter-item Names %}}
 
 Use the [City government directory](https://beta.phila.gov/departments/) to find the official name of an office, department, or commission. Use that name consistently.
 
@@ -153,7 +179,9 @@ For people, on initial mention, use First Name Last Name. Subsequent mentions us
 
 John Jones and Casey Jones say their work in city government is essential. John Jones joined his department in 1994. Casey Jones began her work with the City in 2001.
 
-### Numbers
+{{% /filter-item %}}
+
+{{% filter-item Numbers %}}
 
 Spelling out numbers one through nine; use numerals beyond that (10, 11, etc.).
 
@@ -249,27 +277,39 @@ Do not use an apostrophe when pluralizing years.
 
 See the "numerals" entry in [AP Stylebook](https://www.apstylebook.com/) for complete guidance.
 
-### Online
+{{% /filter-item %}}
+
+{{% filter-item Online %}}
 
 One word.
 
-### Onsite
+{{% /filter-item %}}
+
+{{% filter-item Onsite %}}
 
 One word.
 
-### Passive voice
+{{% /filter-item %}}
+
+{{% filter-item Passive voice %}}
 
 See active and passive voice in our writing style guide.
 
-### Plain language
+{{% /filter-item %}}
+
+{{% filter-item Plain Language %}}
 
 See plain language in our writing style guide.
 
-### Redundant phrases
+{{% /filter-item %}}
+
+{{% filter-item Redundant phrases %}}
 
 See redundant phrases in our writing style guide.
 
-### Set up / setup
+{{% /filter-item %}}
+
+{{% filter-item "Set up / setup" %}}
 
 "Set up" is a verb that suggests the act of putting something together.
 
@@ -279,13 +319,17 @@ See redundant phrases in our writing style guide.
 
 -   Example: We all agreed the new setup was an improvement.
 
-### State name abbreviations
+{{% /filter-item %}}
+
+{{% filter-item State name abbreviations %}}
 
 Write out state names when not preceded by a city name. Use [AP Stylebook](https://www.apstylebook.com/) abbreviations when following a city name. Set off on both sides with a comma if in the middle of a sentence. Never use postal abbreviations except when writing out a complete postal address.
 
 -   Example: Our headquarters are in Philadelphia, Pa., but we serve the world.
 
-### The
+{{% /filter-item %}}
+
+{{% filter-item The %}}
 
 Do not capitalize as part of a proper noun or title unless "the" is part of the trademarked or copyrighted name.
 
@@ -295,13 +339,17 @@ Do not capitalize as part of a proper noun or title unless "the" is part of the 
 
 -   Example: Listed as one of the Fortune 500, Acme was a great place to work.
 
-### Third-party
+{{% /filter-item %}}
+
+{{% filter-item "Third-party" %}}
 
 Third-party (adjective) vs. third party (noun)
 
 Always hyphenate the adjective, but never the noun.
 
-### Time-date-place
+{{% /filter-item %}}
+
+{{% filter-item "Time-date-place" %}}
 
 The preferred structure for conveying event information in text is time-date-place. Use of the day of the week is optional. If the day is included, it should be spelled out.
 
@@ -309,7 +357,9 @@ The preferred structure for conveying event information in text is time-date-pla
 
 -   Example: The press conference will be held at 2 p.m., Saturday, Jan. 25 at the Municipal Services Building.
 
-### Times
+{{% /filter-item %}}
+
+{{% filter-item Times %}}
 
 -   Use numbers to state exact times.
 
@@ -329,7 +379,9 @@ The preferred structure for conveying event information in text is time-date-pla
 
 -   Example: Parking rules are in effect from 6:30 p.m. to 10 p.m.
 
-### Titles, job
+{{% /filter-item %}}
+
+{{% filter-item "Titles, job" %}}
 
 In general, capitalize job titles when they precede the individual's name. Do NOT capitalize when they follow the individual's name in a sentence.
 
@@ -339,7 +391,9 @@ In general, capitalize job titles when they precede the individual's name. Do NO
 
 See also, capitalization.
 
-### Titles, media
+{{% /filter-item %}}
+
+{{% filter-item "Titles, media" %}}
 
 Italicize names of magazines, newspapers, books, newsletters and movies.
 
@@ -347,7 +401,9 @@ Italicize names of magazines, newspapers, books, newsletters and movies.
 
 -   Put names of reports and articles in quotation marks.
 
-### United States / U.S.
+{{% /filter-item %}}
+
+{{% filter-item "United States / U.S." %}}
 
 United States is a noun. U.S. is an adjective.
 
@@ -355,7 +411,9 @@ United States is a noun. U.S. is an adjective.
 
 -   Example: The company's U.S. client base is extensive.
 
-### User
+{{% /filter-item %}}
+
+{{% filter-item User %}}
 
 Avoid the word "user" in favor of more appropriate words, like "resident" or "individual."
 
@@ -363,7 +421,9 @@ Avoid the word "user" in favor of more appropriate words, like "resident" or "in
 
 -   Example: The Mayor estimates that some 36,000 individuals will be involved.
 
-### Year and a half / year-and-a-half
+{{% /filter-item %}}
+
+{{% filter-item "Year and a half / year-and-a-half" %}}
 
 Hyphenate only when it is used as an adjective.
 
@@ -371,20 +431,26 @@ Hyphenate only when it is used as an adjective.
 
 -   Example: A year and a half on the management team.
 
-### ZIP code
+{{% /filter-item %}}
+
+
+{{% filter-item ZIP code %}}
 
 Capitalize. ZIP is an acronym for "Zone Improvement Plan."
 
-Formatting
-----------
+{{% /filter-item %}}
 
-### Block quotes
+<h2 class="contrast" id="formatting">Formatting</h2>
+
+{{% filter-item Block quotes %}}
 
 Use block quotes when you want to highlight a single sentence or phrase from within the body of your writing. Block quotes use text format and placement to highlight a particular issue so readers who scan can get the most important nugget from the story. Use block quotes sparingly to create the biggest impact.
 
 -   Example: "We are changing the way the City website serves our residents" - Office of Open Data and Digital Transformation
 
-### Capitalization
+{{% /filter-item %}}
+
+{{% filter-item Capitalization %}}
 
 Unnecessary capitalization can come off as overly formal and unapproachable. We follow these capitalization guidelines:
 
@@ -426,13 +492,17 @@ In titles, do not capitalize coordinate conjunctions (for example, "and," "but,"
 
 -   Examples: Pennsylvania, World War II, Acme Explosives Company
 
-### Contractions
+{{% /filter-item %}}
+
+{{% filter-item Contractions %}}
 
 Use common contractions like it's, can't, shouldn't, and you'll. Contractions are part of everyday conversation, so readers find them easy to understand.
 
 Too many uses of it is, cannot, and should not can seem archaic and formal. We can move away from this without compromising the reliable and professional tone of information coming from government.
 
-### Emphasis
+{{% /filter-item %}}
+
+{{% filter-item Emphasis %}}
 
 Bold calls attention to key information.
 
@@ -440,13 +510,15 @@ Italics are used under specific conditions, such as to indicate the title of a b
 
 Underlining should not be used in web communications, as this can be reserved to indicate a link.
 
-### Links
+{{% /filter-item %}}
+
+{{% filter-item Links %}}
 
 Links are most effective when they are specific and descriptive. When you create a link, highlight text that will give users a clear idea of what they will see if they follow the link. This is especially useful for people with vision impairments who use screen readers, and will often skip from one link to another as a way of skimming content.
 
--   Example: To be ready for the unexpected, you and your family need to [make an emergency plan](https://beta.phila.gov/services/safety-emergency-preparedness/prepare-for-an-emergency/make-an-emergency-plan/).
+-   Example: To be ready for the unexpected, you and your family need to [make an emergency plan](https://phila.gov/services/safety-emergency-preparedness/prepare-for-an-emergency/make-an-emergency-plan/).
 
--   NOT: To be ready for the unexpected, you can find out how to create an emergency plan [here](https://beta.phila.gov/services/safety-emergency-preparedness/prepare-for-an-emergency/make-an-emergency-plan/).
+-   NOT: To be ready for the unexpected, you can find out how to create an emergency plan [here](https://phila.gov/services/safety-emergency-preparedness/prepare-for-an-emergency/make-an-emergency-plan/).
 
 #### No "click here"
 
@@ -484,7 +556,9 @@ Because we use a .gov domain, it is important not to imply that the City endorse
 
 Excessive linking can be confusing and overwhelming. If a resource, topic, or organization is referenced multiple times on one page you only need to link to it the first time. For example, if you refer to the Office of Property Assessment three times in a content item, link to it the first time but not the second or third times.
 
-### Lists
+{{% /filter-item %}}
+
+{{% filter-item Lists %}}
 
 There are two types of lists: bulleted and numbered. Bulleted lists are known as "unordered" on the web, and numbered lists are known as "ordered." Most lists should be unordered. Only use an ordered list if the order or number of items matters, as in a list of steps.
 
@@ -498,7 +572,9 @@ Bulleted lists Capitalize the first word of every bullet. Include a period only 
 
 -   Apples.
 
-### Plurals of lowercase letters
+{{% /filter-item %}}
+
+{{% filter-item Plurals of lowercase letters %}}
 
 Use apostrophe + s to form plurals of lowercase letters.
 
@@ -506,7 +582,9 @@ Use apostrophe + s to form plurals of lowercase letters.
 
 What about plural of uppercase letters, like acronyms? There is no need for apostrophes indicating a plural on capitalized letters, numbers and symbols.
 
-### PDFs
+{{% /filter-item %}}
+
+{{% filter-item PDFs %}}
 
 Usability expert Jakob Nielsen explains that [PDFs are good for distributing documents and forms that need to be printed](https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/). However, PDFs have several limitations.
 
@@ -520,7 +598,9 @@ PDFs are:
 
 For these reasons, avoid using PDFs for content you want people to read online.
 
-### White space
+{{% /filter-item %}}
+
+{{% filter-item White space %}}
 
 Whenever possible, use lots of white space.
 
@@ -528,14 +608,18 @@ White space, or negative space,  refers to the unmarked parts of a page, includ
 
 Break up walls of text and keep paragraphs at four sentences or less to ensure sufficient white space.
 
-Punctuation
------------
+{{% /filter-item %}}
 
-### Ampersand
+
+<h2 class="contrast" id="punctuation">Punctuation</h2>
+
+{{% filter-item Ampersand %}}
 
 Unless it is part of an official name or title, spell out "and" when writing for the web.
 
-### Brackets
+{{% /filter-item %}}
+
+{{% filter-item Brackets %}}
 
 Brackets are used to indicate that the writer has replaced the original word in quoted text with a different word to clarify the speaker's intended meaning.
 
@@ -543,7 +627,9 @@ Brackets are used to indicate that the writer has replaced the original word in 
 
 -   Example: He sat in on [several courses] during his day visiting the university.
 
-### Colons
+{{% /filter-item %}}
+
+{{% filter-item Colons %}}
 
 Capitalize the first word after a colon only if what follows is a complete sentence.
 
@@ -551,17 +637,23 @@ Capitalize the first word after a colon only if what follows is a complete sente
 
 -   Example: I have several favorite foods: Apples were my first favorite snack, but pita chips are a rising star in my life.
 
-### Commas
+{{% /filter-item %}}
+
+{{% filter-item Commas %}}
 
 We prefer the serial comma (sometimes called the Oxford comma). In a list of three or more, include a comma before the conjunction.
 
 -   Example: Please buy bread, milk, and apples.
 
-### Dashes
+{{% /filter-item %}}
+
+{{% filter-item Dashes %}}
 
 Different types of dashes are used in different situations.
 
-#### Em dash
+{{% /filter-item %}}
+
+{{% filter-item Em dash %}}
 
 An em dash is a long dash. Use an Em dash to set off a phrase. Don't use a single hyphen in place of an em dash.
 
@@ -575,7 +667,9 @@ To make an Em-Dash
 
 -   WordPress: Three consecutive hyphens
 
-#### En dash
+{{% /filter-item %}}
+
+{{% filter-item En dash %}}
 
 An en dash is shorter than an em dash. Use an en dash to convey a range. The en dash is also used in to show connected items. Don't use a single hyphen in place of an en dash.
 
@@ -593,13 +687,18 @@ To make an En-Dash
 
 See also "hyphen."
 
-### Ellipses
+{{% /filter-item %}}
+
+{{% filter-item Ellipses %}}
+
 
 Ellipses indicate things left unsaid. They are often used to shorten quoted material, removing irrelevant words without changing the meaning. Unless used to shorten a quote, write around them as much as possible. If they are absolutely necessary, they should be treated as a word, with spaces before and after.
 
 -   Example: The sign said "no eating, drinking, or smoking," becomes, The sign said "no ... smoking."
 
-### Hyphen
+{{% /filter-item %}}
+
+{{% filter-item Hyphens %}}
 
 The hyphen indicates conjunction and has several uses:
 
@@ -635,7 +734,9 @@ Do not hyphenate other multi-word numbers
 
 See also "Dashes" which are more often used than hyphens.
 
-### Parentheses
+{{% /filter-item %}}
+
+{{% filter-item Parentheses %}}
 
 Parentheses are used to set off nonessential information in a sentence.
 
@@ -659,7 +760,9 @@ Truncated ("Hon." for "Honorable"), compressed ("cmte." for "committee") and con
 
 Type only one space after a period.
 
-### Quotation marks
+{{% /filter-item %}}
+
+{{% filter-item Quotation marks %}}
 
 Below are examples of correctly punctuated quotations:
 
@@ -683,7 +786,9 @@ Quotation marks should NOT be used to indicate emphasis or emotion, nor should t
 
 -   NOT: Joe Johnson became the head of the "Department of Human Affairs" in June 1999.
 
-### Semicolons
+{{% /filter-item %}}
+
+{{% filter-item "Semi-colons" %}}
 
 You can use semicolons at the end of bullet points. If you choose to punctuate your bulleted list this way, do not capitalize the first letter in each bullet point unless it is a proper noun. Place a coordinating conjunction after the semicolon of the penultimate bullet point.
 
@@ -694,3 +799,5 @@ You can use semicolons at the end of bullet points. If you choose to punctuate y
 -   birth certificate; or
 
 -   Social Security card.
+
+{{% /filter-item %}}
