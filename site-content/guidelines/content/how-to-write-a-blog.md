@@ -105,6 +105,6 @@ This blog does what a blog is supposed to. It gives all kinds of visuals to guid
 
 We like this blog because it creates a sense of excitement, it has beautiful images, and it provides clear information in good groupings that are reader-friendly. The writers also do a good job of breaking up text into nice-sized bits.
 
-* [**Philadelphia Department of Licenses and Inspections**](https://beta.phila.gov/posts/department-of-licenses-and-inspections/2017-05-10-building-safety-month-five-things-to-think-about-in-your-everyday-life/)
+* [**Philadelphia Department of Licenses and Inspections**](https://phila.gov/posts/department-of-licenses-and-inspections/2017-05-10-building-safety-month-five-things-to-think-about-in-your-everyday-life/)
 
 This blog offers lots of helpful information presented through an easy-to-grasp list. It also provides contacts to more information.

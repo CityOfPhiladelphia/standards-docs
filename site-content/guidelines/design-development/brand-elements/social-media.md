@@ -12,7 +12,7 @@ The branding that you use on your department’s social media profiles should al
 
 Never use a pixelated or incorrectly sized image. Contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> if you need imagery.
 
-### beta.phila.gov department site
+### phila.gov department site
 ![Hero header example](/img/social-media/beta-hero-header.jpg)
 
 ### Facebook cover image

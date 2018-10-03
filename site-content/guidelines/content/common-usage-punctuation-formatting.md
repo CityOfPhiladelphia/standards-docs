@@ -163,7 +163,7 @@ Use English units of measure (e.g., foot, mile, gallon and pound). Spell out uni
 
 {{% filter-item Names %}}
 
-Use the [City government directory](https://beta.phila.gov/departments/) to find the official name of an office, department, or commission. Use that name consistently.
+Use the [City government directory](https://phila.gov/departments/) to find the official name of an office, department, or commission. Use that name consistently.
 
 -   Example: Department of Revenue
 
