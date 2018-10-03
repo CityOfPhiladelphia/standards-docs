@@ -18,6 +18,14 @@ As of FontAwesome 5.0, all sites hosted on phila.gov can use the pro version of 
 
   1. If you are currently using FontAwesome 4.x icons, you will need to modify your markup to accommodate the changes. Follow the upgrade guide provided on the [FontAwesome website](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4).
 
+<hr>
+
+#### JotForm
+Styles for Jotform have been removed.
+
+**Upgrade steps:**
+If your application uses JotForm, contact [oddt@phila.gov](mailto:oddt@phila.gov) and we can provide you with a stylesheet.
+
 ### Improvements
 #### Responsive tables
 In previous versions of the Digital Standards, Foundation's stackable table headers were used for mobile table displays. While useful for horizontally-oriented tables, they lack table headers for each cell. In this version of Standards, you can add the `.responsive` class to your table and the table headers will be prepended to each cell.
