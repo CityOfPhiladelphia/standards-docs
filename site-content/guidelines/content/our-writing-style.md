@@ -22,7 +22,7 @@ In a rush? Use our web writing checklist to keep your writing on track.  For mor
 
 -   Write conversationally: Picture your audience and write as if you were talking to them one-on-one and with the authority of someone who can actively help. Using contractions can help create a friendly, informal tone as well. [Plainlanguage.gov](http://www.plainlanguage.gov/) offers helpful tips.
 
--   Write for diverse audiences: We write for a diverse audience of readers who all interact with our content in different ways. We aim to make content accessible to those with disabilities and to users of all cognitive capabilities. We use language that isn't exclusionary and is nondiscriminatory. See the entry on Inclusive language below.
+-   Write for diverse audiences: We write for a diverse audience of readers who all interact with our content in different ways. We aim to make content accessible to those with disabilities and to users of all cognitive capabilities. We use language that isn't exclusionary and is nondiscriminatory. See the entry on [Inclusive language](#inclusive-language) below.
 
 -   Be goal-oriented & appropriate: Before you start writing, ask: What purpose does this serve? What do people need to know? Do I give them the information using language that appropriately reflects my department?
 
