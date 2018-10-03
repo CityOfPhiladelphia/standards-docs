@@ -7,4 +7,4 @@ type: app
 ---
 
 ## App example
-All the space!
+Application content goes here.
