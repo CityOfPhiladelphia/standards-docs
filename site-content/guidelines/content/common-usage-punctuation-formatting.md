@@ -9,6 +9,12 @@ menu:
     weight: 300
 ---
 
+[Common usage](#common-usage)
+
+[Formatting](#formatting)
+
+[Punctuation](#punctuation)
+
 <h2 class="contrast" id="common-usage">Common usage</h2>
 
 {{% filter-item Acronyms and abbreviations %}}
