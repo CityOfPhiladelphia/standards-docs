@@ -1,0 +1,1232 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upgrade guide | Digital Standards | City of Philadelphia</title>
+    <link rel="canonical" href="https://standards.phila.gov/use/technical-details/upgrading/">
+    
+    <link href="https://standards.phila.gov/css/standards.css" rel="stylesheet">
+    <style type="text/css">.hero-content{
+  background-image: url(https://standards.phila.gov/img/standards-hero.jpg);
+}
+</style>
+    
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://standards.phila.gov/img/favicon.png">
+
+    
+    
+    
+    <link type="text/css" href="https://standards.phila.gov/css/styles.css" rel="stylesheet">
+    
+
+    <meta name="twitter:card" content="summary">
+<meta property="og:title" content="Upgrade guide"> 
+<meta property="og:description" content="A step-by-step guide for migrating a site using phila.gov&#39;s Pattern Portfolio."> 
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://standards.phila.gov/use/technical-details/upgrading/">
+<meta property="og:site_name" content="Digital Standards | City of Philadelphia">
+<meta property="og:image" content="https://beta.phila.gov/media/20160715133810/phila-gov.jpg">
+
+
+  </head>
+  <body lang="en">
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC6CR2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MC6CR2');</script>
+  
+  
+    <header class="global-nav pbm pbn-mu mbn-mu">
+      
+<h1 class="accessible">City of Philadelphia</h1>
+
+<div class="row columns bg-ben-franklin-blue expanded utility-nav" data-swiftype-index="false">
+  <div class="row">
+    <div class="medium-24 columns float-right">
+      <ul class="medium-horizontal menu show-for-medium float-right">
+        <li><a href="https://beta.phila.gov/departments/mayor/">Office of the Mayor</a></li>
+        <li><a href="https://beta.phila.gov/departments/">City government directory</a></li>
+        <li>
+          <div id="google_translate_element" class="no-js"><span class="show-for-sr">Google Translate</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-24 columns">
+    <div class="row primary-menu" data-sticky-container data-swiftype-index="false">
+      <div class="columns sticky phn" data-margin-top="0" data-sticky data-sticky-on="medium">
+        <div class="row sticky-header-width">
+          <div class="small-16 medium-6 columns small-push-4 medium-push-0">
+            <a href="https://beta.phila.gov" class="logo" tabindex="1" aria-label="City of Philadelphia">
+              <img src="https://standards.phila.gov/img/logo/city-of-philadelphia.svg" data-fallback="https://standards.phila.gov/img/logo/city-of-philadelphia.png" alt="City of Philadelphia">
+              </a>
+          </div>
+          <a href="#page" aria-hidden="false" class="accessible">Skip to main content</a>
+          <div class="medium-17 columns show-for-medium desktop-nav">
+            <div class="top-bar-right">
+              <nav data-swiftype-index="false">
+                <ul class="horizontal menu pan">
+                  <li class="services-menu-link" data-toggle="services-mega-menu">
+                    <a href="" class="no-link" data-link="/services/">Services</a>
+                  </li>
+                  <li>
+                    <a href="https://beta.phila.gov/programs-initiatives/">Programs &amp; initiatives</a>
+                  </li>
+                  <li>
+                    <a href="https://beta.phila.gov/news/"> News &amp; events</a>
+                  </li>
+                  <li>
+                    <a href="https://beta.phila.gov/documents/"> Publications &amp; forms</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="search-icon small-5 medium-1 columns phn-m">
+              <button class="site-search" type="button" data-toggle="search-dropdown" aria-label="Search">
+                <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                <span class="show-for-small-only">Search</span>
+              </button>
+          </div>
+        </div>
+        <div class="top-bar">
+          <div class="title-bar small-5 columns" data-responsive-toggle="mobile-nav" data-swiftype-index="false" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle>
+              <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+              <span class="title-bar-title">Menu</span>
+            </button>
+          </div>
+          
+<div class="primary-menu medium-15 medium-push-2 small-24 columns equal valign-mu" id="mobile-nav">
+  <div class="top-bar-right valign-mu show-for-small-only">
+    <nav data-swiftype-index="false" class="valign-mu">
+      <ul id="mobile-nav-drilldown" class="vertical menu pan valign-mu">
+        <li>
+          <a href="https://beta.phila.gov"><i class="fa fa-home fa-lg"></i> Phila.gov home</a>
+        </li>
+        <li>
+          <a href="https://beta.phila.gov/services" class="valign-cell"><i class="fa fa-list show-for-small-only"></i> Service directory</a>
+        </li>
+        <li>
+          <a href="https://beta.phila.gov/programs-initiatives/" class="valign-cell"><i class="fa fa-info-circle"></i> Programs &amp; initiatives</a>
+        </li>
+        <li><a href="https://beta.phila.gov/news/" class="valign-cell"><i class="fa fa-microphone"></i> News &amp; events</a>
+        </li>
+        <li>
+          <a href="https://beta.phila.gov/documents/" class="valign-cell"><i class="fa fa-file-text"></i> Publications &amp; forms</a>
+        </li>
+        <li class="bg-sidewalk">
+          <a href="https://beta.phila.gov/mayor/"><i class="fa fa-university"></i> Mayor's Office</a>
+        </li>
+        <li class="bg-sidewalk"><a href="https://beta.phila.gov/departments/"><i class="fa fa-sitemap"></i> City government directory</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </header>
+      <div id="page">
+  <div id="content">
+    <header>
+      <div class="hero-content">
+        <div class="hero-wrap">
+          <div class="row expanded pbl">
+            <div class="medium-14 small-centered columns text-overlay">
+              <h1><span class="h3 break-after">City of Philadelphia</span> Digital Standards</h1>
+              </div>
+            </div>
+          </div>
+          
+            <div class="row">
+              <div class="small-24 columns">
+                <div class="mbm-mu" id="site-nav">
+                  <nav data-swiftype-index="false">
+                    <ul class="secondary-menu vertical medium-horizontal menu dropdown" data-responsive-menu="accordion medium-dropdown">
+                      
+                      
+                        
+                        
+                        <li>
+                        <a href="/">Home</a>
+                      
+                      </li>
+                      
+                        
+                          
+                        
+                        
+                        <li class="menu-item  current-menu-item">
+                        <a href="javascript:;" class="">Use the standards</a>
+                          <ul class="menu vertical nested">
+                            
+                            
+                              
+                              
+                            
+                              <li>
+                                <a href="/use/technical-details/"> Technical details </a>
+                              </li>
+                            
+                        </ul>
+                      
+                      </li>
+                      
+                        
+                        
+                        <li class="menu-item ">
+                        <a href="javascript:;" class="">Guidelines</a>
+                          <ul class="menu vertical nested">
+                            
+                            
+                              <li>
+                                <a href="/guidelines/design-development/"> Design &amp; development </a>
+                              </li>
+                            
+                            
+                              <li>
+                                <a href="/guidelines/content/"> Content </a>
+                              </li>
+                            
+                            
+                              <li>
+                                <a href="/guidelines/analytics/"> Analytics </a>
+                              </li>
+                            
+                        </ul>
+                      
+                      </li>
+                      
+                        
+                        
+                        <li class="menu-item ">
+                        <a href="javascript:;" class="">Templates</a>
+                          <ul class="menu vertical nested">
+                            
+                            
+                              <li>
+                                <a href="/templates/presentations/"> Presentations </a>
+                              </li>
+                            
+                            
+                              <li>
+                                <a href="/templates/application/"> Applications </a>
+                              </li>
+                            
+                            
+                              <li>
+                                <a href="/templates/boilerplate/"> HTML boilerplate </a>
+                              </li>
+                            
+                        </ul>
+                      
+                      </li>
+                      
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </header>
+
+      <nav class="row mtm">
+  <div class="columns">
+    <ol class="breadcrumbs">
+      <li><a href="https://beta.phila.gov">
+        <i class="fa fa-home" aria-hidden="true"></i><span class="accessible">City of Philadelphia Home</span></a>
+      </li>
+      
+        <li><a href="https://standards.phila.gov">City of Philadelphia Digital Standards</a></li>
+          
+            <li><a href=''>Use the standards</a></li><li><a href='/use/technical-details/'>Technical details</a></li>
+      <li>Upgrade guide</li>
+      
+    </ol>
+  </div>
+</nav>
+
+  
+  <main>
+
+<div class="row">
+  <div class="columns">
+    <h1 class="contrast">
+      
+        Technical details
+      
+    </h1>
+  </div>
+</div>
+
+<div class="tertiary-content row bdr-bottom bdr-sidewalk mtm" data-equalizer="page">
+  <div id="style-guide" class="medium-16 medium-push-8 columns pbxl" data-equalizer-watch="page">
+    <section>
+      
+        <h2 class="mtn">Upgrade guide</h2>
+      
+      <div>
+        <article>
+           
+
+<div class="row mbm">
+  <div class="small-24 columns">
+    <section>
+      <div class="bg-light-blue pam">
+        <div class="row column">
+          <div class="valign equal-height">
+            <div class="valign-cell equal prs">
+              <i class="fa fa-info-circle fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="valign-cell equal">
+              <h2 class="h3 mbn">You’re on the City’s beta digital standards site. It’s a work-in-progress. Use the site’s <i class="fa fa-lightbulb-o"></i> feedback links to help us make the content better.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+<p>The Standards are a re-worked version of the City&rsquo;s Pattern Portfolio. If you are migrating an existing application, use this guide to assist you with changes.</p>
+
+<h3 id="remove-old-references">Remove old references</h3>
+
+<ol>
+<li>Remove all references to patterns CSS and JavaScript.</li>
+<li>Remove <code>&lt;link&gt;</code> tag references to FontAwesome and Ionicons. FontAwesome is now included as a dependency and Ionicons is no longer used.</li>
+<li>Remove references to Foundation JavaScript, this is also included as a dependency.</li>
+</ol>
+
+<p>Depending on the complexity of the project, it may make sense for you to temporarily comment out your project&rsquo;s existing JavaScript and Stylesheets.</p>
+
+<h3 id="add-dependencies">Add dependencies</h3>
+
+<p>Review the <a href="/use/installation">installation guidelines</a> for information on how to include the Standards in your project.</p>
+
+<div class="callout">The code provided below includes links to the Standards CSS and JS. You will need to update those links to point to the location of the standards dependency within your project.</div>
+
+<h3 id="markup-changes">Markup changes</h3>
+
+<p>In many cases, because you are updating an existing application, you may not want to copy the <a href="/templates/markup/boilerplate/">Boilerplate</a> markup directly, because you will need to coordinate extensive markup changes. This section of the guide attempts to identify areas that you will need to address individually, such that you can modify the markup you already have without needing to essentially start from scratch. If your application makes use of partials, these code blocks are be broken up in such a way that you should be able to simply replace the content of existing partials.</p>
+
+<ol>
+<li><p>Add <code>class=&quot;no-js&quot;</code> to the <code>&lt;head&gt;</code> tag. This is in the event that the JS is not available, or not loaded yet and will prevent a flash of unstyled content (FOUC).</p></li>
+
+<li><p>Add the global header code. This should replace everything between the <code>&lt;header&gt;</code> tags.
+<div class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true" data-deep-link="true">
+  
+  
+
+<div id="global-header-code" class="accordion-item" data-accordion-item>
+  <a href="#global-header-code" class="accordion-title">Global header code</a>
+  <div class="accordion-content" data-tab-content>
+    
+    <div class="code-content">
+      <a class="button clipy" data-clipboard-target=".code-content">Copy code</a>
+    
+    
+    <div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-html" data-lang="html"><span></span><span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">header</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;global-nav pbm pbn-mu mbn-mu&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  
+<span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h1</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;accessible&quot;</span><span style="color: #f8f8f2">&gt;</span>City of Philadelphia<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h1</span><span style="color: #f8f8f2">&gt;</span>
+
+<span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row columns bg-ben-franklin-blue expanded utility-nav&quot;</span> <span style="color: #a6e22e">data-swiftype-index</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;false&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-24 columns float-right&quot;</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-horizontal menu show-for-medium float-right&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/departments/mayor/&quot;</span><span style="color: #f8f8f2">&gt;</span>Office of the Mayor<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/departments/&quot;</span><span style="color: #f8f8f2">&gt;</span>City government directory<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;google_translate_element&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;no-js&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>Google Translate<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+
+<span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;small-24 columns&quot;</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row primary-menu&quot;</span> <span style="color: #a6e22e">data-sticky-container</span> <span style="color: #a6e22e">data-swiftype-index</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;false&quot;</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;columns sticky phn&quot;</span> <span style="color: #a6e22e">data-margin-top</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;0&quot;</span> <span style="color: #a6e22e">data-sticky</span> <span style="color: #a6e22e">data-sticky-on</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row sticky-header-width&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;small-16 medium-6 columns small-push-4 medium-push-0&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;logo&quot;</span> <span style="color: #a6e22e">tabindex</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;1&quot;</span> <span style="color: #a6e22e">aria-label</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;City of Philadelphia&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">img</span> <span style="color: #a6e22e">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://standards.phila.gov/img/logo/city-of-philadelphia.svg&quot;</span> <span style="color: #a6e22e">data-fallback</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://standards.phila.gov/img/logo/city-of-philadelphia.png&quot;</span> <span style="color: #a6e22e">alt</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;City of Philadelphia&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;#page&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;false&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;accessible&quot;</span><span style="color: #f8f8f2">&gt;</span>Skip to main content<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-17 columns show-for-medium desktop-nav&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;top-bar-right&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span> <span style="color: #a6e22e">data-swiftype-index</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;false&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;horizontal menu pan&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;services-menu-link&quot;</span> <span style="color: #a6e22e">data-toggle</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;services-mega-menu&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;no-link&quot;</span> <span style="color: #a6e22e">data-link</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;/services/&quot;</span><span style="color: #f8f8f2">&gt;</span>Services<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/programs-initiatives/&quot;</span><span style="color: #f8f8f2">&gt;</span>Programs <span style="color: #f8f8f2">&amp;amp;</span> initiatives<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/news/&quot;</span><span style="color: #f8f8f2">&gt;</span> News <span style="color: #f8f8f2">&amp;amp;</span> events<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/documents/&quot;</span><span style="color: #f8f8f2">&gt;</span> Publications <span style="color: #f8f8f2">&amp;amp;</span> forms<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-icon small-5 medium-1 columns phn-m&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">button</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;site-search&quot;</span> <span style="color: #a6e22e">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button&quot;</span> <span style="color: #a6e22e">data-toggle</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-dropdown&quot;</span> <span style="color: #a6e22e">aria-label</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Search&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-search fa-2x&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-small-only&quot;</span><span style="color: #f8f8f2">&gt;</span>Search<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">button</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;top-bar&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;title-bar small-5 columns&quot;</span> <span style="color: #a6e22e">data-responsive-toggle</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;mobile-nav&quot;</span> <span style="color: #a6e22e">data-swiftype-index</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;false&quot;</span> <span style="color: #a6e22e">data-hide-for</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">button</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;menu-icon&quot;</span> <span style="color: #a6e22e">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button&quot;</span> <span style="color: #a6e22e">data-toggle</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-bars fa-3x&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;title-bar-title&quot;</span><span style="color: #f8f8f2">&gt;</span>Menu<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">button</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          
+<span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;primary-menu medium-15 medium-push-2 small-24 columns equal valign-mu&quot;</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;mobile-nav&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;top-bar-right valign-mu show-for-small-only&quot;</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span> <span style="color: #a6e22e">data-swiftype-index</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;false&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign-mu&quot;</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;mobile-nav-drilldown&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;vertical menu pan valign-mu&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-home fa-lg&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> Phila.gov home<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/services&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign-cell&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-list show-for-small-only&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> Service directory<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/programs-initiatives/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign-cell&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-info-circle&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> Programs <span style="color: #f8f8f2">&amp;amp;</span> initiatives<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/news/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign-cell&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-microphone&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> News <span style="color: #f8f8f2">&amp;amp;</span> events<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/documents/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign-cell&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-file-text&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> Publications <span style="color: #f8f8f2">&amp;amp;</span> forms<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;bg-sidewalk&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/mayor/&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-university&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> Mayor&#39;s Office<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;bg-sidewalk&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/departments/&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-sitemap&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> City government directory<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+
+
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+
+
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">header</span><span style="color: #f8f8f2">&gt;</span>
+</code></pre></div>
+
+  
+    
+    </div>
+  
+  </div>
+</div>
+
+
+  
+</div>
+
+<div class="callout mtm">After adding the global header code, you will notice that the Service mega menu and the Search dropdown do not work. To save on page load times, the markup for these elements is placed under the closing footer element. You will find the markup in the <strong>global footer code</strong>, below.</div></p></li>
+
+<li><p>All applications should receive graphic treatment. Contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> for assistance selecting a hero image. Add the code below under the <code>&lt;header&gt;</code> tag and customize the image and page title to suit your application. The wrapping <code>#page</code> and <code>#content</code> divs should be closed <em>before</em> the <code>&lt;footer&gt;</code> tag. Your content should go between the <code>&lt;main&gt;</code> tags. This code assumes a one-page application with no secondary menu.
+<div class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true" data-deep-link="true">
+  
+  
+
+<div id="site-header-code" class="accordion-item" data-accordion-item>
+  <a href="#site-header-code" class="accordion-title">Site header code</a>
+  <div class="accordion-content" data-tab-content>
+    
+    <div class="code-content">
+      <a class="button clipy" data-clipboard-target=".code-content">Copy code</a>
+    
+    
+    <div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-html" data-lang="html"><span></span><span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;page&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;content&quot;</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">header</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;hero-content&quot;</span> <span style="color: #a6e22e">style</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;background-image:url(https://standards.phila.gov/img/standards-hero.jpg) &quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;hero-wrap&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row expanded pbl&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-14 small-centered columns text-overlay&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h1</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;h3 break-after&quot;</span><span style="color: #f8f8f2">&gt;</span>City of Philadelphia<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span> Digital Standards<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h1</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">header</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row mtm&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;columns&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ol</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;breadcrumbs&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-home&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;accessible&quot;</span><span style="color: #f8f8f2">&gt;</span>City of Philadelphia Home<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://standards.phila.gov/&quot;</span><span style="color: #f8f8f2">&gt;</span>City of Philadelphia Digital Standards<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">&gt;</span>Use the standards<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;use/technical-details/&quot;</span><span style="color: #f8f8f2">&gt;</span>Technical details<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>Upgrade guide<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ol</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">main</span><span style="color: #f8f8f2">&gt;</span>
+</code></pre></div>
+
+  
+    
+    </div>
+  
+  </div>
+</div>
+
+
+  
+</div>
+</p></li>
+
+<li><p>Replace existing footer with the global footer code.
+<div class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true" data-deep-link="true">
+  
+  
+
+<div id="global-footer-code" class="accordion-item" data-accordion-item>
+  <a href="#global-footer-code" class="accordion-title">Global footer code</a>
+  <div class="accordion-content" data-tab-content>
+    
+    <div class="code-content">
+      <a class="button clipy" data-clipboard-target=".code-content">Copy code</a>
+    
+    
+    <div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-html" data-lang="html"><span></span>    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">main</span><span style="color: #f8f8f2">&gt;</span>
+
+    
+    
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;#page&quot;</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;back-to-top&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-arrow-up&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">br</span><span style="color: #f8f8f2">&gt;</span>Top<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+
+    
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">footer</span> <span style="color: #a6e22e">data-swiftype-index</span><span style="color: #f92672">=</span><span style="color: #e6db74">&#39;false&#39;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;site-footer&quot;</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;small-24 columns&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;feedback phm phn-mu mvs mtm-mu mbxl-mu&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span> <span style="color: #a6e22e">data-toggle</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;feedback&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;small-24 columns&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;call-to-action phs pvm center&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;#&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;no-link&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-lightbulb-o fa-x2&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;break-before-sm&quot;</span><span style="color: #f8f8f2">&gt;</span> We&#39;re still working on this page&#39;s design and content.<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;break-before-sm&quot;</span><span style="color: #f8f8f2">&gt;</span> How can we make it better?<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;feedback-form&quot;</span> <span style="color: #a6e22e">data-type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;feedback-form&quot;</span> <span style="color: #a6e22e">style</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;display:none;&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-18 large-14 column small-centered mbm clearfix&quot;</span> <span style="color: #a6e22e">data-type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-wrapper&quot;</span> <span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-container&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span> <span style="color: #a6e22e">data-type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;feedback-indicator&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;small-24 columns center&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;arrow-wrapper&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;arrow&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row expanded&quot;</span> <span style="color: #a6e22e">data-toggle</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;feedback&quot;</span> <span style="color: #a6e22e">data-type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;feedback-footer&quot;</span> <span style="color: #a6e22e">style</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;display:none;&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;small-24 columns&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;call-to-action center&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pas&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;#&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;no-link&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-close&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span> Close<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;full-footer-start&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;philly311&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;columns intro&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h2</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;mbxs&quot;</span><span style="color: #f8f8f2">&gt;</span>Philly311<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h2</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/311&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span> <span style="color: #a6e22e">aria-label</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Philly 311&quot;</span><span style="color: #f8f8f2">&gt;</span>311<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span> provides direct access to City government information, services, and real-time service updates. Multiple languages are available. Call 311 or <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://twitter.com/philly311&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>tweet @philly311<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span> for a quick response.<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row pvn pvl-mu equal-height&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;small-24 medium-8 columns pll prxl pvm ptn-mu pbl-mu sidewalk bdr-right-mu interact-311 clearfix equal&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h3</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;h4 dark-gray&quot;</span><span style="color: #f8f8f2">&gt;</span>Interact with 311 online<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h3</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://iframe.publicstuff.com/#?client_id=242&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button icon full-width clearfix&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button-label valign-cell&quot;</span><span style="color: #f8f8f2">&gt;</span>Report a problem<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/311/findananswer/Pages/default.aspx&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button icon full-width clearfix&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button-label valign-cell&quot;</span><span style="color: #f8f8f2">&gt;</span>Ask a question<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://cityofphiladelphia.github.io/service-request-tracker/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button icon full-width clearfix&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;button-label valign-cell&quot;</span><span style="color: #f8f8f2">&gt;</span>Track a request<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-16 columns trending-requests phl pvm pvn-mu equal&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h3</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;h4 dark-gray&quot;</span><span style="color: #f8f8f2">&gt;</span>Trending requests<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h3</span><span style="color: #f8f8f2">&gt;</span>
+                
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;columns-2-mu&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/services/property-lots-housing/get-the-homestead-exemption/&quot;</span><span style="color: #f8f8f2">&gt;</span>Apply for a Homestead Exemption<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/prisons/Facilities/Pages/default.aspx&quot;</span><span style="color: #f8f8f2">&gt;</span>Correctional facilities<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://prodpci.etimspayments.com/pbw/include/philadelphia_parking/input.jsp&quot;</span><span style="color: #f8f8f2">&gt;</span>Pay a parking violation<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://secure.phila.gov/WRB/WaterBill/Account/GetAccount.aspx&quot;</span><span style="color: #f8f8f2">&gt;</span>Pay a water bill<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/services/payments-assistance-taxes/make-a-payment/pay-your-real-estate-tax/&quot;</span><span style="color: #f8f8f2">&gt;</span>Pay a Real Estate Tax bill<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://property.phila.gov/&quot;</span><span style="color: #f8f8f2">&gt;</span>Search for property information<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.philadelphiastreets.com/sanitation/residential/collection-schedules&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>Trash and recycling schedule<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/services/water-gas-utilities/water-sewer-services/become-a-water-customer/&quot;</span><span style="color: #f8f8f2">&gt;</span>Turn water service on or off<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fat&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row pvs ptl-mu phm equal-height&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">section</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-8 columns phm pvm pvn-mu equal&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h2</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;mtn mbm&quot;</span><span style="color: #f8f8f2">&gt;</span>Elected officials<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h2</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;take-action&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/departments/mayor/&quot;</span><span style="color: #f8f8f2">&gt;</span>Mayor<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://phlcouncil.com/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>City Council<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.courts.phila.gov/&quot;</span><span style="color: #f8f8f2">&gt;</span>Courts<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/districtattorney/pages/default.aspx&quot;</span><span style="color: #f8f8f2">&gt;</span>District Attorney<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.philadelphiacontroller.org/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>City Controller<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.officeofphiladelphiasheriff.com/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>Sheriff<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://www.philadelphiavotes.com/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>City Commissioners<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://secureprod.phila.gov/wills/&quot;</span><span style="color: #f8f8f2">&gt;</span>Register of Wills<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">section</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-8 columns phm pll-mu pvm pvn-mu equal&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h2</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;mtn mbm&quot;</span><span style="color: #f8f8f2">&gt;</span>Open government<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h2</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;take-action&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://www.phila.gov/openbudget/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">&gt;</span>City Budget<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.amlegal.com/codes/client/philadelphia_pa/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>Philadelphia Code <span style="color: #f8f8f2">&amp;amp;</span> Charter<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/records/index.html&quot;</span><span style="color: #f8f8f2">&gt;</span>City records<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://regulations.phila-records.com/&quot;</span><span style="color: #f8f8f2">&gt;</span>City agency regulations<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/executiveorders/pages/default.aspx&quot;</span><span style="color: #f8f8f2">&gt;</span>Executive orders<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/integrityworks/pages/default.aspx&quot;</span><span style="color: #f8f8f2">&gt;</span>Honesty in government<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://www.philadelphiavotes.com/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;external&quot;</span><span style="color: #f8f8f2">&gt;</span>Voting <span style="color: #960050; background-color: #1e0010">&amp;</span> elections<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https:// beta.phila.gov;/programs/open-data-program/&quot;</span><span style="color: #f8f8f2">&gt;</span>Open data<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">section</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-8 columns phm pll-mu pvm pvn-mu equal&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">h2</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;mtn mbm&quot;</span><span style="color: #f8f8f2">&gt;</span>Connect with City government<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">h2</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;city-social&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;inline-list&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pbm&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://www.facebook.com/cityofphiladelphia&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;prl&quot;</span> <span style="color: #a6e22e">data-analytics</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;social&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-facebook fa-3x&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Facebook&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>Facebook<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pbm&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://twitter.com/PhiladelphiaGov&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;prl&quot;</span>  <span style="color: #a6e22e">data-analytics</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;social&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-twitter fa-3x&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Twitter&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>Twitter<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pbm&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://www.instagram.com/cityofphiladelphia/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;prl&quot;</span> <span style="color: #a6e22e">data-analytics</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;social&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-instagram fa-3x&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Instagram&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>Instagram<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/channel64/Pages/default.aspx&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;prl&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-stack fa-lg&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-tv fa-stack-2x&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;TV&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-stack-1x&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;h4&quot;</span><span style="color: #f8f8f2">&gt;</span>64<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>TV 64<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pbm&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://www.youtube.com/user/PhilaGov&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;prl&quot;</span> <span style="color: #a6e22e">data-analytics</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;social&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-youtube fa-3x&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Youtube&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>Youtube<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pbm&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://www.flickr.com/photos/phillycityrep&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;prl&quot;</span> <span style="color: #a6e22e">data-analytics</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;social&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-flickr fa-3x&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Flickr&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>Flickr<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pbm&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://github.com/CityOfPhiladelphia&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;prl&quot;</span>  <span style="color: #a6e22e">data-analytics</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;social&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">i</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;fa fa-github fa-3x&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;GitHub&quot;</span> <span style="color: #a6e22e">aria-hidden</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">i</span><span style="color: #f8f8f2">&gt;</span>
+                    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">span</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>GitHub<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">span</span><span style="color: #f8f8f2">&gt;</span>
+                  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/departments/&quot;</span><span style="color: #f8f8f2">&gt;</span>City government directory<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/services/&quot;</span><span style="color: #f8f8f2">&gt;</span>Service directory<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/programs/&quot;</span><span style="color: #f8f8f2">&gt;</span>Programs <span style="color: #960050; background-color: #1e0010">&amp;</span> initiatives <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;pvxs&quot;</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/documents/&quot;</span><span style="color: #f8f8f2">&gt;</span>Publications <span style="color: #960050; background-color: #1e0010">&amp;</span> forms <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">section</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span> 
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;bg-black&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row classic&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">nav</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;columns center&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">ul</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;inline-list&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/terms-of-use/&quot;</span><span style="color: #f8f8f2">&gt;</span>Terms of use<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf&quot;</span><span style="color: #f8f8f2">&gt;</span>Right to know (pdf)<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/privacypolicy/&quot;</span><span style="color: #f8f8f2">&gt;</span>Privacy Policy<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">li</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">ul</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">nav</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">footer</span><span style="color: #f8f8f2">&gt;</span>
+    
+
+    
+<span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;services-list&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;global-nav show-for-medium&quot;</span> <span style="color: #a6e22e">data-swiftype-index</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;false&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;services-mega-menu&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;dropdown-pane mega-menu-dropdown&quot;</span> <span style="color: #a6e22e">data-dropdown</span> <span style="color: #a6e22e">data-v-offset</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;0&quot;</span> <span style="color: #a6e22e">data-hover-pane</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">data-trap-focus</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">data-hover</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">data-close-on-click</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;inner-wrapper&quot;</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;phila-menu-wrap&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row expanded mbxs&quot;</span> <span style="color: #a6e22e">data-equalizer</span> <span style="color: #a6e22e">data-equalize-by-row</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">data-services-menu</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row expanded collapse bg-ghost-gray mega-menu-footer&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-8 float-right white bg-dark-ben-franklin left-arrow-indent&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;valign&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">a</span> <span style="color: #a6e22e">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;http://beta.phila.gov/services/&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;phl valign-cell service-directory&quot;</span><span style="color: #f8f8f2">&gt;</span>Service directory<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">a</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+
+
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-pane global-nav&quot;</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;dropdown-pane site-search-dropdown&quot;</span> <span style="color: #a6e22e">data-dropdown</span> <span style="color: #a6e22e">data-v-offset</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;0&quot;</span> <span style="color: #a6e22e">data-hover-pane</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">data-trap-focus</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">data-close-on-click</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">data-auto-focus</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;true&quot;</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-dropdown&quot;</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row columns expanded bg-ghost-gray&quot;</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row arrow&quot;</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;medium-16 columns small-centered&quot;</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;paxl&quot;</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">form</span> <span style="color: #a6e22e">role</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search&quot;</span> <span style="color: #a6e22e">method</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;get&quot;</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-form&quot;</span> <span style="color: #a6e22e">action</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://beta.phila.gov/search/&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">label</span> <span style="color: #a6e22e">for</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-field&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;show-for-sr&quot;</span><span style="color: #f8f8f2">&gt;</span>Search form<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">label</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">div</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">input</span> <span style="color: #a6e22e">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;text&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-field&quot;</span> <span style="color: #a6e22e">placeholder</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Search&quot;</span> <span style="color: #a6e22e">value</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span> <span style="color: #a6e22e">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;stq&quot;</span> <span style="color: #a6e22e">title</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Search&quot;</span> <span style="color: #a6e22e">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-field&quot;</span><span style="color: #f8f8f2">&gt;</span>
+                <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">input</span> <span style="color: #a6e22e">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;submit&quot;</span> <span style="color: #a6e22e">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;search-submit&quot;</span> <span style="color: #a6e22e">value</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;submit&quot;</span><span style="color: #f8f8f2">&gt;</span>
+              <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+            <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">form</span><span style="color: #f8f8f2">&gt;</span>
+          <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+        <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+  <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">div</span><span style="color: #f8f8f2">&gt;</span>
+
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">script</span> <span style="color: #a6e22e">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;/js/standards.js&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">script</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">script</span><span style="color: #f8f8f2">&gt;</span><span style="color: #a6e22e">$</span><span style="color: #f8f8f2">(document).</span><span style="color: #a6e22e">foundation</span><span style="color: #f8f8f2">();&lt;/</span><span style="color: #f92672">script</span><span style="color: #f8f8f2">&gt;</span>
+
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">script</span> <span style="color: #a6e22e">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;text/javascript&quot;</span><span style="color: #f8f8f2">&gt;</span>
+      <span style="color: #66d9ef">function</span> <span style="color: #a6e22e">googleTranslateElementInit</span><span style="color: #f8f8f2">()</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">google</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">translate</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">TranslateElement</span><span style="color: #f8f8f2">({</span><span style="color: #a6e22e">pageLanguage</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;en&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">layout</span><span style="color: #f92672">:</span> <span style="color: #a6e22e">google</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">translate</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">TranslateElement</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">InlineLayout</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">SIMPLE</span><span style="color: #f8f8f2">},</span> <span style="color: #e6db74">&#39;google_translate_element&#39;</span><span style="color: #f8f8f2">);</span>
+      <span style="color: #f8f8f2">}</span>
+    <span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">script</span><span style="color: #f8f8f2">&gt;</span>
+    <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">script</span> <span style="color: #a6e22e">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;text/javascript&quot;</span> <span style="color: #a6e22e">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">script</span><span style="color: #f8f8f2">&gt;</span>
+
+    
+    
+    
+      <span style="color: #f8f8f2">&lt;</span><span style="color: #f92672">script</span> <span style="color: #a6e22e">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;/js/scripts.js&quot;</span><span style="color: #f8f8f2">&gt;&lt;/</span><span style="color: #f92672">script</span><span style="color: #f8f8f2">&gt;</span>
+    
+
+
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">body</span><span style="color: #f8f8f2">&gt;</span>
+<span style="color: #f8f8f2">&lt;/</span><span style="color: #f92672">html</span><span style="color: #f8f8f2">&gt;</span>
+</code></pre></div>
+
+  
+    
+    </div>
+  
+  </div>
+</div>
+
+
+  
+</div>
+</p></li>
+</ol>
+
+<p>Done!</p>
+
+        </article>
+      </div>
+    </section>
+  </div>
+  <div class="side-menu medium-7 medium-pull-17 columns bdr-right bdr-sidewalk pbxl" data-equalizer-watch="page">
+    <nav data-swiftype-index="false" id="side-nav">
+      <ul class="vertical menu">
+        
+
+
+
+  
+  
+  
+
+    
+      <li class=" hide">
+        <a href="/">Home</a>
+      </li>
+    
+  
+  
+  
+  
+
+    
+      
+          
+          
+            
+              
+            
+              <ul >
+                
+
+
+
+  
+  
+  
+
+    
+      
+          
+          
+            
+              
+            
+              <ul >
+                
+
+
+
+  
+  
+  
+
+    
+      <li class=" ">
+        <a href="/use/technical-details/installation/">Installation</a>
+      </li>
+    
+  
+  
+  
+  
+
+    
+      <li class="current_page_item  ">
+        <a href="/use/technical-details/upgrading/">Upgrade guide</a>
+      </li>
+    
+  
+  
+  
+  
+
+    
+      <li class=" ">
+        <a href="/use/technical-details/css-architecture/">CSS architecture</a>
+      </li>
+    
+  
+
+              </ul>
+          </li>
+      
+      </li>
+    
+  
+
+              </ul>
+          </li>
+      
+      </li>
+    
+  
+  
+  
+  
+
+    
+      
+        <li class="page_item_has_children hide">
+          <a href="/guidelines/">Guidelines</a>
+        
+          
+          
+      </li>
+    
+  
+  
+  
+  
+
+    
+      
+        <li class="page_item_has_children hide">
+          <a href="/templates/">Templates</a>
+        
+          
+          
+      </li>
+    
+  
+
+      </ul>
+    </nav>
+  </div>
+</div>
+    </main>
+
+    
+    
+      </div>
+    </div>
+    <a href="#page" id="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i><br>Top</a>
+
+    
+    <footer data-swiftype-index='false' class="site-footer">
+      <div class="row">
+        <div class="small-24 columns">
+          <div class="feedback phm phn-mu mvs mtm-mu mbxl-mu">
+            <div class="row" data-toggle="feedback">
+              <div class="small-24 columns">
+                <div class="call-to-action phs pvm center">
+                  <a href="#" class="no-link"><i class="fa fa-lightbulb-o fa-x2" aria-hidden="true"></i><span class="break-before-sm"> We're still working on this page's design and content.</span>
+                  <span class="break-before-sm"> How can we make it better?</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-form" data-type="feedback-form" style="display:none;">
+              <div class="row">
+                <div class="medium-18 large-14 column small-centered mbm clearfix" data-type="form-wrapper" >
+                  <div id="form-container"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-type="feedback-indicator">
+              <div class="small-24 columns center">
+                <div class="arrow-wrapper">
+                  <div class="arrow"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row expanded" data-toggle="feedback" data-type="feedback-footer" style="display:none;">
+              <div class="small-24 columns">
+                <div class="call-to-action center">
+                  <div class="pas"><a href="#" class="no-link"><i class="fa fa-close" aria-hidden="true"></i> Close</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="full-footer-start" class="philly311">
+        <section>
+          <div class="row">
+            <div class="columns intro">
+              <h2 class="mbxs">Philly311</h2>
+              <span><a href="http://www.phila.gov/311" class="external" aria-label="Philly 311">311</a> provides direct access to City government information, services, and real-time service updates. Multiple languages are available. Call 311 or <a href="https://twitter.com/philly311" class="external">tweet @philly311</a> for a quick response.</span>
+            </div>
+          </div>
+          <div class="row pvn pvl-mu equal-height">
+            <div class="small-24 medium-8 columns pll prxl pvm ptn-mu pbl-mu sidewalk bdr-right-mu interact-311 clearfix equal">
+              <section>
+                <h3 class="h4 dark-gray">Interact with 311 online</h3>
+                <a href="http://iframe.publicstuff.com/#?client_id=242" class="button icon full-width clearfix">
+                  <div class="valign">
+                    <div class="button-label valign-cell">Report a problem</div>
+                  </div>
+                </a>
+                <a href="http://www.phila.gov/311/findananswer/Pages/default.aspx" class="button icon full-width clearfix">
+                  <div class="valign">
+                    <div class="button-label valign-cell">Ask a question</div>
+                  </div>
+                </a>
+                <a href="https://cityofphiladelphia.github.io/service-request-tracker/" class="button icon full-width clearfix">
+                  <div class="valign">
+                    <div class="button-label valign-cell">Track a request</div>
+                  </div>
+                </a>
+              </section>
+            </div>
+            <div class="medium-16 columns trending-requests phl pvm pvn-mu equal">
+              <section>
+                <h3 class="h4 dark-gray">Trending requests</h3>
+                
+                  <ul class="columns-2-mu">
+                    <li>
+                      <a href="https://beta.phila.gov/services/property-lots-housing/get-the-homestead-exemption/">Apply for a Homestead Exemption</a>
+                    </li>
+                    <li>
+                      <a href="http://www.phila.gov/prisons/Facilities/Pages/default.aspx">Correctional facilities</a>
+                    </li>
+                    <li>
+                      <a href="https://prodpci.etimspayments.com/pbw/include/philadelphia_parking/input.jsp">Pay a parking violation</a>
+                    </li>
+                    <li>
+                      <a href="https://secure.phila.gov/WRB/WaterBill/Account/GetAccount.aspx">Pay a water bill</a>
+                    </li>
+                    <li>
+                      <a href="https://beta.phila.gov/services/payments-assistance-taxes/make-a-payment/pay-your-real-estate-tax/">Pay a Real Estate Tax bill</a>
+                    </li>
+                    <li>
+                      <a href="http://property.phila.gov/">Search for property information</a>
+                    </li>
+                    <li>
+                      <a href="http://www.philadelphiastreets.com/sanitation/residential/collection-schedules" class="external">Trash and recycling schedule</a>
+                    </li>
+                    <li>
+                      <a href="https://beta.phila.gov/services/water-gas-utilities/water-sewer-services/become-a-water-customer/">Turn water service on or off</a>
+                    </li>
+                  </ul>
+                </section>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="fat">
+        <div class="row pvs ptl-mu phm equal-height">
+          <section class="medium-8 columns phm pvm pvn-mu equal">
+            <h2 class="mtn mbm">Elected officials</h2>
+              <nav class="take-action">
+                <ul>
+                  <li class="pvxs"><a href="https://beta.phila.gov/departments/mayor/">Mayor</a></li>
+                  <li class="pvxs"><a href="http://phlcouncil.com/" class="external">City Council</a></li>
+                  <li class="pvxs"><a href="http://www.courts.phila.gov/">Courts</a></li>
+                  <li class="pvxs"><a href="http://www.phila.gov/districtattorney/pages/default.aspx">District Attorney</a></li>
+                  <li class="pvxs"><a href="http://www.philadelphiacontroller.org/" class="external">City Controller</a></li>
+                  <li class="pvxs"><a href="http://www.officeofphiladelphiasheriff.com/" class="external">Sheriff</a></li>
+                  <li class="pvxs"><a href="https://www.philadelphiavotes.com/" class="external">City Commissioners</a></li>
+                  <li class="pvxs"><a href="http://secureprod.phila.gov/wills/">Register of Wills</a></li>
+                </ul>
+              </nav>
+          </section>
+          <section class="medium-8 columns phm pll-mu pvm pvn-mu equal">
+            <h2 class="mtn mbm">Open government</h2>
+            <nav class="take-action">
+              <ul>
+                <li class="pvxs"><a href="https://www.phila.gov/openbudget/" class="">City Budget</a></li>
+                <li class="pvxs"><a href="http://www.amlegal.com/codes/client/philadelphia_pa/" class="external">Philadelphia Code &amp; Charter</a></li>
+                <li class="pvxs"><a href="http://www.phila.gov/records/index.html">City records</a></li>
+                <li class="pvxs"><a href="http://regulations.phila-records.com/">City agency regulations</a></li>
+                <li class="pvxs"><a href="http://www.phila.gov/executiveorders/pages/default.aspx">Executive orders</a></li>
+                <li class="pvxs"><a href="http://www.phila.gov/integrityworks/pages/default.aspx">Honesty in government</a></li>
+                <li class="pvxs"><a href="https://www.philadelphiavotes.com/" class="external">Voting & elections</a></li>
+                <li class="pvxs"><a href="https:// beta.phila.gov;/programs/open-data-program/">Open data</a></li>
+              </ul>
+            </nav>
+          </section>
+          <section class="medium-8 columns phm pll-mu pvm pvn-mu equal">
+            <h2 class="mtn mbm">Connect with City government</h2>
+            <nav class="city-social">
+              <ul class="inline-list">
+                <li class="pbm">
+                  <a href="https://www.facebook.com/cityofphiladelphia" class="prl" data-analytics="social">
+                    <i class="fa fa-facebook fa-3x" title="Facebook" aria-hidden="true"></i>
+                    <span class="show-for-sr">Facebook</span>
+                  </a>
+                </li>
+                <li class="pbm">
+                  <a href="https://twitter.com/PhiladelphiaGov" class="prl"  data-analytics="social">
+                    <i class="fa fa-twitter fa-3x" title="Twitter" aria-hidden="true"></i>
+                    <span class="show-for-sr">Twitter</span>
+                  </a>
+                </li>
+                <li class="pbm">
+                  <a href="https://www.instagram.com/cityofphiladelphia/" class="prl" data-analytics="social">
+                    <i class="fa fa-instagram fa-3x" title="Instagram" aria-hidden="true"></i>
+                    <span class="show-for-sr">Instagram</span>
+                  </a>
+                </li>
+                <li class="pvxs">
+                  <a href="http://www.phila.gov/channel64/Pages/default.aspx" class="prl">
+                    <span class="fa fa-stack fa-lg">
+                      <i class="fa fa-tv fa-stack-2x" title="TV" aria-hidden="true"></i>
+                      <i class="fa fa-stack-1x">
+                        <span class="h4">64</span>
+                      </i>
+                      <span class="show-for-sr">TV 64</span>
+                    </span>
+                  </a>
+                </li>
+                <li class="pbm">
+                  <a href="https://www.youtube.com/user/PhilaGov" class="prl" data-analytics="social">
+                    <i class="fa fa-youtube fa-3x" title="Youtube" aria-hidden="true"></i>
+                    <span class="show-for-sr">Youtube</span>
+                  </a>
+                </li>
+                <li class="pbm">
+                  <a href="https://www.flickr.com/photos/phillycityrep" class="prl" data-analytics="social">
+                    <i class="fa fa-flickr fa-3x" title="Flickr" aria-hidden="true"></i>
+                    <span class="show-for-sr">Flickr</span>
+                  </a>
+                </li>
+                <li class="pbm">
+                  <a href="https://github.com/CityOfPhiladelphia" class="prl"  data-analytics="social">
+                    <i class="fa fa-github fa-3x" title="GitHub" aria-hidden="true"></i>
+                    <span class="show-for-sr">GitHub</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav>
+              <ul>
+                <li class="pvxs"><a href="https://beta.phila.gov/departments/">City government directory</a></li>
+                <li class="pvxs"><a href="https://beta.phila.gov/services/">Service directory</a></li>
+                <li class="pvxs"><a href="https://beta.phila.gov/programs/">Programs & initiatives </a></li>
+                <li class="pvxs"><a href="https://beta.phila.gov/documents/">Publications & forms </a></li>
+              </ul>
+            </nav>
+          </section>
+        </div> 
+      </div>
+      <div class="bg-black">
+        <div class="row classic">
+          <nav class="columns center">
+            <ul class="inline-list">
+                <li><a href="https://beta.phila.gov/terms-of-use/">Terms of use</a></li>
+                <li><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf">Right to know (pdf)</a></li>
+                <li><a href="https://beta.phila.gov/privacypolicy/">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    
+
+    
+<div id="services-list" class="global-nav show-for-medium" data-swiftype-index="false">
+  <div id="services-mega-menu" class="dropdown-pane mega-menu-dropdown" data-dropdown data-v-offset="0" data-hover-pane="true" data-trap-focus="true" data-hover="true" data-close-on-click="true">
+    <div class="inner-wrapper">
+      <div id="phila-menu-wrap" class="row expanded mbxs" data-equalizer data-equalize-by-row="true" data-services-menu>
+      </div>
+        <div class="row expanded collapse bg-ghost-gray mega-menu-footer">
+          <div class="medium-8 float-right white bg-dark-ben-franklin left-arrow-indent">
+          <div class="valign">
+            <a href="http://beta.phila.gov/services/" class="phl valign-cell service-directory">Service directory</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="search-pane global-nav">
+  <div class="dropdown-pane site-search-dropdown" data-dropdown data-v-offset="0" data-hover-pane="true" data-trap-focus="true" data-close-on-click="true" data-auto-focus="true" id="search-dropdown">
+    <div class="row columns expanded bg-ghost-gray">
+      <div class="row arrow">
+        <div class="medium-16 columns small-centered">
+          <div class="paxl">
+            <form role="search" method="get" id="search-form" action="https://beta.phila.gov/search/">
+              <label for="search-field" class="show-for-sr">Search form</label>
+              <div class="search">
+                <input type="text" class="search-field" placeholder="Search" value="" name="stq" title="Search" id="search-field">
+                <input type="submit" class="search-submit" value="submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://standards.phila.gov/js/standards.js"></script>
+    <script>$(document).foundation();</script>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    
+    
+    
+      <script src="https://standards.phila.gov/js/scripts.js"></script>
+    
+
+
+</body>
+</html>
+
