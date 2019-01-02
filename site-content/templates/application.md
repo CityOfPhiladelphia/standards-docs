@@ -16,7 +16,7 @@ The only requirement for this template is the Standards Application CSS. You wil
 
 Most importantly, Foundation grid classes are available, including the new <a href="http://foundation.zurb.com/sites/docs/xy-grid.html" class="external">XY Grid</a>.
 
-<p class="callout">Note: FontAwesome is not included in the app standards. you will need to include in your project yourself.</p>
+<p class="callout">Note: FontAwesome is not included in the app standards. You will need to include it in your project yourself.</p>
 
 ### Including the CSS in your project
 
@@ -31,7 +31,7 @@ Replace the version number with the version of the application standards you wan
 Use yarn or npm to install the phila-standards package. Then, use a build tool to include the application css.  
 
 #### Direct link
-You could link directly to the version of the standards on this site, however, this is not recommend for production sites as the code will be updated without warning anytime a new version of the standards is released.  `https://standards.phila.gov/css/phila-app.css`
+You could link directly to the version of the standards on this site, however, this is not recommend for production sites as the code will be updated without warning anytime a new version of the standards is released. `https://standards.phila.gov/css/phila-app.css`
 
 ---
 
