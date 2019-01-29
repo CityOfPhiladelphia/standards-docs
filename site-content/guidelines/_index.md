@@ -1,12 +1,11 @@
 ---
 title: Guidelines
-date: 2017-01-27
-dropdown: true
-menu:
-  main:
-    name: Guidelines
-    identifier: guidelines
-    weight: 30
-    pre: hide
+date: 2017-01-27T00:00:00.000Z
+list:
+  - markdown: whats up
+    string: hey
+  - markdown: wahtever
+    string: cool
+  - {}
 ---
-{{< panel wip >}}
+
