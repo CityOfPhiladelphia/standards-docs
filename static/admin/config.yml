@@ -1,0 +1,64 @@
+backend:
+  name: github
+  repo: cityofphiladelphia/standards-docs
+  branch: master # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow 
+media_folder: "site/static/img" # Media files will be stored in the repo under static/images/uploads
+public_folder: "img" # The src attribute for uploaded media will begin with /images/uploads
+display_url: https://standards.phila.gov
+logo_url: https://www.phila.gov/wp-content/themes/phila.gov-theme/img/city-of-philadelphia-logo.svg
+
+collections: 
+- name: "content-guidelines"
+  label: "Content Guidelines"
+  folder: "site-content/guidelines/content"
+  identifier_field: name
+  create: true
+  fields: # The fields for each document, usually in front matter
+    - { label: Title, name:  title, widget: string }
+    - { label: Publish Date, name: date, widget: datetime }
+    - { label: "Body", name: "body", widget: "markdown" }
+- name: "design-development-brands"
+  label: "Brand elements"
+  label_singular: "Brand element"
+  description: "Edit the brand element section."
+  folder: "site-content/guidelines/design-development/brand-elements"
+  identifier_field: name
+  create: true
+  fields: # The fields for each document, usually in front matter
+    - { label: Title, name:  title, widget: string }
+    - { label: Publish Date, name: date, widget: datetime }
+    - { label: "Body", name: "body", widget: "markdown" }
+- name: "design-development-components"
+  label: "Components"
+  folder: "site-content/guidelines/design-development/components"
+  identifier_field: name
+  create: true
+  fields: # The fields for each document, usually in front matter
+    - { label: Title, name:  title, widget: string }
+    - { label: Publish Date, name: date, widget: datetime }
+    - { label: "Body", name: "body", widget: "markdown" }
+- name: "design-development-layout"
+  label: "Layout"
+  folder: "site-content/guidelines/design-development/layout"
+  identifier_field: name
+  create: true
+  fields: # The fields for each document, usually in front matter
+    - { label: Title, name:  title, widget: string }
+    - { label: Publish Date, name: date, widget: datetime }
+    - { label: "Body", name: "body", widget: "markdown" }
+- label: "Index Pages"
+  name: "home"
+  files:
+    - label: "Homepage"
+      name: "home"
+      file: "site-content/index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Intro, name: intro, widget: markdown}
+        - label: Locations
+          name: locations
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Address, name: address, widget: string}
