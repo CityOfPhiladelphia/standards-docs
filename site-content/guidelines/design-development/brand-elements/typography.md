@@ -16,7 +16,7 @@ You can download Montserrat and Open Sans from <a href="https://fonts.google.com
 <h3 class="h6">Montserrat</h3>
 <p>Montserrat is only used for headlines that introduce sections of content.</p>
 <div class="row mbl">
-  <div class="medium-11 columns">
+  <div class="medium-12 columns">
   <a href="/fonts/montserrat.zip" class="button icon">
     <div class="valign">
       <i class="fas fa-download valign-cell"></i>
