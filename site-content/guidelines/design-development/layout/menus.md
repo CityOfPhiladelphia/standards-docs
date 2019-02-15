@@ -23,7 +23,7 @@ The secondary menu features top-level pages that can provide access to third-lev
 Secondary menus are dropdown menus when presented on medium screens or larger. On mobile devices, they collapse down to accordion-style menus.
 
 ### Side navigation
-The majority of a site’s information architecture will likely be presented through side navigation, as shown on this page. In beta, the services are presented through the tertiary menu. Content may be so nuanced that a fourth level of navigation is required.
+The majority of a site’s information architecture will likely be presented through side navigation, as shown on this page. The services are presented through the tertiary menu. Content may be so nuanced that a fourth level of navigation is required.
 
 ---
 

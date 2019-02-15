@@ -8,14 +8,10 @@ menu:
     weight: 800
 ---
 
-A card serves as an entry point to more detailed information. The type of card depends on the use case. There are three types of cards:
+A card serves as an entry point to more detailed information. The type of card depends on the use case. 
 
-1. [Media](#media-cards) -- used to display news and blog posts.
-2. [Call to action](#call-to-action-cards) -- used to highlight other websites where more information about a topic can be found.
-3. [Summary](#summary-cards) -- used to provide more information about a page before a clickthrough.
-
-### Media cards
-{{< card-media >}}
+1. [Call to action](#call-to-action-cards) -- used to highlight other websites where more information about a topic can be found.
+2. [Summary](#summary-cards) -- used to provide more information about a page before a clickthrough.
 
 ### Call to action cards
 {{< card-cta >}}
@@ -29,8 +25,6 @@ A card serves as an entry point to more detailed information. The type of card d
 
 {{< accordion Code >}}
   {{< highlight html >}}
-<h3>Media cards</h3>
-{{< card-media >}}
 <h3>Call to action cards</h3>
 {{< card-cta >}}
 <h3>Overview cards</h3>
@@ -42,11 +36,6 @@ A card serves as an entry point to more detailed information. The type of card d
 ## Implementation
 
 Cards are a way to feature a link or a set of links in a section. Card types should not be mixed and have different markup requirements. Regardless of the card type, use a maximum of three cards in a row.
-
-### Media card
-The media card is the base for all card types.
-
-Apply the `card` class to an `<a>` tag to use this card style. An image is required.
 
 ### Call to action cards
 A call to action card must contain an icon relating to the topic of the card, a title, and a short description. This is the only card type that should link to off-site content.

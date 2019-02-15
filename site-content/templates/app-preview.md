@@ -7,4 +7,4 @@ type: app
 ---
 
 ## App example
-Application content goes here.
+Blank area for application content.
