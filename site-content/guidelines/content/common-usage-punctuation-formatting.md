@@ -9,6 +9,12 @@ menu:
     weight: 300
 ---
 
+[Common usage](#common-usage)
+
+[Formatting](#formatting)
+
+[Punctuation](#punctuation)
+
 <h2 class="contrast" id="common-usage">Common usage</h2>
 
 {{% filter-item Acronyms and abbreviations %}}
@@ -45,7 +51,7 @@ Do not use an apostrophe to form the plural of an acronym.
 
 {{% filter-item "Active vs. passive voice" %}}
 
-See active and passive voice in our writing style guide.
+See active and passive voice in our [writing style guide](https://standards.phila.gov/guidelines/content/our-writing-style/).
 
 {{% /filter-item %}}
 
@@ -60,12 +66,6 @@ When giving addresses spell out the street name entirely, but abbreviate the typ
 {{% filter-item Citizen %}}
 
 Since some of those people living within the city might not be citizens, we prefer to use "residents" or "individuals."
-
-{{% /filter-item %}}
-
-{{% filter-item Conversational language %}}
-
-See conversational language in our writing style guide.
 
 {{% /filter-item %}}
 
@@ -111,13 +111,13 @@ Immigrate means to enter another country and reside there.
 
 {{% filter-item Figurative language %}}
 
-See figurative language in our writing style guide.
+See figurative language in our [writing style guide](https://standards.phila.gov/guidelines/content/our-writing-style/).
 
 {{% /filter-item %}}
 
 {{% filter-item Inclusive language %}}
 
-See inclusive language in our writing style guide.
+See inclusive language in our [writing style guide](https://standards.phila.gov/guidelines/content/our-writing-style/).
 
 {{% /filter-item %}}
 
@@ -177,7 +177,7 @@ For people, on initial mention, use First Name Last Name. Subsequent mentions us
 
 -   Example: John Jones said that city government is the most fulfilling job he's ever had. Jones joined his department in 1994.
 
-John Jones and Casey Jones say their work in city government is essential. John Jones joined his department in 1994. Casey Jones began her work with the City in 2001.
+-   John Jones and Casey Jones say their work in city government is essential. John Jones joined his department in 1994. Casey Jones began her work with the City in 2001.
 
 {{% /filter-item %}}
 
@@ -293,19 +293,19 @@ One word.
 
 {{% filter-item Passive voice %}}
 
-See active and passive voice in our writing style guide.
+See active and passive voice in our [writing style guide](https://standards.phila.gov/guidelines/content/our-writing-style/).
 
 {{% /filter-item %}}
 
 {{% filter-item Plain Language %}}
 
-See plain language in our writing style guide.
+See plain language in our [writing style guide](https://standards.phila.gov/guidelines/content/our-writing-style/).
 
 {{% /filter-item %}}
 
 {{% filter-item Redundant phrases %}}
 
-See redundant phrases in our writing style guide.
+See redundant phrases in our [writing style guide](https://standards.phila.gov/guidelines/content/our-writing-style/).
 
 {{% /filter-item %}}
 
@@ -446,7 +446,9 @@ Capitalize. ZIP is an acronym for "Zone Improvement Plan."
 
 Use block quotes when you want to highlight a single sentence or phrase from within the body of your writing. Block quotes use text format and placement to highlight a particular issue so readers who scan can get the most important nugget from the story. Use block quotes sparingly to create the biggest impact.
 
--   Example: "We are changing the way the City website serves our residents" - Office of Open Data and Digital Transformation
+-   Example: 
+
+>"We are changing the way the City website serves our residents" - Office of Open Data and Digital Transformation
 
 {{% /filter-item %}}
 

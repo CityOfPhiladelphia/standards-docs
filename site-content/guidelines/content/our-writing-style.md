@@ -22,7 +22,7 @@ In a rush? Use our web writing checklist to keep your writing on track.  For mor
 
 -   Write conversationally: Picture your audience and write as if you were talking to them one-on-one and with the authority of someone who can actively help. Using contractions can help create a friendly, informal tone as well. [Plainlanguage.gov](http://www.plainlanguage.gov/) offers helpful tips.
 
--   Write for diverse audiences: We write for a diverse audience of readers who all interact with our content in different ways. We aim to make content accessible to those with disabilities and to users of all cognitive capabilities. We use language that isn't exclusionary and is nondiscriminatory. See the entry on Inclusive language below.
+-   Write for diverse audiences: We write for a diverse audience of readers who all interact with our content in different ways. We aim to make content accessible to those with disabilities and to users of all cognitive capabilities. We use language that isn't exclusionary and is nondiscriminatory. See the entry on [Inclusive language](#inclusive-language) below.
 
 -   Be goal-oriented & appropriate: Before you start writing, ask: What purpose does this serve? What do people need to know? Do I give them the information using language that appropriately reflects my department?
 
@@ -40,11 +40,13 @@ Avoid commercial endorsements: Because we use a .gov domain, we can't advertise 
 
 ### Active vs. passive voice
 
-Use active voice, not passive voice, whenever possible. Active voice makes it immediately clear who or what is performing an action. * Example: The mayor recommends that City residents take shelter before the winter storm.
+Use active voice, not passive voice, whenever possible. Active voice makes it immediately clear who or what is performing an action. 
+
+-   Example: The mayor recommends that city residents take shelter before the winter storm.
 
 Passive voice describes a sentence that doesn't state who or what is responsible for an action, or puts the "do-er" later in the sentence than the thing being done.
 
--   Example: It is recommended that City residents take shelter before the winter storm.
+-   Example: It is recommended that city residents take shelter before the winter storm.
 
 -   Example: A recommendation was made by the mayor to take shelter before the winter storm.
 
@@ -82,8 +84,6 @@ Use people-first language. Everyone is a person, first and foremost. People-firs
 
 #### General resources
 
--   City of Philadelphia Inclusive Communications guide [GET LINK]
-
 -   [Office of the Chief Diversity and Inclusion Officer](https://www.phila.gov/departments/office-of-the-chief-diversity-and-inclusion-officer/)
 
 -   [18F Inclusive Language](https://content-guide.18f.gov/inclusive-language/)
@@ -112,7 +112,7 @@ We also make sure that any disability is correctly identified.
 
 -   NOT: The program serves over 3,000 autistic people.
 
-There are some exceptions to the people-first approach.  For example, many people with impaired vision or people with hearing impairment prefer disability-first language.
+There are often exceptions to the people-first approach.  For example, many people with impaired vision or people with hearing impairment prefer disability-first language.
 
 ##### Hearing and Vision - exceptions to "people-first" language
 
@@ -134,7 +134,7 @@ Use gender-neutral language whenever possible.
 
 #### LGBTQ (lesbian, gay, bisexual, transgender, queer)
 
-Refer to the LGBTQ community as a single acronym. As with all abbreviations, spell it out the first time and use the acronym after that.
+Refer to the LGBTQ community as a single acronym. As with all abbreviations, write it out the first time and use the acronym after that.
 
 Use the following as adjectives, but never as nouns:
 
