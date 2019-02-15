@@ -28,13 +28,6 @@ If you have a Google account with Drive enabled, you can make a copy of the Slid
 
 You will now be able to edit your copy of the presentation template to suit your department.
 
-#### Edit the title slide
-1. Go to View > Master.
-2. Under "Layouts," click the Title side.
-3. There are two text fields which can be edited individually.
-
-You won't need to edit other areas of the Master slides.
-
 ### Microsoft PowerPoint
 
 <div>
@@ -44,7 +37,7 @@ You won't need to edit other areas of the Master slides.
 
 #### Download PowerPoint
 1. Click the "Access PowerPoint presentation" button above.
-2. Click the download <i class="fa fa-download" aria-hidden="true"></i>
+2. Click the download <i class="fas fa-download" aria-hidden="true"></i>
  icon in the upper right hand corner of the screen.
 
 #### Edit the title slide

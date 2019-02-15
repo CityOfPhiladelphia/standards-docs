@@ -12,12 +12,6 @@ Choose icons from <a href="http://fontawesome.io/" class="external">Font Awesome
 
 {{< icons >}}
 
-### Icon use example
-
-The press release template uses icons to reinforce the type of content the user is accessing.
-
-{{< press-release >}}
-
 ---
 
 {{< accordion-wrap >}}
@@ -35,14 +29,12 @@ Additionally, if the icon has meaning in the current context, use the `aria-labe
 
 **Example:** {{< highlight html >}}
 <a class="site-search" aria-label="Search">
-  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+  <i class="fas fa-search fa-2x" aria-hidden="true"></i>
 </a>
 {{</ highlight >}}
 
 ## Implementation
-The Font Awesome 4.7.0 css is included in the standards css file. You do not need to include it in your project separately.
-
-You will need to include the font files, located in the `/fonts` directory. The standards css file expects `/fonts` to live at the root of the project structure, in order to be referenced correctly. You can see all the <a href="http://fontawesome.io/icons/" class="external">available icons</a> as well as <a href="http://fontawesome.io/examples/" class="external">examples of their use</a> on the <a href="http://fontawesome.io/" class="external">Font Awesome website</a>.
+Version 1.0 of the Digital Standards no longer includes FontAwesome. However, certain form fields rely on the use of FontAwesome icons. Contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> to be given access to the FontAwesome Pro account. 
 
 {{% /accordion %}}
 

@@ -16,7 +16,7 @@ The only requirement for this template is the Standards Application CSS. You wil
 
 Most importantly, Foundation grid classes are available, including the new <a href="http://foundation.zurb.com/sites/docs/xy-grid.html" class="external">XY Grid</a>.
 
-<p class="callout">Note: FontAwesome is not included in the app standards. You will need to include it in your project yourself.</p>
+<p class="callout">FontAwesome is no longer included in the standards. You will need to include it in your project yourself. If you project will be hosted at phila.gov, you can use the pro version of FontAwesome. Contact <a href="mailto:oddt@phila.gov">oddt@phila.gov</a> for information.</p>
 
 ### Including the CSS in your project
 

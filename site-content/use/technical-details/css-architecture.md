@@ -41,7 +41,7 @@ Any of the class names in the <a href="http://foundation.zurb.com/sites/docs/" c
 {{< accordion External links >}}
 You can add the `external` class to a link to indicate the visitor will be taken to another website.
 {{< highlight html >}}
-<a href="https://beta.phila.gov">City of Philadelphia</a>  
+<a href="https://phila.gov">City of Philadelphia</a>  
 <a href="https://alistapart.com" class="external">A List Apart</a>
 {{< /highlight >}}
 

@@ -154,7 +154,7 @@ Use the following as adjectives, but never as nouns:
 
 It is acceptable, when applicable, to use the non-gendered pronoun, "they" as a singular.
 
-For more information, contact the [Mayor's Office of LGBT Affairs](https://beta.phila.gov/departments/office-of-lgbt-affairs/), or refer to the [National Lesbian and Gay Journalists Association Style Guide](http://www.nlgja.org/stylebook/terminology/) or the [GLAAD Media Reference Guide](https://www.glaad.org/reference/).
+For more information, contact the [Mayor's Office of LGBT Affairs](https://phila.gov/departments/office-of-lgbt-affairs/), or refer to the [National Lesbian and Gay Journalists Association Style Guide](http://www.nlgja.org/stylebook/terminology/) or the [GLAAD Media Reference Guide](https://www.glaad.org/reference/).
 
 #### Mental illness
 

@@ -1,13 +1,13 @@
 ---
-title: Upgrade guide
+title: From the Pattern Portfolio
 date: 2017-03-07
-description: A step-by-step guide for migrating a site using phila.gov's Pattern Portfolio.
+description: Migrating a site using phila.gov's Pattern Portfolio.
 menu:
   main:
-    parent: technical-details
-    weight: 2
+    parent: upgrading
+    weight: 1
+    identifier: upgrade-pp
 ---
-{{< panel wip >}}
 
 The Standards are a re-worked version of the City's Pattern Portfolio. If you are migrating an existing application, use this guide to assist you with changes.
 

@@ -25,7 +25,7 @@ Guidelines for using the City of Philadelphia logo:
 * Don’t change the orientation of the logo.
 * Don’t put text on top of logo.
 
-<p class="callout">Public use is allowed, but use by external organizations must be approved by the <a href="https://beta.phila.gov/departments/office-of-the-city-representative/">Office of the City Representative</a>.</p>
+<p class="callout">Public use is allowed, but use by external organizations must be approved by the <a href="https://phila.gov/departments/office-of-the-city-representative/">Office of the City Representative</a>.</p>
 
 The .zip files below provide three high-quality versions of the logo in the following formats:
 
@@ -40,7 +40,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         <img src="/img/logo/city-of-philadelphia.png" alt="City of Philadelphia" class="phxl pbm" style="height:66.5px">
         <a href="/img/logo/standard.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
@@ -50,7 +50,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         <img src="/img/logo/city-of-philadelphia-blue-text.png" alt="City of Philadelphia" class="phxl pbm">
         <a href="/img/logo/blue-text.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
@@ -62,7 +62,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         <img src="/img/logo/city-of-philadelphia-gray.png" alt="City of Philadelphia" class="phxl pbm">
         <a href="/img/logo/all-gray.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
@@ -74,7 +74,7 @@ The .zip files below provide three high-quality versions of the logo in the foll
         </div>
         <a href="/img/logo/all-white.zip" class="button icon">
           <div class="valign">
-            <i class="fa fa-download valign-cell"></i>
+            <i class="fas fa-download valign-cell"></i>
             <div class="button-label valign-cell">Download zip</div>
           </div>
         </a>
@@ -106,7 +106,7 @@ If you’re a department that needs a logo, email <a href="mailto:oddt@phila.gov
 
 {{< accordion Code >}}
 {{< highlight html >}}
-<a href="https://beta.phila.gov" class="logo" tabindex="0" aria-label="City of Philadelphia">
+<a href="https://phila.gov" class="logo" tabindex="0" aria-label="City of Philadelphia">
   <img src="/img/logo/city-of-philadelphia.svg" data-fallback="/img/logo/city-of-philadelphia.png" alt="City of Philadelphia">
 </a>
 {{< /highlight >}}

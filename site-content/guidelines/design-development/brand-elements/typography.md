@@ -7,7 +7,7 @@ menu:
     parent: brand-elements
     weight: 2
 ---
-Typography is the foundational building block of the beta.phila.gov design. Fonts that are readable, yet bold encompass the brand.
+Typography is the foundational building block of the phila.gov design. Fonts that are readable, yet bold encompass the brand.
 
 Sans-serifs were chosen because they are easier to read on screens, and are adaptable across platforms and browsers.
 
@@ -16,10 +16,10 @@ You can download Montserrat and Open Sans from <a href="https://fonts.google.com
 <h3 class="h6">Montserrat</h3>
 <p>Montserrat is only used for headlines that introduce sections of content.</p>
 <div class="row mbl">
-  <div class="medium-11 columns">
+  <div class="medium-12 columns">
   <a href="/fonts/montserrat.zip" class="button icon">
     <div class="valign">
-      <i class="fa fa-download valign-cell"></i>
+      <i class="fas fa-download valign-cell"></i>
       <div class="button-label valign-cell">Download Montserrat</div>
     </div>
   </a>
@@ -53,7 +53,7 @@ You can download Montserrat and Open Sans from <a href="https://fonts.google.com
   <div class="medium-11 columns">
   <a href="/fonts/open_sans.zip" class="button icon">
     <div class="valign">
-      <i class="fa fa-download valign-cell"></i>
+      <i class="fas fa-download valign-cell"></i>
       <div class="button-label valign-cell">Download Open Sans</div>
     </div>
   </a>
