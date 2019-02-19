@@ -1,4 +1,5 @@
-#style-guide {
+#style-guide, 
+#code {
   .sg-swatch{
     padding-right: 2rem;
   }
@@ -118,4 +119,8 @@ nav#services-nav ul ul, nav#side-nav ul ul {
 code {
   border: none;
   background-color: transparent;
+}
+
+.dropdown.menu>li>a {
+  background-color: #2176d2;
 }
