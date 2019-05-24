@@ -29,7 +29,7 @@ Keep in mind how your blog content advances the department’s mission and goals
 * A purpose statement that includes the blog’s intended audience.
 Example: This blog will get parents of school-age children to visit our page about City summer camps and sign their children up.
 
-* A compelling image with appropriate attribution listing the source. Images should be a minimum of 660px wide by 430px tall.
+* A compelling image with appropriate attribution listing the source. Images should be a minimum of 1000px wide by 700px tall.
 
 * A call to action. Many blogs engage readers by asking them to do something (go to an event, click on a link to sign up to something, learn more about the topic).
 
