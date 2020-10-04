@@ -26,7 +26,7 @@ In a rush? Use our web writing checklist to keep your writing on track.  For mor
 
 -   Be goal-oriented & appropriate: Before you start writing, ask: What purpose does this serve? What do people need to know? Do I give them the information using language that appropriately reflects my department?
 
--   Write in [active voice](https://standards.phila.gov/guidelines/content/common-usage/#Active%20vs.%20passive%20voice)
+-   Write in [active voice](#active-vs-passive-voice)
 
 -   Be helpful: We want to always use a tone that has authority that also comes from a helpful, empathetic perspective.
 
